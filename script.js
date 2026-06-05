@@ -187,7 +187,7 @@ function renderRankList(container, items, scoreKey, label) {
     ...items.map((item) => {
       const li = document.createElement("li");
       li.innerHTML = `
-        <span class="rank-title">${escapeHtml(item.player || item.title_zh || item.title || "未知")}</span>
+        <span class="rank-title">${escapeHtml((item.player && item.player !== "未知球员") ? item.player : (item.title_zh || item.title || "未知"))}</span>
         <span class="rank-meta">${escapeHtml(item.to_club || "未知去向")} · ${label} ${Number(item[scoreKey] || 0)}</span>
       `;
       return li;
