@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T06:39:02Z",
+  "generated_at": "2026-06-05T15:24:00Z",
   "entities": {
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
@@ -213,6 +213,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Saudi": {},
     "club|Serie A": {
       "description": "2025年至2026年意大利足球甲级联赛（因贊助原因被稱為 Serie A Enilive）是意大利顶级联赛的第124个赛季。國際米蘭最終奪冠。",
       "wiki_url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E8%87%B32026%E5%B9%B4%E6%84%8F%E5%A4%A7%E5%88%A9%E8%B6%B3%E7%90%83%E7%94%B2%E7%B4%9A%E8%81%AF%E8%B3%BD",
@@ -227,6 +228,17 @@
       "wiki_title": "Sevilla FC",
       "source_language": "en",
       "wiki_variant": "legacy-en"
+    },
+    "club|Sporting CP": {},
+    "club|Sporting Cp": {},
+    "club|Spurs": {
+      "description": "托特納姆熱刺女子足球俱樂部（英語：Tottenham Hotspur Football Club Women），簡稱熱刺（Spurs），是位於英格蘭倫敦東區萊頓的一家職業女子足球俱樂部，成立於1985年，隸屬於托特納姆熱刺足球俱樂部。球隊於2018–19年英冠賽季以第2名升級至英格蘭女子足球超級聯賽（最高級別） 熱刺女足目前的主場在萊頓的布里斯班路球場，偶爾會在熱刺球場進行比賽。球隊最近一次獲得的冠軍是2016–17年賽季的英格蘭足球總會女子南部超級聯賽（第三級別）。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%89%98%E7%89%B9%E7%B4%8D%E5%A7%86%E7%86%B1%E5%88%BA%E5%A5%B3%E5%AD%90%E8%B6%B3%E7%90%83%E4%BF%B1%E6%A8%82%E9%83%A8",
+      "wiki_title": "托特納姆熱刺女子足球俱樂部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
     },
     "club|Tottenham": {
       "description": "托特納姆熱刺女子足球俱樂部（英語：Tottenham Hotspur Football Club Women），簡稱熱刺（Spurs），是位於英格蘭倫敦東區萊頓的一家職業女子足球俱樂部，成立於1985年，隸屬於托特納姆熱刺足球俱樂部。球隊於2018–19年英冠賽季以第2名升級至英格蘭女子足球超級聯賽（最高級別） 熱刺女足目前的主場在萊頓的布里斯班路球場，偶爾會在熱刺球場進行比賽。球隊最近一次獲得的冠軍是2016–17年賽季的英格蘭足球總會女子南部超級聯賽（第三級別）。",
@@ -301,6 +313,16 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|Aleix Febas": {},
+    "player|Alejandro Grimaldo": {},
+    "player|Christian Pulisic": {},
+    "player|David Sánchez": {},
+    "player|EURO Final": {},
+    "player|El Aston Villa": {},
+    "player|El Bayer Leverkusen": {},
+    "player|El Celta": {},
+    "player|El Nápoles": {},
+    "player|El PSG": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
@@ -311,6 +333,10 @@
       "zh_title": "",
       "translated_from": "Erling Haaland"
     },
+    "player|Football Daily": {},
+    "player|Former Spurs": {},
+    "player|Gennaro Gattuso": {},
+    "player|Goncalo Inacio": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -319,7 +345,23 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|Ismaël Saibari": {},
+    "player|Jonathan Wilson": {},
     "player|José Mourinho": {},
+    "player|Kang-in Lee": {},
+    "player|Kennet Eichhorn": {
+      "description": "肯尼特·艾希霍恩（德语： Kennet Eichhorn ， 2009年7月27日－ ）是一名德国职业足球运动员，曾担任2名防守型中场球员。Bundesliga club Hertha BSC.",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Kennet_Eichhorn",
+      "wiki_title": "Kennet Eichhorn",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Kennet Eichhorn"
+    },
+    "player|Man Utd": {},
+    "player|Mercado de fichajes de LaLiga": {},
+    "player|Messi v Ronaldo": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg",
@@ -328,6 +370,37 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|Moritz Nicolas": {},
+    "player|Nicolò Tresoldi": {},
+    "player|Ousmane Dembélé": {
+      "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%96%AF%E6%9B%BC%C2%B7%E7%99%BB%E8%B4%9D%E8%8E%B1",
+      "wiki_title": "奥斯曼·登贝莱",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Ousmane Dembélé"
+    },
+    "player|Premier League 2025-26 season review": {},
+    "player|Raúl Jardiel": {},
+    "player|Roberto Gómez": {},
+    "player|Serhou Guirassy’s": {},
+    "player|Sign up for the Football Daily newsletter": {},
+    "player|Sign up for the Moving the Goalposts newsletter": {},
+    "player|Sign up to the Sport in Focus newsletter": {},
+    "player|St Mirren": {},
+    "player|The Athletic": {},
+    "player|Thierry Correia": {
+      "description": "蒂埃里·伦达尔·科雷亚（ Thierry Rendall Correia ， 1999年3月9日出生）是一名葡萄牙职业足球运动员，曾在西甲瓦伦西亚俱乐部担任右后卫。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thierry_Correia_2019.png/500px-Thierry_Correia_2019.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thierry_Correia",
+      "wiki_title": "Thierry Correia",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Thierry Correia"
+    },
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/500px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg",
@@ -335,6 +408,19 @@
       "wiki_title": "Jan Paul van Hecke",
       "source_language": "en",
       "wiki_variant": "legacy-en"
-    }
+    },
+    "player|William Carvalho": {
+      "description": "威廉·施华·迪卡维奴（葡萄牙语：William Silva de Carvalho；1992年4月7日—），是葡萄牙男子职业足球员，现时效力于墨西哥足球超级联赛球会帕丘卡。司职防守中场。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/William_Carvalho.jpg/500px-William_Carvalho.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%8D%A1%E7%B6%AD%E5%A5%B4",
+      "wiki_title": "威廉·卡維奴",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "William Carvalho"
+    },
+    "player|World Cup": {},
+    "player|World Cup 2026": {},
+    "player|World Cup 2026 wallchart": {}
   }
 }
