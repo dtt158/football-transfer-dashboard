@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Collect public football transfer items and write a static JSON feed."""
 
 from __future__ import annotations
@@ -8,6 +8,7 @@ import email.utils
 import hashlib
 import html
 import json
+import os
 import re
 import sys
 import urllib.error
@@ -25,6 +26,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "transfers.json"
 DEFAULT_ENTITY_CACHE = ROOT / "data" / "entity_cache.json"
 DEFAULT_TRANSLATION_CACHE = ROOT / "data" / "translation_cache.json"
+DEFAULT_PLAYER_CACHE = ROOT / "data" / "player_cache.json"
 
 
 LEAGUE_KEYWORDS = {
@@ -355,9 +357,12 @@ MAX_GENERAL_ITEMS = 60
 MAX_GENERAL_PER_SOURCE = 6
 MAX_ONLINE_TRANSLATION_MISSES = 16
 MAX_WIKI_MISSES = 24
+MAX_OPENAI_TRANSLATION_ITEMS = 160
+OPENAI_TRANSLATION_BATCH_SIZE = 20
 
 TRANSLATION_CACHE: dict[str, str] = {}
 WIKI_CACHE: dict[str, dict[str, str]] = {}
+PLAYER_CACHE: dict[str, dict[str, Any]] = {}
 ONLINE_TRANSLATION_MISSES = 0
 WIKI_MISSES = 0
 
@@ -412,11 +417,13 @@ def main() -> int:
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--entity-cache", type=Path, default=DEFAULT_ENTITY_CACHE)
     parser.add_argument("--translation-cache", type=Path, default=DEFAULT_TRANSLATION_CACHE)
+    parser.add_argument("--player-cache", type=Path, default=DEFAULT_PLAYER_CACHE)
     parser.add_argument("--keep-existing-on-empty", action="store_true", default=True)
     args = parser.parse_args()
 
     load_entity_cache(args.entity_cache)
     load_translation_cache(args.translation_cache)
+    load_player_cache(args.player_cache)
     sources = [Source(**source) for source in SOURCE_REGISTRY]
     items: list[dict[str, Any]] = []
     errors: list[str] = []
@@ -430,6 +437,7 @@ def main() -> int:
             errors.append(f"{source.name}: {exc}")
 
     transfers = merge_items(items)
+    apply_openai_translations(transfers)
     if not transfers and args.keep_existing_on_empty and args.output.exists():
         existing = json.loads(args.output.read_text(encoding="utf-8"))
         existing["generated_at"] = utc_now()
@@ -459,6 +467,7 @@ def main() -> int:
     write_json(args.output, payload)
     save_entity_cache(args.entity_cache)
     save_translation_cache(args.translation_cache)
+    save_player_cache(args.player_cache)
     print(f"Wrote {len(transfers)} transfer items to {args.output}")
     if errors:
         print("Fetch warnings:", "; ".join(errors), file=sys.stderr)
@@ -522,6 +531,45 @@ def save_translation_cache(path: Path) -> None:
     write_json(path, payload)
 
 
+def load_player_cache(path: Path) -> None:
+    seed_player_cache()
+    if not path.exists():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    records = payload.get("players", payload)
+    if not isinstance(records, dict):
+        return
+    for key, value in records.items():
+        if isinstance(key, str) and isinstance(value, dict):
+            PLAYER_CACHE[key] = value
+    seed_player_cache()
+
+
+def save_player_cache(path: Path) -> None:
+    payload = {
+        "generated_at": utc_now(),
+        "players": dict(sorted(PLAYER_CACHE.items())),
+    }
+    write_json(path, payload)
+
+
+def seed_player_cache() -> None:
+    PLAYER_CACHE.setdefault(
+        "Erling Haaland",
+        {
+            "name": "Erling Haaland",
+            "aliases": ["Erling Haaland", "Haaland", "Erling Braut Haaland", "哈兰德", "哈蘭德"],
+            "zh_names": ["哈兰德", "哈蘭德"],
+            "wikidata_id": "Q529207",
+            "wiki_url": "https://en.wikipedia.org/wiki/Erling_Haaland",
+            "description": "Erling Haaland：挪威职业足球运动员，司职前锋。",
+        },
+    )
+
+
 def fetch_source(source: Source) -> list[dict[str, Any]]:
     raw = read_url(source.url)
     root = ET.fromstring(raw)
@@ -565,13 +613,13 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
             league = candidate
             break
 
-    player = guess_player(title)
+    player = guess_player(title, combined)
     clubs = guess_clubs(combined)
     credibility = credibility_score(source.grade, status)
     heat = heat_score(source.grade, status, combined, published)
     collected_at = utc_now()
 
-    entities = build_entities(player, clubs, league)
+    entities = build_entities(player, clubs, league, combined)
     preserve_terms = [entity["name"] for entity in entities if entity.get("type") in {"player", "club"}]
     summary = summarise(description or title)
     allow_online_translation = category == "transfer"
@@ -605,6 +653,7 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
                 "name": source.name,
                 "url": link or source.url,
                 "grade": source.grade,
+                "language": source.language,
                 "published_at": published or collected_at,
             }
         ],
@@ -641,6 +690,134 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         reverse=True,
     )[:MAX_GENERAL_ITEMS]
     return transfers + general
+
+
+def apply_openai_translations(items: list[dict[str, Any]]) -> None:
+    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    if not api_key:
+        return
+    requests: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for item in items:
+        preserve_terms = [entity["name"] for entity in item.get("entities", []) if entity.get("type") in {"player", "club", "league"}]
+        for field, target in [("title", "title_zh"), ("summary", "summary_zh")]:
+            source_text = item.get(field, "")
+            if not source_text or has_cjk(source_text):
+                continue
+            cache_key = f"{item.get('sources', [{}])[0].get('language', 'en')}|{source_text}"
+            current = item.get(target, "")
+            if cache_key in seen:
+                continue
+            if current and current != source_text and not looks_undertranslated(current):
+                continue
+            seen.add(cache_key)
+            requests.append(
+                {
+                    "id": cache_key,
+                    "text": source_text,
+                    "source_language": item.get("sources", [{}])[0].get("language", "en"),
+                    "preserve_terms": preserve_terms,
+                }
+            )
+            if len(requests) >= MAX_OPENAI_TRANSLATION_ITEMS:
+                break
+        if len(requests) >= MAX_OPENAI_TRANSLATION_ITEMS:
+            break
+    if not requests:
+        return
+
+    translated = openai_translate_batches(requests, api_key)
+    if not translated:
+        return
+    for item in items:
+        language = item.get("sources", [{}])[0].get("language", "en")
+        for field, target, provider in [
+            ("title", "title_zh", "title_translation_provider"),
+            ("summary", "summary_zh", "translation_provider"),
+        ]:
+            cache_key = f"{language}|{item.get(field, '')}"
+            if cache_key in translated:
+                item[target] = translated[cache_key]
+                item[provider] = "openai"
+                TRANSLATION_CACHE[cache_key] = translated[cache_key]
+
+
+def looks_undertranslated(text: str) -> bool:
+    latin_words = re.findall(r"[A-Za-z]{4,}", text)
+    chinese_chars = re.findall(r"[\u4e00-\u9fff]", text)
+    return len(latin_words) >= 3 and len(chinese_chars) < 10
+
+
+def openai_translate_batches(requests: list[dict[str, Any]], api_key: str) -> dict[str, str]:
+    output: dict[str, str] = {}
+    for start in range(0, len(requests), OPENAI_TRANSLATION_BATCH_SIZE):
+        batch = requests[start : start + OPENAI_TRANSLATION_BATCH_SIZE]
+        result = openai_translate_batch(batch, api_key)
+        output.update(result)
+    return output
+
+
+def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[str, str]:
+    model = os.environ.get("OPENAI_TRANSLATION_MODEL", os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
+    prompt = {
+        "task": "Translate football news text to Simplified Chinese.",
+        "rules": [
+            "Return strict JSON only: {\"translations\":[{\"id\":\"...\",\"text\":\"...\"}]}",
+            "Translate into natural Simplified Chinese.",
+            "Preserve player names, club names, league names, amounts, years, scores, and URLs exactly.",
+            "Do not add explanations.",
+        ],
+        "items": batch,
+    }
+    payload = {
+        "model": model,
+        "input": json.dumps(prompt, ensure_ascii=False),
+    }
+    request = urllib.request.Request(
+        "https://api.openai.com/v1/responses",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "transfer-dashboard/1.0",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+        return {}
+    text = extract_openai_text(payload)
+    try:
+        parsed = json.loads(text)
+    except json.JSONDecodeError:
+        match = re.search(r"\{.*\}", text, re.S)
+        if not match:
+            return {}
+        try:
+            parsed = json.loads(match.group(0))
+        except json.JSONDecodeError:
+            return {}
+    translations = parsed.get("translations", [])
+    if not isinstance(translations, list):
+        return {}
+    return {
+        str(item.get("id")): str(item.get("text", "")).strip()
+        for item in translations
+        if isinstance(item, dict) and item.get("id") and item.get("text")
+    }
+
+
+def extract_openai_text(payload: dict[str, Any]) -> str:
+    if payload.get("output_text"):
+        return str(payload["output_text"])
+    parts: list[str] = []
+    for item in payload.get("output", []) or []:
+        for content in item.get("content", []) or []:
+            if content.get("type") in {"output_text", "text"} and content.get("text"):
+                parts.append(str(content["text"]))
+    return "\n".join(parts)
 
 
 def read_url(url: str) -> bytes:
@@ -680,7 +857,10 @@ def has_term(text: str, term: str) -> bool:
     return re.search(rf"(?<![a-z0-9]){re.escape(term.lower())}(?![a-z0-9])", text, re.I) is not None
 
 
-def guess_player(title: str) -> str:
+def guess_player(title: str, combined: str = "") -> str:
+    cached = find_cached_players(combined or title)
+    if cached:
+        return str(cached[0].get("name") or "未知球员")
     title = re.sub(r"\s+-\s+.*$", "", title).strip()
     patterns = [
         r"\bfor\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
@@ -691,14 +871,20 @@ def guess_player(title: str) -> str:
         match = re.search(pattern, title)
         if match:
             candidate = match.group(1).strip()
+            resolved = resolve_player_candidate(candidate)
+            if resolved:
+                return str(resolved.get("name") or candidate)
             if looks_like_person_name(candidate):
                 return candidate
     for separator in [":", " - ", " | "]:
         if separator in title:
             candidate = title.split(separator, 1)[0].strip()
-            if 3 <= len(candidate) <= 80:
+            resolved = resolve_player_candidate(candidate)
+            if resolved:
+                return str(resolved.get("name") or candidate)
+            if looks_like_person_name(candidate):
                 return candidate
-    return title[:80] or "未知球员"
+    return "未知球员"
 
 
 def guess_clubs(text: str) -> tuple[str, str]:
@@ -719,9 +905,14 @@ def guess_clubs(text: str) -> tuple[str, str]:
     return "未知", "未知"
 
 
-def build_entities(player: str, clubs: tuple[str, str], league: str) -> list[dict[str, str]]:
+def build_entities(player: str, clubs: tuple[str, str], league: str, text: str = "") -> list[dict[str, str]]:
     entities: list[dict[str, str]] = []
-    if looks_like_person_name(player):
+    for record in find_cached_players(text):
+        entities.append(player_entity_record(record))
+    resolved_player = resolve_player_candidate(player)
+    if resolved_player:
+        entities.append(player_entity_record(resolved_player))
+    elif looks_like_person_name(player):
         entities.append(entity_record(player, "player", f"{player}：新闻中提到的球员或转会相关人物。"))
     for club in clubs:
         if club and club != "未知":
@@ -729,6 +920,93 @@ def build_entities(player: str, clubs: tuple[str, str], league: str) -> list[dic
     if league and league != "其他":
         entities.append(entity_record(league, "league", f"{league}：该条新闻归类到的联赛或地区。"))
     return merge_entities([], entities)
+
+
+def find_cached_players(text: str) -> list[dict[str, Any]]:
+    lowered = text.lower()
+    matches: list[dict[str, Any]] = []
+    for record in PLAYER_CACHE.values():
+        aliases = record.get("aliases", []) or []
+        for alias in aliases:
+            alias_text = str(alias)
+            if not alias_text:
+                continue
+            matched = alias_text in text if has_cjk(alias_text) else has_term(lowered, alias_text.lower())
+            if matched:
+                matches.append(record)
+                break
+    return sorted(matches, key=lambda item: len(str(item.get("name", ""))), reverse=True)
+
+
+def resolve_player_candidate(candidate: str) -> dict[str, Any] | None:
+    if not candidate or candidate in {"未知球员", "未知"}:
+        return None
+    for record in PLAYER_CACHE.values():
+        aliases = [str(alias).lower() for alias in record.get("aliases", [])]
+        if candidate.lower() == str(record.get("name", "")).lower() or candidate.lower() in aliases:
+            return record
+    if not looks_like_person_name(candidate):
+        return None
+    record = query_wikidata_player(candidate)
+    if record:
+        PLAYER_CACHE[str(record["name"])] = record
+        return record
+    return None
+
+
+def query_wikidata_player(candidate: str) -> dict[str, Any] | None:
+    params = urllib.parse.urlencode(
+        {
+            "action": "wbsearchentities",
+            "format": "json",
+            "language": "en",
+            "uselang": "en",
+            "type": "item",
+            "limit": 5,
+            "search": f"{candidate} footballer",
+        }
+    )
+    url = f"https://www.wikidata.org/w/api.php?{params}"
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
+        with urllib.request.urlopen(request, timeout=10) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+        return None
+    for result in payload.get("search", []):
+        description = str(result.get("description", "")).lower()
+        if not any(term in description for term in ["footballer", "soccer player", "association football"]):
+            continue
+        name = str(result.get("label") or candidate)
+        aliases = set(str(alias) for alias in (result.get("aliases", []) or []))
+        aliases.update({candidate, name, name.split(" ")[-1]})
+        return {
+            "name": name,
+            "aliases": sorted(alias for alias in aliases if alias),
+            "zh_names": [],
+            "wikidata_id": result.get("id", ""),
+            "wiki_url": result.get("concepturi", ""),
+            "description": result.get("description", f"{name}：足球运动员。"),
+        }
+    return None
+
+
+def player_entity_record(player: dict[str, Any]) -> dict[str, str]:
+    name = str(player.get("name", ""))
+    wiki = fetch_wiki_entity(name, "player")
+    record = {
+        "name": name,
+        "type": "player",
+        "description": wiki.get("description") or str(player.get("description") or f"{name}：足球运动员。"),
+        "wiki_url": wiki.get("wiki_url") or str(player.get("wiki_url") or f"https://zh.wikipedia.org/w/index.php?search={urllib.parse.quote(name)}"),
+        "search_url": f"https://www.google.com/search?q={urllib.parse.quote(name + ' football transfer')}",
+    }
+    for field in ["image_url", "wiki_title", "source_language", "wiki_variant", "translated_from"]:
+        if wiki.get(field):
+            record[field] = wiki[field]
+    if player.get("wikidata_id"):
+        record["wikidata_id"] = str(player["wikidata_id"])
+    return record
 
 
 def entity_record(name: str, kind: str, description: str) -> dict[str, str]:
@@ -1141,6 +1419,8 @@ def stable_id(title: str, link: str) -> str:
 def normalise_key(player: str, to_club: str, category: str = "transfer", item_id: str = "") -> str:
     if category == "general":
         return f"general-{item_id}"
+    if player in {"未知球员", "未知", ""} or to_club in {"未知", ""}:
+        return f"transfer-{item_id}"
     return re.sub(r"[^a-z0-9]+", "-", f"{player}-{to_club}".lower()).strip("-")
 
 
@@ -1166,3 +1446,5 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+

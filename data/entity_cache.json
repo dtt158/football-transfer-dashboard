@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T06:13:13Z",
+  "generated_at": "2026-06-05T06:39:02Z",
   "entities": {
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
@@ -16,6 +16,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Atalanta": {},
     "club|Atletico": {},
     "club|Barcelona": {
       "description": "巴塞隆納女子足球俱樂部（加泰隆尼亞語：Futbol Club Barcelona (sección femenina)），通稱「巴萨女足」（Barça Femení）是一支位於加泰羅尼亞巴塞羅那的女子足球隊，為巴塞罗那的女足分部。1988年以「Club Femení Barcelona」之名成立，在西女甲參賽。目前為止，贏得了9次西女甲冠軍、10次女王盃冠軍、3次超級盃冠軍和3次欧冠冠军，為西班牙最成功的女足球隊。 球隊主場為约翰·克鲁伊夫球场，偶爾也會在諾坎普球場進行比賽。",
@@ -130,6 +131,15 @@
       "wiki_title": "利物浦足球俱乐部",
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
+    },
+    "club|MLS": {
+      "description": "美國職業足球大聯盟（英語：Major League Soccer，縮寫：MLS），簡稱美足聯或美職聯，是美國及加拿大頂級足球聯賽。MLS由二十七支美國球隊及三支加拿大球隊組成。賽季為三月至十二月，每支球隊進行三十四場例行賽，首名贏得支持者盾。東西區各七支例行賽戰績最佳的球隊以及外卡賽的勝方晉級季後賽，勝者贏得大聯盟盃。MLS成立於1993年。1996年舉行首屆賽事。相較於由獨立運作的各隊所組成的聯盟，MLS採單一實體架構（single-entity）運行，每一支球隊都為聯盟的投資者所有及控制。MLS為封閉會員制，為世上少數沒有升降級制度的足球聯盟。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A5%AD%E8%B6%B3%E7%90%83%E5%A4%A7%E8%81%AF%E7%9B%9F",
+      "wiki_title": "美國職業足球大聯盟",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
     },
     "club|Manchester City": {
       "description": "曼徹斯特城足球俱樂部（英語：Manchester City Football Club），簡稱曼城（英語：Man City），是一家位於英國曼徹斯特的足球俱樂部，前身為成立於1880年的「圣马可的西戈顿」（英語：St. Mark's West Gorton），1887年改名為阿德维克足球俱乐部（英語：Ardwick Association Football Club），1894年改名為「曼徹斯特城」。同年，曼城正式採用天藍色作主場球衣顏色，這也是他們被稱為藍月亮的第一個賽季。目前於英格蘭超級聯賽比賽。球隊主场為阿提哈德球场（又被译作“伊蒂哈德球場”）。...",
@@ -255,6 +265,15 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "league|沙特/其他": {
+      "description": "穆罕默德·沙特·賓華馬（阿拉伯語：محمد سعيد بن رحمة；1995年8月10日—）是一名阿爾及利亞足球運動員，目前効力於沙特職業足球聯賽球隊尼奥姆，阿爾及利亞國家足球隊成員，位置為翼鋒及進攻中場。 賓華馬在尼斯開始他的職業生涯，後來在他的早期職業生涯中被借用到昂熱、阿些斯奧和查多魯。在2018年夏季轉會窗轉會到賓福特後，他在英冠中嶄露頭角，他為此西倫敦球會出場83場及射入27球後。在2021年借用形式加盟韋斯咸，期後永久轉會至此東倫敦球會。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sa%C3%AFd_Benrahma_-_20240326.jpg/500px-Sa%C3%AFd_Benrahma_-_20240326.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E7%89%B9%C2%B7%E8%B3%93%E8%8F%AF%E9%A6%AC",
+      "wiki_title": "沙特·賓華馬",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "league|法甲": {
       "description": "法甲：该条新闻归类到的联赛或地区。",
       "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
@@ -283,9 +302,22 @@
       "wiki_variant": "legacy-zh"
     },
     "player|Apollo no cambiará el mercado del Atlético": {},
+    "player|Bournemouth’s Eli Junior Kroupi": {},
     "player|Carta de Florentino a los socios": {},
     "player|Celtic fan groups state opposition to Keane": {},
     "player|El oscuro túnel de Kubo": {},
+    "player|Erling Haaland": {
+      "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E6%9E%97%C2%B7%E5%93%88%E5%85%B0%E5%BE%B7",
+      "wiki_title": "埃尔林·哈兰德",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Erling Haaland"
+    },
+    "player|FEATURE | Cherki, Konaté, Thuram": {},
+    "player|FIFA World Cup 2026": {},
     "player|Football Daily": {},
     "player|Gavi manda indirectas al Barça": {},
     "player|Isac Lidberg": {
@@ -296,6 +328,7 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|José Mourinho": {},
     "player|La pregunta entorno a Dumfries": {},
     "player|Lokomotiv’s Aleksey Batrakov": {},
     "player|Mercado de fichajes de LaLiga": {},
@@ -311,10 +344,12 @@
     },
     "player|Premier League 2025-26 season review": {},
     "player|Raúl Jardiel, nuevo entrenador del Huesca": {},
+    "player|Roma’s Jan": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|Superstar in Spain, doubted in Brazil": {},
+    "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
     "player|Thierry Correia se marcha al Venezia": {},
     "player|Todos los caminos conducen a Kang-in Lee": {},

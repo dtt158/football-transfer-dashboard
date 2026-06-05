@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T06:13:13Z",
+  "generated_at": "2026-06-05T06:39:02Z",
   "sources": [
     {
       "name": "BBC Football",
@@ -195,11 +195,108 @@
   "errors": [],
   "transfers": [
     {
+      "id": "7f9a92f4cb1e74cd",
+      "title": "Man City consider legal action over Real candidate's promise to sign Haaland",
+      "title_zh": "Man City consider legal action over Real candidate's promise to 签约 Haaland",
+      "title_translation_provider": "cache",
+      "player": "Erling Haaland",
+      "from_club": "Manchester City",
+      "to_club": "Real Madrid",
+      "league": "英超",
+      "category": "transfer",
+      "status": "rumour",
+      "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
+      "summary_zh": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their 前锋 will move to Spain.",
+      "translation_provider": "cache",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T08:27:35Z",
+      "collected_at": "2026-06-05T06:35:33Z",
+      "credibility_score": 63,
+      "heat_score": 80,
+      "entities": [
+        {
+          "name": "Erling Haaland",
+          "type": "player",
+          "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E6%9E%97%C2%B7%E5%93%88%E5%85%B0%E5%BE%B7",
+          "search_url": "https://www.google.com/search?q=Erling%20Haaland%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
+          "wiki_title": "埃尔林·哈兰德",
+          "source_language": "zh",
+          "wiki_variant": "zh-hans",
+          "translated_from": "Erling Haaland",
+          "wikidata_id": "Q529207"
+        },
+        {
+          "name": "Manchester City",
+          "type": "club",
+          "description": "曼徹斯特城足球俱樂部（英語：Manchester City Football Club），簡稱曼城（英語：Man City），是一家位於英國曼徹斯特的足球俱樂部，前身為成立於1880年的「圣马可的西戈顿」（英語：St. Mark's West Gorton），1887年改名為阿德维克足球俱乐部（英語：Ardwick Association Football Club），1894年改名為「曼徹斯特城」。同年，曼城正式採用天藍色作主場球衣顏色，這也是他們被稱為藍月亮的第一個賽季。目前於英格蘭超級聯賽比賽。球隊主场為阿提哈德球场（又被译作“伊蒂哈德球場”）。...",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E5%9F%8E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+          "search_url": "https://www.google.com/search?q=Manchester%20City%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
+          "wiki_title": "曼彻斯特城足球俱乐部",
+          "source_language": "zh",
+          "wiki_variant": "legacy-zh"
+        },
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "皇家馬德里足球俱樂部（西班牙語：Real Madrid Club de Fútbol），簡稱皇馬，是一家位於西班牙首都馬德里的足球俱樂部，被公認為足壇最頂尖的豪門之一。 皇家馬德里成立於1902年3月6日，原名為「馬德里足球會」（Madrid Football Club）。1920年西班牙國王阿方索十三世為球隊授予皇家的稱號與徽章上的皇冠。自俱樂部創立以來，皇家馬德里一直身穿全白的球衣。球隊主場是自1947年啟用的伯納烏球場，可以容納81044人。與大多數的歐洲職業運動實體不同，皇家馬德里由十幾萬名會員擁有並經營俱樂部。 皇家馬德里是目前贏得西班牙足球甲级联赛、歐洲冠軍聯賽、歐洲超級盃及世俱杯冠軍次數最多的足球俱樂部。國內賽事方面一共奪得36次西甲冠軍、20次西班牙國王盃冠軍及13次西班牙超級盃；歐洲賽事方面共奪得15次欧冠冠軍、2次歐洲足協盃冠軍及6次歐洲超級盃冠軍；洲際賽事方面共奪得3次洲際盃足球賽冠軍及5次世俱杯冠軍。...",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E9%A9%AC%E5%BE%B7%E9%87%8C%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer",
+          "wiki_title": "皇家马德里足球俱乐部",
+          "source_language": "zh",
+          "wiki_variant": "legacy-zh"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英格蘭女子足球超級聯賽（英語：Women's Super League），簡稱WSL或英女超，現時因贊助商冠名而稱為巴克萊女子超級聯賽（Barclays Women's Super League）。成立於2010年，由英格蘭足球總會營運，為英格蘭最頂級的職業女子足球聯賽，由14支全職業球隊角逐。 2014賽季至2017–18賽季期間，聯賽由兩個級別組成—WSL 1和WSL 2，並為聯賽帶來了升降級制度。2018–19賽季起，WSL 2更名為英格蘭女子冠軍聯賽。2024–25賽季起，英女冠改為女子英超2。 位居榜首頭三名球隊將獲得歐洲女子冠軍聯賽下一賽季的參加資格，最後一名的球隊則降級至女子英超2。目前的冠軍是曼城，球隊在2025–26賽季奪得第二次冠軍。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%A0%BC%E8%98%AD%E5%A5%B3%E5%AD%90%E8%B6%B3%E7%90%83%E8%B6%85%E7%B4%9A%E8%81%AF%E8%B3%BD",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer",
+          "wiki_title": "英格蘭女子足球超級聯賽",
+          "source_language": "zh",
+          "wiki_variant": "legacy-zh"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西班牙足球甲級聯賽（西班牙語：Primera División de España或La Liga，由于赞助原因，正式名称为LALIGA EA SPORTS），通常簡稱西甲或西甲联赛，是西班牙足球联赛系统的第 1 級別，亦是職業聯賽的最高級別、联赛系统的最高級別和西班牙頂級足球聯賽，目前有 20 支球隊。皇家馬德里是歷史上奪得最多冠軍的球隊（36 次），其次是巴塞罗那（29 次），以及馬德里體育會（11 次）。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%B6%B3%E7%90%83%E7%94%B2%E7%BA%A7%E8%81%94%E8%B5%9B",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/500px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png",
+          "wiki_title": "西班牙足球甲级联赛",
+          "source_language": "zh",
+          "wiki_variant": "legacy-zh"
+        }
+      ],
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c3r2g5zgl0vo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "language": "en",
+          "published_at": "2026-06-04T08:27:35Z"
+        },
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48960585/riquelmes-haaland-promise-classic-spanish-election-move",
+          "grade": "B",
+          "language": "en",
+          "published_at": "2026-06-04T08:03:06Z"
+        }
+      ]
+    },
+    {
       "id": "34730863d69f8baf",
       "title": "Why has Iraola only signed a two-year contract at Liverpool?",
       "title_zh": "Why has Iraola only 签下 a two-year 合同 at Liverpool?",
       "title_translation_provider": "cache",
-      "player": "Why has Iraola only signed a two-year contract at Liverpool?",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Liverpool",
       "league": "英超",
@@ -211,7 +308,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:50:04Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 78,
       "heat_score": 78,
       "entities": [
@@ -245,6 +342,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cdxp15z708ko?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:50:04Z"
         }
       ]
@@ -254,7 +352,7 @@
       "title": "Liverpool confirm appointment of Andoni Iraola as new head coach",
       "title_zh": "Liverpool confirm appointment of Andoni Iraola as new head coach",
       "title_translation_provider": "cache",
-      "player": "Liverpool confirm appointment of Andoni Iraola as new head coach",
+      "player": "未知球员",
       "from_club": "Liverpool",
       "to_club": "Leverkusen",
       "league": "英超",
@@ -266,7 +364,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:31:22Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 78,
       "heat_score": 78,
       "entities": [
@@ -310,6 +408,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/liverpool-confirm-appointment-of-andoni-iraola-as-new-head-coach",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:31:22Z"
         }
       ]
@@ -319,7 +418,7 @@
       "title": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appointment official",
       "title_zh": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appointment official",
       "title_translation_provider": "cache",
-      "player": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appoint",
+      "player": "未知球员",
       "from_club": "Fiorentina",
       "to_club": "Sassuolo",
       "league": "其他",
@@ -331,7 +430,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:48:00Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 78,
       "heat_score": 78,
       "entities": [
@@ -366,6 +465,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/official-grosso-leaves-sassuolo-fiorentina/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:48:00Z"
         }
       ]
@@ -375,7 +475,7 @@
       "title": "Official | Auxerre part ways with Christophe Pélissier",
       "title_zh": "Official | Auxerre part ways with Christophe Pélissier",
       "title_translation_provider": "cache",
-      "player": "Official",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -387,7 +487,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:19:00Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 78,
       "heat_score": 78,
       "entities": [],
@@ -400,6 +500,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/official-auxerre-part-ways-with-christophe-pelissier/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:19:00Z"
         }
       ]
@@ -409,7 +510,7 @@
       "title": "Florentino Pérez confirms Real Madrid’s first summer signing",
       "title_zh": "Florentino Pérez confirms Real Madrid’s first 夏窗 签约",
       "title_translation_provider": "cache",
-      "player": "Florentino Pérez confirms Real Madrid’s first summer signing",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -421,7 +522,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:00:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 78,
       "heat_score": 78,
       "entities": [
@@ -455,6 +556,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/florentino-perez-confirms-real-madrids-first-summer-signing/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:00:00Z"
         }
       ]
@@ -476,7 +578,7 @@
       "fee": "€3.5m",
       "contract": "",
       "reported_at": "2026-06-03T07:21:31Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:50Z",
       "credibility_score": 74,
       "heat_score": 77,
       "entities": [
@@ -520,6 +622,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/gladbach-set-sign-lidberg/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T07:21:31Z"
         }
       ]
@@ -529,7 +632,7 @@
       "title": "Madrid's Pérez vows $174M Galactico bid if elected...",
       "title_zh": "Madrid's Pérez vows $174M Galactico 报价 if elected...",
       "title_translation_provider": "cache",
-      "player": "Madrid's Pérez vows $174M Galactico bid if elected...",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -541,7 +644,7 @@
       "fee": "$174M",
       "contract": "",
       "reported_at": "2026-06-05T05:54:07Z",
-      "collected_at": "2026-06-05T06:10:50Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 76,
       "entities": [
@@ -576,6 +679,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48969398/real-madrid-perez-vows-174m-galactico-bid-reelected",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:54:07Z"
         }
       ]
@@ -585,7 +689,7 @@
       "title": "Liverpool agree deal in principle with Andoni Iraola for two-year contract",
       "title_zh": "Liverpool agree 交易 in principle with Andoni Iraola for two-year 合同",
       "title_translation_provider": "cache",
-      "player": "Liverpool agree deal in principle with Andoni Iraola for two-year contract",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Liverpool",
       "league": "英超",
@@ -597,7 +701,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T21:09:46Z",
-      "collected_at": "2026-06-05T06:11:01Z",
+      "collected_at": "2026-06-05T06:35:56Z",
       "credibility_score": 78,
       "heat_score": 73,
       "entities": [
@@ -631,6 +735,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/02/liverpool-opened-talks-with-andoni-iraola-over-becoming-head-coach",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-02T21:09:46Z"
         }
       ]
@@ -652,7 +757,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T14:40:37Z",
-      "collected_at": "2026-06-05T06:11:26Z",
+      "collected_at": "2026-06-05T06:36:26Z",
       "credibility_score": 78,
       "heat_score": 73,
       "entities": [
@@ -692,6 +797,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/03/football-daily-newsletter-andoni-iraola-managerial-merry-go-round",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T14:40:37Z"
         }
       ]
@@ -713,7 +819,7 @@
       "fee": "£70m",
       "contract": "",
       "reported_at": "2026-06-04T13:41:51Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -768,6 +874,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c2020rr6pggo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:41:51Z"
         }
       ]
@@ -777,7 +884,7 @@
       "title": "York City accept Hearts offer for Fagan-Walcott",
       "title_zh": "York City accept Hearts 报价 for Fagan-Walcott",
       "title_translation_provider": "cache",
-      "player": "York City accept Hearts offer for Fagan-Walcott",
+      "player": "未知球员",
       "from_club": "Hearts",
       "to_club": "York City",
       "league": "其他",
@@ -789,7 +896,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:00:01Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -824,6 +931,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c0r2r8lgp5wo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:00:01Z"
         }
       ]
@@ -833,7 +941,7 @@
       "title": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this summer",
       "title_zh": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this 夏窗",
       "title_translation_provider": "cache",
-      "player": "Football Daily | World Cup Omitted XI",
+      "player": "Football Daily",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -845,10 +953,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T14:24:52Z",
-      "collected_at": "2026-06-05T06:11:01Z",
+      "collected_at": "2026-06-05T06:35:46Z",
       "credibility_score": 66,
       "heat_score": 72,
-      "entities": [],
+      "entities": [
+        {
+          "name": "Football Daily",
+          "type": "player",
+          "description": "Football Daily：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Football%20Daily",
+          "search_url": "https://www.google.com/search?q=Football%20Daily%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -857,6 +973,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/football-daily-omitted-xi-geopolitics-world-cup",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T14:24:52Z"
         }
       ]
@@ -866,7 +983,7 @@
       "title": "Besiktas offer Italiano two-year deal worth €6m per season",
       "title_zh": "Besiktas 报价 Italiano two-year 交易 worth €6m per season",
       "title_translation_provider": "cache",
-      "player": "Besiktas offer Italiano two-year deal worth €6m per season",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -878,7 +995,7 @@
       "fee": "€6m",
       "contract": "",
       "reported_at": "2026-06-04T18:02:19Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [],
@@ -890,72 +1007,8 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/besiktas-offer-italiano-two-year-deal/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:02:19Z"
-        }
-      ]
-    },
-    {
-      "id": "7f9a92f4cb1e74cd",
-      "title": "Man City consider legal action over Real candidate's promise to sign Haaland",
-      "title_zh": "Man City consider legal action over Real candidate's promise to 签约 Haaland",
-      "title_translation_provider": "cache",
-      "player": "Man City consider legal action over Real candidate's promise to sign Haaland",
-      "from_club": "Manchester City",
-      "to_club": "Real Madrid",
-      "league": "英超",
-      "category": "transfer",
-      "status": "rumour",
-      "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
-      "summary_zh": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their 前锋 will move to Spain.",
-      "translation_provider": "cache",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-04T08:27:35Z",
-      "collected_at": "2026-06-05T06:10:30Z",
-      "credibility_score": 58,
-      "heat_score": 72,
-      "entities": [
-        {
-          "name": "Manchester City",
-          "type": "club",
-          "description": "曼徹斯特城足球俱樂部（英語：Manchester City Football Club），簡稱曼城（英語：Man City），是一家位於英國曼徹斯特的足球俱樂部，前身為成立於1880年的「圣马可的西戈顿」（英語：St. Mark's West Gorton），1887年改名為阿德维克足球俱乐部（英語：Ardwick Association Football Club），1894年改名為「曼徹斯特城」。同年，曼城正式採用天藍色作主場球衣顏色，這也是他們被稱為藍月亮的第一個賽季。目前於英格蘭超級聯賽比賽。球隊主场為阿提哈德球场（又被译作“伊蒂哈德球場”）。...",
-          "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E5%9F%8E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
-          "search_url": "https://www.google.com/search?q=Manchester%20City%20football%20transfer",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
-          "wiki_title": "曼彻斯特城足球俱乐部",
-          "source_language": "zh",
-          "wiki_variant": "legacy-zh"
-        },
-        {
-          "name": "Real Madrid",
-          "type": "club",
-          "description": "皇家馬德里足球俱樂部（西班牙語：Real Madrid Club de Fútbol），簡稱皇馬，是一家位於西班牙首都馬德里的足球俱樂部，被公認為足壇最頂尖的豪門之一。 皇家馬德里成立於1902年3月6日，原名為「馬德里足球會」（Madrid Football Club）。1920年西班牙國王阿方索十三世為球隊授予皇家的稱號與徽章上的皇冠。自俱樂部創立以來，皇家馬德里一直身穿全白的球衣。球隊主場是自1947年啟用的伯納烏球場，可以容納81044人。與大多數的歐洲職業運動實體不同，皇家馬德里由十幾萬名會員擁有並經營俱樂部。 皇家馬德里是目前贏得西班牙足球甲级联赛、歐洲冠軍聯賽、歐洲超級盃及世俱杯冠軍次數最多的足球俱樂部。國內賽事方面一共奪得36次西甲冠軍、20次西班牙國王盃冠軍及13次西班牙超級盃；歐洲賽事方面共奪得15次欧冠冠軍、2次歐洲足協盃冠軍及6次歐洲超級盃冠軍；洲際賽事方面共奪得3次洲際盃足球賽冠軍及5次世俱杯冠軍。...",
-          "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E9%A9%AC%E5%BE%B7%E9%87%8C%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
-          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer",
-          "wiki_title": "皇家马德里足球俱乐部",
-          "source_language": "zh",
-          "wiki_variant": "legacy-zh"
-        },
-        {
-          "name": "英超",
-          "type": "league",
-          "description": "英格蘭女子足球超級聯賽（英語：Women's Super League），簡稱WSL或英女超，現時因贊助商冠名而稱為巴克萊女子超級聯賽（Barclays Women's Super League）。成立於2010年，由英格蘭足球總會營運，為英格蘭最頂級的職業女子足球聯賽，由14支全職業球隊角逐。 2014賽季至2017–18賽季期間，聯賽由兩個級別組成—WSL 1和WSL 2，並為聯賽帶來了升降級制度。2018–19賽季起，WSL 2更名為英格蘭女子冠軍聯賽。2024–25賽季起，英女冠改為女子英超2。 位居榜首頭三名球隊將獲得歐洲女子冠軍聯賽下一賽季的參加資格，最後一名的球隊則降級至女子英超2。目前的冠軍是曼城，球隊在2025–26賽季奪得第二次冠軍。",
-          "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%A0%BC%E8%98%AD%E5%A5%B3%E5%AD%90%E8%B6%B3%E7%90%83%E8%B6%85%E7%B4%9A%E8%81%AF%E8%B3%BD",
-          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer",
-          "wiki_title": "英格蘭女子足球超級聯賽",
-          "source_language": "zh",
-          "wiki_variant": "legacy-zh"
-        }
-      ],
-      "tags": [
-        "rumour"
-      ],
-      "sources": [
-        {
-          "name": "BBC Football",
-          "url": "https://www.bbc.com/sport/football/articles/c3r2g5zgl0vo?at_medium=RSS&at_campaign=rss",
-          "grade": "B",
-          "published_at": "2026-06-04T08:27:35Z"
         }
       ]
     },
@@ -964,7 +1017,7 @@
       "title": "Transfer round-up: Juventus striker shopping, Inter exit imminent, Napoli and Milan business continues",
       "title_zh": "转会 round-up: Juventus 前锋 shopping, Inter exit imminent, Napoli and Milan business continues",
       "title_translation_provider": "cache",
-      "player": "Transfer round-up",
+      "player": "未知球员",
       "from_club": "Inter Milan",
       "to_club": "Juventus",
       "league": "意甲",
@@ -976,7 +1029,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T19:42:37Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 58,
       "heat_score": 72,
       "entities": [
@@ -1019,6 +1072,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/transfer-round-up-juventus-inter-napoli/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T19:42:37Z"
         }
       ]
@@ -1028,7 +1082,7 @@
       "title": "Transfer-linked Barcelona star provides future update",
       "title_zh": "转会-linked Barcelona star provides future update",
       "title_translation_provider": "cache",
-      "player": "Transfer-linked Barcelona star provides future update",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Barcelona",
       "league": "西甲",
@@ -1040,7 +1094,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:27:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 58,
       "heat_score": 72,
       "entities": [
@@ -1074,6 +1128,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/transfer-linked-barcelona-star-provides-future-update/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T20:27:00Z"
         }
       ]
@@ -1083,7 +1138,7 @@
       "title": "Espanyol star in the sights of rival La Liga clubs",
       "title_zh": "Espanyol star in the sights of rival La Liga clubs",
       "title_translation_provider": "cache",
-      "player": "Espanyol star in the sights of rival La Liga clubs",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "LaLiga",
       "league": "西甲",
@@ -1095,7 +1150,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:05:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 58,
       "heat_score": 72,
       "entities": [
@@ -1131,6 +1186,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/espanyol-star-in-the-sights-of-rival-la-liga-clubs/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T20:05:00Z"
         }
       ]
@@ -1140,7 +1196,7 @@
       "title": "Bayern Munich reach agreement with Ismaël Saibari",
       "title_zh": "Bayern Munich reach agreement with Ismaël Saibari",
       "title_translation_provider": "cache",
-      "player": "Bayern Munich reach agreement with Ismaël Saibari",
+      "player": "未知球员",
       "from_club": "Bayern Munich",
       "to_club": "Bayern",
       "league": "德甲",
@@ -1152,7 +1208,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T06:45:31Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:50Z",
       "credibility_score": 74,
       "heat_score": 69,
       "entities": [
@@ -1193,6 +1249,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/bayern-agreement-saibari-psv/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T06:45:31Z"
         }
       ]
@@ -1214,7 +1271,7 @@
       "fee": "€50m",
       "contract": "",
       "reported_at": "2026-06-03T18:03:37Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:53Z",
       "credibility_score": 66,
       "heat_score": 67,
       "entities": [
@@ -1269,6 +1326,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/roma-reject-e50m-chelsea-bid-for-mile-svilar/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T18:03:37Z"
         }
       ]
@@ -1278,7 +1336,7 @@
       "title": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
       "title_zh": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
       "title_translation_provider": "cache",
-      "player": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -1290,7 +1348,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T22:04:33Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -1303,6 +1361,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/spain-iraq-friendly-international-match-report",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T22:04:33Z"
         }
       ]
@@ -1312,7 +1371,7 @@
       "title": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
       "title_zh": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
       "title_translation_provider": "cache",
-      "player": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Arsenal",
       "league": "英超",
@@ -1324,7 +1383,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:45:12Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:06Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -1357,6 +1416,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/rafael-leao-awaits-arsenal-approach-gunners-handed-chance/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:45:12Z"
         }
       ]
@@ -1366,7 +1426,7 @@
       "title": "Top players, title fights - why Iraola feels ready for Liverpool",
       "title_zh": "Top players, title fights - why Iraola feels ready for Liverpool",
       "title_translation_provider": "cache",
-      "player": "Top players, title fights",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Liverpool",
       "league": "英超",
@@ -1378,7 +1438,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:28:58Z",
-      "collected_at": "2026-06-05T06:10:24Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1412,6 +1472,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cqjpkgx7084o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:28:58Z"
         }
       ]
@@ -1421,7 +1482,7 @@
       "title": "Man Utd will not be swayed on transfer plan - Berrada",
       "title_zh": "Man Utd will not be swayed on 转会 plan - Berrada",
       "title_translation_provider": "cache",
-      "player": "Man Utd will not be swayed on transfer plan",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Manchester United",
       "league": "英超",
@@ -1433,7 +1494,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:10:00Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1467,6 +1528,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c0e2enynl2qo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:10:00Z"
         }
       ]
@@ -1476,7 +1538,7 @@
       "title": "Iraola will make Liverpool fans excited again - Murphy",
       "title_zh": "Iraola will make Liverpool fans excited again - Murphy",
       "title_translation_provider": "cache",
-      "player": "Iraola will make Liverpool fans excited again",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Liverpool",
       "league": "英超",
@@ -1488,7 +1550,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:35:16Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1522,6 +1584,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c62dpn93n9mo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:35:16Z"
         }
       ]
@@ -1531,7 +1594,7 @@
       "title": "EFL scraps three-window transfer ban for late payments",
       "title_zh": "EFL scraps three-window 转会 ban for late payments",
       "title_translation_provider": "cache",
-      "player": "EFL scraps three-window transfer ban for late payments",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -1543,7 +1606,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:37:36Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [],
@@ -1555,6 +1618,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cevprvr1l01o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:37:36Z"
         }
       ]
@@ -1564,7 +1628,7 @@
       "title": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
       "title_zh": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
       "title_translation_provider": "cache",
-      "player": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Hearts",
       "league": "其他",
@@ -1576,7 +1640,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:48:24Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1600,6 +1664,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cvgzx77z08wo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:48:24Z"
         }
       ]
@@ -1609,7 +1674,7 @@
       "title": "Transfer rumors, news: Real Madrid keen on Arsenal...",
       "title_zh": "转会 rumors, news: Real Madrid keen on Arsenal...",
       "title_translation_provider": "cache",
-      "player": "Transfer rumors, news",
+      "player": "未知球员",
       "from_club": "Arsenal",
       "to_club": "Bayern Munich",
       "league": "英超",
@@ -1621,7 +1686,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:13:02Z",
-      "collected_at": "2026-06-05T06:10:50Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1665,62 +1730,8 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48963013/transfer-rumors-news-real-madrid-keen-arsenals-calafiori",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:13:02Z"
-        }
-      ]
-    },
-    {
-      "id": "20198afb87a4a9ec",
-      "title": "Like Figo and Beckham, Riquelme's Haaland promise ...",
-      "title_zh": "Like Figo and Beckham, Riquelme's Haaland promise ...",
-      "title_translation_provider": "cache",
-      "player": "Like Figo and Beckham, Riquelme's Haaland promise ...",
-      "from_club": "未知",
-      "to_club": "Real Madrid",
-      "league": "西甲",
-      "category": "transfer",
-      "status": "rumour",
-      "summary": "Real Madrid presidential candidate Enrique Riquelme promising he'll sign Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
-      "summary_zh": "Real Madrid presidential candidate Enrique Riquelme promising he'll 签约 Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
-      "translation_provider": "cache",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-04T08:03:06Z",
-      "collected_at": "2026-06-05T06:10:50Z",
-      "credibility_score": 58,
-      "heat_score": 64,
-      "entities": [
-        {
-          "name": "Real Madrid",
-          "type": "club",
-          "description": "皇家馬德里足球俱樂部（西班牙語：Real Madrid Club de Fútbol），簡稱皇馬，是一家位於西班牙首都馬德里的足球俱樂部，被公認為足壇最頂尖的豪門之一。 皇家馬德里成立於1902年3月6日，原名為「馬德里足球會」（Madrid Football Club）。1920年西班牙國王阿方索十三世為球隊授予皇家的稱號與徽章上的皇冠。自俱樂部創立以來，皇家馬德里一直身穿全白的球衣。球隊主場是自1947年啟用的伯納烏球場，可以容納81044人。與大多數的歐洲職業運動實體不同，皇家馬德里由十幾萬名會員擁有並經營俱樂部。 皇家馬德里是目前贏得西班牙足球甲级联赛、歐洲冠軍聯賽、歐洲超級盃及世俱杯冠軍次數最多的足球俱樂部。國內賽事方面一共奪得36次西甲冠軍、20次西班牙國王盃冠軍及13次西班牙超級盃；歐洲賽事方面共奪得15次欧冠冠軍、2次歐洲足協盃冠軍及6次歐洲超級盃冠軍；洲際賽事方面共奪得3次洲際盃足球賽冠軍及5次世俱杯冠軍。...",
-          "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E9%A9%AC%E5%BE%B7%E9%87%8C%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
-          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer",
-          "wiki_title": "皇家马德里足球俱乐部",
-          "source_language": "zh",
-          "wiki_variant": "legacy-zh"
-        },
-        {
-          "name": "西甲",
-          "type": "league",
-          "description": "西班牙足球甲級聯賽（西班牙語：Primera División de España或La Liga，由于赞助原因，正式名称为LALIGA EA SPORTS），通常簡稱西甲或西甲联赛，是西班牙足球联赛系统的第 1 級別，亦是職業聯賽的最高級別、联赛系统的最高級別和西班牙頂級足球聯賽，目前有 20 支球隊。皇家馬德里是歷史上奪得最多冠軍的球隊（36 次），其次是巴塞罗那（29 次），以及馬德里體育會（11 次）。",
-          "wiki_url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E8%B6%B3%E7%90%83%E7%94%B2%E7%BA%A7%E8%81%94%E8%B5%9B",
-          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer",
-          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/LaLiga_EA_Sports_2023_Vertical_Logo.svg/500px-LaLiga_EA_Sports_2023_Vertical_Logo.svg.png",
-          "wiki_title": "西班牙足球甲级联赛",
-          "source_language": "zh",
-          "wiki_variant": "legacy-zh"
-        }
-      ],
-      "tags": [
-        "rumour"
-      ],
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48960585/riquelmes-haaland-promise-classic-spanish-election-move",
-          "grade": "B",
-          "published_at": "2026-06-04T08:03:06Z"
         }
       ]
     },
@@ -1729,7 +1740,7 @@
       "title": "Why Roma are set to receive money from Calafiori transfer to Arsenal two years later",
       "title_zh": "Why Roma are set to receive money from Calafiori 转会 to Arsenal two years later",
       "title_translation_provider": "cache",
-      "player": "Why Roma are set to receive money from Calafiori transfer to Arsenal two years l",
+      "player": "未知球员",
       "from_club": "Arsenal",
       "to_club": "Roma",
       "league": "英超",
@@ -1741,7 +1752,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T17:45:00Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1784,6 +1795,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/why-roma-receive-money-calafiori-arsenal-move/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T17:45:00Z"
         }
       ]
@@ -1793,7 +1805,7 @@
       "title": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top signings",
       "title_zh": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top signings",
       "title_translation_provider": "cache",
-      "player": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -1805,7 +1817,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T15:36:57Z",
-      "collected_at": "2026-06-05T06:11:47Z",
+      "collected_at": "2026-06-05T06:36:48Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1839,6 +1851,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/real-madrid-calafiori-top-signing-konate/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T15:36:57Z"
         }
       ]
@@ -1848,7 +1861,7 @@
       "title": "Chivu arrives for new meeting with Inter directors over contract and transfers",
       "title_zh": "Chivu arrives for new meeting with Inter directors over 合同 and 转会",
       "title_translation_provider": "cache",
-      "player": "Chivu arrives for new meeting with Inter directors over contract and transfers",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Inter Milan",
       "league": "其他",
@@ -1860,7 +1873,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:37:53Z",
-      "collected_at": "2026-06-05T06:11:47Z",
+      "collected_at": "2026-06-05T06:36:48Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1885,6 +1898,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/chivu-meeting-inter-contract-transfers-video/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:37:53Z"
         }
       ]
@@ -1894,7 +1908,7 @@
       "title": "Why Solet is likely to sign Udinese contract extension before joining Inter",
       "title_zh": "Why Solet is likely to 签约 Udinese 合同 extension before 加盟 Inter",
       "title_translation_provider": "cache",
-      "player": "Why Solet is likely to sign Udinese contract extension before joining Inter",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Inter Milan",
       "league": "其他",
@@ -1906,7 +1920,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:04:19Z",
-      "collected_at": "2026-06-05T06:11:47Z",
+      "collected_at": "2026-06-05T06:36:48Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1931,6 +1945,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/why-solet-is-likely-to-sign-udinese-contract/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:04:19Z"
         }
       ]
@@ -1940,7 +1955,7 @@
       "title": "Monza attempting to secure deal for Man City winger previously wanted by Roma",
       "title_zh": "Monza attempting to secure 交易 for Man City winger previously wanted by Roma",
       "title_translation_provider": "cache",
-      "player": "Monza attempting to secure deal for Man City winger previously wanted by Roma",
+      "player": "未知球员",
       "from_club": "Manchester City",
       "to_club": "Roma",
       "league": "英超",
@@ -1952,7 +1967,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T12:26:49Z",
-      "collected_at": "2026-06-05T06:11:47Z",
+      "collected_at": "2026-06-05T06:36:48Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -1996,6 +2011,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/monza-attempting-to-secure-deal-city-winger/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T12:26:49Z"
         }
       ]
@@ -2005,7 +2021,7 @@
       "title": "Todos los caminos conducen a Kang-in Lee",
       "title_zh": "Todos los caminos conducen a Kang-in Lee",
       "title_translation_provider": "cache",
-      "player": "Todos los caminos conducen a Kang-in Lee",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "PSG",
       "league": "法甲",
@@ -2017,17 +2033,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T12:30:35Z",
-      "collected_at": "2026-06-05T06:11:48Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
-        {
-          "name": "Todos los caminos conducen a Kang-in Lee",
-          "type": "player",
-          "description": "Todos los caminos conducen a Kang-in Lee：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Todos%20los%20caminos%20conducen%20a%20Kang-in%20Lee",
-          "search_url": "https://www.google.com/search?q=Todos%20los%20caminos%20conducen%20a%20Kang-in%20Lee%20football%20transfer"
-        },
         {
           "name": "PSG",
           "type": "club",
@@ -2056,6 +2065,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/atletico/2026/06/04/todos-caminos-conducen-kang-in-lee.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-04T12:30:35Z"
         }
       ]
@@ -2065,7 +2075,7 @@
       "title": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
       "title_zh": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
       "title_translation_provider": "cache",
-      "player": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Leverkusen",
       "league": "德甲",
@@ -2077,7 +2087,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T10:33:34Z",
-      "collected_at": "2026-06-05T06:11:58Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -2110,6 +2120,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/bundesliga/2026/06/04/bayer-leverkusen-apalabra-fichaje-carles-martinez-2028.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-04T10:33:34Z"
         }
       ]
@@ -2119,7 +2130,7 @@
       "title": "Out of contract with Nantes, Anthony Lopes set to join Angers",
       "title_zh": "Out of 合同 with Nantes, Anthony Lopes set to join Angers",
       "title_translation_provider": "cache",
-      "player": "Out of contract with Nantes, Anthony Lopes set to join Angers",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Ligue 1",
       "league": "法甲",
@@ -2131,7 +2142,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:23:25Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -2165,6 +2176,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/out-of-contract-with-nantes-anthony-lopes-set-to-join-angers/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:23:25Z"
         }
       ]
@@ -2186,7 +2198,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T14:03:13Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -2235,6 +2247,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/psg-rule-out-a-move-for-lokomotivs-aleksey-batrakov/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T14:03:13Z"
         }
       ]
@@ -2244,7 +2257,7 @@
       "title": "Barcelona dealt blow as transfer collapses",
       "title_zh": "Barcelona dealt blow as 转会 collapses",
       "title_translation_provider": "cache",
-      "player": "Barcelona dealt blow as transfer collapses",
+      "player": "未知球员",
       "from_club": "Barcelona",
       "to_club": "LaLiga",
       "league": "西甲",
@@ -2256,7 +2269,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:25:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 58,
       "heat_score": 64,
       "entities": [
@@ -2302,6 +2315,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/barcelona-dealt-blow-as-transfer-collapses/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:25:00Z"
         }
       ]
@@ -2311,7 +2325,7 @@
       "title": "Aston Villa hold an interest in Borussia Dortmund target Nicolò Tresoldi; Karim Adeyemi to Villa?",
       "title_zh": "Aston Villa hold an interest in Borussia Dortmund 目标 Nicolò Tresoldi; Karim Adeyemi to Villa?",
       "title_translation_provider": "cache",
-      "player": "Aston Villa hold an interest in Borussia Dortmund target Nicolò Tresoldi; Karim ",
+      "player": "未知球员",
       "from_club": "Aston Villa",
       "to_club": "Borussia Dortmund",
       "league": "英超",
@@ -2323,7 +2337,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T09:17:49Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:38:00Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
@@ -2368,6 +2382,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/aston-villa-interest-dortmund-tresoldi-adeyemi/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-02T09:17:49Z"
         }
       ]
@@ -2377,7 +2392,7 @@
       "title": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
       "title_zh": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
       "title_translation_provider": "cache",
-      "player": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
+      "player": "未知球员",
       "from_club": "Juventus",
       "to_club": "Serie A",
       "league": "意甲",
@@ -2389,7 +2404,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T11:30:12Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:54Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
@@ -2431,6 +2446,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/dusan-vlahovic-set-for-juventus-exit-as-renewal-talks-break-down/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T11:30:12Z"
         }
       ]
@@ -2440,7 +2456,7 @@
       "title": "Mercado de fichajes de verano de 2026 en la Ligue 1: altas, bajas y rumores",
       "title_zh": "Mercado de fichajes de verano de 2026 en la Ligue 1: altas, bajas y rumores",
       "title_translation_provider": "cache",
-      "player": "Mercado de fichajes de verano de 2026 en la Ligue 1",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Ligue 1",
       "league": "法甲",
@@ -2452,7 +2468,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T20:16:59Z",
-      "collected_at": "2026-06-05T06:11:58Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 59,
       "entities": [
@@ -2485,6 +2501,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/liga-francesa/2026/06/03/mercado-fichajes-verano-2026-ligue-1-altas-bajas-rumores.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T20:16:59Z"
         }
       ]
@@ -2494,7 +2511,7 @@
       "title": "Mercado de fichajes de verano de 2026 en la Bundesliga: altas, bajas y rumores",
       "title_zh": "Mercado de fichajes de verano de 2026 en la Bundesliga: altas, bajas y rumores",
       "title_translation_provider": "cache",
-      "player": "Mercado de fichajes de verano de 2026 en la Bundesliga",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Bundesliga",
       "league": "德甲",
@@ -2506,7 +2523,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T17:25:47Z",
-      "collected_at": "2026-06-05T06:12:01Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 59,
       "entities": [
@@ -2539,6 +2556,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/bundesliga/2026/06/03/mercado-fichajes-verano-2026-bundesliga-altas-bajas-rumores.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T17:25:47Z"
         }
       ]
@@ -2548,7 +2566,7 @@
       "title": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pagase 85 millones",
       "title_zh": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pagase 85 millones",
       "title_translation_provider": "cache",
-      "player": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pa",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Manchester United",
       "league": "英超",
@@ -2560,7 +2578,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T11:49:11Z",
-      "collected_at": "2026-06-05T06:12:03Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 59,
       "entities": [
@@ -2594,6 +2612,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/liga-italiana/2026/06/03/napoles-queda-hojlund-tres-anos-despues-manchester-united-pagase-85-millones.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T11:49:11Z"
         }
       ]
@@ -2603,7 +2622,7 @@
       "title": "El Celta ve dificultades en la vuelta de Brais Méndez",
       "title_zh": "El Celta ve dificultades en la vuelta de Brais Méndez",
       "title_translation_provider": "cache",
-      "player": "El Celta ve dificultades en la vuelta de Brais Méndez",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -2615,7 +2634,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T08:25:08Z",
-      "collected_at": "2026-06-05T06:12:03Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 58,
       "heat_score": 59,
       "entities": [],
@@ -2627,6 +2646,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/celta/2026/06/03/celta-ve-dificultades-vuelta-brais-mendez.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T08:25:08Z"
         }
       ]
@@ -2636,7 +2656,7 @@
       "title": "Mercado de fichajes de verano de 2026 en la Serie A: altas, bajas y rumores",
       "title_zh": "Mercado de fichajes de verano de 2026 en la Serie A: altas, bajas y rumores",
       "title_translation_provider": "cache",
-      "player": "Mercado de fichajes de verano de 2026 en la Serie A",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Serie A",
       "league": "意甲",
@@ -2648,7 +2668,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T13:05:09Z",
-      "collected_at": "2026-06-05T06:12:09Z",
+      "collected_at": "2026-06-05T06:37:00Z",
       "credibility_score": 58,
       "heat_score": 59,
       "entities": [
@@ -2680,6 +2700,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/liga-italiana/2026/06/02/mercado-fichajes-verano-2026-serie-altas-bajas-rumores.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-02T13:05:09Z"
         }
       ]
@@ -2701,7 +2722,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-03-22T16:57:35Z",
-      "collected_at": "2026-06-05T06:11:03Z",
+      "collected_at": "2026-06-05T06:36:02Z",
       "credibility_score": 58,
       "heat_score": 58,
       "entities": [
@@ -2721,6 +2742,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
           "grade": "B",
+          "language": "en",
           "published_at": "2022-03-22T16:57:35Z"
         }
       ]
@@ -2730,7 +2752,7 @@
       "title": "Christian Pulisic wanted to talk about something else. Now he can",
       "title_zh": "Christian Pulisic wanted to talk about something else. Now he can",
       "title_translation_provider": "cache",
-      "player": "Christian Pulisic wanted to talk about something else. Now he can",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -2742,7 +2764,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T02:07:43Z",
-      "collected_at": "2026-06-05T06:11:16Z",
+      "collected_at": "2026-06-05T06:36:15Z",
       "credibility_score": 58,
       "heat_score": 58,
       "entities": [],
@@ -2754,6 +2776,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/may/31/christian-pulisic-usmnt-senegal-world-cup",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-01T02:07:43Z"
         }
       ]
@@ -2763,7 +2786,7 @@
       "title": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
       "title_zh": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
       "title_translation_provider": "cache",
-      "player": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
+      "player": "未知球员",
       "from_club": "Borussia Dortmund",
       "to_club": "Dortmund",
       "league": "德甲",
@@ -2775,7 +2798,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T09:41:27Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:38:00Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [
@@ -2816,6 +2839,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/fenerbahce-discussions-guirassy-dortmund/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-01T09:41:27Z"
         }
       ]
@@ -2825,7 +2849,7 @@
       "title": "Aston Villa target Moritz Nicolas has ‘time-limited’ exit clause",
       "title_zh": "Aston Villa 目标 Moritz Nicolas has ‘time-limited’ exit clause",
       "title_translation_provider": "cache",
-      "player": "Aston Villa target Moritz Nicolas has ‘time-limited’ exit clause",
+      "player": "未知球员",
       "from_club": "Aston Villa",
       "to_club": "Borussia Dortmund",
       "league": "英超",
@@ -2837,7 +2861,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T09:26:28Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:38:02Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [
@@ -2882,6 +2906,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/aston-villa-target-moritz-nicolas-exit-clause/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-01T09:26:28Z"
         }
       ]
@@ -2903,7 +2928,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-11-14T09:05:50Z",
-      "collected_at": "2026-06-05T06:11:01Z",
+      "collected_at": "2026-06-05T06:35:56Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -2923,6 +2948,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up",
           "grade": "B",
+          "language": "en",
           "published_at": "2022-11-14T09:05:50Z"
         }
       ]
@@ -2944,7 +2970,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2025-10-01T11:00:23Z",
-      "collected_at": "2026-06-05T06:11:06Z",
+      "collected_at": "2026-06-05T06:36:05Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -2964,6 +2990,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
           "grade": "B",
+          "language": "en",
           "published_at": "2025-10-01T11:00:23Z"
         }
       ]
@@ -2985,7 +3012,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-26T15:56:24Z",
-      "collected_at": "2026-06-05T06:11:16Z",
+      "collected_at": "2026-06-05T06:36:16Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3035,6 +3062,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/may/26/premier-league-2025-26-season-review-predictions-reality-liverpool-chelsea-brentford-sunderland",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-05-26T15:56:24Z"
         }
       ]
@@ -3044,7 +3072,7 @@
       "title": "PSG now stand alongside some of Europe’s best-ever, but with caveats | Jonathan Wilson",
       "title_zh": "PSG now stand alongside some of Europe’s best-ever, but with caveats | Jonathan Wilson",
       "title_translation_provider": "cache",
-      "player": "PSG now stand alongside some of Europe’s best-ever, but with caveats",
+      "player": "未知球员",
       "from_club": "Arsenal",
       "to_club": "Bayern Munich",
       "league": "英超",
@@ -3056,7 +3084,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T16:00:22Z",
-      "collected_at": "2026-06-05T06:11:35Z",
+      "collected_at": "2026-06-05T06:36:36Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3100,6 +3128,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/01/psg-champions-league-ligue-1-arsenal",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-01T16:00:22Z"
         }
       ]
@@ -3109,7 +3138,7 @@
       "title": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
       "title_zh": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
       "title_translation_provider": "cache",
-      "player": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "PSG",
       "league": "法甲",
@@ -3121,7 +3150,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2025-12-20T08:00:25Z",
-      "collected_at": "2026-06-05T06:11:35Z",
+      "collected_at": "2026-06-05T06:36:36Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3153,6 +3182,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2025/dec/20/ousmane-dembele-quietly-becomes-the-main-man-after-long-journey-to-the-top",
           "grade": "B",
+          "language": "en",
           "published_at": "2025-12-20T08:00:25Z"
         }
       ]
@@ -3174,7 +3204,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-31T16:21:01Z",
-      "collected_at": "2026-06-05T06:12:09Z",
+      "collected_at": "2026-06-05T06:37:01Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3217,6 +3247,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/2026/05/31/mercado-fichajes-laliga-altas-bajas-rumores-temporada-2026-27.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-05-31T16:21:01Z"
         }
       ]
@@ -3226,7 +3257,7 @@
       "title": "David Sánchez se rinde al fichaje de Anthony Gordon: “Así sí se puede pelear por una Liga de Campeones”",
       "title_zh": "David Sánchez se rinde al fichaje de Anthony Gordon: “Así sí se puede pelear por una Liga de Campeones”",
       "title_translation_provider": "cache",
-      "player": "David Sánchez se rinde al fichaje de Anthony Gordon",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3238,7 +3269,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-28T05:45:28Z",
-      "collected_at": "2026-06-05T06:12:19Z",
+      "collected_at": "2026-06-05T06:37:03Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3250,6 +3281,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/radio/2026/05/28/david-sanchez-rinde-fichaje-anthony-gordon-asi-pelear-liga-campeones.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-05-28T05:45:28Z"
         }
       ]
@@ -3259,7 +3291,7 @@
       "title": "Apollo no cambiará el mercado del Atlético",
       "title_zh": "Apollo no cambiará el mercado del Atlético",
       "title_translation_provider": "cache",
-      "player": "Apollo no cambiará el mercado del Atlético",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3271,18 +3303,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T13:23:24Z",
-      "collected_at": "2026-06-05T06:12:19Z",
+      "collected_at": "2026-06-05T06:37:03Z",
       "credibility_score": 58,
       "heat_score": 50,
-      "entities": [
-        {
-          "name": "Apollo no cambiará el mercado del Atlético",
-          "type": "player",
-          "description": "Apollo no cambiará el mercado del Atlético：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Apollo%20no%20cambiar%C3%A1%20el%20mercado%20del%20Atl%C3%A9tico",
-          "search_url": "https://www.google.com/search?q=Apollo%20no%20cambiar%C3%A1%20el%20mercado%20del%20Atl%C3%A9tico%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -3291,6 +3315,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/atletico/2026/05/27/apollo-cambiara-mercado-atletico.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-05-27T13:23:24Z"
         }
       ]
@@ -3300,7 +3325,7 @@
       "title": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
       "title_zh": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
       "title_translation_provider": "cache",
-      "player": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3312,7 +3337,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T11:44:56Z",
-      "collected_at": "2026-06-05T06:12:29Z",
+      "collected_at": "2026-06-05T06:37:03Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3324,6 +3349,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/celta/2026/05/27/aleix-febas-punto-cerrar-fichaje-celta.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-05-27T11:44:56Z"
         }
       ]
@@ -3333,7 +3359,7 @@
       "title": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Riquelme",
       "title_zh": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Riquelme",
       "title_translation_provider": "cache",
-      "player": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Rique",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3345,7 +3371,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T07:34:15Z",
-      "collected_at": "2026-06-05T06:12:29Z",
+      "collected_at": "2026-06-05T06:37:03Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3357,6 +3383,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/radio/2026/05/27/roberto-gomez-adelanta-dos-fichajes-galacticos-proyecto-enrique-riquelme.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-05-27T07:34:15Z"
         }
       ]
@@ -3366,7 +3393,7 @@
       "title": "Sarabia-Atleti: un acuerdo posible",
       "title_zh": "Sarabia-Atleti: un acuerdo posible",
       "title_translation_provider": "cache",
-      "player": "Sarabia-Atleti",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "PSG",
       "league": "法甲",
@@ -3378,7 +3405,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T02:55:07Z",
-      "collected_at": "2026-06-05T06:13:00Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3410,6 +3437,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654570485_630480.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T02:55:07Z"
         }
       ]
@@ -3419,7 +3447,7 @@
       "title": "Atasco extracomunitario",
       "title_zh": "Atasco extracomunitario",
       "title_translation_provider": "cache",
-      "player": "Atasco extracomunitario",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3431,7 +3459,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-10T10:43:04Z",
-      "collected_at": "2026-06-05T06:13:02Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3443,6 +3471,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/10/primera/1654857756_275569.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-10T10:43:04Z"
         }
       ]
@@ -3452,7 +3481,7 @@
       "title": "La mujer que tiene en sus manos el destino de Koundé",
       "title_zh": "La mujer que tiene en sus manos el destino de Koundé",
       "title_translation_provider": "cache",
-      "player": "La mujer que tiene en sus manos el destino de Koundé",
+      "player": "未知球员",
       "from_club": "Chelsea",
       "to_club": "Sevilla",
       "league": "英超",
@@ -3464,7 +3493,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T11:35:21Z",
-      "collected_at": "2026-06-05T06:13:02Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3507,6 +3536,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654601369_116889.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T11:35:21Z"
         }
       ]
@@ -3516,7 +3546,7 @@
       "title": "El PSG activa la opción B tras el 'no' de Tchouaméni",
       "title_zh": "El PSG activa la opción B tras el 'no' de Tchouaméni",
       "title_translation_provider": "cache",
-      "player": "El PSG activa la opción B tras el 'no' de Tchouaméni",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "PSG",
       "league": "法甲",
@@ -3528,7 +3558,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T20:42:45Z",
-      "collected_at": "2026-06-05T06:13:02Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3560,6 +3590,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654574960_969446.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T20:42:45Z"
         }
       ]
@@ -3569,7 +3600,7 @@
       "title": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
       "title_zh": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
       "title_translation_provider": "cache",
-      "player": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Valencia",
       "league": "西甲",
@@ -3581,7 +3612,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T02:53:15Z",
-      "collected_at": "2026-06-05T06:13:02Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3615,6 +3646,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654570302_937533.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T02:53:15Z"
         }
       ]
@@ -3624,7 +3656,7 @@
       "title": "Vinicius vale más que Haaland",
       "title_zh": "Vinicius vale más que Haaland",
       "title_translation_provider": "cache",
-      "player": "Vinicius vale más que Haaland",
+      "player": "Erling Haaland",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3636,16 +3668,22 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T19:30:46Z",
-      "collected_at": "2026-06-05T06:13:02Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
         {
-          "name": "Vinicius vale más que Haaland",
+          "name": "Erling Haaland",
           "type": "player",
-          "description": "Vinicius vale más que Haaland：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Vinicius%20vale%20m%C3%A1s%20que%20Haaland",
-          "search_url": "https://www.google.com/search?q=Vinicius%20vale%20m%C3%A1s%20que%20Haaland%20football%20transfer"
+          "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E6%9E%97%C2%B7%E5%93%88%E5%85%B0%E5%BE%B7",
+          "search_url": "https://www.google.com/search?q=Erling%20Haaland%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
+          "wiki_title": "埃尔林·哈兰德",
+          "source_language": "zh",
+          "wiki_variant": "zh-hans",
+          "translated_from": "Erling Haaland",
+          "wikidata_id": "Q529207"
         }
       ],
       "tags": [
@@ -3656,6 +3694,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654543267_949587.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-06T19:30:46Z"
         }
       ]
@@ -3665,7 +3704,7 @@
       "title": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
       "title_zh": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
       "title_translation_provider": "cache",
-      "player": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "葡超",
@@ -3677,7 +3716,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T09:08:02Z",
-      "collected_at": "2026-06-05T06:13:04Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [
@@ -3699,6 +3738,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654532857_495960.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T09:08:02Z"
         }
       ]
@@ -3708,7 +3748,7 @@
       "title": "Oficial: Álex Fernández renueva con el Cádiz hasta 2025",
       "title_zh": "Oficial: Álex Fernández renueva con el Cádiz hasta 2025",
       "title_translation_provider": "cache",
-      "player": "Oficial",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3720,7 +3760,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T15:54:13Z",
-      "collected_at": "2026-06-05T06:13:04Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3732,6 +3772,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654530456_456292.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-06T15:54:13Z"
         }
       ]
@@ -3741,7 +3782,7 @@
       "title": "Portugal recoloca a William Carvalho en el escaparate",
       "title_zh": "Portugal recoloca a William Carvalho en el escaparate",
       "title_translation_provider": "cache",
-      "player": "Portugal recoloca a William Carvalho en el escaparate",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3753,7 +3794,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T15:31:19Z",
-      "collected_at": "2026-06-05T06:13:04Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3765,6 +3806,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654528884_420445.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-06T15:31:19Z"
         }
       ]
@@ -3774,7 +3816,7 @@
       "title": "Lukaku, a la desesperada",
       "title_zh": "Lukaku, a la desesperada",
       "title_translation_provider": "cache",
-      "player": "Lukaku, a la desesperada",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3786,7 +3828,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T22:13:59Z",
-      "collected_at": "2026-06-05T06:13:04Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 58,
       "heat_score": 50,
       "entities": [],
@@ -3798,6 +3840,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654488380_939084.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-06T22:13:59Z"
         }
       ]
@@ -3806,7 +3849,7 @@
       "id": "bfa5ffbe7452022d",
       "title": "Superstar in Spain, doubted in Brazil: Will Vinicius convince a nation?",
       "title_zh": "Superstar in Spain, doubted in Brazil: Will Vinicius convince a nation?",
-      "title_translation_provider": "glossary",
+      "title_translation_provider": "cache",
       "player": "Superstar in Spain, doubted in Brazil",
       "from_club": "未知",
       "to_club": "未知",
@@ -3815,11 +3858,11 @@
       "status": "general",
       "summary": "Vinicius Junior is considered one of the best players in the world, but can he make the Brazilian public fall in love with him at the World Cup?",
       "summary_zh": "Vinicius Junior is considered one of the best players in the world, but can he make the Brazilian public fall in love with him at the World Cup?",
-      "translation_provider": "glossary",
+      "translation_provider": "cache",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T06:05:23Z",
-      "collected_at": "2026-06-05T06:10:22Z",
+      "collected_at": "2026-06-05T06:35:26Z",
       "credibility_score": 66,
       "heat_score": 76,
       "entities": [
@@ -3839,6 +3882,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c0l2rek0dj4o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T06:05:23Z"
         }
       ]
@@ -3848,7 +3892,7 @@
       "title": "Yamal-less Spain held by Iraq in WC sendoff",
       "title_zh": "Yamal-less Spain held by Iraq in WC sendoff",
       "title_translation_provider": "cache",
-      "player": "Yamal-less Spain held by Iraq in WC sendoff",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3860,18 +3904,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T05:54:52Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 68,
-      "entities": [
-        {
-          "name": "Yamal-less Spain held by Iraq in WC sendoff",
-          "type": "player",
-          "description": "Yamal-less Spain held by Iraq in WC sendoff：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Yamal-less%20Spain%20held%20by%20Iraq%20in%20WC%20sendoff",
-          "search_url": "https://www.google.com/search?q=Yamal-less%20Spain%20held%20by%20Iraq%20in%20WC%20sendoff%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -3880,6 +3916,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/report/_/gameId/401871471",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:54:52Z"
         }
       ]
@@ -3889,7 +3926,7 @@
       "title": "Liverpool name Iraola head coach, replacing Slot",
       "title_zh": "Liverpool name Iraola head coach, replacing Slot",
       "title_translation_provider": "cache",
-      "player": "Liverpool name Iraola head coach, replacing Slot",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Liverpool",
       "league": "英超",
@@ -3901,7 +3938,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T05:54:07Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 68,
       "entities": [
@@ -3934,6 +3971,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48945214/liverpool-appoint-andoni-iraola-arne-slot-successor",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:54:07Z"
         }
       ]
@@ -3943,7 +3981,7 @@
       "title": "Japan ditches pre-WC training site over poor pitch...",
       "title_zh": "Japan ditches pre-WC training site over poor pitch...",
       "title_translation_provider": "cache",
-      "player": "Japan ditches pre-WC training site over poor pitch...",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3955,7 +3993,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T05:54:07Z",
-      "collected_at": "2026-06-05T06:10:40Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 68,
       "entities": [],
@@ -3967,6 +4005,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48968591/japan-world-cup-training-pitch-monterrey-mexico-tigres",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:54:07Z"
         }
       ]
@@ -3976,7 +4015,7 @@
       "title": "Mexico rout Serbia in festive final WCup warmup",
       "title_zh": "Mexico rout Serbia in festive final WCup warmup",
       "title_translation_provider": "cache",
-      "player": "Mexico rout Serbia in festive final WCup warmup",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -3988,18 +4027,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T05:54:07Z",
-      "collected_at": "2026-06-05T06:10:40Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 68,
-      "entities": [
-        {
-          "name": "Mexico rout Serbia in festive final WCup warmup",
-          "type": "player",
-          "description": "Mexico rout Serbia in festive final WCup warmup：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Mexico%20rout%20Serbia%20in%20festive%20final%20WCup%20warmup",
-          "search_url": "https://www.google.com/search?q=Mexico%20rout%20Serbia%20in%20festive%20final%20WCup%20warmup%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -4008,6 +4039,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48971934/mexico-earn-dominant-5-1-victory-world-cup-sendoff-match",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:54:07Z"
         }
       ]
@@ -4029,7 +4061,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T05:28:32Z",
-      "collected_at": "2026-06-05T06:10:19Z",
+      "collected_at": "2026-06-05T06:35:23Z",
       "credibility_score": 66,
       "heat_score": 68,
       "entities": [
@@ -4049,6 +4081,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/czr2p81g5zro?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T05:28:32Z"
         }
       ]
@@ -4058,7 +4091,7 @@
       "title": "Which World Cup records are most likely to be brok...",
       "title_zh": "Which World Cup records are most likely to be brok...",
       "title_translation_provider": "cache",
-      "player": "Which World Cup records are most likely to be brok...",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -4070,7 +4103,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T02:56:49Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 76,
       "entities": [],
@@ -4082,6 +4115,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48891969/which-world-cup-records-most-likely-broken-2026",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T02:56:49Z"
         }
       ]
@@ -4091,7 +4125,7 @@
       "title": "Get ready for the biggest World Cup ever! What you...",
       "title_zh": "Get ready for the biggest World Cup ever! What you...",
       "title_translation_provider": "cache",
-      "player": "Get ready for the biggest World Cup ever! What you...",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -4103,7 +4137,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-05T02:56:49Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:34Z",
       "credibility_score": 66,
       "heat_score": 68,
       "entities": [],
@@ -4115,6 +4149,7 @@
           "name": "ESPN Soccer",
           "url": "https://www.espn.com/soccer/story/_/id/48871263/world-cup-2026-key-players-facts-expectations-fixtures-odds-all-48-teams",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-05T02:56:49Z"
         }
       ]
@@ -4124,7 +4159,7 @@
       "title": "Florentino se viene arriba: \"Haré la mayor oferta de la historia del club por un jugador: unos 150 millones\"",
       "title_zh": "Florentino se viene arriba: \"Haré la mayor oferta de la historia del 俱乐部 por un jugador: unos 150 millones\"",
       "title_translation_provider": "cache",
-      "player": "Florentino se viene arriba",
+      "player": "Erling Haaland",
       "from_club": "未知",
       "to_club": "Manchester City",
       "league": "英超",
@@ -4136,10 +4171,23 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T21:52:20Z",
-      "collected_at": "2026-06-05T06:11:48Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
+        {
+          "name": "Erling Haaland",
+          "type": "player",
+          "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%B0%94%E6%9E%97%C2%B7%E5%93%88%E5%85%B0%E5%BE%B7",
+          "search_url": "https://www.google.com/search?q=Erling%20Haaland%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
+          "wiki_title": "埃尔林·哈兰德",
+          "source_language": "zh",
+          "wiki_variant": "zh-hans",
+          "translated_from": "Erling Haaland",
+          "wikidata_id": "Q529207"
+        },
         {
           "name": "Manchester City",
           "type": "club",
@@ -4170,6 +4218,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/real-madrid/2026/06/04/florentino-viene-hare-mayor-oferta-historia-club-jugador-150-millones.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-04T21:52:20Z"
         }
       ]
@@ -4179,7 +4228,7 @@
       "title": "Real Madrid chief provides future updates on 3 Blancos stars",
       "title_zh": "Real Madrid chief provides future updates on 3 Blancos stars",
       "title_translation_provider": "cache",
-      "player": "Real Madrid chief provides future updates on 3 Blancos stars",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -4191,7 +4240,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T21:30:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:38:58Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -4225,6 +4274,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/real-madrid-chief-provides-future-updates-on-3-blancos-stars/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T21:30:00Z"
         }
       ]
@@ -4246,7 +4296,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T21:25:43Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:15Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4266,6 +4316,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/feature-cherki-konate-thuram-three-winners-and-three-losers-as-france-fall-to-defeat-against-ivory-coast/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T21:25:43Z"
         }
       ]
@@ -4275,7 +4326,7 @@
       "title": "NI's record side show grit beyond their years",
       "title_zh": "NI's record side show grit beyond their years",
       "title_translation_provider": "cache",
-      "player": "NI's record side show grit beyond their years",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -4287,7 +4338,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T21:18:17Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [],
@@ -4299,6 +4350,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c7v9ve8415mo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T21:18:17Z"
         }
       ]
@@ -4308,7 +4360,7 @@
       "title": "Barcelona & Real Madrid stars could join forces at Ajax this summer",
       "title_zh": "Barcelona & Real Madrid stars could join forces at Ajax this 夏窗",
       "title_translation_provider": "cache",
-      "player": "Barcelona & Real Madrid stars could join forces at Ajax this summer",
+      "player": "未知球员",
       "from_club": "Barcelona",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -4320,7 +4372,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T21:10:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:38:58Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -4364,6 +4416,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/barcelona-real-madrid-stars-could-join-forces-at-ajax-this-summer/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T21:10:00Z"
         }
       ]
@@ -4373,7 +4426,7 @@
       "title": "Celtic fan groups state opposition to Keane",
       "title_zh": "Celtic fan groups state opposition to Keane",
       "title_translation_provider": "cache",
-      "player": "Celtic fan groups state opposition to Keane",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -4385,18 +4438,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:53:13Z",
-      "collected_at": "2026-06-05T06:10:24Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 66,
       "heat_score": 64,
-      "entities": [
-        {
-          "name": "Celtic fan groups state opposition to Keane",
-          "type": "player",
-          "description": "Celtic fan groups state opposition to Keane：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Celtic%20fan%20groups%20state%20opposition%20to%20Keane",
-          "search_url": "https://www.google.com/search?q=Celtic%20fan%20groups%20state%20opposition%20to%20Keane%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -4405,6 +4450,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/c33234zxvl8o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T20:53:13Z"
         }
       ]
@@ -4426,7 +4472,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:50:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:38:58Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4474,6 +4520,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/benfica-confirm-real-madrids-steep-payment-for-jose-mourinho/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T20:50:00Z"
         }
       ]
@@ -4483,7 +4530,7 @@
       "title": "Liverpool step up Diomande pursuit - Friday's gossip",
       "title_zh": "Liverpool step up Diomande pursuit - Friday's gossip",
       "title_translation_provider": "cache",
-      "player": "Liverpool step up Diomande pursuit",
+      "player": "未知球员",
       "from_club": "Arsenal",
       "to_club": "Liverpool",
       "league": "英超",
@@ -4495,7 +4542,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:47:09Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4538,6 +4585,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cz727jjzyvqo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T20:47:09Z"
         }
       ]
@@ -4547,7 +4595,7 @@
       "title": "Official: Real Madrid star wins La Liga Goal of the Season",
       "title_zh": "Official: Real Madrid star wins La Liga Goal of the Season",
       "title_translation_provider": "cache",
-      "player": "Official",
+      "player": "未知球员",
       "from_club": "Real Madrid",
       "to_club": "LaLiga",
       "league": "西甲",
@@ -4559,7 +4607,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T19:40:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -4605,6 +4653,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/official-real-madrid-star-wins-la-liga-goal-of-the-season/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T19:40:00Z"
         }
       ]
@@ -4614,7 +4663,7 @@
       "title": "Barcelona respond to fresh links with Juventus star",
       "title_zh": "Barcelona respond to fresh links with Juventus star",
       "title_translation_provider": "cache",
-      "player": "Barcelona respond to fresh links with Juventus star",
+      "player": "未知球员",
       "from_club": "Barcelona",
       "to_club": "Juventus",
       "league": "西甲",
@@ -4626,7 +4675,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T19:15:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -4670,6 +4719,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/barcelona-respond-to-fresh-links-with-juventus-star/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T19:15:00Z"
         }
       ]
@@ -4679,7 +4729,7 @@
       "title": "Cosmi: ‘Keep Baldini – he reaches people in a way that Italy desperately needs right now’",
       "title_zh": "Cosmi: ‘Keep Baldini – he reaches people in a way that Italy desperately needs right now’",
       "title_translation_provider": "cache",
-      "player": "Cosmi",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -4691,7 +4741,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T19:15:00Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -4703,6 +4753,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/journeyman-coach-cosmi-urges-italy-baldini/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T19:15:00Z"
         }
       ]
@@ -4712,7 +4763,7 @@
       "title": "National team boss admits he wanted Real Madrid signing to join Barcelona",
       "title_zh": "National team boss admits he wanted Real Madrid 签约 to join Barcelona",
       "title_translation_provider": "cache",
-      "player": "National team boss admits he wanted Real Madrid signing to join Barcelona",
+      "player": "未知球员",
       "from_club": "Barcelona",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -4724,7 +4775,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:50:00Z",
-      "collected_at": "2026-06-05T06:13:13Z",
+      "collected_at": "2026-06-05T06:39:02Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4768,6 +4819,7 @@
           "name": "Get Spanish Football News",
           "url": "https://getfootballnewsspain.com/national-team-boss-admits-he-wanted-real-madrid-signing-to-join-barcelona/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:50:00Z"
         }
       ]
@@ -4777,7 +4829,7 @@
       "title": "Napoli legend Lavezzi backs Allegri appointment: ‘He can take them even higher’",
       "title_zh": "Napoli legend Lavezzi backs Allegri appointment: ‘He can take them even higher’",
       "title_translation_provider": "cache",
-      "player": "Napoli legend Lavezzi backs Allegri appointment",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Napoli",
       "league": "意甲",
@@ -4789,7 +4841,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:28:37Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4822,6 +4874,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/lavezzi-backs-allegri-to-take-napoli-higher/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:28:37Z"
         }
       ]
@@ -4831,7 +4884,7 @@
       "title": "EXCLUSIVE | Franck Leboeuf on the Champions League final: ‘The right team won in the end.’",
       "title_zh": "EXCLUSIVE | Franck Leboeuf on the Champions League final: ‘The right team won in the end.’",
       "title_translation_provider": "cache",
-      "player": "EXCLUSIVE | Franck Leboeuf on the Champions League final",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Chelsea",
       "league": "英超",
@@ -4843,7 +4896,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:27:12Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -4876,6 +4929,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/exclusive-franck-leboeuf-on-the-champions-league-final-the-right-team-won-in-the-end/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:27:12Z"
         }
       ]
@@ -4885,7 +4939,7 @@
       "title": "‘We’d like him to stay’: Manchester United’s Berrada hints at Bruno Fernandes doubts",
       "title_zh": "‘We’d like him to stay’: Manchester United’s Berrada hints at Bruno Fernandes doubts",
       "title_translation_provider": "cache",
-      "player": "‘We’d like him to stay’",
+      "player": "未知球员",
       "from_club": "Manchester United",
       "to_club": "Premier League",
       "league": "英超",
@@ -4897,7 +4951,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:25:02Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -4941,6 +4995,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/wed-like-him-to-stay-manchester-uniteds-berrada-hints-at-bruno-fernandes-doubts",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:25:02Z"
         }
       ]
@@ -4962,7 +5017,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:24:43Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:07Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5001,6 +5056,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/switzerlands-dan-ndoye-why-world-cup-can-be-a-game-changer/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:24:43Z"
         }
       ]
@@ -5022,7 +5078,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:14:40Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:17Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5061,6 +5117,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/nottingham-forest-making-progress-in-move-for-romas-jan-ziolkowski/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T18:14:40Z"
         }
       ]
@@ -5070,7 +5127,7 @@
       "title": "Will Still to replace Auxerre head coach Christophe Pélissier",
       "title_zh": "Will Still to replace Auxerre head coach Christophe Pélissier",
       "title_translation_provider": "cache",
-      "player": "Will Still to replace Auxerre head coach Christophe Pélissier",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Ligue 1",
       "league": "法甲",
@@ -5082,7 +5139,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T17:45:58Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5115,6 +5172,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/will-still-to-replace-auxerre-head-coach-christophe-pelissier/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T17:45:58Z"
         }
       ]
@@ -5124,7 +5182,7 @@
       "title": "‘Carlos Cuesta and Parma – together again’ as club confirm former Arsenal assistant’s future",
       "title_zh": "‘Carlos Cuesta and Parma – together again’ as 俱乐部 confirm former Arsenal assistant’s future",
       "title_translation_provider": "cache",
-      "player": "‘Carlos Cuesta and Parma – together again’ as club confirm former Arsenal assist",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Arsenal",
       "league": "英超",
@@ -5136,7 +5194,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T17:20:31Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5169,6 +5227,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/carlos-cuesta-and-parma-together-again/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T17:20:31Z"
         }
       ]
@@ -5178,7 +5237,7 @@
       "title": "Tare’s difficult summer deepens as former Milan DS placed under investigation in Albania",
       "title_zh": "Tare’s difficult 夏窗 deepens as former Milan DS placed under investigation in Albania",
       "title_translation_provider": "cache",
-      "player": "Tare’s difficult summer deepens as former Milan DS placed under investigation in",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5190,7 +5249,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T17:00:17Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5202,6 +5261,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/tare-milan-dismissal-investigation-albania/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T17:00:17Z"
         }
       ]
@@ -5211,7 +5271,7 @@
       "title": "Juventus pursuit of Kolo Muani does not rule out Sorloth from Atletico Madrid",
       "title_zh": "Juventus pursuit of Kolo Muani does not rule out Sorloth from Atletico Madrid",
       "title_translation_provider": "cache",
-      "player": "Juventus pursuit of Kolo Muani does not rule out Sorloth from Atletico Madrid",
+      "player": "未知球员",
       "from_club": "Juventus",
       "to_club": "Atletico",
       "league": "西甲",
@@ -5223,7 +5283,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:58:12Z",
-      "collected_at": "2026-06-05T06:11:37Z",
+      "collected_at": "2026-06-05T06:36:38Z",
       "credibility_score": 66,
       "heat_score": 72,
       "entities": [
@@ -5264,6 +5324,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/juventus-kolo-muani-doesnt-rule-out-sorloth/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:58:12Z"
         }
       ]
@@ -5273,7 +5334,7 @@
       "title": "Who is Kennet Eichhorn? Hertha Berlin’s teenage sensation attracting Europe’s biggest clubs",
       "title_zh": "Who is Kennet Eichhorn? Hertha Berlin’s teenage sensation attracting Europe’s biggest clubs",
       "title_translation_provider": "cache",
-      "player": "Who is Kennet Eichhorn? Hertha Berlin’s teenage sensation attracting Europe’s bi",
+      "player": "未知球员",
       "from_club": "Borussia Dortmund",
       "to_club": "Liverpool",
       "league": "英超",
@@ -5285,7 +5346,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:30:00Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:49Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5329,6 +5390,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/who-is-kennet-eichhorn-liverpool-dortmund-bayern-interest/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:30:00Z"
         }
       ]
@@ -5338,7 +5400,7 @@
       "title": "Napoli President leaves De Bruyne decision to Allegri but warns: ‘Plenty of footballers out there’",
       "title_zh": "Napoli President leaves De Bruyne decision to Allegri but warns: ‘Plenty of footballers out there’",
       "title_translation_provider": "cache",
-      "player": "Napoli President leaves De Bruyne decision to Allegri but warns",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Napoli",
       "league": "意甲",
@@ -5350,7 +5412,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:21:04Z",
-      "collected_at": "2026-06-05T06:11:47Z",
+      "collected_at": "2026-06-05T06:36:48Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5383,6 +5445,7 @@
           "name": "Football Italia",
           "url": "https://football-italia.net/adl-leaves-de-bruyne-decision-to-allegri/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:21:04Z"
         }
       ]
@@ -5392,7 +5455,7 @@
       "title": "What is happening with World Cup ticket prices?",
       "title_zh": "What is happening with World Cup ticket prices?",
       "title_translation_provider": "cache",
-      "player": "What is happening with World Cup ticket prices?",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5404,7 +5467,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:12:16Z",
-      "collected_at": "2026-06-05T06:10:30Z",
+      "collected_at": "2026-06-05T06:35:33Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5416,6 +5479,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/ckgpv7v4p9lo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T16:12:16Z"
         }
       ]
@@ -5425,7 +5489,7 @@
       "title": "Lens’ Allan Saint-Maximin reaches agreement with Charlotte to join the MLS",
       "title_zh": "Lens’ Allan Saint-Maximin reaches agreement with Charlotte to join the MLS",
       "title_translation_provider": "cache",
-      "player": "Lens’ Allan Saint-Maximin reaches agreement with Charlotte to join the MLS",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "MLS",
       "league": "沙特/其他",
@@ -5437,23 +5501,31 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T15:42:58Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:26Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
         {
           "name": "MLS",
           "type": "club",
-          "description": "MLS：新闻中提到的俱乐部或目标球队。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=MLS",
-          "search_url": "https://www.google.com/search?q=MLS%20football%20transfer"
+          "description": "美國職業足球大聯盟（英語：Major League Soccer，縮寫：MLS），簡稱美足聯或美職聯，是美國及加拿大頂級足球聯賽。MLS由二十七支美國球隊及三支加拿大球隊組成。賽季為三月至十二月，每支球隊進行三十四場例行賽，首名贏得支持者盾。東西區各七支例行賽戰績最佳的球隊以及外卡賽的勝方晉級季後賽，勝者贏得大聯盟盃。MLS成立於1993年。1996年舉行首屆賽事。相較於由獨立運作的各隊所組成的聯盟，MLS採單一實體架構（single-entity）運行，每一支球隊都為聯盟的投資者所有及控制。MLS為封閉會員制，為世上少數沒有升降級制度的足球聯盟。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E8%81%B7%E6%A5%AD%E8%B6%B3%E7%90%83%E5%A4%A7%E8%81%AF%E7%9B%9F",
+          "search_url": "https://www.google.com/search?q=MLS%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png",
+          "wiki_title": "美國職業足球大聯盟",
+          "source_language": "zh",
+          "wiki_variant": "original"
         },
         {
           "name": "沙特/其他",
           "type": "league",
-          "description": "沙特/其他：该条新闻归类到的联赛或地区。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B2%99%E7%89%B9/%E5%85%B6%E4%BB%96",
-          "search_url": "https://www.google.com/search?q=%E6%B2%99%E7%89%B9/%E5%85%B6%E4%BB%96%20football%20transfer"
+          "description": "穆罕默德·沙特·賓華馬（阿拉伯語：محمد سعيد بن رحمة；1995年8月10日—）是一名阿爾及利亞足球運動員，目前効力於沙特職業足球聯賽球隊尼奥姆，阿爾及利亞國家足球隊成員，位置為翼鋒及進攻中場。 賓華馬在尼斯開始他的職業生涯，後來在他的早期職業生涯中被借用到昂熱、阿些斯奧和查多魯。在2018年夏季轉會窗轉會到賓福特後，他在英冠中嶄露頭角，他為此西倫敦球會出場83場及射入27球後。在2021年借用形式加盟韋斯咸，期後永久轉會至此東倫敦球會。",
+          "wiki_url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E7%89%B9%C2%B7%E8%B3%93%E8%8F%AF%E9%A6%AC",
+          "search_url": "https://www.google.com/search?q=%E6%B2%99%E7%89%B9/%E5%85%B6%E4%BB%96%20football%20transfer",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sa%C3%AFd_Benrahma_-_20240326.jpg/500px-Sa%C3%AFd_Benrahma_-_20240326.jpg",
+          "wiki_title": "沙特·賓華馬",
+          "source_language": "zh",
+          "wiki_variant": "original"
         }
       ],
       "tags": [
@@ -5464,6 +5536,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/lens-allan-saint-maximin-reaches-agreement-with-charlotte-to-join-the-mls/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T15:42:58Z"
         }
       ]
@@ -5473,7 +5546,7 @@
       "title": "Lionesses seek to tame Spain again and show they are ready to conquer the world",
       "title_zh": "Lionesses seek to tame Spain again and show they are ready to conquer the world",
       "title_translation_provider": "cache",
-      "player": "Lionesses seek to tame Spain again and show they are ready to conquer the world",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5485,7 +5558,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T15:31:17Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5497,6 +5570,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/lionesses-seek-to-tame-spain-again-and-show-they-are-ready-to-conquer-the-world",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T15:31:17Z"
         }
       ]
@@ -5506,7 +5580,7 @@
       "title": "Marco Palestra ready to reject Premier League move and join Inter",
       "title_zh": "Marco Palestra ready to reject Premier League move and join Inter",
       "title_translation_provider": "cache",
-      "player": "Marco Palestra ready to reject Premier League move and join Inter",
+      "player": "未知球员",
       "from_club": "Atalanta",
       "to_club": "Inter Milan",
       "league": "英超",
@@ -5518,7 +5592,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:41:55Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:28Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5559,6 +5633,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/marco-palestra-ready-to-reject-premier-league-move-and-join-inter/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:41:55Z"
         }
       ]
@@ -5568,7 +5643,7 @@
       "title": "‘A real health risk’: Fifa ban on reusable water bottles sparks anger among fans",
       "title_zh": "‘A real health risk’: Fifa ban on reusable water bottles sparks anger among fans",
       "title_translation_provider": "cache",
-      "player": "‘A real health risk’",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5580,7 +5655,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:39:17Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5592,6 +5667,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/fifa-bans-reusable-water-bottles-world-cup-stadiums",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:39:17Z"
         }
       ]
@@ -5613,7 +5689,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:33:23Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:37Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5663,6 +5739,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/exclusive-psg-not-in-for-bournemouths-eli-junior-kroupi/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:33:23Z"
         }
       ]
@@ -5672,7 +5749,7 @@
       "title": "3 Serie A players who can be key at the World Cup",
       "title_zh": "3 Serie A players who can be key at the World Cup",
       "title_translation_provider": "cache",
-      "player": "3 Serie A players who can be key at the World Cup",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Serie A",
       "league": "意甲",
@@ -5684,7 +5761,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:25:59Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:42Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5716,6 +5793,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/3-serie-a-players-who-can-be-key-at-the-world-cup/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:25:59Z"
         }
       ]
@@ -5725,7 +5803,7 @@
       "title": "Nantes considering Michel Der Zakarian for a direct return to Ligue 1",
       "title_zh": "Nantes considering Michel Der Zakarian for a direct return to Ligue 1",
       "title_translation_provider": "cache",
-      "player": "Nantes considering Michel Der Zakarian for a direct return to Ligue 1",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Ligue 1",
       "league": "法甲",
@@ -5737,7 +5815,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:09:27Z",
-      "collected_at": "2026-06-05T06:13:06Z",
+      "collected_at": "2026-06-05T06:37:47Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5770,6 +5848,7 @@
           "name": "Get French Football News",
           "url": "https://www.getfootballnewsfrance.com/2026/nantes-considering-michel-der-zakarian-for-a-direct-return-to-ligue-1/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T13:09:27Z"
         }
       ]
@@ -5779,7 +5858,7 @@
       "title": "How Werder Bremen can build a squad capable of competing for Europe",
       "title_zh": "How Werder Bremen can build a squad capable of competing for Europe",
       "title_translation_provider": "cache",
-      "player": "How Werder Bremen can build a squad capable of competing for Europe",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Bundesliga",
       "league": "德甲",
@@ -5791,7 +5870,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T11:30:00Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:49Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5824,6 +5903,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/how-bremen-can-build-squad-capable-competing-europe/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T11:30:00Z"
         }
       ]
@@ -5833,7 +5913,7 @@
       "title": "Bracketology: predict a path to World Cup victory",
       "title_zh": "Bracketology: predict a path to World Cup victory",
       "title_translation_provider": "cache",
-      "player": "Bracketology",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5845,7 +5925,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T10:00:48Z",
-      "collected_at": "2026-06-05T06:11:00Z",
+      "collected_at": "2026-06-05T06:35:45Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5857,6 +5937,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/bracketology-predict-a-path-to-world-cup-victory",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T10:00:48Z"
         }
       ]
@@ -5866,7 +5947,7 @@
       "title": "Who would England be likely to play if they reach the World Cup final?",
       "title_zh": "Who would England be likely to play if they reach the World Cup final?",
       "title_translation_provider": "cache",
-      "player": "Who would England be likely to play if they reach the World Cup final?",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -5878,7 +5959,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T09:48:36Z",
-      "collected_at": "2026-06-05T06:11:01Z",
+      "collected_at": "2026-06-05T06:35:56Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [],
@@ -5890,6 +5971,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/2026/jun/04/england-play-world-cup-final-dr-congo-mexico-brazil-argentina-spain",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T09:48:36Z"
         }
       ]
@@ -5911,7 +5993,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:55:49Z",
-      "collected_at": "2026-06-05T06:10:50Z",
+      "collected_at": "2026-06-05T06:35:35Z",
       "credibility_score": 66,
       "heat_score": 64,
       "entities": [
@@ -5931,6 +6013,7 @@
           "name": "The Guardian Football",
           "url": "https://www.theguardian.com/football/ng-interactive/2026/jun/04/world-cup-2026-complete-player-guide",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-04T08:55:49Z"
         }
       ]
@@ -5940,7 +6023,7 @@
       "title": "Argentina’s Nico Paz fighting for fitness ahead of FIFA World Cup",
       "title_zh": "Argentina’s Nico Paz fighting for fitness ahead of FIFA World Cup",
       "title_translation_provider": "cache",
-      "player": "Argentina’s Nico Paz fighting for fitness ahead of FIFA World Cup",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Serie A",
       "league": "意甲",
@@ -5952,7 +6035,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T19:24:23Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:42Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
@@ -5984,6 +6067,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/argentinas-nico-paz-fighting-for-fitness-ahead-of-fifa-world-cup/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T19:24:23Z"
         }
       ]
@@ -6005,7 +6089,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T18:54:46Z",
-      "collected_at": "2026-06-05T06:13:09Z",
+      "collected_at": "2026-06-05T06:38:43Z",
       "credibility_score": 66,
       "heat_score": 67,
       "entities": [
@@ -6025,6 +6109,7 @@
           "name": "Get Italian Football News",
           "url": "https://www.getfootballnewsitaly.com/2026/fifa-world-cup-2026-why-bosnias-tarik-muharemovic-is-a-man-to-watch-out-for/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T18:54:46Z"
         }
       ]
@@ -6034,7 +6119,7 @@
       "title": "Raúl Jardiel, nuevo entrenador del Huesca",
       "title_zh": "Raúl Jardiel, nuevo entrenador del Huesca",
       "title_translation_provider": "cache",
-      "player": "Raúl Jardiel, nuevo entrenador del Huesca",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6046,18 +6131,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T17:37:58Z",
-      "collected_at": "2026-06-05T06:11:58Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 66,
       "heat_score": 59,
-      "entities": [
-        {
-          "name": "Raúl Jardiel, nuevo entrenador del Huesca",
-          "type": "player",
-          "description": "Raúl Jardiel, nuevo entrenador del Huesca：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Ra%C3%BAl%20Jardiel%2C%20nuevo%20entrenador%20del%20Huesca",
-          "search_url": "https://www.google.com/search?q=Ra%C3%BAl%20Jardiel%2C%20nuevo%20entrenador%20del%20Huesca%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -6066,6 +6143,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/huesca/2026/06/03/raul-jardiel-nuevo-entrenador-huesca.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T17:37:58Z"
         }
       ]
@@ -6075,7 +6153,7 @@
       "title": "Terzic dio el sí a la renovación de Yuri y ahora espera la respuesta del club",
       "title_zh": "Terzic dio el sí a la renovación de Yuri y ahora espera la respuesta del 俱乐部",
       "title_translation_provider": "cache",
-      "player": "Terzic dio el sí a la renovación de Yuri y ahora espera la respuesta del club",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6087,7 +6165,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T12:31:32Z",
-      "collected_at": "2026-06-05T06:12:01Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [],
@@ -6099,6 +6177,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/athletic/2026/06/03/terzic-dio-renovacion-yuri-espera-respuesta-club.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T12:31:32Z"
         }
       ]
@@ -6108,7 +6187,7 @@
       "title": "Thierry Correia se marcha al Venezia",
       "title_zh": "Thierry Correia se marcha al Venezia",
       "title_translation_provider": "cache",
-      "player": "Thierry Correia se marcha al Venezia",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Valencia",
       "league": "西甲",
@@ -6120,17 +6199,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T11:53:52Z",
-      "collected_at": "2026-06-05T06:12:01Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
-        {
-          "name": "Thierry Correia se marcha al Venezia",
-          "type": "player",
-          "description": "Thierry Correia se marcha al Venezia：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Thierry%20Correia%20se%20marcha%20al%20Venezia",
-          "search_url": "https://www.google.com/search?q=Thierry%20Correia%20se%20marcha%20al%20Venezia%20football%20transfer"
-        },
         {
           "name": "Valencia",
           "type": "club",
@@ -6161,6 +6233,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/valencia/2026/06/03/thierry-correia-marcha-venezia.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T11:53:52Z"
         }
       ]
@@ -6170,7 +6243,7 @@
       "title": "El Celta da el paso con Jesús Vázquez y el Valencia le cierra la puerta",
       "title_zh": "El Celta da el paso con Jesús Vázquez y el Valencia le cierra la puerta",
       "title_translation_provider": "cache",
-      "player": "El Celta da el paso con Jesús Vázquez y el Valencia le cierra la puerta",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Valencia",
       "league": "西甲",
@@ -6182,7 +6255,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T10:36:40Z",
-      "collected_at": "2026-06-05T06:12:03Z",
+      "collected_at": "2026-06-05T06:36:49Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
@@ -6216,6 +6289,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/futbol/valencia/2026/06/03/celta-da-paso-jesus-vazquez-valencia-le-cierra-puerta.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T10:36:40Z"
         }
       ]
@@ -6237,7 +6311,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T07:48:01Z",
-      "collected_at": "2026-06-05T06:12:03Z",
+      "collected_at": "2026-06-05T06:36:50Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [
@@ -6268,6 +6342,7 @@
           "name": "Marca Fichajes",
           "url": "https://www.marca.com/radio/2026/06/03/pregunta-entorno-dumfries-madrid-cambiara-sistema-juego-jugador.html",
           "grade": "B",
+          "language": "es",
           "published_at": "2026-06-03T07:48:01Z"
         }
       ]
@@ -6277,7 +6352,7 @@
       "title": "Germany’s itinerary ahead of USMNT friendly",
       "title_zh": "Germany’s itinerary ahead of USMNT friendly",
       "title_translation_provider": "cache",
-      "player": "Germany’s itinerary ahead of USMNT friendly",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6289,7 +6364,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T07:43:57Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:49Z",
       "credibility_score": 66,
       "heat_score": 59,
       "entities": [],
@@ -6301,6 +6376,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/germany-itinerary-usmnt/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T07:43:57Z"
         }
       ]
@@ -6310,7 +6386,7 @@
       "title": "Alejandro Grimaldo wants to play in LaLiga",
       "title_zh": "Alejandro Grimaldo wants to play in LaLiga",
       "title_translation_provider": "cache",
-      "player": "Alejandro Grimaldo wants to play in LaLiga",
+      "player": "未知球员",
       "from_club": "LaLiga",
       "to_club": "Leverkusen",
       "league": "西甲",
@@ -6322,17 +6398,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T07:08:45Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:37:50Z",
       "credibility_score": 66,
       "heat_score": 67,
       "entities": [
-        {
-          "name": "Alejandro Grimaldo wants to play in LaLiga",
-          "type": "player",
-          "description": "Alejandro Grimaldo wants to play in LaLiga：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Alejandro%20Grimaldo%20wants%20to%20play%20in%20LaLiga",
-          "search_url": "https://www.google.com/search?q=Alejandro%20Grimaldo%20wants%20to%20play%20in%20LaLiga%20football%20transfer"
-        },
         {
           "name": "LaLiga",
           "type": "club",
@@ -6375,6 +6444,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/grimaldo-la-liga-leverkusen/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-03T07:08:45Z"
         }
       ]
@@ -6384,7 +6454,7 @@
       "title": "Borussia Dortmund quartet set for exit",
       "title_zh": "Borussia Dortmund quartet set for exit",
       "title_translation_provider": "cache",
-      "player": "Borussia Dortmund quartet set for exit",
+      "player": "未知球员",
       "from_club": "Borussia Dortmund",
       "to_club": "Dortmund",
       "league": "德甲",
@@ -6396,17 +6466,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T09:01:13Z",
-      "collected_at": "2026-06-05T06:13:08Z",
+      "collected_at": "2026-06-05T06:38:02Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [
-        {
-          "name": "Borussia Dortmund quartet set for exit",
-          "type": "player",
-          "description": "Borussia Dortmund quartet set for exit：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Borussia%20Dortmund%20quartet%20set%20for%20exit",
-          "search_url": "https://www.google.com/search?q=Borussia%20Dortmund%20quartet%20set%20for%20exit%20football%20transfer"
-        },
         {
           "name": "Borussia Dortmund",
           "type": "club",
@@ -6444,6 +6507,7 @@
           "name": "Get German Football News",
           "url": "https://www.getfootballnewsgermany.com/2026/borussia-dortmund-quartet-set-for-exit-campbell/",
           "grade": "B",
+          "language": "en",
           "published_at": "2026-06-01T09:01:13Z"
         }
       ]
@@ -6453,7 +6517,7 @@
       "title": "El oscuro túnel de Kubo",
       "title_zh": "El oscuro túnel de Kubo",
       "title_translation_provider": "cache",
-      "player": "El oscuro túnel de Kubo",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6465,18 +6529,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-08T21:11:29Z",
-      "collected_at": "2026-06-05T06:12:30Z",
+      "collected_at": "2026-06-05T06:37:04Z",
       "credibility_score": 66,
       "heat_score": 50,
-      "entities": [
-        {
-          "name": "El oscuro túnel de Kubo",
-          "type": "player",
-          "description": "El oscuro túnel de Kubo：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=El%20oscuro%20t%C3%BAnel%20de%20Kubo",
-          "search_url": "https://www.google.com/search?q=El%20oscuro%20t%C3%BAnel%20de%20Kubo%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -6485,6 +6541,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/08/primera/1654721922_437209.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-08T21:11:29Z"
         }
       ]
@@ -6494,7 +6551,7 @@
       "title": "Arribas está preparado",
       "title_zh": "Arribas está preparado",
       "title_translation_provider": "cache",
-      "player": "Arribas está preparado",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Real Madrid",
       "league": "西甲",
@@ -6506,7 +6563,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T21:44:33Z",
-      "collected_at": "2026-06-05T06:13:00Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [
@@ -6540,6 +6597,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654544724_521091.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T21:44:33Z"
         }
       ]
@@ -6549,7 +6607,7 @@
       "title": "Vuelven cuatro cedidos",
       "title_zh": "Vuelven cuatro cedidos",
       "title_translation_provider": "cache",
-      "player": "Vuelven cuatro cedidos",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6561,7 +6619,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T17:01:38Z",
-      "collected_at": "2026-06-05T06:12:49Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [],
@@ -6573,6 +6631,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/06/primera/1654524738_587949.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T17:01:38Z"
         }
       ]
@@ -6582,7 +6641,7 @@
       "title": "Gavi manda indirectas al Barça",
       "title_zh": "Gavi manda indirectas al Barça",
       "title_translation_provider": "cache",
-      "player": "Gavi manda indirectas al Barça",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "Barcelona",
       "league": "其他",
@@ -6594,17 +6653,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T14:05:58Z",
-      "collected_at": "2026-06-05T06:13:00Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 66,
       "heat_score": 50,
       "entities": [
-        {
-          "name": "Gavi manda indirectas al Barça",
-          "type": "player",
-          "description": "Gavi manda indirectas al Barça：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Gavi%20manda%20indirectas%20al%20Bar%C3%A7a",
-          "search_url": "https://www.google.com/search?q=Gavi%20manda%20indirectas%20al%20Bar%C3%A7a%20football%20transfer"
-        },
         {
           "name": "Barcelona",
           "type": "club",
@@ -6624,6 +6676,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654610606_192919.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T14:05:58Z"
         }
       ]
@@ -6645,7 +6698,7 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T13:15:24Z",
-      "collected_at": "2026-06-05T06:12:40Z",
+      "collected_at": "2026-06-05T06:37:05Z",
       "credibility_score": 66,
       "heat_score": 58,
       "entities": [
@@ -6665,6 +6718,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654607010_542332.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T13:15:24Z"
         }
       ]
@@ -6674,7 +6728,7 @@
       "title": "Carta de Florentino a los socios",
       "title_zh": "Carta de Florentino a los socios",
       "title_translation_provider": "cache",
-      "player": "Carta de Florentino a los socios",
+      "player": "未知球员",
       "from_club": "未知",
       "to_club": "未知",
       "league": "其他",
@@ -6686,18 +6740,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T10:44:18Z",
-      "collected_at": "2026-06-05T06:12:49Z",
+      "collected_at": "2026-06-05T06:37:13Z",
       "credibility_score": 66,
       "heat_score": 50,
-      "entities": [
-        {
-          "name": "Carta de Florentino a los socios",
-          "type": "player",
-          "description": "Carta de Florentino a los socios：新闻中提到的球员或转会相关人物。",
-          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Carta%20de%20Florentino%20a%20los%20socios",
-          "search_url": "https://www.google.com/search?q=Carta%20de%20Florentino%20a%20los%20socios%20football%20transfer"
-        }
-      ],
+      "entities": [],
       "tags": [
         "general"
       ],
@@ -6706,6 +6752,7 @@
           "name": "AS Primera",
           "url": "https://as.com/futbol/2022/06/07/primera/1654598228_050295.html#?ref=rss&format=simple&link=link",
           "grade": "B",
+          "language": "es",
           "published_at": "2022-06-07T10:44:18Z"
         }
       ]

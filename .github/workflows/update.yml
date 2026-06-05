@@ -33,6 +33,8 @@ jobs:
 
       - name: Collect transfer data
         run: python scripts/fetch_transfers.py
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
       - name: Prepare site artifact
         run: |

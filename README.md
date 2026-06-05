@@ -20,6 +20,24 @@ python scripts/fetch_transfers.py
 
 脚本会读取公开 RSS 源，筛选转会相关内容，自动生成中文摘要，写入 `data/transfers.json`。如果在线翻译失败，会使用内置足球转会术语表兜底；如果网络或来源临时失败，会保留已有数据并在 JSON 中记录 `errors`。
 
+## OpenAI 翻译
+
+配置 `OPENAI_API_KEY` 后，脚本会使用 OpenAI Responses API 批量翻译未缓存的标题和摘要，并继续写入 `data/translation_cache.json`。翻译规则会保留球员名、俱乐部名、联赛名、金额、年份和比分。
+
+GitHub Pages 自动更新时，在仓库 `Settings -> Secrets and variables -> Actions` 新增：
+
+```text
+OPENAI_API_KEY
+```
+
+可选模型环境变量：
+
+```text
+OPENAI_TRANSLATION_MODEL
+```
+
+如果没有配置 key，脚本仍会正常运行，并降级使用本地术语表。
+
 ## 当前信息源
 
 - BBC Football：自动采集，可信度 B，适合英超和欧洲转会新闻。
