@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:24:00Z",
+  "generated_at": "2026-06-05T15:37:31Z",
   "entities": {
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
@@ -132,6 +132,16 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Lyon": {
+      "description": "奥林匹克里昂（法语：Olympique lyonnais，简称OL或Lyon，中文简称里昂）是一间位于法国里昂的足球会，成立于1950年8月3日，前身为里昂·奥林匹克（Lyon Olympique）体育会其中一个分支的足球队，1889年离开体育会自立门户成立新球会，但官方网站表示球会于1950年正式成立。现时在法国甲组足球联赛比赛，球会同时设立男子及女子足球队。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Parc_OL.jpg/500px-Parc_OL.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B%E9%87%8C%E6%98%82",
+      "wiki_title": "奥林匹克里昂",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Olympique Lyonnais"
+    },
     "club|MLS": {
       "description": "美國職業足球大聯盟（英語：Major League Soccer，縮寫：MLS），簡稱美足聯或美職聯，是美國及加拿大頂級足球聯賽。MLS由二十七支美國球隊及三支加拿大球隊組成。賽季為三月至十二月，每支球隊進行三十四場例行賽，首名贏得支持者盾。東西區各七支例行賽戰績最佳的球隊以及外卡賽的勝方晉級季後賽，勝者贏得大聯盟盃。MLS成立於1993年。1996年舉行首屆賽事。相較於由獨立運作的各隊所組成的聯盟，MLS採單一實體架構（single-entity）運行，每一支球隊都為聯盟的投資者所有及控制。MLS為封閉會員制，為世上少數沒有升降級制度的足球聯盟。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Major_League_Soccer_logo.svg/500px-Major_League_Soccer_logo.svg.png",
@@ -157,6 +167,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Marseille": {},
     "club|Napoli": {
       "description": "那不勒斯足球俱乐部（義大利語：Società Sportiva Calcio Napoli），簡稱為那不勒斯，是一家設於坎帕尼亞大區首府那不勒斯的意大利職業足球會，現正於意大利甲組足球聯賽進行比賽，為意大利足球联赛系统的頂級賽事。拿玻里於1926年成立，曾贏得4次意甲聯賽冠軍、6次意大利盃冠軍、2次意大利超級盃，以及1次歐洲足協盃。 據統計，拿坡里於意大利擁有第4多的球迷。於2015年，拿玻里於意甲聯賽最有價值球會的排行榜中排名第5，亦被列入同年的福布斯足球俱乐部财富排行榜。球會為歐洲足球會協會其中一員，截至2016年1月，拿玻里於歐洲足協積分排名中位列第8，於一眾意大利球會中則排名第2。 自1959年起，拿玻里以位於城市西郊Fuorigrotta地區的聖保羅球場作為主場。球隊的球衣主色調為天藍色配上白色短褲，會歌則為「'O surdato...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg/500px-SSC_Napoli_2025_%28white_and_azure%29.svg.png",
@@ -166,6 +177,8 @@
       "wiki_variant": "zh",
       "zh_title": ""
     },
+    "club|Newcastle": {},
+    "club|Newcastle United": {},
     "club|PSG": {
       "description": "巴黎聖日耳門足球俱乐部（法語：Paris Saint-Germain Football Club，法語發音：[paʁi sɛ̃ ʒɛʁmɛ̃]）簡稱PSG，是一家位於法國首都巴黎的足球俱乐部，目前比賽於法国足球甲级联赛，球隊主場為王子公园体育场。",
       "image_url": "",
@@ -256,6 +269,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|West Ham": {},
     "club|York City": {
       "description": "約克城足球會（英語：York City Football Club）是位於英格蘭約克郡-亨伯區域北約克郡約克的足球會，成立於1922年，在1929年加入英格蘭足球聯賽，主要在低級組別作賽，於2012年透過附加賽升班英格蘭足球乙級聯賽。2026年於英格蘭全國聯賽升級至英格蘭足球乙級聯賽作賽。 約克城在1970年代於聯賽曾升上第二層的乙組聯賽渡過兩季，但在2003–04年球季從丙級聯賽降班到英格蘭足球議會全國聯賽，自此一直未能回復聯賽球隊的身份。約克城在盃賽比聯賽取得更好成績，於1955年晉級英格蘭足總盃準決賽；1995–96年球季約克城於英格蘭聯賽盃在奧脫福球場以 3–0 擊敗曼聯，當屆曼聯贏得英超及足總盃雙料冠軍；同樣在足總盃，約克城曾經淘汰阿仙奴及兩次迫和利物浦。1993年約克城在舊溫布萊球場擊敗克魯贏得丙組附加賽冠軍。2009年約克城晉級英格蘭足總錦標決賽，在新溫布萊球場以 0–2 不敵史提芬納治屈居亞席。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/N-York.svg/500px-N-York.svg.png",
@@ -313,11 +327,33 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|Albert Grønbæk": {
+      "description": "阿尔伯特·格伦拜克·埃利克（ Albert Grønbæk Erlykke ， 2001年5月23日－ ）是一名丹麦职业足球运动员，是德国德甲汉堡俱乐部的中场球员，租借自法国雷恩俱乐部和丹麦国家队。作为一名多才多艺的球员，他可以被部署为中场、进攻中场或左边锋。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Albert_Gr%C3%B8nb%C3%A6k",
+      "wiki_title": "Albert Grønbæk",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Albert Grønbæk"
+    },
     "player|Aleix Febas": {},
     "player|Alejandro Grimaldo": {},
+    "player|Allan Saint-Maximin": {
+      "description": "阿兰·伊雷内·辛特麦斯明（法语：Allan Irénée Saint-Maximin，1997年3月21日—）是法国的职业足球运动员，司职翼锋，现效力于法甲球队朗斯，他是瓜德罗普和法属圭亚那的后裔。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Allan_Saint-Maximin.jpg/500px-Allan_Saint-Maximin.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%98%AD%C2%B7%E8%BE%9B%E7%89%B9%E9%BA%A5%E6%96%AF%E6%98%8E",
+      "wiki_title": "阿蘭·辛特麥斯明",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Allan Saint-Maximin"
+    },
     "player|Christian Pulisic": {},
+    "player|Como’s Martin Baturina": {},
     "player|David Sánchez": {},
     "player|EURO Final": {},
+    "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|El Aston Villa": {},
     "player|El Bayer Leverkusen": {},
     "player|El Celta": {},
@@ -333,8 +369,11 @@
       "zh_title": "",
       "translated_from": "Erling Haaland"
     },
+    "player|Ewen Jaouen": {},
     "player|Football Daily": {},
     "player|Former Spurs": {},
+    "player|France-Zinédine Zidane": {},
+    "player|France’s Rayan Cherki": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
     "player|Isac Lidberg": {
@@ -346,9 +385,19 @@
       "wiki_variant": "legacy-en"
     },
     "player|Ismaël Saibari": {},
+    "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|José Mourinho": {},
-    "player|Kang-in Lee": {},
+    "player|Kang-in Lee": {
+      "description": "李刚仁（韩语：이강인，2001年2月19日—）是韩国男子职业足球员，出生于仁川，现时效力法甲球队巴黎圣日耳门及韩国国家足球队。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lee_Kangin_2019.png/500px-Lee_Kangin_2019.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%89%9B%E4%BB%81",
+      "wiki_title": "李剛仁",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Lee Kang-in"
+    },
     "player|Kennet Eichhorn": {
       "description": "肯尼特·艾希霍恩（德语： Kennet Eichhorn ， 2009年7月27日－ ）是一名德国职业足球运动员，曾担任2名防守型中场球员。Bundesliga club Hertha BSC.",
       "image_url": "",
@@ -360,8 +409,11 @@
       "translated_from": "Kennet Eichhorn"
     },
     "player|Man Utd": {},
+    "player|Mason Greenwood": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
+    "player|Michael Olise": {},
+    "player|Mike Maignan’s Milan": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg",
@@ -409,6 +461,8 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|West Ham’s Mohamadou Kanté": {},
+    "player|Wilfried Nancy": {},
     "player|William Carvalho": {
       "description": "威廉·施华·迪卡维奴（葡萄牙语：William Silva de Carvalho；1992年4月7日—），是葡萄牙男子职业足球员，现时效力于墨西哥足球超级联赛球会帕丘卡。司职防守中场。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/William_Carvalho.jpg/500px-William_Carvalho.jpg",
