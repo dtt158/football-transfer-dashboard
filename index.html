@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>足球转会情报站</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Transfer Desk</p>
+        <h1>足球转会情报站</h1>
+      </div>
+      <div class="meta">
+        <span id="updatedAt">更新中</span>
+        <span id="itemCount">0 条</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-grid" aria-label="总览">
+        <article>
+          <span class="metric-label">今日新增</span>
+          <strong id="todayCount">0</strong>
+        </article>
+        <article>
+          <span class="metric-label">官方确认</span>
+          <strong id="confirmedCount">0</strong>
+        </article>
+        <article>
+          <span class="metric-label">高可信</span>
+          <strong id="trustedCount">0</strong>
+        </article>
+        <article>
+          <span class="metric-label">热门传闻</span>
+          <strong id="rumourCount">0</strong>
+        </article>
+      </section>
+
+      <section class="control-band" aria-label="筛选">
+        <label>
+          联赛
+          <select id="leagueFilter"></select>
+        </label>
+        <label>
+          状态
+          <select id="statusFilter"></select>
+        </label>
+        <label>
+          最低可信度
+          <select id="credibilityFilter">
+            <option value="0">全部</option>
+            <option value="60">60+</option>
+            <option value="75">75+</option>
+            <option value="90">90+</option>
+          </select>
+        </label>
+        <label>
+          排序
+          <select id="sortMode">
+            <option value="heat">热度优先</option>
+            <option value="credibility">可信度优先</option>
+            <option value="recent">最新优先</option>
+          </select>
+        </label>
+        <input id="searchInput" type="search" placeholder="搜索球员、俱乐部或来源">
+      </section>
+
+      <section class="layout">
+        <aside class="side-panel" aria-label="排行榜">
+          <div class="panel-heading">
+            <h2>热度 Top 20</h2>
+          </div>
+          <ol id="hotList" class="rank-list"></ol>
+
+          <div class="panel-heading">
+            <h2>高可信进展</h2>
+          </div>
+          <ol id="trustedList" class="rank-list compact"></ol>
+        </aside>
+
+        <section class="feed" aria-label="转会信息">
+          <div class="feed-heading">
+            <h2>分类信息</h2>
+            <span id="resultCount">0 条结果</span>
+          </div>
+          <div id="transferGrid" class="transfer-grid"></div>
+        </section>
+      </section>
+
+      <section class="sources-section" aria-label="来源评估">
+        <div class="feed-heading">
+          <h2>来源可信度</h2>
+          <span>S/A/B/C 分级</span>
+        </div>
+        <div id="sourcesGrid" class="sources-grid"></div>
+      </section>
+    </main>
+
+    <template id="transferTemplate">
+      <article class="transfer-card">
+        <div class="card-top">
+          <div>
+            <span class="league"></span>
+            <h3></h3>
+          </div>
+          <span class="status"></span>
+        </div>
+        <p class="route"></p>
+        <p class="summary"></p>
+        <div class="scores">
+          <span class="heat"></span>
+          <span class="credibility"></span>
+          <span class="reported"></span>
+        </div>
+        <div class="tags"></div>
+        <div class="source-links"></div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>

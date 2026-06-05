@@ -1,0 +1,368 @@
+{
+  "generated_at": "2026-06-04T15:06:21Z",
+  "sources": [
+    {
+      "name": "BBC Football",
+      "grade": "B",
+      "description": "英国主流媒体，适合追踪英超和欧洲转会新闻；转会确认仍以官方公告优先。",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"
+    },
+    {
+      "name": "ESPN Soccer",
+      "grade": "B",
+      "description": "国际主流体育媒体，覆盖欧洲主流联赛和转会动态。",
+      "url": "https://www.espn.com/espn/rss/soccer/news"
+    },
+    {
+      "name": "Transfermarkt",
+      "grade": "B",
+      "description": "转会、身价和传闻聚合参考源；当前自动采集默认关闭，避免其反爬限制影响每小时更新。",
+      "url": "https://www.transfermarkt.co.uk/rss/news"
+    }
+  ],
+  "errors": [],
+  "transfers": [
+    {
+      "id": "8bc49669a46899b2",
+      "player": "Man Utd agree £35m Ederson fee as they signal summer intentions",
+      "from_club": "Manchester United",
+      "to_club": "Atalanta",
+      "league": "英超",
+      "status": "advanced",
+      "summary": "Atalanta's Brazilian midfielder Ederson is set to become Michael Carrick's first signing after Manchester United agreed a £35m deal for the 26-year-old",
+      "fee": "£35m",
+      "contract": "",
+      "reported_at": "2026-06-02T22:24:08Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 74,
+      "heat_score": 77,
+      "tags": [
+        "advanced"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c78q2dxv89go?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-02T22:24:08Z"
+        }
+      ]
+    },
+    {
+      "id": "70bd8fecbfe52864",
+      "player": "Brighton expect second Spurs bid for Van Hecke",
+      "from_club": "Tottenham",
+      "to_club": "Spurs",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "Brighton are expecting Tottenham to return with an increased offer after rejecting an initial £70m bid for Netherlands defender Jan Paul van Hecke.",
+      "fee": "£70m",
+      "contract": "",
+      "reported_at": "2026-06-04T13:41:51Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 66,
+      "heat_score": 76,
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c2020rr6pggo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T13:41:51Z"
+        }
+      ]
+    },
+    {
+      "id": "7f9a92f4cb1e74cd",
+      "player": "Man City consider legal action over Real candidate's promise to sign Haaland",
+      "from_club": "Manchester City",
+      "to_club": "Man City",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T08:27:35Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 58,
+      "heat_score": 72,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c3r2g5zgl0vo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T08:27:35Z"
+        }
+      ]
+    },
+    {
+      "id": "75e944eb667e0e47",
+      "player": "Sources",
+      "from_club": "未知",
+      "to_club": "Manchester City",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "Manchester City have had their opening bid for Elliot Anderson rejected by Nottingham Forest, sources have told ESPN.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T15:53:51Z",
+      "collected_at": "2026-06-04T15:06:21Z",
+      "credibility_score": 66,
+      "heat_score": 68,
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48962858/man-city-first-bid-elliot-anderson-rejected-nottingham-forest-sources",
+          "grade": "B",
+          "published_at": "2026-06-04T15:53:51Z"
+        }
+      ]
+    },
+    {
+      "id": "e928e2a2631ef997",
+      "player": "Transfer rumors, news",
+      "from_club": "Arsenal",
+      "to_club": "Real Madrid",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "Real Madrid are weighing up an approach for Arsenal defender Riccardo Calafiori. Transfer Talk has the latest.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T14:24:55Z",
+      "collected_at": "2026-06-04T15:06:21Z",
+      "credibility_score": 66,
+      "heat_score": 68,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48963013/transfer-rumors-news-real-madrid-keen-arsenals-calafiori",
+          "grade": "B",
+          "published_at": "2026-06-04T14:24:55Z"
+        }
+      ]
+    },
+    {
+      "id": "311959a14bbe9264",
+      "player": "EFL scraps three-window transfer ban for late payments",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Clubs in the English Football League vote to reduce the length of free-restriction transfer windows for late payments.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T12:47:45Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 58,
+      "heat_score": 68,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cevprvr1l01o?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T12:47:45Z"
+        }
+      ]
+    },
+    {
+      "id": "8108a4c3ea8f1ed6",
+      "player": "Miller hopes to make a name for himself at Hearts",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T13:48:24Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 58,
+      "heat_score": 68,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cvgzx77z08wo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T13:48:24Z"
+        }
+      ]
+    },
+    {
+      "id": "a672c6223d80ad1a",
+      "player": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T13:48:24Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 58,
+      "heat_score": 68,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cvgzx77z08wo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T13:48:24Z"
+        }
+      ]
+    },
+    {
+      "id": "4132fd81ac6a0ec0",
+      "player": "City warn Madrid with legal action over Haaland",
+      "from_club": "Manchester City",
+      "to_club": "Real Madrid",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Manchester City have threatened legal action after Real Madrid presidential candidate Enrique Riquelme promised to sign Erling Haaland if he's elected.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T15:53:51Z",
+      "collected_at": "2026-06-04T15:06:21Z",
+      "credibility_score": 58,
+      "heat_score": 68,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48963240/manchester-city-threaten-legal-action-real-madrid-erling-haaland-comments-enrique-riquelme-election",
+          "grade": "B",
+          "published_at": "2026-06-04T15:53:51Z"
+        }
+      ]
+    },
+    {
+      "id": "994158453d6b0733",
+      "player": "AC Milan chase Summerville",
+      "from_club": "Premier League",
+      "to_club": "Newcastle",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "AC Milan rival Premier League sides for West Ham's Crysencio Summerville, Real Madrid to sign Inter's Denzel Dumfries and Newcastle target Nigerian teenager Zadok Yohanna.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T20:59:57Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 66,
+      "heat_score": 64,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cvgz2wvw3ydo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-03T20:59:57Z"
+        }
+      ]
+    },
+    {
+      "id": "20198afb87a4a9ec",
+      "player": "Like Figo and Beckham, Riquelme's Haaland promise ...",
+      "from_club": "未知",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Real Madrid presidential candidate Enrique Riquelme promising he'll sign Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T08:03:06Z",
+      "collected_at": "2026-06-04T15:06:21Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48960585/riquelmes-haaland-promise-classic-spanish-election-move",
+          "grade": "B",
+          "published_at": "2026-06-04T08:03:06Z"
+        }
+      ]
+    },
+    {
+      "id": "eaec20849744c3e8",
+      "player": "Real Madrid unveil new home kit for quest to end m...",
+      "from_club": "未知",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Real Madrid have a white jersey once again, but the design is offset by a fresh and bold color combination.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T08:03:06Z",
+      "collected_at": "2026-06-04T15:06:21Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48955127/real-madrid-unveil-new-2026-27-home-kit-quest-end-major-trophy-drought-laliga-copa-del-rey-champions-league",
+          "grade": "B",
+          "published_at": "2026-06-04T08:03:06Z"
+        }
+      ]
+    },
+    {
+      "id": "f078ceeee9660eb6",
+      "player": "All done deals since February, including deadline day",
+      "from_club": "未知",
+      "to_club": "Premier League",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T14:10:17Z",
+      "collected_at": "2026-06-04T15:06:20Z",
+      "credibility_score": 58,
+      "heat_score": 59,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cy59zrq4ywgo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-03T14:10:17Z"
+        }
+      ]
+    }
+  ]
+}
