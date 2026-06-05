@@ -20,6 +20,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,13 +34,19 @@ jobs:
       - name: Collect transfer data
         run: python scripts/fetch_transfers.py
 
+      - name: Prepare site artifact
+        run: |
+          mkdir _site
+          cp index.html styles.css script.js _site/
+          cp -r data _site/data
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   deploy:
     environment:
