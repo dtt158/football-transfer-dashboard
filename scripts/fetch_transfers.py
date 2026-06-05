@@ -363,6 +363,7 @@ OPENAI_TRANSLATION_BATCH_SIZE = 20
 TRANSLATION_CACHE: dict[str, str] = {}
 WIKI_CACHE: dict[str, dict[str, str]] = {}
 PLAYER_CACHE: dict[str, dict[str, Any]] = {}
+RUN_DIAGNOSTICS: dict[str, Any] = {}
 ONLINE_TRANSLATION_MISSES = 0
 WIKI_MISSES = 0
 
@@ -448,6 +449,7 @@ def main() -> int:
 
     payload = {
         "generated_at": utc_now(),
+        "diagnostics": RUN_DIAGNOSTICS,
         "sources": [
             {
                 "name": source.name,
@@ -694,6 +696,10 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def apply_openai_translations(items: list[dict[str, Any]]) -> None:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    RUN_DIAGNOSTICS["openai_configured"] = bool(api_key)
+    RUN_DIAGNOSTICS["openai_requested"] = 0
+    RUN_DIAGNOSTICS["openai_applied"] = 0
+    RUN_DIAGNOSTICS["openai_model"] = os.environ.get("OPENAI_TRANSLATION_MODEL", os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
     if not api_key:
         print("OpenAI translation skipped: OPENAI_API_KEY is not configured")
         return
@@ -728,11 +734,13 @@ def apply_openai_translations(items: list[dict[str, Any]]) -> None:
         print("OpenAI translation skipped: no uncached or under-translated text")
         return
 
+    RUN_DIAGNOSTICS["openai_requested"] = len(requests)
     print(f"OpenAI translation requested for {len(requests)} text items")
     translated = openai_translate_batches(requests, api_key)
     if not translated:
         print("OpenAI translation returned no usable translations")
         return
+    RUN_DIAGNOSTICS["openai_applied"] = len(translated)
     print(f"OpenAI translation applied to {len(translated)} text items")
     for item in items:
         language = item.get("sources", [{}])[0].get("language", "en")
