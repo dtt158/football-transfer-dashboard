@@ -498,6 +498,133 @@ input {
   background: var(--surface-alt);
 }
 
+/* ── Watchlist ── */
+.watch-count {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.watch-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+  min-height: 28px;
+}
+
+.watch-empty {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.watch-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 6px 3px 9px;
+  border-radius: 20px;
+  background: #e8f6f4;
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.watch-chip button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 0;
+}
+
+.watch-chip button:hover {
+  background: #c7ebe4;
+}
+
+.watch-add-row {
+  display: flex;
+  gap: 6px;
+}
+
+.watch-add-row input {
+  flex: 1;
+  min-height: 32px;
+  font-size: 13px;
+}
+
+.watch-add-row button {
+  min-height: 32px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.watch-add-row button:hover {
+  background: var(--accent-strong);
+}
+
+.watched-card {
+  border-left: 3px solid var(--accent) !important;
+  background: #f2fbf9 !important;
+}
+
+.watch-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 2px 7px;
+  border-radius: 20px;
+  background: #c9f0e8;
+  color: var(--accent-strong);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.modal-top-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.watch-toggle-btn {
+  margin-left: auto;
+  padding: 4px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.watch-toggle-btn.watching {
+  background: var(--accent);
+  color: #fff;
+}
+
+.watch-toggle-btn:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
 .empty-state {
   padding: 28px;
   color: var(--muted);

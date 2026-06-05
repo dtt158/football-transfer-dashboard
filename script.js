@@ -5,6 +5,55 @@ const state = {
   category: "transfer",
 };
 
+const watchlist = new Set(JSON.parse(localStorage.getItem("fl_watchlist") || "[]"));
+
+function saveWatchlist() {
+  localStorage.setItem("fl_watchlist", JSON.stringify([...watchlist]));
+}
+
+function isWatched(item) {
+  if (!watchlist.size) return false;
+  const haystack = [
+    item.player, item.from_club, item.to_club, item.league,
+    item.title, item.title_zh,
+    ...(item.entities || []).map((e) => e.name),
+  ].filter(Boolean).join(" ").toLowerCase();
+  return [...watchlist].some((term) => haystack.includes(term.toLowerCase()));
+}
+
+function toggleWatch(term) {
+  if (watchlist.has(term)) watchlist.delete(term);
+  else watchlist.add(term);
+  saveWatchlist();
+  renderWatchlist();
+  applyFilters();
+}
+
+function renderWatchlist() {
+  const chips = els.watchChips;
+  const count = els.watchCount;
+  count.textContent = watchlist.size ? `${watchlist.size} 项` : "";
+  if (!watchlist.size) {
+    chips.innerHTML = '<span class="watch-empty">暂无关注，相关新闻将置顶显示</span>';
+    return;
+  }
+  chips.replaceChildren(
+    ...[...watchlist].map((term) => {
+      const chip = document.createElement("span");
+      chip.className = "watch-chip";
+      const label = document.createElement("span");
+      label.textContent = term;
+      const remove = document.createElement("button");
+      remove.type = "button";
+      remove.textContent = "×";
+      remove.setAttribute("aria-label", `移除 ${term}`);
+      remove.addEventListener("click", () => toggleWatch(term));
+      chip.append(label, remove);
+      return chip;
+    }),
+  );
+}
+
 const statusLabels = {
   official: "官方确认",
   advanced: "高可信接近完成",
@@ -48,6 +97,11 @@ const els = {
   entityImage: document.querySelector("#entityImage"),
   entityDescription: document.querySelector("#entityDescription"),
   entityLinks: document.querySelector("#entityLinks"),
+  entityWatchBtn: document.querySelector("#entityWatchBtn"),
+  watchChips: document.querySelector("#watchChips"),
+  watchCount: document.querySelector("#watchCount"),
+  watchInput: document.querySelector("#watchInput"),
+  watchAddBtn: document.querySelector("#watchAddBtn"),
 };
 
 async function loadData() {
@@ -85,6 +139,16 @@ function initialiseFilters() {
     input.addEventListener("change", applyFilters);
   });
   els.searchInput.addEventListener("input", applyFilters);
+
+  els.watchAddBtn.addEventListener("click", () => {
+    const term = els.watchInput.value.trim();
+    if (term) { toggleWatch(term); els.watchInput.value = ""; }
+  });
+  els.watchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") els.watchAddBtn.click();
+  });
+  renderWatchlist();
+
   els.categoryTabs.forEach((button) => {
     button.addEventListener("click", () => {
       state.category = button.dataset.categoryTab || "transfer";
@@ -147,6 +211,12 @@ function applyFilters() {
     return Number(b.heat_score || 0) - Number(a.heat_score || 0);
   });
 
+  if (watchlist.size) {
+    const pinned = state.filtered.filter((item) => isWatched(item));
+    const rest = state.filtered.filter((item) => !isWatched(item));
+    state.filtered = [...pinned, ...rest];
+  }
+
   renderSummary();
   renderRankings();
   renderTransfers();
@@ -207,6 +277,13 @@ function renderTransfers() {
   els.transferGrid.replaceChildren(
     ...state.filtered.map((item) => {
       const node = els.template.content.firstElementChild.cloneNode(true);
+      if (isWatched(item)) {
+        node.classList.add("watched-card");
+        const badge = document.createElement("span");
+        badge.className = "watch-badge";
+        badge.textContent = "⭐ 关注";
+        node.querySelector(".card-top > div").prepend(badge);
+      }
       node.querySelector(".league").textContent = item.league || "其他";
       node.querySelector("h3").replaceChildren(...renderEntityText(item.title_zh || item.title || item.player || "未知标题", item.entities || []));
       const originalTitle = node.querySelector(".original-title");
@@ -305,6 +382,14 @@ function entityButton(entity) {
 function openEntityModal(entity) {
   els.entityType.textContent = entityTypeLabel(entity.type);
   els.entityTitle.textContent = entity.name || "未知词条";
+  const name = entity.name || "";
+  function syncWatchBtn() {
+    const on = watchlist.has(name);
+    els.entityWatchBtn.textContent = on ? "取消关注" : "加入关注";
+    els.entityWatchBtn.classList.toggle("watching", on);
+  }
+  syncWatchBtn();
+  els.entityWatchBtn.onclick = () => { toggleWatch(name); syncWatchBtn(); };
   els.entityDescription.textContent = entity.description || `${entity.name || "该词条"}：暂无补充说明。`;
   if (entity.image_url) {
     els.entityImage.src = entity.image_url;
