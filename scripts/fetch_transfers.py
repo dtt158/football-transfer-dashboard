@@ -700,7 +700,7 @@ def apply_openai_translations(items: list[dict[str, Any]]) -> None:
     RUN_DIAGNOSTICS["openai_requested"] = 0
     RUN_DIAGNOSTICS["openai_applied"] = 0
     RUN_DIAGNOSTICS["openai_error"] = ""
-    RUN_DIAGNOSTICS["openai_model"] = os.environ.get("OPENAI_TRANSLATION_MODEL", os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
+    RUN_DIAGNOSTICS["openai_model"] = get_openai_model()
     if not api_key:
         print("OpenAI translation skipped: OPENAI_API_KEY is not configured")
         return
@@ -772,7 +772,7 @@ def openai_translate_batches(requests: list[dict[str, Any]], api_key: str) -> di
 
 
 def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[str, str]:
-    model = os.environ.get("OPENAI_TRANSLATION_MODEL", os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
+    model = get_openai_model()
     prompt = {
         "task": "Translate football news text to Simplified Chinese.",
         "rules": [
@@ -842,6 +842,14 @@ def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[st
         for item in translations
         if isinstance(item, dict) and item.get("id") and item.get("text")
     }
+
+
+def get_openai_model() -> str:
+    return (
+        os.environ.get("OPENAI_TRANSLATION_MODEL", "").strip()
+        or os.environ.get("OPENAI_MODEL", "").strip()
+        or "gpt-4.1-mini"
+    )
 
 
 def extract_openai_text(payload: dict[str, Any]) -> str:
