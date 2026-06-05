@@ -367,6 +367,31 @@ RUN_DIAGNOSTICS: dict[str, Any] = {}
 ONLINE_TRANSLATION_MISSES = 0
 WIKI_MISSES = 0
 
+_PERSON_NAME_SKIP = frozenset({
+    # grammar words
+    "the", "a", "an", "in", "on", "at", "to", "for", "of", "and", "or", "but",
+    "with", "from", "by", "as", "is", "are", "was", "were", "be", "been",
+    "has", "have", "had", "will", "would", "could", "should", "may", "might",
+    # football structure
+    "premier", "league", "serie", "bundesliga", "ligue", "laliga", "copa",
+    "champions", "europa", "conference", "nations", "world", "cup",
+    "fc", "united", "city", "town", "rovers", "albion", "athletic",
+    # action/state words common in headlines
+    "transfer", "loan", "deal", "bid", "offer", "sign", "signs", "signed",
+    "joins", "joined", "move", "moves", "moved", "target", "targets",
+    "contract", "fee", "million", "summer", "winter", "window", "season",
+    "football", "soccer", "official", "confirmed", "breaking", "exclusive",
+    "new", "old", "top", "big", "first", "second", "third",
+    "report", "reports", "here", "we", "go",
+    "why", "how", "what", "who", "when", "where",
+    "english", "spanish", "italian", "german", "french", "portuguese",
+    "international", "national", "domestic", "european",
+    # days / months
+    "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
+    "january", "february", "march", "april", "june", "july",
+    "august", "september", "october", "november", "december",
+})
+
 GLOSSARY_TRANSLATIONS = [
     ("is set to become", "即将成为"),
     ("are expecting", "预计"),
@@ -623,6 +648,8 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
 
     entities = build_entities(player, clubs, league, combined)
     preserve_terms = [entity["name"] for entity in entities if entity.get("type") in {"player", "club"}]
+    preserve_terms += extract_person_names(combined)
+    preserve_terms = list(dict.fromkeys(preserve_terms))
     summary = summarise(description or title)
     allow_online_translation = category == "transfer"
     summary_zh, translation_provider = translate_summary(summary, source.language, preserve_terms, allow_online_translation)
@@ -907,15 +934,20 @@ def guess_player(title: str, combined: str = "") -> str:
     if cached:
         return str(cached[0].get("name") or "未知球员")
     title = re.sub(r"\s+-\s+.*$", "", title).strip()
+    _NAME = r"[A-Z][A-Za-zÀ-ÖØ-öø-ÿ’’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ’’-]+){0,3}"
     patterns = [
-        r"\bfor\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
-        r"\bsign(?:s|ed|ing)?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
-        r"\bjoins?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
+        rf"\bfor\s+({_NAME})\b",
+        rf"\bsign(?:s|ed|ing)?\s+({_NAME})\b",
+        rf"\bjoins?\s+({_NAME})\b",
+        rf"\b(?:appoints?|appointed|names?|named|hires?|hired)\s+({_NAME})\b",
+        rf"\b({_NAME})\s+(?:appointed|named|confirmed|hired|sacked|resigns?|resigned|departs?|departed)\b",
+        rf"\b(?:manager|coach|head\s+coach|boss)\s+({_NAME})\b",
+        rf"\b({_NAME})\s+(?:extends?|extended|renews?|renewed)\b",
     ]
     for pattern in patterns:
         match = re.search(pattern, title)
         if match:
-            candidate = match.group(1).strip()
+            candidate = (match.group(2) if match.lastindex and match.lastindex >= 2 else match.group(1)).strip()
             resolved = resolve_player_candidate(candidate)
             if resolved:
                 return str(resolved.get("name") or candidate)
@@ -929,6 +961,9 @@ def guess_player(title: str, combined: str = "") -> str:
                 return str(resolved.get("name") or candidate)
             if looks_like_person_name(candidate):
                 return candidate
+    persons = extract_person_names(title)
+    if persons:
+        return persons[0]
     return "未知球员"
 
 
@@ -1282,8 +1317,26 @@ def looks_like_person_name(value: str) -> bool:
     }
     if any(word in lowered for word in blocked):
         return False
-    words = re.findall(r"[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+", value)
+    words = re.findall(r"[A-Z][A-Za-zÀ-ÖØ-öø-ÿ’’-]+", value)
     return 2 <= len(words) <= 4
+
+
+def extract_person_names(text: str) -> list[str]:
+    """Return all 2-4 word capitalized sequences in text that look like person names."""
+    club_lower = {alias.lower() for aliases in CLUB_ALIASES.values() for alias in aliases}
+    found: list[str] = []
+    for match in re.finditer(
+        r"\b([A-Z][A-Za-zÀ-ÖØ-öø-ÿ\’-]+(?:[ ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ\’-]+){1,3})\b",
+        text,
+    ):
+        candidate = match.group(1)
+        words = candidate.split()
+        if any(w.lower() in _PERSON_NAME_SKIP for w in words):
+            continue
+        if candidate.lower() in club_lower:
+            continue
+        found.append(candidate)
+    return list(dict.fromkeys(found))
 
 
 def title_case_club(value: str) -> str:
