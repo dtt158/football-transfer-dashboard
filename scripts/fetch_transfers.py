@@ -17,6 +17,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from time import sleep
 from typing import Any
 
 
@@ -77,6 +78,19 @@ CLUB_ALIASES = {
     "Tottenham": ["tottenham", "spurs"],
     "West Ham": ["west ham"],
     "York City": ["york city"],
+}
+
+WIKI_TITLE_OVERRIDES = {
+    "Fiorentina": {"zh": "佛罗伦萨足球俱乐部", "en": "ACF Fiorentina"},
+    "Sassuolo": {"zh": "萨索罗足球俱乐部", "en": "US Sassuolo Calcio"},
+    "Atalanta": {"zh": "亚特兰大贝加莫足球俱乐部", "en": "Atalanta BC"},
+    "Inter Milan": {"zh": "国际米兰足球俱乐部", "en": "Inter Milan"},
+    "AC Milan": {"zh": "AC米兰", "en": "AC Milan"},
+    "Juventus": {"zh": "尤文图斯足球俱乐部", "en": "Juventus FC"},
+    "Napoli": {"zh": "那不勒斯足球俱乐部", "en": "SSC Napoli"},
+    "Roma": {"zh": "罗马体育俱乐部", "en": "AS Roma"},
+    "Hearts": {"zh": "哈茨足球俱乐部", "en": "Heart of Midlothian F.C."},
+    "York City": {"zh": "约克城足球俱乐部", "en": "York City F.C."},
 }
 
 
@@ -648,16 +662,22 @@ def fetch_wiki_entity(name: str, kind: str) -> dict[str, str]:
     cache_key = f"{kind}|{name}"
     if cache_key in WIKI_CACHE:
         return WIKI_CACHE[cache_key]
+    if name in WIKI_TITLE_OVERRIDES:
+        for language, title in WIKI_TITLE_OVERRIDES[name].items():
+            result = query_wikipedia_title(title, language)
+            if result:
+                WIKI_CACHE[cache_key] = result
+                return result
     search_name = wiki_search_name(name, kind)
     for language in ["zh", "en"]:
         result = query_wikipedia(search_name, language)
-        if result:
+        if result and wiki_result_matches_kind(result, kind, name):
             WIKI_CACHE[cache_key] = result
             return result
     if search_name != name:
         for language in ["zh", "en"]:
             result = query_wikipedia(name, language)
-            if result and wiki_result_matches_kind(result, kind):
+            if result and wiki_result_matches_kind(result, kind, name):
                 WIKI_CACHE[cache_key] = result
                 return result
     WIKI_CACHE[cache_key] = {}
@@ -674,15 +694,36 @@ def wiki_search_name(name: str, kind: str) -> str:
     return name
 
 
-def wiki_result_matches_kind(result: dict[str, str], kind: str) -> bool:
+def wiki_result_matches_kind(result: dict[str, str], kind: str, name: str) -> bool:
     text = f"{result.get('wiki_title', '')} {result.get('description', '')}".lower()
+    aliases = CLUB_ALIASES.get(name, [name.lower()]) if kind == "club" else [name.lower()]
+    has_name = any(alias.lower() in text for alias in aliases)
     if kind == "club":
-        return any(term in text for term in ["football club", "association football", "足球", "俱乐部", "俱樂部"])
+        has_club_context = any(term in text for term in ["football club", "association football", "足球", "俱乐部", "俱樂部"])
+        return has_name and has_club_context
     if kind == "player":
-        return any(term in text for term in ["footballer", "association football", "足球运动员", "足球運動員"])
+        return has_name and any(term in text for term in ["footballer", "association football", "足球运动员", "足球運動員"])
     if kind == "league":
         return any(term in text for term in ["league", "football", "联赛", "聯賽"])
     return True
+
+
+def query_wikipedia_title(title: str, language: str) -> dict[str, str]:
+    params = urllib.parse.urlencode(
+        {
+            "action": "query",
+            "format": "json",
+            "titles": title,
+            "prop": "extracts|pageimages|info",
+            "exintro": 1,
+            "explaintext": 1,
+            "piprop": "thumbnail",
+            "pithumbsize": 360,
+            "inprop": "url",
+            "redirects": 1,
+        }
+    )
+    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}")
 
 
 def query_wikipedia(name: str, language: str) -> dict[str, str]:
@@ -702,13 +743,21 @@ def query_wikipedia(name: str, language: str) -> dict[str, str]:
             "redirects": 1,
         }
     )
-    url = f"https://{language}.wikipedia.org/w/api.php?{params}"
-    try:
-        request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
-        with urllib.request.urlopen(request, timeout=12) as response:
-            payload = json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
-        return {}
+    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}")
+
+
+def query_wikipedia_api(url: str) -> dict[str, str]:
+    payload: dict[str, Any] = {}
+    for attempt in range(3):
+        try:
+            request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
+            with urllib.request.urlopen(request, timeout=20) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+            break
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+            if attempt == 2:
+                return {}
+            sleep(0.4 * (attempt + 1))
 
     pages = payload.get("query", {}).get("pages", {})
     if not pages:
