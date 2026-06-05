@@ -2,6 +2,7 @@ const state = {
   data: null,
   transfers: [],
   filtered: [],
+  category: "transfer",
 };
 
 const statusLabels = {
@@ -9,6 +10,7 @@ const statusLabels = {
   advanced: "高可信接近完成",
   negotiating: "谈判中",
   rumour: "传闻",
+  general: "普通新闻",
   expired: "排除/过期",
 };
 
@@ -17,6 +19,7 @@ const statusClasses = {
   advanced: "advanced",
   negotiating: "advanced",
   rumour: "rumour",
+  general: "general",
   expired: "expired",
 };
 
@@ -32,6 +35,7 @@ const els = {
   credibilityFilter: document.querySelector("#credibilityFilter"),
   sortMode: document.querySelector("#sortMode"),
   searchInput: document.querySelector("#searchInput"),
+  categoryTabs: document.querySelectorAll("[data-category-tab]"),
   resultCount: document.querySelector("#resultCount"),
   transferGrid: document.querySelector("#transferGrid"),
   hotList: document.querySelector("#hotList"),
@@ -49,9 +53,7 @@ const els = {
 async function loadData() {
   try {
     const response = await fetch("data/transfers.json", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.data = await response.json();
     state.transfers = Array.isArray(state.data.transfers) ? state.data.transfers : [];
   } catch (error) {
@@ -83,6 +85,17 @@ function initialiseFilters() {
     input.addEventListener("change", applyFilters);
   });
   els.searchInput.addEventListener("input", applyFilters);
+  els.categoryTabs.forEach((button) => {
+    button.addEventListener("click", () => {
+      state.category = button.dataset.categoryTab || "transfer";
+      els.categoryTabs.forEach((tab) => {
+        const active = tab === button;
+        tab.classList.toggle("active", active);
+        tab.setAttribute("aria-selected", String(active));
+      });
+      applyFilters();
+    });
+  });
 }
 
 function fillSelect(select, options) {
@@ -108,6 +121,8 @@ function applyFilters() {
       item.from_club,
       item.to_club,
       item.league,
+      item.title,
+      item.title_zh,
       item.summary,
       item.summary_zh,
       ...(item.sources || []).map((source) => source.name),
@@ -117,6 +132,7 @@ function applyFilters() {
       .toLowerCase();
 
     return (
+      (item.category || "transfer") === state.category &&
       (league === "all" || item.league === league) &&
       (status === "all" || item.status === status) &&
       Number(item.credibility_score || 0) >= minCredibility &&
@@ -126,12 +142,8 @@ function applyFilters() {
 
   const sortMode = els.sortMode.value;
   state.filtered.sort((a, b) => {
-    if (sortMode === "credibility") {
-      return Number(b.credibility_score || 0) - Number(a.credibility_score || 0);
-    }
-    if (sortMode === "recent") {
-      return Date.parse(b.reported_at || 0) - Date.parse(a.reported_at || 0);
-    }
+    if (sortMode === "credibility") return Number(b.credibility_score || 0) - Number(a.credibility_score || 0);
+    if (sortMode === "recent" || state.category === "general") return Date.parse(b.reported_at || 0) - Date.parse(a.reported_at || 0);
     return Number(b.heat_score || 0) - Number(a.heat_score || 0);
   });
 
@@ -143,13 +155,14 @@ function applyFilters() {
 function renderSummary() {
   const generated = state.data?.generated_at ? new Date(state.data.generated_at) : new Date();
   const today = new Date().toISOString().slice(0, 10);
-  const todayCount = state.transfers.filter((item) => String(item.collected_at || "").startsWith(today)).length;
-  const confirmed = state.transfers.filter((item) => item.status === "official").length;
-  const trusted = state.transfers.filter((item) => Number(item.credibility_score || 0) >= 75).length;
-  const rumours = state.transfers.filter((item) => item.status === "rumour" && Number(item.heat_score || 0) >= 60).length;
+  const categoryItems = state.transfers.filter((item) => (item.category || "transfer") === state.category);
+  const todayCount = categoryItems.filter((item) => String(item.collected_at || "").startsWith(today)).length;
+  const confirmed = categoryItems.filter((item) => item.status === "official").length;
+  const trusted = categoryItems.filter((item) => Number(item.credibility_score || 0) >= 75).length;
+  const rumours = categoryItems.filter((item) => item.status === "rumour" && Number(item.heat_score || 0) >= 60).length;
 
   els.updatedAt.textContent = `更新：${formatDate(generated)}`;
-  els.itemCount.textContent = `${state.transfers.length} 条`;
+  els.itemCount.textContent = `${categoryItems.length} 条`;
   els.todayCount.textContent = todayCount;
   els.confirmedCount.textContent = confirmed;
   els.trustedCount.textContent = trusted;
@@ -158,8 +171,9 @@ function renderSummary() {
 }
 
 function renderRankings() {
-  const hot = [...state.transfers].sort((a, b) => Number(b.heat_score || 0) - Number(a.heat_score || 0)).slice(0, 20);
-  const trusted = [...state.transfers]
+  const transferItems = state.transfers.filter((item) => (item.category || "transfer") === "transfer");
+  const hot = [...transferItems].sort((a, b) => Number(b.heat_score || 0) - Number(a.heat_score || 0)).slice(0, 20);
+  const trusted = [...transferItems]
     .filter((item) => Number(item.credibility_score || 0) >= 75)
     .sort((a, b) => Number(b.credibility_score || 0) - Number(a.credibility_score || 0))
     .slice(0, 10);
@@ -173,7 +187,7 @@ function renderRankList(container, items, scoreKey, label) {
     ...items.map((item) => {
       const li = document.createElement("li");
       li.innerHTML = `
-        <span class="rank-title">${escapeHtml(item.player || "未知球员")}</span>
+        <span class="rank-title">${escapeHtml(item.player || item.title_zh || item.title || "未知")}</span>
         <span class="rank-meta">${escapeHtml(item.to_club || "未知去向")} · ${label} ${Number(item[scoreKey] || 0)}</span>
       `;
       return li;
@@ -185,7 +199,7 @@ function renderTransfers() {
   if (!state.filtered.length) {
     const empty = document.createElement("div");
     empty.className = "empty-state";
-    empty.textContent = "没有匹配的转会信息。";
+    empty.textContent = state.category === "transfer" ? "没有匹配的转会信息。" : "没有匹配的非转会新闻。";
     els.transferGrid.replaceChildren(empty);
     return;
   }
@@ -270,16 +284,12 @@ function renderEntityText(text, entities) {
   const pattern = new RegExp(candidates.map((entity) => escapeRegExp(entity.name)).join("|"), "g");
   let cursor = 0;
   for (const match of text.matchAll(pattern)) {
-    if (match.index > cursor) {
-      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
-    }
+    if (match.index > cursor) fragment.append(document.createTextNode(text.slice(cursor, match.index)));
     const entity = candidates.find((item) => item.name === match[0]);
     fragment.append(entityButton(entity || { name: match[0], type: "unknown" }));
     cursor = match.index + match[0].length;
   }
-  if (cursor < text.length) {
-    fragment.append(document.createTextNode(text.slice(cursor)));
-  }
+  if (cursor < text.length) fragment.append(document.createTextNode(text.slice(cursor)));
   return [fragment];
 }
 
@@ -329,15 +339,11 @@ function entityTypeLabel(type) {
 }
 
 document.addEventListener("click", (event) => {
-  if (event.target.matches("[data-close-modal]")) {
-    els.entityModal.hidden = true;
-  }
+  if (event.target.matches("[data-close-modal]")) els.entityModal.hidden = true;
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
-    els.entityModal.hidden = true;
-  }
+  if (event.key === "Escape") els.entityModal.hidden = true;
 });
 
 function sourceKindLabel(kind) {

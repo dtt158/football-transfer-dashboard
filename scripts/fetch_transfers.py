@@ -24,6 +24,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "transfers.json"
 DEFAULT_ENTITY_CACHE = ROOT / "data" / "entity_cache.json"
+DEFAULT_TRANSLATION_CACHE = ROOT / "data" / "translation_cache.json"
 
 
 LEAGUE_KEYWORDS = {
@@ -350,8 +351,15 @@ EXCLUDE_TERMS = [
     "talking points",
 ]
 
+MAX_GENERAL_ITEMS = 60
+MAX_GENERAL_PER_SOURCE = 6
+MAX_ONLINE_TRANSLATION_MISSES = 16
+MAX_WIKI_MISSES = 24
+
 TRANSLATION_CACHE: dict[str, str] = {}
 WIKI_CACHE: dict[str, dict[str, str]] = {}
+ONLINE_TRANSLATION_MISSES = 0
+WIKI_MISSES = 0
 
 GLOSSARY_TRANSLATIONS = [
     ("is set to become", "即将成为"),
@@ -403,10 +411,12 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--entity-cache", type=Path, default=DEFAULT_ENTITY_CACHE)
+    parser.add_argument("--translation-cache", type=Path, default=DEFAULT_TRANSLATION_CACHE)
     parser.add_argument("--keep-existing-on-empty", action="store_true", default=True)
     args = parser.parse_args()
 
     load_entity_cache(args.entity_cache)
+    load_translation_cache(args.translation_cache)
     sources = [Source(**source) for source in SOURCE_REGISTRY]
     items: list[dict[str, Any]] = []
     errors: list[str] = []
@@ -448,6 +458,7 @@ def main() -> int:
     }
     write_json(args.output, payload)
     save_entity_cache(args.entity_cache)
+    save_translation_cache(args.translation_cache)
     print(f"Wrote {len(transfers)} transfer items to {args.output}")
     if errors:
         print("Fetch warnings:", "; ".join(errors), file=sys.stderr)
@@ -466,7 +477,18 @@ def load_entity_cache(path: Path) -> None:
         return
     for key, value in records.items():
         if isinstance(key, str) and isinstance(value, dict):
-            WIKI_CACHE[key] = {str(k): str(v) for k, v in value.items() if v is not None}
+            WIKI_CACHE[key] = normalise_cached_wiki_record({str(k): str(v) for k, v in value.items() if v is not None})
+
+
+def normalise_cached_wiki_record(record: dict[str, str]) -> dict[str, str]:
+    if not record:
+        return record
+    url = record.get("wiki_url", "")
+    if not record.get("source_language"):
+        record["source_language"] = "zh" if "zh.wikipedia.org" in url else "en" if "en.wikipedia.org" in url else "unknown"
+    if not record.get("wiki_variant"):
+        record["wiki_variant"] = "legacy-zh" if record["source_language"] == "zh" else "legacy-en"
+    return record
 
 
 def save_entity_cache(path: Path) -> None:
@@ -477,10 +499,34 @@ def save_entity_cache(path: Path) -> None:
     write_json(path, payload)
 
 
+def load_translation_cache(path: Path) -> None:
+    if not path.exists():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    records = payload.get("translations", payload)
+    if not isinstance(records, dict):
+        return
+    for key, value in records.items():
+        if isinstance(key, str) and isinstance(value, str):
+            TRANSLATION_CACHE[key] = value
+
+
+def save_translation_cache(path: Path) -> None:
+    payload = {
+        "generated_at": utc_now(),
+        "translations": dict(sorted(TRANSLATION_CACHE.items())),
+    }
+    write_json(path, payload)
+
+
 def fetch_source(source: Source) -> list[dict[str, Any]]:
     raw = read_url(source.url)
     root = ET.fromstring(raw)
     parsed: list[dict[str, Any]] = []
+    general_count = 0
 
     for element in root.findall(".//item") or root.findall(".//{http://www.w3.org/2005/Atom}entry"):
         title = text_from(element, "title")
@@ -492,19 +538,24 @@ def fetch_source(source: Source) -> list[dict[str, Any]]:
         published = normalise_date(text_from(element, "pubDate") or text_from(element, "updated") or text_from(element, "published"))
         combined = f"{title} {description}".strip()
 
-        if not is_transfer_related(combined):
+        category = classify_news_category(combined)
+        if category == "ignore":
             continue
+        if category == "general":
+            if general_count >= MAX_GENERAL_PER_SOURCE:
+                continue
+            general_count += 1
 
-        parsed.append(classify_item(combined, title, description, link, published, source))
+        parsed.append(classify_item(combined, title, description, link, published, source, category))
 
     return parsed
 
 
-def classify_item(combined: str, title: str, description: str, link: str, published: str, source: Source) -> dict[str, Any]:
+def classify_item(combined: str, title: str, description: str, link: str, published: str, source: Source, category: str) -> dict[str, Any]:
     lowered = combined.lower()
-    status = "rumour"
+    status = "rumour" if category == "transfer" else "general"
     for candidate, terms in STATUS_PATTERNS:
-        if any(term in lowered for term in terms):
+        if category == "transfer" and any(term in lowered for term in terms):
             status = candidate
             break
 
@@ -523,8 +574,9 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
     entities = build_entities(player, clubs, league)
     preserve_terms = [entity["name"] for entity in entities if entity.get("type") in {"player", "club"}]
     summary = summarise(description or title)
-    summary_zh, translation_provider = translate_summary(summary, source.language, preserve_terms)
-    title_zh, title_translation_provider = translate_summary(title, source.language, preserve_terms)
+    allow_online_translation = category == "transfer"
+    summary_zh, translation_provider = translate_summary(summary, source.language, preserve_terms, allow_online_translation)
+    title_zh, title_translation_provider = translate_summary(title, source.language, preserve_terms, allow_online_translation)
 
     return {
         "id": stable_id(title, link),
@@ -535,6 +587,7 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
         "from_club": clubs[0],
         "to_club": clubs[1],
         "league": league,
+        "category": category,
         "status": status,
         "summary": summary,
         "summary_zh": summary_zh,
@@ -561,7 +614,7 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
 def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     merged: dict[str, dict[str, Any]] = {}
     for item in items:
-        key = normalise_key(item["player"], item["to_club"])
+        key = normalise_key(item["player"], item["to_club"], item.get("category", "transfer"), item.get("id", ""))
         if key not in merged:
             merged[key] = item
             continue
@@ -580,7 +633,14 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
             current["reported_at"] = item["reported_at"]
         current["entities"] = merge_entities(current.get("entities", []), item.get("entities", []))
 
-    return sorted(merged.values(), key=lambda item: (item["heat_score"], item["credibility_score"]), reverse=True)
+    sorted_items = sorted(merged.values(), key=lambda item: (item["heat_score"], item["credibility_score"]), reverse=True)
+    transfers = [item for item in sorted_items if item.get("category") == "transfer"]
+    general = sorted(
+        [item for item in sorted_items if item.get("category") == "general"],
+        key=lambda item: DateOrLow(item.get("reported_at", "")),
+        reverse=True,
+    )[:MAX_GENERAL_ITEMS]
+    return transfers + general
 
 
 def read_url(url: str) -> bytes:
@@ -607,11 +667,13 @@ def clean_html(value: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
 
-def is_transfer_related(text: str) -> bool:
+def classify_news_category(text: str) -> str:
     lowered = text.lower()
     if any(term in lowered for term in EXCLUDE_TERMS):
-        return False
-    return any(has_term(lowered, term) for term in TRANSFER_TERMS)
+        return "ignore"
+    if any(has_term(lowered, term) for term in TRANSFER_TERMS):
+        return "transfer"
+    return "general"
 
 
 def has_term(text: str, term: str) -> bool:
@@ -682,33 +744,70 @@ def entity_record(name: str, kind: str, description: str) -> dict[str, str]:
         record["image_url"] = wiki["image_url"]
     if wiki.get("wiki_title"):
         record["wiki_title"] = wiki["wiki_title"]
+    if wiki.get("source_language"):
+        record["source_language"] = wiki["source_language"]
+    if wiki.get("wiki_variant"):
+        record["wiki_variant"] = wiki["wiki_variant"]
+    if wiki.get("translated_from"):
+        record["translated_from"] = wiki["translated_from"]
     return record
 
 
 def fetch_wiki_entity(name: str, kind: str) -> dict[str, str]:
+    global WIKI_MISSES
     cache_key = f"{kind}|{name}"
-    if cache_key in WIKI_CACHE:
+    if cache_key in WIKI_CACHE and cache_is_current(WIKI_CACHE[cache_key]):
         return WIKI_CACHE[cache_key]
+    if WIKI_MISSES >= MAX_WIKI_MISSES:
+        return {}
+    WIKI_MISSES += 1
     if name in WIKI_TITLE_OVERRIDES:
         for language, title in WIKI_TITLE_OVERRIDES[name].items():
             result = query_wikipedia_title(title, language)
             if result:
-                WIKI_CACHE[cache_key] = result
-                return result
+                resolved = resolve_wiki_language(result)
+                WIKI_CACHE[cache_key] = resolved
+                return resolved
     search_name = wiki_search_name(name, kind)
     for language in ["zh", "en"]:
         result = query_wikipedia(search_name, language)
         if result and wiki_result_matches_kind(result, kind, name):
-            WIKI_CACHE[cache_key] = result
-            return result
+            resolved = resolve_wiki_language(result)
+            WIKI_CACHE[cache_key] = resolved
+            return resolved
     if search_name != name:
         for language in ["zh", "en"]:
             result = query_wikipedia(name, language)
             if result and wiki_result_matches_kind(result, kind, name):
-                WIKI_CACHE[cache_key] = result
-                return result
+                resolved = resolve_wiki_language(result)
+                WIKI_CACHE[cache_key] = resolved
+                return resolved
     WIKI_CACHE[cache_key] = {}
     return {}
+
+
+def cache_is_current(record: dict[str, str]) -> bool:
+    return bool(record.get("description") or record.get("wiki_title") or record.get("wiki_url"))
+
+
+def resolve_wiki_language(result: dict[str, str]) -> dict[str, str]:
+    if result.get("source_language") == "zh":
+        return result
+    zh_title = result.get("zh_title", "")
+    english_image = result.get("image_url", "")
+    if zh_title:
+        for variant in ["zh-hans", "zh-hant"]:
+            chinese = query_wikipedia_title(zh_title, "zh", variant=variant)
+            if chinese:
+                if not chinese.get("image_url") and english_image:
+                    chinese["image_url"] = english_image
+                chinese["translated_from"] = result.get("wiki_title", "")
+                return chinese
+    translated = dict(result)
+    translated["description"] = translate_text_only(result.get("description", ""), "en")
+    translated["translated_from"] = result.get("wiki_title", "")
+    translated["wiki_variant"] = "translated-en"
+    return translated
 
 
 def wiki_search_name(name: str, kind: str) -> str:
@@ -735,22 +834,24 @@ def wiki_result_matches_kind(result: dict[str, str], kind: str, name: str) -> bo
     return True
 
 
-def query_wikipedia_title(title: str, language: str) -> dict[str, str]:
+def query_wikipedia_title(title: str, language: str, variant: str | None = None) -> dict[str, str]:
     params = urllib.parse.urlencode(
         {
             "action": "query",
             "format": "json",
             "titles": title,
-            "prop": "extracts|pageimages|info",
+            "prop": "extracts|pageimages|info|langlinks",
             "exintro": 1,
             "explaintext": 1,
             "piprop": "thumbnail",
             "pithumbsize": 360,
             "inprop": "url",
             "redirects": 1,
+            "lllang": "zh",
         }
     )
-    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}")
+    suffix = f"&variant={variant}" if variant else ""
+    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}{suffix}", language, variant)
 
 
 def query_wikipedia(name: str, language: str) -> dict[str, str]:
@@ -761,19 +862,20 @@ def query_wikipedia(name: str, language: str) -> dict[str, str]:
             "generator": "search",
             "gsrsearch": name,
             "gsrlimit": 1,
-            "prop": "extracts|pageimages|info",
+            "prop": "extracts|pageimages|info|langlinks",
             "exintro": 1,
             "explaintext": 1,
             "piprop": "thumbnail",
             "pithumbsize": 360,
             "inprop": "url",
             "redirects": 1,
+            "lllang": "zh",
         }
     )
-    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}")
+    return query_wikipedia_api(f"https://{language}.wikipedia.org/w/api.php?{params}", language, "original")
 
 
-def query_wikipedia_api(url: str) -> dict[str, str]:
+def query_wikipedia_api(url: str, language: str, variant: str | None) -> dict[str, str]:
     payload: dict[str, Any] = {}
     for attempt in range(3):
         try:
@@ -798,7 +900,17 @@ def query_wikipedia_api(url: str) -> dict[str, str]:
         "image_url": page.get("thumbnail", {}).get("source", ""),
         "wiki_url": page.get("fullurl", ""),
         "wiki_title": page.get("title", ""),
+        "source_language": language,
+        "wiki_variant": variant or language,
+        "zh_title": zh_langlink_title(page),
     }
+
+
+def zh_langlink_title(page: dict[str, Any]) -> str:
+    for link in page.get("langlinks", []) or []:
+        if link.get("lang") == "zh":
+            return str(link.get("*") or "")
+    return ""
 
 
 def first_paragraph(text: str) -> str:
@@ -920,26 +1032,41 @@ def summarise(text: str) -> str:
     return cleaned[:260] + ("..." if len(cleaned) > 260 else "")
 
 
-def translate_summary(text: str, source_language: str = "en", preserve_terms: list[str] | None = None) -> tuple[str, str]:
+def translate_summary(
+    text: str,
+    source_language: str = "en",
+    preserve_terms: list[str] | None = None,
+    allow_online: bool = True,
+) -> tuple[str, str]:
     if not text:
         return "", "empty"
     if has_cjk(text):
         return text, "original"
     preserve_terms = preserve_terms or []
-    cache_key = f"{source_language}|{text}|{'|'.join(sorted(preserve_terms))}"
+    cache_key = f"{source_language}|{text}"
     if cache_key in TRANSLATION_CACHE:
         return TRANSLATION_CACHE[cache_key], "cache"
 
     protected_text, placeholders = protect_terms(text, preserve_terms)
-    translated = translate_with_mymemory(protected_text, source_language)
-    if translated:
-        restored = restore_terms(translated, placeholders)
-        TRANSLATION_CACHE[cache_key] = restored
-        return restored, "mymemory"
+    global ONLINE_TRANSLATION_MISSES
+    if allow_online and ONLINE_TRANSLATION_MISSES < MAX_ONLINE_TRANSLATION_MISSES:
+        ONLINE_TRANSLATION_MISSES += 1
+        translated = translate_with_mymemory(protected_text, source_language)
+        if translated:
+            restored = restore_terms(translated, placeholders)
+            TRANSLATION_CACHE[cache_key] = restored
+            return restored, "mymemory"
 
     fallback = restore_terms(glossary_translate(protected_text), placeholders)
     TRANSLATION_CACHE[cache_key] = fallback
     return fallback, "glossary"
+
+
+def translate_text_only(text: str, source_language: str = "en") -> str:
+    if not text or has_cjk(text):
+        return text
+    translated = translate_with_mymemory(text[:500], source_language)
+    return translated or glossary_translate(text)
 
 
 def protect_terms(text: str, terms: list[str]) -> tuple[str, dict[str, str]]:
@@ -969,7 +1096,7 @@ def translate_with_mymemory(text: str, source_language: str) -> str:
     url = f"https://api.mymemory.translated.net/get?{params}"
     try:
         request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
-        with urllib.request.urlopen(request, timeout=12) as response:
+        with urllib.request.urlopen(request, timeout=6) as response:
             payload = json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
         return ""
@@ -1011,7 +1138,9 @@ def stable_id(title: str, link: str) -> str:
     return hashlib.sha1(f"{title}|{link}".encode("utf-8")).hexdigest()[:16]
 
 
-def normalise_key(player: str, to_club: str) -> str:
+def normalise_key(player: str, to_club: str, category: str = "transfer", item_id: str = "") -> str:
+    if category == "general":
+        return f"general-{item_id}"
     return re.sub(r"[^a-z0-9]+", "-", f"{player}-{to_club}".lower()).strip("-")
 
 
