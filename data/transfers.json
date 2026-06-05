@@ -1,23 +1,195 @@
 {
-  "generated_at": "2026-06-05T03:22:20Z",
+  "generated_at": "2026-06-05T03:32:09Z",
   "sources": [
     {
       "name": "BBC Football",
       "grade": "B",
       "description": "英国主流媒体，适合追踪英超和欧洲转会新闻；转会确认仍以官方公告优先。",
-      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml"
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "kind": "rss",
+      "language": "en",
+      "region": "UK",
+      "focus": "英超、英国足球、欧洲转会"
     },
     {
       "name": "ESPN Soccer",
       "grade": "B",
       "description": "国际主流体育媒体，覆盖欧洲主流联赛和转会动态。",
-      "url": "https://www.espn.com/espn/rss/soccer/news"
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "kind": "rss",
+      "language": "en",
+      "region": "Global",
+      "focus": "国际足球、欧洲主流联赛"
+    },
+    {
+      "name": "The Guardian Football",
+      "grade": "B",
+      "description": "英国主流媒体，覆盖英超、欧洲足球和转会窗专题；适合作为多来源交叉验证。",
+      "url": "https://www.theguardian.com/football/rss",
+      "kind": "rss",
+      "language": "en",
+      "region": "UK",
+      "focus": "英超、欧洲足球、转会窗"
+    },
+    {
+      "name": "Football Italia",
+      "grade": "B",
+      "description": "意大利足球英文媒体，适合追踪意甲、意大利俱乐部和意大利球员相关转会。",
+      "url": "https://football-italia.net/feed/",
+      "kind": "rss",
+      "language": "en",
+      "region": "Italy",
+      "focus": "意甲、意大利足球"
+    },
+    {
+      "name": "Marca Fichajes",
+      "grade": "B",
+      "description": "西班牙主流体育媒体 Marca 的转会市场 RSS，适合追踪西甲和西语区转会新闻。",
+      "url": "https://e00-marca.uecdn.es/rss/futbol/mercado-fichajes.xml",
+      "kind": "rss",
+      "language": "es",
+      "region": "Spain",
+      "focus": "西甲、转会市场"
+    },
+    {
+      "name": "AS Primera",
+      "grade": "B",
+      "description": "西班牙主流体育媒体 AS 的西甲 RSS，用于补充西甲和皇马、巴萨、马竞相关动态。",
+      "url": "https://as.com/rss/futbol/primera.xml",
+      "kind": "rss",
+      "language": "es",
+      "region": "Spain",
+      "focus": "西甲、皇马、巴萨、马竞"
+    },
+    {
+      "name": "Get French Football News",
+      "grade": "B",
+      "description": "法国足球英文专业站，适合追踪法甲、法国球员和法国媒体转会线索。",
+      "url": "https://www.getfootballnewsfrance.com/feed/",
+      "kind": "rss",
+      "language": "en",
+      "region": "France",
+      "focus": "法甲、法国球员"
+    },
+    {
+      "name": "Get German Football News",
+      "grade": "B",
+      "description": "德国足球英文专业站，适合追踪德甲和德国俱乐部相关转会。",
+      "url": "https://www.getfootballnewsgermany.com/feed/",
+      "kind": "rss",
+      "language": "en",
+      "region": "Germany",
+      "focus": "德甲、德国足球"
+    },
+    {
+      "name": "Get Italian Football News",
+      "grade": "B",
+      "description": "意大利足球英文专业站，补充意甲和意大利媒体线索。",
+      "url": "https://www.getfootballnewsitaly.com/feed/",
+      "kind": "rss",
+      "language": "en",
+      "region": "Italy",
+      "focus": "意甲、意大利足球"
+    },
+    {
+      "name": "Get Spanish Football News",
+      "grade": "B",
+      "description": "西班牙足球英文专业站，补充西甲和西班牙媒体线索。",
+      "url": "https://www.getfootballnewsspain.com/feed/",
+      "kind": "rss",
+      "language": "en",
+      "region": "Spain",
+      "focus": "西甲、西班牙足球"
     },
     {
       "name": "Transfermarkt",
       "grade": "B",
       "description": "转会、身价和传闻聚合参考源；当前自动采集默认关闭，避免其反爬限制影响每小时更新。",
-      "url": "https://www.transfermarkt.co.uk/rss/news"
+      "url": "https://www.transfermarkt.co.uk/rss/news",
+      "kind": "reference",
+      "language": "en",
+      "region": "Global",
+      "focus": "身价、转会记录、传闻参考"
+    },
+    {
+      "name": "Fabrizio Romano",
+      "grade": "A",
+      "description": "高可信转会记者；首版作为社交信源目录展示，不自动抓取 X。",
+      "url": "https://x.com/FabrizioRomano",
+      "kind": "social",
+      "language": "en",
+      "region": "Global",
+      "focus": "全球转会、Here we go"
+    },
+    {
+      "name": "David Ornstein",
+      "grade": "A",
+      "description": "The Athletic 记者，英超和英国俱乐部转会可信度高；社交目录源。",
+      "url": "https://x.com/David_Ornstein",
+      "kind": "social",
+      "language": "en",
+      "region": "UK",
+      "focus": "英超、英国俱乐部"
+    },
+    {
+      "name": "Matteo Moretto",
+      "grade": "A",
+      "description": "西班牙和意大利转会记者，西甲、意甲线索较强；社交目录源。",
+      "url": "https://x.com/MatteMoretto",
+      "kind": "social",
+      "language": "es",
+      "region": "Spain/Italy",
+      "focus": "西甲、意甲"
+    },
+    {
+      "name": "Gianluca Di Marzio",
+      "grade": "A",
+      "description": "意大利转会记者，意甲和意大利俱乐部信息源；社交目录源。",
+      "url": "https://x.com/DiMarzio",
+      "kind": "social",
+      "language": "it",
+      "region": "Italy",
+      "focus": "意甲、意大利足球"
+    },
+    {
+      "name": "Florian Plettenberg",
+      "grade": "B",
+      "description": "德国 Sky 记者，德甲和德国俱乐部转会线索；社交目录源。",
+      "url": "https://x.com/Plettigoal",
+      "kind": "social",
+      "language": "de",
+      "region": "Germany",
+      "focus": "德甲、德国足球"
+    },
+    {
+      "name": "Santi Aouna",
+      "grade": "B",
+      "description": "Foot Mercato 记者，法甲、法国球员和欧洲转会线索；社交目录源。",
+      "url": "https://x.com/Santi_J_FM",
+      "kind": "social",
+      "language": "fr",
+      "region": "France",
+      "focus": "法甲、法国球员"
+    },
+    {
+      "name": "Fabrice Hawkins",
+      "grade": "B",
+      "description": "RMC Sport 记者，法国足球和法甲转会线索；社交目录源。",
+      "url": "https://x.com/FabriceHawkins",
+      "kind": "social",
+      "language": "fr",
+      "region": "France",
+      "focus": "法甲、法国足球"
+    },
+    {
+      "name": "Ben Jacobs",
+      "grade": "B",
+      "description": "英超、中东资本和部分欧洲转会线索；社交目录源，需与 A/S 来源交叉验证。",
+      "url": "https://x.com/JacobsBen",
+      "kind": "social",
+      "language": "en",
+      "region": "UK/Global",
+      "focus": "英超、沙特/中东相关转会"
     }
   ],
   "errors": [],
@@ -30,12 +202,12 @@
       "league": "其他",
       "status": "negotiating",
       "summary": "York City accept what would be a club-record, seven-figure bid for defender Malachi Fagan-Walcott from Heart of Midlothian.",
-      "summary_zh": "约克市接受了中洛锡安中心对后卫马拉基·法根-沃尔科特的七位数竞标，这将是一个俱乐部纪录。",
-      "translation_provider": "mymemory",
+      "summary_zh": "York City accept what would be a 俱乐部-record, seven-figure 报价 for 后卫 Malachi Fagan-Walcott from Heart of Midlothian.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:00:01Z",
-      "collected_at": "2026-06-05T03:22:13Z",
+      "collected_at": "2026-06-05T03:31:14Z",
       "credibility_score": 71,
       "heat_score": 80,
       "tags": [
@@ -65,12 +237,12 @@
       "league": "英超",
       "status": "official",
       "summary": "Our Ask Me Anything team looks into why Andoni Iraola has signed a contract for just two years as Liverpool manager.",
-      "summary_zh": "我们的Ask Me Anything团队调查了Andoni Iraola作为利物浦经理仅签订两年合同的原因。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Our Ask Me Anything team looks into why Andoni Iraola has 签下 a 合同 for just two years as Liverpool 主教练.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:50:04Z",
-      "collected_at": "2026-06-05T03:22:11Z",
+      "collected_at": "2026-06-05T03:31:13Z",
       "credibility_score": 78,
       "heat_score": 78,
       "tags": [
@@ -87,6 +259,149 @@
       ]
     },
     {
+      "id": "5f92cd4818ffe2fa",
+      "player": "Liverpool confirm appointment of Andoni Iraola as new head coach",
+      "from_club": "Liverpool",
+      "to_club": "Leverkusen",
+      "league": "英超",
+      "status": "official",
+      "summary": "Spaniard replaces Arne Slot and signs two-year deal Iraola worked with Richard Hughes at Bournemouth Andoni Iraola has been appointed the new head coach of Liverpool on a two-year contract. The 43-year-old’s arrival was confirmed just six days after the sackin...",
+      "summary_zh": "Spaniard replaces Arne Slot and signs two-year 交易 Iraola worked with Richard Hughes at Bournemouth Andoni Iraola has been appointed the new head coach of Liverpool on a two-year 合同. The 43-year-old’s arrival was confirmed just six days after the sackin...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:31:22Z",
+      "collected_at": "2026-06-05T03:31:18Z",
+      "credibility_score": 78,
+      "heat_score": 78,
+      "tags": [
+        "contract",
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/04/liverpool-confirm-appointment-of-andoni-iraola-as-new-head-coach",
+          "grade": "B",
+          "published_at": "2026-06-04T18:31:22Z"
+        }
+      ]
+    },
+    {
+      "id": "ad084102b98d1bb1",
+      "player": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appoint",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "official",
+      "summary": "Fabio Grosso has officially departed Sassuolo following a mutual termination of his contract, clearing the...",
+      "summary_zh": "Fabio Grosso has officially departed Sassuolo following a mutual termination of his 合同, clearing the...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:48:00Z",
+      "collected_at": "2026-06-05T03:31:29Z",
+      "credibility_score": 78,
+      "heat_score": 78,
+      "tags": [
+        "contract",
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/official-grosso-leaves-sassuolo-fiorentina/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "54a0b95053ca2d14",
+      "player": "Official",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "official",
+      "summary": "AJ Auxerre have officially parted ways with head coach Christophe Pélissier. The Frenchman had a year remaining on his contract, but he has been let go by club owner, Chinese…",
+      "summary_zh": "AJ Auxerre have officially parted ways with head coach Christophe Pélissier. The Frenchman had a year remaining on his 合同, but he has been let go by 俱乐部 owner, Chinese…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:19:00Z",
+      "collected_at": "2026-06-05T03:31:52Z",
+      "credibility_score": 78,
+      "heat_score": 78,
+      "tags": [
+        "contract",
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "Get French Football News",
+          "url": "https://www.getfootballnewsfrance.com/2026/official-auxerre-part-ways-with-christophe-pelissier/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:19:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6744d77235525260",
+      "player": "Florentino Pérez confirms Real Madrid’s first summer signing",
+      "from_club": "未知",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "official",
+      "summary": "Real Madrid president Florentino Pérez has this week announced the club’s first signing of the summer transfer window. This comes amid confirmation that Ibrahima Konaté has agreed to take his…",
+      "summary_zh": "Real Madrid president Florentino Pérez has this week announced the 俱乐部’s first 签约 of the 夏窗 转会 window. This comes amid confirmation that Ibrahima Konaté has 达成一致 to take his…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:00:00Z",
+      "collected_at": "2026-06-05T03:32:09Z",
+      "credibility_score": 78,
+      "heat_score": 78,
+      "tags": [
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "Get Spanish Football News",
+          "url": "https://getfootballnewsspain.com/florentino-perez-confirms-real-madrids-first-summer-signing/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6e1252f6ab6fad3e",
+      "player": "Gladbach set to sign Isac Lidberg",
+      "from_club": "未知",
+      "to_club": "Bundesliga",
+      "league": "德甲",
+      "status": "advanced",
+      "summary": "Borussia Mönchengladbach have reached an agreement with 2. Bundesliga Darmstadt to sign Isac Lidberg, according to a report from Sky Germany. Die Fohlen will play a reported €3.5m plus add-ons,…",
+      "summary_zh": "Borussia Mönchengladbach have reached an agreement with 2. Bundesliga Darmstadt to 签约 Isac Lidberg, according to a report from Sky Germany. Die Fohlen will play a reported €3.5m plus add-ons,…",
+      "translation_provider": "glossary",
+      "fee": "€3.5m",
+      "contract": "",
+      "reported_at": "2026-06-03T07:21:31Z",
+      "collected_at": "2026-06-05T03:31:56Z",
+      "credibility_score": 74,
+      "heat_score": 77,
+      "tags": [
+        "advanced"
+      ],
+      "sources": [
+        {
+          "name": "Get German Football News",
+          "url": "https://www.getfootballnewsgermany.com/2026/gladbach-set-sign-lidberg/",
+          "grade": "B",
+          "published_at": "2026-06-03T07:21:31Z"
+        }
+      ]
+    },
+    {
       "id": "fae00e6008768f5e",
       "player": "Madrid's Pérez vows $174M Galactico bid if elected...",
       "from_club": "未知",
@@ -94,12 +409,12 @@
       "league": "西甲",
       "status": "negotiating",
       "summary": "Florentino Pérez promised to bid for a $174 million (€150 million) \"Galáctico\" player this summer as he tries to win Sunday's presidential elections at Real Madrid.",
-      "summary_zh": "弗洛伦蒂诺·佩雷斯（ Florentino Pérez ）承诺今年夏天竞标1.74亿美元（ 1.5亿欧元）的“Galáctico”球员，因为他试图赢得周日在皇家马德里的总统选举。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Florentino Pérez promised to 报价 for a $174 million (€150 million) \"Galáctico\" player this 夏窗 as he tries to win Sunday's presidential elections at Real Madrid.",
+      "translation_provider": "glossary",
       "fee": "$174M",
       "contract": "",
       "reported_at": "2026-06-05T02:56:45Z",
-      "collected_at": "2026-06-05T03:22:16Z",
+      "collected_at": "2026-06-05T03:31:16Z",
       "credibility_score": 66,
       "heat_score": 76,
       "tags": [
@@ -116,6 +431,63 @@
       ]
     },
     {
+      "id": "1150978014c58751",
+      "player": "Liverpool agree deal in principle with Andoni Iraola for two-year contract",
+      "from_club": "未知",
+      "to_club": "Liverpool",
+      "league": "英超",
+      "status": "official",
+      "summary": "Negotiations with Spaniard have progressed quickly Assistants Tommy Elphick and Shaun Cooper to join too Andoni Iraola is close to being confirmed as Liverpool’s new head coach after agreeing a deal in principle to succeed Arne Slot. Iraola has been in talks w...",
+      "summary_zh": "Negotiations with Spaniard have progressed quickly Assistants Tommy Elphick and Shaun Cooper to join too Andoni Iraola is close to being confirmed as Liverpool’s new head coach after agreeing a 交易 in principle to succeed Arne Slot. Iraola has been in talks w...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-02T21:09:46Z",
+      "collected_at": "2026-06-05T03:31:20Z",
+      "credibility_score": 78,
+      "heat_score": 73,
+      "tags": [
+        "contract",
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/02/liverpool-opened-talks-with-andoni-iraola-over-becoming-head-coach",
+          "grade": "B",
+          "published_at": "2026-06-02T21:09:46Z"
+        }
+      ]
+    },
+    {
+      "id": "86eff25f8e66a209",
+      "player": "Football Daily",
+      "from_club": "未知",
+      "to_club": "Liverpool",
+      "league": "英超",
+      "status": "official",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! It was only a matter of time before one of football’s big clubs placed their future in the hands of AI. Happily for Liverpool, they’ve plumped for a man with those initials rather than a rapidly growing techn...",
+      "summary_zh": "签约 up now! 签约 up now! 签约 up now? 签约 up now! It was only a matter of time before one of football’s big clubs placed their future in the hands of AI. Happily for Liverpool, they’ve plumped for a man with those initials rather than a rapidly growing techn...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T14:40:37Z",
+      "collected_at": "2026-06-05T03:31:24Z",
+      "credibility_score": 78,
+      "heat_score": 73,
+      "tags": [
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/03/football-daily-newsletter-andoni-iraola-managerial-merry-go-round",
+          "grade": "B",
+          "published_at": "2026-06-03T14:40:37Z"
+        }
+      ]
+    },
+    {
       "id": "70bd8fecbfe52864",
       "player": "Brighton expect second Spurs bid for Van Hecke",
       "from_club": "Tottenham",
@@ -123,12 +495,12 @@
       "league": "英超",
       "status": "negotiating",
       "summary": "Brighton are expecting Tottenham to return with an increased offer after rejecting an initial £70m bid for Netherlands defender Jan Paul van Hecke.",
-      "summary_zh": "布莱顿预计，在拒绝了荷兰后卫扬·保罗·范赫克（ Jan Paul van Hecke ）最初7000万英镑的报价后，托特纳姆热刺将以更高的报价回归。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Brighton 预计 Tottenham to return with an 提高后的报价 在拒绝后 an initial £70m 报价 for Netherlands 后卫 Jan Paul van Hecke.",
+      "translation_provider": "glossary",
       "fee": "£70m",
       "contract": "",
       "reported_at": "2026-06-04T13:41:51Z",
-      "collected_at": "2026-06-05T03:22:10Z",
+      "collected_at": "2026-06-05T03:31:12Z",
       "credibility_score": 66,
       "heat_score": 72,
       "tags": [
@@ -145,6 +517,62 @@
       ]
     },
     {
+      "id": "ddd3ddc29461b94e",
+      "player": "Football Daily | World Cup Omitted XI",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "negotiating",
+      "summary": "Sign up now! Sign up now! Sign up now? Sign up now! With every squad for the Geopolitics World Cup now finalised – Turkey, Jordan, Ghana and Uzbekistan were the last teams to confirm their 26-man rosters on Tuesday – we now know exactly who is making the trip ...",
+      "summary_zh": "签约 up now! 签约 up now! 签约 up now? 签约 up now! With every squad for the Geopolitics World Cup now finalised – Turkey, Jordan, Ghana and Uzbekistan were the last teams to confirm their 26-man rosters on Tuesday – we now know exactly who is making the trip ...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T14:24:52Z",
+      "collected_at": "2026-06-05T03:31:20Z",
+      "credibility_score": 66,
+      "heat_score": 72,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/04/football-daily-omitted-xi-geopolitics-world-cup",
+          "grade": "B",
+          "published_at": "2026-06-04T14:24:52Z"
+        }
+      ]
+    },
+    {
+      "id": "db9ba28c6bf7a81d",
+      "player": "Besiktas offer Italiano two-year deal worth €6m per season",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "negotiating",
+      "summary": "Vincenzo Italiano could be set to finalise his somewhat surprise move to Turkey after Besiktas...",
+      "summary_zh": "Vincenzo Italiano could be set to finalise his somewhat surprise move to Turkey after Besiktas...",
+      "translation_provider": "glossary",
+      "fee": "€6m",
+      "contract": "",
+      "reported_at": "2026-06-04T18:02:19Z",
+      "collected_at": "2026-06-05T03:31:30Z",
+      "credibility_score": 66,
+      "heat_score": 72,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/besiktas-offer-italiano-two-year-deal/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:02:19Z"
+        }
+      ]
+    },
+    {
       "id": "7f9a92f4cb1e74cd",
       "player": "Man City consider legal action over Real candidate's promise to sign Haaland",
       "from_club": "Manchester City",
@@ -152,12 +580,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
-      "summary_zh": "在皇家马德里总统选举的一名候选人在电视直播中展示了一件Erling Haaland球衣后，曼城驳回了他们的前锋将移居西班牙的建议。",
-      "translation_provider": "mymemory",
+      "summary_zh": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their 前锋 will move to Spain.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:27:35Z",
-      "collected_at": "2026-06-05T03:22:07Z",
+      "collected_at": "2026-06-05T03:31:10Z",
       "credibility_score": 58,
       "heat_score": 72,
       "tags": [
@@ -173,30 +601,200 @@
       ]
     },
     {
-      "id": "eaec20849744c3e8",
-      "player": "Real Madrid unveil new home kit for quest to end m...",
-      "from_club": "未知",
-      "to_club": "Real Madrid",
-      "league": "西甲",
+      "id": "31303c21f59a4700",
+      "player": "Transfer round-up",
+      "from_club": "Serie A",
+      "to_club": "Juventus",
+      "league": "意甲",
       "status": "rumour",
-      "summary": "Real Madrid have a white jersey once again, but the design is offset by a fresh and bold color combination.",
-      "summary_zh": "皇家马德里再次采用白色球衣，但设计被清新大胆的颜色组合所抵消。",
-      "translation_provider": "mymemory",
+      "summary": "Here is a round-up of Thursday’s key transfer stories involving the major Serie A clubs....",
+      "summary_zh": "Here is a round-up of Thursday’s key 转会 stories involving the major Serie A clubs....",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-05T00:49:58Z",
-      "collected_at": "2026-06-05T03:22:19Z",
+      "reported_at": "2026-06-04T19:42:37Z",
+      "collected_at": "2026-06-05T03:31:28Z",
       "credibility_score": 58,
-      "heat_score": 68,
+      "heat_score": 72,
       "tags": [
         "rumour"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48955127/real-madrid-unveil-new-2026-27-home-kit-quest-end-major-trophy-drought-laliga-copa-del-rey-champions-league",
+          "name": "Football Italia",
+          "url": "https://football-italia.net/transfer-round-up-juventus-inter-napoli/",
           "grade": "B",
-          "published_at": "2026-06-05T00:49:58Z"
+          "published_at": "2026-06-04T19:42:37Z"
+        }
+      ]
+    },
+    {
+      "id": "0a3c324f26578be3",
+      "player": "Transfer-linked Barcelona star provides future update",
+      "from_club": "未知",
+      "to_club": "Barcelona",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Barcelona star Jules Koundé has this week spoken out regarding his future with the club. Defender Koundé has for his part been repeatedly linked with a move away from the…",
+      "summary_zh": "Barcelona star Jules Koundé has this week spoken out regarding his future with the 俱乐部. 后卫 Koundé has for his part been repeatedly linked with a move away from the…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T20:27:00Z",
+      "collected_at": "2026-06-05T03:32:06Z",
+      "credibility_score": 58,
+      "heat_score": 72,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Get Spanish Football News",
+          "url": "https://getfootballnewsspain.com/transfer-linked-barcelona-star-provides-future-update/",
+          "grade": "B",
+          "published_at": "2026-06-04T20:27:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bc3d9acc97a2fe69",
+      "player": "Espanyol star in the sights of rival La Liga clubs",
+      "from_club": "未知",
+      "to_club": "LaLiga",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Espanyol star Rubén Sánchez is a man in-demand heading into the summer transfer window. This comes amid confirmation that a whole host of clubs across Spain and the rest of…",
+      "summary_zh": "Espanyol star Rubén Sánchez is a man in-demand heading into the 夏窗 转会 window. This comes amid confirmation that a whole host of clubs across Spain and the rest of…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T20:05:00Z",
+      "collected_at": "2026-06-05T03:32:07Z",
+      "credibility_score": 58,
+      "heat_score": 72,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Get Spanish Football News",
+          "url": "https://getfootballnewsspain.com/espanyol-star-in-the-sights-of-rival-la-liga-clubs/",
+          "grade": "B",
+          "published_at": "2026-06-04T20:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "26b6333b854b4754",
+      "player": "Bayern Munich reach agreement with Ismaël Saibari",
+      "from_club": "Bayern",
+      "to_club": "Psv",
+      "league": "德甲",
+      "status": "advanced",
+      "summary": "Bayern Munich have reached an agreement with PSV Eindhoven attacker Ismaël Saibari (25), according to a report by Foot Mercato. Saibari, who scored 15 goals and provided eight assists in…",
+      "summary_zh": "Bayern Munich have reached an agreement with PSV Eindhoven attacker Ismaël Saibari (25), according to a report by Foot Mercato. Saibari, who scored 15 goals and provided eight assists in…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T06:45:31Z",
+      "collected_at": "2026-06-05T03:31:57Z",
+      "credibility_score": 74,
+      "heat_score": 69,
+      "tags": [
+        "advanced"
+      ],
+      "sources": [
+        {
+          "name": "Get German Football News",
+          "url": "https://www.getfootballnewsgermany.com/2026/bayern-agreement-saibari-psv/",
+          "grade": "B",
+          "published_at": "2026-06-03T06:45:31Z"
+        }
+      ]
+    },
+    {
+      "id": "dc3df68088e5efa0",
+      "player": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "negotiating",
+      "summary": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
+      "summary_zh": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T22:04:33Z",
+      "collected_at": "2026-06-05T03:31:19Z",
+      "credibility_score": 66,
+      "heat_score": 68,
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/04/spain-iraq-friendly-international-match-report",
+          "grade": "B",
+          "published_at": "2026-06-04T22:04:33Z"
+        }
+      ]
+    },
+    {
+      "id": "bca1c4154897b635",
+      "player": "Roma reject €50m Chelsea bid for Mile Svilar",
+      "from_club": "Chelsea",
+      "to_club": "Roma",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "As reported by Corriere dello Sport, Roma have rejected a €50m approach from Chelsea for their star goalkeeper, Mile Svilar. The 26-year-old Serbian, who arrived in the Italian capital on…",
+      "summary_zh": "As reported by Corriere dello Sport, Roma have rejected a €50m approach from Chelsea for their star 门将, Mile Svilar. The 26-year-old Serbian, who arrived in the Italian capital on…",
+      "translation_provider": "glossary",
+      "fee": "€50m",
+      "contract": "",
+      "reported_at": "2026-06-03T18:03:37Z",
+      "collected_at": "2026-06-05T03:32:02Z",
+      "credibility_score": 66,
+      "heat_score": 67,
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get Italian Football News",
+          "url": "https://www.getfootballnewsitaly.com/2026/roma-reject-e50m-chelsea-bid-for-mile-svilar/",
+          "grade": "B",
+          "published_at": "2026-06-03T18:03:37Z"
+        }
+      ]
+    },
+    {
+      "id": "258154b6d18e80b7",
+      "player": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
+      "from_club": "未知",
+      "to_club": "Arsenal",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "As reported by Milan News, via La Gazzetta dello Sport, Arsenal have been offered the opportunity to sign Milan forward Rafael Leão.",
+      "summary_zh": "As reported by Milan News, via La Gazzetta dello Sport, Arsenal have been offered the opportunity to 签约 Milan 前锋 Rafael Leão.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:45:12Z",
+      "collected_at": "2026-06-05T03:32:01Z",
+      "credibility_score": 66,
+      "heat_score": 64,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get Italian Football News",
+          "url": "https://www.getfootballnewsitaly.com/2026/rafael-leao-awaits-arsenal-approach-gunners-handed-chance/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:45:12Z"
         }
       ]
     },
@@ -208,12 +806,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "Liverpool appoint Andoni Iraola as their new head coach on a two-year contract following the sacking of Arne Slot.",
-      "summary_zh": "在Arne Slot被解雇后，利物浦任命Andoni Iraola为他们的新主教练，合同为期两年。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Liverpool appoint Andoni Iraola as their new head coach on a two-year 合同 following the sacking of Arne Slot.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:28:58Z",
-      "collected_at": "2026-06-05T03:22:06Z",
+      "collected_at": "2026-06-05T03:31:09Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -237,12 +835,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "Andoni Iraola is the new Liverpool head coach on a two-year contract - but what is the feeling around the city to his impending arrival?",
-      "summary_zh": "安东尼·伊拉奥拉（ Andoni Iraola ）是利物浦的新任主教练，合同为期两年，但他即将到来，这座城市的感觉如何？",
-      "translation_provider": "mymemory",
+      "summary_zh": "Andoni Iraola is the new Liverpool head coach on a two-year 合同 - but what is the feeling around the city to his impending arrival?",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:35:16Z",
-      "collected_at": "2026-06-05T03:22:08Z",
+      "collected_at": "2026-06-05T03:31:11Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -266,12 +864,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "Manchester United chief executive Omar Berrada says the club will not bow to pressure and overpay in the summer transfer window.",
-      "summary_zh": "曼联首席执行官奥马尔·贝拉达（ Omar Berrada ）表示，俱乐部不会在夏季转会窗口屈服于压力和超额支付。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Manchester United chief executive Omar Berrada says the 俱乐部 will not bow to pressure and overpay in the 夏窗 转会 window.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:10:00Z",
-      "collected_at": "2026-06-05T03:22:09Z",
+      "collected_at": "2026-06-05T03:31:11Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -294,12 +892,12 @@
       "league": "其他",
       "status": "rumour",
       "summary": "Clubs in the English Football League vote to reduce the length of free-restriction transfer windows for late payments.",
-      "summary_zh": "英格兰足球联赛中的俱乐部投票决定缩短逾期付款的自由限制转会窗口期。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Clubs in the English Football League vote to reduce the length of free-restriction 转会 windows for late payments.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:37:36Z",
-      "collected_at": "2026-06-05T03:22:12Z",
+      "collected_at": "2026-06-05T03:31:13Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -322,12 +920,12 @@
       "league": "其他",
       "status": "rumour",
       "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
-      "summary_zh": "Calvin Miller同意在本月晚些时候与福尔柯克的Hearts签订一份为期三年的合同。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Calvin Miller agrees a three-year 合同 to join Hearts from Falkirk later this month.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:48:24Z",
-      "collected_at": "2026-06-05T03:22:15Z",
+      "collected_at": "2026-06-05T03:31:15Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -351,12 +949,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "Bayern Munich are eyeing a move to sign PSV and USMNT defender Sergiño Dest. Transfer Talk has the latest.",
-      "summary_zh": "拜仁慕尼黑正在考虑签下PSV和USMNT后卫Sergiño Dest。Transfer Talk有最新版本。",
-      "translation_provider": "mymemory",
+      "summary_zh": "Bayern Munich are eyeing a move to 签约 PSV and USMNT 后卫 Sergiño Dest. 转会 Talk has the latest.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:13:02Z",
-      "collected_at": "2026-06-05T03:22:17Z",
+      "collected_at": "2026-06-05T03:31:17Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -379,12 +977,12 @@
       "league": "西甲",
       "status": "rumour",
       "summary": "Real Madrid presidential candidate Enrique Riquelme promising he'll sign Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
-      "summary_zh": "皇家马德里总统候选人恩里克·里克尔梅（ Enrique Riquelme ）承诺，他将签下埃尔林·哈兰德（ Erling Haaland ）是一个伟大的演艺圈，但他也直接从弗洛伦蒂诺·佩雷斯（ Florentino Perez ）的选举",
-      "translation_provider": "mymemory",
+      "summary_zh": "Real Madrid presidential candidate Enrique Riquelme promising he'll 签约 Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:03:06Z",
-      "collected_at": "2026-06-05T03:22:18Z",
+      "collected_at": "2026-06-05T03:31:17Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -400,19 +998,358 @@
       ]
     },
     {
-      "id": "f078ceeee9660eb6",
-      "player": "All done deals since February, including deadline day",
-      "from_club": "未知",
-      "to_club": "Premier League",
+      "id": "6773c11a1af7073f",
+      "player": "Why Roma are set to receive money from Calafiori transfer to Arsenal two years l",
+      "from_club": "Arsenal",
+      "to_club": "Roma",
       "league": "英超",
       "status": "rumour",
-      "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
-      "summary_zh": "查看英超联赛、苏格兰超级联赛、EFL和女子超级联赛的重要签约和离职。",
-      "translation_provider": "mymemory",
+      "summary": "Reports in Italy indicate that Roma are set to receive a financial boost of around...",
+      "summary_zh": "Reports in Italy indicate that Roma are set to receive a financial boost of around...",
+      "translation_provider": "glossary",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-03T14:10:17Z",
-      "collected_at": "2026-06-05T03:22:14Z",
+      "reported_at": "2026-06-04T17:45:00Z",
+      "collected_at": "2026-06-05T03:31:30Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/why-roma-receive-money-calafiori-arsenal-move/",
+          "grade": "B",
+          "published_at": "2026-06-04T17:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7384e2b728970952",
+      "player": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top",
+      "from_club": "未知",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Florentino Perez has declared that Real Madrid are not finished in the transfer market this...",
+      "summary_zh": "Florentino Perez has declared that Real Madrid are not finished in the 转会 market this...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T15:36:57Z",
+      "collected_at": "2026-06-05T03:31:31Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/real-madrid-calafiori-top-signing-konate/",
+          "grade": "B",
+          "published_at": "2026-06-04T15:36:57Z"
+        }
+      ]
+    },
+    {
+      "id": "cce3065a5b581ab1",
+      "player": "Chivu arrives for new meeting with Inter directors over contract and transfers",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Cristian Chivu has arrived at Inter’s headquarters for a new meeting regarding his contract extension...",
+      "summary_zh": "Cristian Chivu has arrived at Inter’s headquarters for a new meeting regarding his 合同 extension...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T13:37:53Z",
+      "collected_at": "2026-06-05T03:31:32Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/chivu-meeting-inter-contract-transfers-video/",
+          "grade": "B",
+          "published_at": "2026-06-04T13:37:53Z"
+        }
+      ]
+    },
+    {
+      "id": "331d27522836bb24",
+      "player": "Why Solet is likely to sign Udinese contract extension before joining Inter",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Thursday’s reports claim that Oumar Solet is getting close to securing a move to Serie...",
+      "summary_zh": "Thursday’s reports claim that Oumar Solet is getting close to securing a move to Serie...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T13:04:19Z",
+      "collected_at": "2026-06-05T03:31:32Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/why-solet-is-likely-to-sign-udinese-contract/",
+          "grade": "B",
+          "published_at": "2026-06-04T13:04:19Z"
+        }
+      ]
+    },
+    {
+      "id": "99ddb62b6723c6c5",
+      "player": "Monza attempting to secure deal for Man City winger previously wanted by Roma",
+      "from_club": "Man City",
+      "to_club": "Roma",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Reports in Italy claim that newly-promoted Monza are hoping to pull off a deal for...",
+      "summary_zh": "Reports in Italy claim that newly-promoted Monza are hoping to pull off a 交易 for...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T12:26:49Z",
+      "collected_at": "2026-06-05T03:31:33Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Football Italia",
+          "url": "https://football-italia.net/monza-attempting-to-secure-deal-city-winger/",
+          "grade": "B",
+          "published_at": "2026-06-04T12:26:49Z"
+        }
+      ]
+    },
+    {
+      "id": "dbea61e2896ef2aa",
+      "player": "Todos los caminos conducen a Kang-in Lee",
+      "from_club": "未知",
+      "to_club": "PSG",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "Mientras el PSG se abre a negociar la salida que le cerró en el mercado invernal, el Atlético baraja una gira veraniega en Corea con el 'sueño' de que el extremo pueda ser el gran reclamo Leer",
+      "summary_zh": "Mientras el PSG se abre a negociar la salida que le cerró en el mercado invernal, el Atlético baraja una gira veraniega en Corea con el 'sueño' de que el extremo pueda ser el gran reclamo Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T12:30:35Z",
+      "collected_at": "2026-06-05T03:31:35Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/atletico/2026/06/04/todos-caminos-conducen-kang-in-lee.html",
+          "grade": "B",
+          "published_at": "2026-06-04T12:30:35Z"
+        }
+      ]
+    },
+    {
+      "id": "98bd2e84d813caf4",
+      "player": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
+      "from_club": "未知",
+      "to_club": "Leverkusen",
+      "league": "德甲",
+      "status": "rumour",
+      "summary": "El ex del Toulouse había sonado para Rayo, Girona y Osasuna Leer",
+      "summary_zh": "El ex del Toulouse había sonado para Rayo, Girona y Osasuna Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T10:33:34Z",
+      "collected_at": "2026-06-05T03:31:36Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/bundesliga/2026/06/04/bayer-leverkusen-apalabra-fichaje-carles-martinez-2028.html",
+          "grade": "B",
+          "published_at": "2026-06-04T10:33:34Z"
+        }
+      ]
+    },
+    {
+      "id": "113287332efbbb76",
+      "player": "Out of contract with Nantes, Anthony Lopes set to join Angers",
+      "from_club": "未知",
+      "to_club": "Ligue 1",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "Although FC Nantes will be playing in Ligue 2 next season after finishing 17th in the table, Anthony Lopes (35) will remain in Ligue 1 for a few more months.…",
+      "summary_zh": "Although FC Nantes will be playing in Ligue 2 next season after finishing 17th in the table, Anthony Lopes (35) will remain in Ligue 1 for a few more months.…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T16:23:25Z",
+      "collected_at": "2026-06-05T03:31:53Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Get French Football News",
+          "url": "https://www.getfootballnewsfrance.com/2026/out-of-contract-with-nantes-anthony-lopes-set-to-join-angers/",
+          "grade": "B",
+          "published_at": "2026-06-04T16:23:25Z"
+        }
+      ]
+    },
+    {
+      "id": "627dbfb902e21307",
+      "player": "PSG rule out a move for Lokomotiv’s Aleksey Batrakov",
+      "from_club": "PSG",
+      "to_club": "Paris Saint-Germain",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "Having been rumoured to be on the verge of joining Paris Saint-Germain for several weeks, Aleksey Batrakov (20) is now unlikely to sign for the reigning double European champions, according…",
+      "summary_zh": "Having been rumoured to be on the verge of 加盟 Paris Saint-Germain for several weeks, Aleksey Batrakov (20) is now unlikely to 签约 for the reigning double European champions, according…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T14:03:13Z",
+      "collected_at": "2026-06-05T03:31:54Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Get French Football News",
+          "url": "https://www.getfootballnewsfrance.com/2026/psg-rule-out-a-move-for-lokomotivs-aleksey-batrakov/",
+          "grade": "B",
+          "published_at": "2026-06-04T14:03:13Z"
+        }
+      ]
+    },
+    {
+      "id": "6d5e857939cd5645",
+      "player": "Barcelona dealt blow as transfer collapses",
+      "from_club": "LaLiga",
+      "to_club": "Barcelona",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "La Liga champions Barcelona have on Thursday been dealt a setback on the financial front. This comes after AS Monaco made the call to pull the plug on their swoop…",
+      "summary_zh": "La Liga champions Barcelona have on Thursday been dealt a setback on the financial front. This comes after AS Monaco made the call to pull the plug on their swoop…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:25:00Z",
+      "collected_at": "2026-06-05T03:32:08Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Get Spanish Football News",
+          "url": "https://getfootballnewsspain.com/barcelona-dealt-blow-as-transfer-collapses/",
+          "grade": "B",
+          "published_at": "2026-06-04T18:25:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7e2456792303880d",
+      "player": "Aston Villa hold an interest in Borussia Dortmund target Nicolò Tresoldi; Karim ",
+      "from_club": "Aston Villa",
+      "to_club": "Dortmund",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "Former Hannover 96 attacker Nicolò Tresoldi (21) has scored 23 goals across all competitions in 2025/26 as Club Brugge claimed their 20th Belgian league title. The German youth international has…",
+      "summary_zh": "Former Hannover 96 attacker Nicolò Tresoldi (21) has scored 23 goals across all competitions in 2025/26 as 俱乐部 Brugge claimed their 20th Belgian league title. The German youth international has…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-02T09:17:49Z",
+      "collected_at": "2026-06-05T03:31:57Z",
+      "credibility_score": 66,
+      "heat_score": 59,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get German Football News",
+          "url": "https://www.getfootballnewsgermany.com/2026/aston-villa-interest-dortmund-tresoldi-adeyemi/",
+          "grade": "B",
+          "published_at": "2026-06-02T09:17:49Z"
+        }
+      ]
+    },
+    {
+      "id": "fd54b7c2bd767a62",
+      "player": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
+      "from_club": "Serie A",
+      "to_club": "Juventus",
+      "league": "意甲",
+      "status": "negotiating",
+      "summary": "Serie A side Juventus have been attempting to keep Dusan Vlahovic beyond this summer but it seems like those attempts have now failed. Vlahovic’s current deal runs out at the…",
+      "summary_zh": "Serie A side Juventus have been attempting to keep Dusan Vlahovic beyond this 夏窗 but it seems like those attempts have now failed. Vlahovic’s current 交易 runs out at the…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T11:30:12Z",
+      "collected_at": "2026-06-05T03:32:02Z",
+      "credibility_score": 66,
+      "heat_score": 59,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get Italian Football News",
+          "url": "https://www.getfootballnewsitaly.com/2026/dusan-vlahovic-set-for-juventus-exit-as-renewal-talks-break-down/",
+          "grade": "B",
+          "published_at": "2026-06-03T11:30:12Z"
+        }
+      ]
+    },
+    {
+      "id": "1317e17b501357b5",
+      "player": "Mercado de fichajes de verano de 2026 en la Ligue 1",
+      "from_club": "未知",
+      "to_club": "Ligue 1",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "Consulta la información de todos los fichajes y traspasos en el fútbol francés Leer",
+      "summary_zh": "Consulta la información de todos los fichajes y traspasos en el fútbol francés Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T20:16:59Z",
+      "collected_at": "2026-06-05T03:31:37Z",
       "credibility_score": 58,
       "heat_score": 59,
       "tags": [
@@ -420,10 +1357,794 @@
       ],
       "sources": [
         {
-          "name": "BBC Football",
-          "url": "https://www.bbc.com/sport/football/articles/cy59zrq4ywgo?at_medium=RSS&at_campaign=rss",
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/liga-francesa/2026/06/03/mercado-fichajes-verano-2026-ligue-1-altas-bajas-rumores.html",
           "grade": "B",
-          "published_at": "2026-06-03T14:10:17Z"
+          "published_at": "2026-06-03T20:16:59Z"
+        }
+      ]
+    },
+    {
+      "id": "e65da3db74621a71",
+      "player": "Mercado de fichajes de verano de 2026 en la Bundesliga",
+      "from_club": "未知",
+      "to_club": "Bundesliga",
+      "league": "德甲",
+      "status": "rumour",
+      "summary": "Consulta la información de todos los fichajes y traspasos en el fútbol alemán Leer",
+      "summary_zh": "Consulta la información de todos los fichajes y traspasos en el fútbol alemán Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T17:25:47Z",
+      "collected_at": "2026-06-05T03:31:37Z",
+      "credibility_score": 58,
+      "heat_score": 59,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/bundesliga/2026/06/03/mercado-fichajes-verano-2026-bundesliga-altas-bajas-rumores.html",
+          "grade": "B",
+          "published_at": "2026-06-03T17:25:47Z"
+        }
+      ]
+    },
+    {
+      "id": "2d89e190b854e773",
+      "player": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pa",
+      "from_club": "未知",
+      "to_club": "Manchester United",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Ambos clubes han anunciado el traspaso del delantero noruego Leer",
+      "summary_zh": "Ambos clubes han anunciado el traspaso del delantero noruego Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T11:49:11Z",
+      "collected_at": "2026-06-05T03:31:38Z",
+      "credibility_score": 58,
+      "heat_score": 59,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/liga-italiana/2026/06/03/napoles-queda-hojlund-tres-anos-despues-manchester-united-pagase-85-millones.html",
+          "grade": "B",
+          "published_at": "2026-06-03T11:49:11Z"
+        }
+      ]
+    },
+    {
+      "id": "7ca17e179b681d1c",
+      "player": "El Celta ve dificultades en la vuelta de Brais Méndez",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "No podrían afrontar un traspaso elevado Leer",
+      "summary_zh": "No podrían afrontar un traspaso elevado Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-03T08:25:08Z",
+      "collected_at": "2026-06-05T03:31:39Z",
+      "credibility_score": 58,
+      "heat_score": 59,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/celta/2026/06/03/celta-ve-dificultades-vuelta-brais-mendez.html",
+          "grade": "B",
+          "published_at": "2026-06-03T08:25:08Z"
+        }
+      ]
+    },
+    {
+      "id": "6ae3ed9a6ff79781",
+      "player": "Mercado de fichajes de verano de 2026 en la Serie A",
+      "from_club": "未知",
+      "to_club": "Serie A",
+      "league": "意甲",
+      "status": "rumour",
+      "summary": "Consulta la información de todos los fichajes y traspasos en el fútbol italiano Leer",
+      "summary_zh": "Consulta la información de todos los fichajes y traspasos en el fútbol italiano Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-02T13:05:09Z",
+      "collected_at": "2026-06-05T03:31:39Z",
+      "credibility_score": 58,
+      "heat_score": 59,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/liga-italiana/2026/06/02/mercado-fichajes-verano-2026-serie-altas-bajas-rumores.html",
+          "grade": "B",
+          "published_at": "2026-06-02T13:05:09Z"
+        }
+      ]
+    },
+    {
+      "id": "8c7b67b6dd971dfc",
+      "player": "Sign up for the Moving the Goalposts newsletter",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, enter...",
+      "summary_zh": "Get our roundup of women’s football for free twice a week, featuring the insights of experts such as Ada Hegerberg and Magdalena Eriksson Join us as we delve deeper into the wonderful world of women’s football in our weekly newsletter. It is informative, enter...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-03-22T16:57:35Z",
+      "collected_at": "2026-06-05T03:31:22Z",
+      "credibility_score": 58,
+      "heat_score": 58,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
+          "grade": "B",
+          "published_at": "2022-03-22T16:57:35Z"
+        }
+      ]
+    },
+    {
+      "id": "d3f54e84eb4dcc1e",
+      "player": "Christian Pulisic wanted to talk about something else. Now he can",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "The US forward’s imperious 45 minutes against Senegal put some questions to rest, while his manager still wants to see more Sign up for the World Behind The Cup newsletter It wasn’t hard to see how annoyed US men’s national team star Christian Pulisic was gett...",
+      "summary_zh": "The US 前锋’s imperious 45 minutes against Senegal put some questions to rest, while his 主教练 still wants to see more 签约 up for the World Behind The Cup newsletter It wasn’t hard to see how annoyed US men’s national team star Christian Pulisic was gett...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-01T02:07:43Z",
+      "collected_at": "2026-06-05T03:31:23Z",
+      "credibility_score": 58,
+      "heat_score": 58,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/may/31/christian-pulisic-usmnt-senegal-world-cup",
+          "grade": "B",
+          "published_at": "2026-06-01T02:07:43Z"
+        }
+      ]
+    },
+    {
+      "id": "669da56d095f3cd5",
+      "player": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
+      "from_club": "未知",
+      "to_club": "Dortmund",
+      "league": "德甲",
+      "status": "negotiating",
+      "summary": "Fenerbahce have identified Borussia Dortmund’s Serhou Guirassy (30) as their number one transfer target this summer, according to a report by Bild. Now the German outlet are citing a report…",
+      "summary_zh": "Fenerbahce have identified Borussia Dortmund’s Serhou Guirassy (30) as their number one 转会 目标 this 夏窗, according to a report by Bild. Now the German outlet are citing a report…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-01T09:41:27Z",
+      "collected_at": "2026-06-05T03:31:58Z",
+      "credibility_score": 66,
+      "heat_score": 50,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get German Football News",
+          "url": "https://www.getfootballnewsgermany.com/2026/fenerbahce-discussions-guirassy-dortmund/",
+          "grade": "B",
+          "published_at": "2026-06-01T09:41:27Z"
+        }
+      ]
+    },
+    {
+      "id": "e8571360d96cbedd",
+      "player": "Aston Villa target Moritz Nicolas has ‘time-limited’ exit clause",
+      "from_club": "Premier League",
+      "to_club": "Aston Villa",
+      "league": "英超",
+      "status": "negotiating",
+      "summary": "Only Borussia Dortmund’s Gregor Kobel (15) kept more Bundesliga clean sheets than Moritz Nicolas (13) in 2025/26, which has naturally aroused interest in Borussia Mönchengladbach’s custodian. Premier League side Aston…",
+      "summary_zh": "Only Borussia Dortmund’s Gregor Kobel (15) kept more Bundesliga clean sheets than Moritz Nicolas (13) in 2025/26, which has naturally aroused interest in Borussia Mönchengladbach’s custodian. Premier League side Aston…",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-01T09:26:28Z",
+      "collected_at": "2026-06-05T03:31:59Z",
+      "credibility_score": 66,
+      "heat_score": 50,
+      "tags": [
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "Get German Football News",
+          "url": "https://www.getfootballnewsgermany.com/2026/aston-villa-target-moritz-nicolas-exit-clause/",
+          "grade": "B",
+          "published_at": "2026-06-01T09:26:28Z"
+        }
+      ]
+    },
+    {
+      "id": "f00e3cf0675049a8",
+      "player": "Sign up for the Football Daily newsletter",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Kick off your afternoon with the Guardian’s take on the world of football Every weekday, we’ll deliver a roundup the football news and gossip in our own belligerent, sometimes intelligent and – very occasionally – funny way. Still not convinced? Find out what ...",
+      "summary_zh": "Kick off your afternoon with the Guardian’s take on the world of football Every weekday, we’ll deliver a roundup the football news and gossip in our own belligerent, sometimes intelligent and – very occasionally – funny way. Still not convinced? Find out what ...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-11-14T09:05:50Z",
+      "collected_at": "2026-06-05T03:31:21Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/info/2022/nov/14/football-daily-email-sign-up",
+          "grade": "B",
+          "published_at": "2022-11-14T09:05:50Z"
+        }
+      ]
+    },
+    {
+      "id": "f6dd6b3134e4bfda",
+      "player": "Sign up to the Sport in Focus newsletter",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
+      "summary_zh": "Our editors’ favourite sporting images from the past week, from the spectacular to the powerful, and with a little bit of fun thrown in Continue reading...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2025-10-01T11:00:23Z",
+      "collected_at": "2026-06-05T03:31:22Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/sport/2025/oct/01/sign-up-to-the-sport-in-focus-newsletter-the-sporting-week-in-photos",
+          "grade": "B",
+          "published_at": "2025-10-01T11:00:23Z"
+        }
+      ]
+    },
+    {
+      "id": "abd3cce3776fdd4a",
+      "player": "Premier League 2025-26 season review",
+      "from_club": "Premier League",
+      "to_club": "Arsenal",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "We picked Liverpool as champions, Chelsea as challengers and tipped Brentford and Sunderland to go down. Oh dear What we predicted: Mikel Arteta vowed this would be a “big summer” after finishing as runners-up in the Premier League for a third season in succes...",
+      "summary_zh": "We picked Liverpool as champions, Chelsea as challengers and tipped Brentford and Sunderland to go down. Oh dear What we predicted: Mikel Arteta vowed this would be a “big 夏窗” after finishing as runners-up in the Premier League for a third season in succes...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-26T15:56:24Z",
+      "collected_at": "2026-06-05T03:31:24Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/may/26/premier-league-2025-26-season-review-predictions-reality-liverpool-chelsea-brentford-sunderland",
+          "grade": "B",
+          "published_at": "2026-05-26T15:56:24Z"
+        }
+      ]
+    },
+    {
+      "id": "7e9b955e700cc7fd",
+      "player": "PSG now stand alongside some of Europe’s best-ever, but with caveats",
+      "from_club": "Arsenal",
+      "to_club": "Chelsea",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "The origin of PSG’s largesse and the effect it’s had on their domestic game can’t be ignored, even as we appreciate the team’s stunning quality Sign up for the World Behind The Cup newsletter Since 1990, only one side had ever successfully defended the Champio...",
+      "summary_zh": "The origin of PSG’s largesse and the effect it’s had on their domestic game can’t be ignored, even as we appreciate the team’s stunning quality 签约 up for the World Behind The Cup newsletter Since 1990, only one side had ever successfully defended the Champio...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-01T16:00:22Z",
+      "collected_at": "2026-06-05T03:31:25Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/01/psg-champions-league-ligue-1-arsenal",
+          "grade": "B",
+          "published_at": "2026-06-01T16:00:22Z"
+        }
+      ]
+    },
+    {
+      "id": "497b85507f1f83be",
+      "player": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
+      "from_club": "未知",
+      "to_club": "PSG",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "The Frenchman, who has been named the best male footballer in the world by the Guardian, has benefitted from PSG’s focus on the team rather than individuals What makes a good player great, and a great player the best? This question has been occupying me since ...",
+      "summary_zh": "The Frenchman, who has been named the best male footballer in the world by the Guardian, has benefitted from PSG’s focus on the team rather than individuals What makes a good player great, and a great player the best? This question has been occupying me since ...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2025-12-20T08:00:25Z",
+      "collected_at": "2026-06-05T03:31:26Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2025/dec/20/ousmane-dembele-quietly-becomes-the-main-man-after-long-journey-to-the-top",
+          "grade": "B",
+          "published_at": "2025-12-20T08:00:25Z"
+        }
+      ]
+    },
+    {
+      "id": "888f31315b08c83d",
+      "player": "Mercado de fichajes de LaLiga",
+      "from_club": "未知",
+      "to_club": "LaLiga",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "El 1 de julio se abre oficialmente la ventana estival de transferencias en Primera Leer",
+      "summary_zh": "El 1 de julio se abre oficialmente la ventana estival de transferencias en Primera Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-31T16:21:01Z",
+      "collected_at": "2026-06-05T03:31:40Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/2026/05/31/mercado-fichajes-laliga-altas-bajas-rumores-temporada-2026-27.html",
+          "grade": "B",
+          "published_at": "2026-05-31T16:21:01Z"
+        }
+      ]
+    },
+    {
+      "id": "ee27d56fb4ca1147",
+      "player": "David Sánchez se rinde al fichaje de Anthony Gordon",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Leer",
+      "summary_zh": "Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-28T05:45:28Z",
+      "collected_at": "2026-06-05T03:31:41Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/radio/2026/05/28/david-sanchez-rinde-fichaje-anthony-gordon-asi-pelear-liga-campeones.html",
+          "grade": "B",
+          "published_at": "2026-05-28T05:45:28Z"
+        }
+      ]
+    },
+    {
+      "id": "7f2bf1f6f98d9584",
+      "player": "Apollo no cambiará el mercado del Atlético",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Pese a la ampliación de capital que prevista, no tendrá impacto en los fichajes. La idea es mantener la inversión neta de los dos últimos veranos: alrededor de 80 kilos Leer",
+      "summary_zh": "Pese a la ampliación de capital que prevista, no tendrá impacto en los fichajes. La idea es mantener la inversión neta de los dos últimos veranos: alrededor de 80 kilos Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-27T13:23:24Z",
+      "collected_at": "2026-06-05T03:31:41Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/atletico/2026/05/27/apollo-cambiara-mercado-atletico.html",
+          "grade": "B",
+          "published_at": "2026-05-27T13:23:24Z"
+        }
+      ]
+    },
+    {
+      "id": "d34a4ac84db41705",
+      "player": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El futbolista del Elche llegará con la carta de libertad Leer",
+      "summary_zh": "El futbolista del Elche llegará con la carta de libertad Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-27T11:44:56Z",
+      "collected_at": "2026-06-05T03:31:42Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/futbol/celta/2026/05/27/aleix-febas-punto-cerrar-fichaje-celta.html",
+          "grade": "B",
+          "published_at": "2026-05-27T11:44:56Z"
+        }
+      ]
+    },
+    {
+      "id": "455d52c47fa14f84",
+      "player": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Rique",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El periodista desveló en La Tribu que el candidato a la presidencia blanca ya negocia con dos futbolistas “de máximo nivel” Leer",
+      "summary_zh": "El periodista desveló en La Tribu que el candidato a la presidencia blanca ya negocia con dos futbolistas “de máximo nivel” Leer",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-05-27T07:34:15Z",
+      "collected_at": "2026-06-05T03:31:43Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "Marca Fichajes",
+          "url": "https://www.marca.com/radio/2026/05/27/roberto-gomez-adelanta-dos-fichajes-galacticos-proyecto-enrique-riquelme.html",
+          "grade": "B",
+          "published_at": "2026-05-27T07:34:15Z"
+        }
+      ]
+    },
+    {
+      "id": "db86af893c587ccf",
+      "player": "Sarabia-Atleti",
+      "from_club": "未知",
+      "to_club": "PSG",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "El nombre del madrileño reparece como objetivo del Atlético. Acaba contrato en 2023 con el PSG, adonde regresa tras una buena cesión en el Sporting. Quiere jugar.",
+      "summary_zh": "El nombre del madrileño reparece como objetivo del Atlético. Acaba contrato en 2023 con el PSG, adonde regresa tras una buena cesión en el Sporting. Quiere jugar.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-07T02:55:07Z",
+      "collected_at": "2026-06-05T03:31:44Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/07/primera/1654570485_630480.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-07T02:55:07Z"
+        }
+      ]
+    },
+    {
+      "id": "d6ce5a0f3f00cd58",
+      "player": "Atasco extracomunitario",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El pasaporte español de Vinicius está al caer, pero de momento las tres plazas siguen ocupadas por él, Militao y Rodrygo. A la cola: Kubo, Reinier, Tobías... y fichajes.",
+      "summary_zh": "El pasaporte español de Vinicius está al caer, pero de momento las tres plazas siguen ocupadas por él, Militao y Rodrygo. A la cola: Kubo, Reinier, Tobías... y fichajes.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-10T10:43:04Z",
+      "collected_at": "2026-06-05T03:31:45Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/10/primera/1654857756_275569.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-10T10:43:04Z"
+        }
+      ]
+    },
+    {
+      "id": "db2398f1036aa0eb",
+      "player": "La mujer que tiene en sus manos el destino de Koundé",
+      "from_club": "Chelsea",
+      "to_club": "Sevilla",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "El Chelsea debe resolver la continuidad de Marina Granovskaia, la mano derecha de Abramovich, antes de concretar el traspaso del defensa del Sevilla y otras operaciones.",
+      "summary_zh": "El Chelsea debe resolver la continuidad de Marina Granovskaia, la mano derecha de Abramovich, antes de concretar el traspaso del defensa del Sevilla y otras operaciones.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-07T11:35:21Z",
+      "collected_at": "2026-06-05T03:31:45Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/07/primera/1654601369_116889.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-07T11:35:21Z"
+        }
+      ]
+    },
+    {
+      "id": "2e8a6e4e3bc04613",
+      "player": "El PSG activa la opción B tras el 'no' de Tchouaméni",
+      "from_club": "未知",
+      "to_club": "PSG",
+      "league": "法甲",
+      "status": "rumour",
+      "summary": "Sigue en directo las últimas noticias sobre el mercado de fichajes hoy 7 de junio de 2022, tras su cierre: altas y bajas sorprendentes, reacciones...",
+      "summary_zh": "Sigue en directo las últimas noticias sobre el mercado de fichajes hoy 7 de junio de 2022, tras su cierre: altas y bajas sorprendentes, reacciones...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-07T20:42:45Z",
+      "collected_at": "2026-06-05T03:31:46Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/07/primera/1654574960_969446.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-07T20:42:45Z"
+        }
+      ]
+    },
+    {
+      "id": "e03a6ec5e6544c20",
+      "player": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
+      "from_club": "未知",
+      "to_club": "Valencia",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "El Valencia, tras la despedida de Bordalás, ya puede anunciar la llegada del italiano. El nuevo técnico puede aterrizar esta misma semana.",
+      "summary_zh": "El Valencia, tras la despedida de Bordalás, ya puede anunciar la llegada del italiano. El nuevo técnico puede aterrizar esta misma semana.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-07T02:53:15Z",
+      "collected_at": "2026-06-05T03:31:47Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/07/primera/1654570302_937533.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-07T02:53:15Z"
+        }
+      ]
+    },
+    {
+      "id": "02e3816b84122447",
+      "player": "Vinicius vale más que Haaland",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El brasileño se revaloriza un 77,5% esta temporada, adelanta al noruego y ya es el segundo jugador con mayor valor de mercado, según el CIES.",
+      "summary_zh": "El brasileño se revaloriza un 77,5% esta temporada, adelanta al noruego y ya es el segundo jugador con mayor valor de mercado, según el CIES.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-06T19:30:46Z",
+      "collected_at": "2026-06-05T03:31:47Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/06/primera/1654543267_949587.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-06T19:30:46Z"
+        }
+      ]
+    },
+    {
+      "id": "0f54da62d55c62a7",
+      "player": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
+      "from_club": "未知",
+      "to_club": "Braga",
+      "league": "葡超",
+      "status": "rumour",
+      "summary": "El club de Avellaneda sigue tras los pasos del jugador, pero el propietario del Elche no está dispuesto a perder su inversión.",
+      "summary_zh": "El 俱乐部 de Avellaneda sigue tras los pasos del jugador, pero el propietario del Elche no está dispuesto a perder su inversión.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-07T09:08:02Z",
+      "collected_at": "2026-06-05T03:31:48Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/06/primera/1654532857_495960.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-07T09:08:02Z"
+        }
+      ]
+    },
+    {
+      "id": "22aae982fb67fdb9",
+      "player": "Oficial",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El club amarillo ha anunciado el acuerdo con el futbolista por las próximas tres temporadas. Tras muchos rumores, Álex continuará vistiendo de amarillo.",
+      "summary_zh": "El 俱乐部 amarillo ha anunciado el acuerdo con el futbolista por las próximas tres temporadas. Tras muchos rumores, Álex continuará vistiendo de amarillo.",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-06T15:54:13Z",
+      "collected_at": "2026-06-05T03:31:49Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/06/primera/1654530456_456292.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-06T15:54:13Z"
+        }
+      ]
+    },
+    {
+      "id": "44e2681c88009001",
+      "player": "Portugal recoloca a William Carvalho en el escaparate",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "El centrocampista bético volvió a ser titular con su Selección en partido oficial casi un año después y marcó un gol, lo que hace que su mercado aumente",
+      "summary_zh": "El centrocampista bético volvió a ser titular con su Selección en partido oficial casi un año después y marcó un gol, lo que hace que su mercado aumente",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-06T15:31:19Z",
+      "collected_at": "2026-06-05T03:31:49Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/06/primera/1654528884_420445.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-06T15:31:19Z"
+        }
+      ]
+    },
+    {
+      "id": "25dbdfaa0714ae85",
+      "player": "Lukaku, a la desesperada",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "rumour",
+      "summary": "Sigue en directo las últimas noticias sobre el mercado de fichajes hoy 6 de junio de 2022, tras su cierre: altas y bajas sorprendentes, reacciones...",
+      "summary_zh": "Sigue en directo las últimas noticias sobre el mercado de fichajes hoy 6 de junio de 2022, tras su cierre: altas y bajas sorprendentes, reacciones...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2022-06-06T22:13:59Z",
+      "collected_at": "2026-06-05T03:31:50Z",
+      "credibility_score": 58,
+      "heat_score": 50,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "AS Primera",
+          "url": "https://as.com/futbol/2022/06/06/primera/1654488380_939084.html#?ref=rss&format=simple&link=link",
+          "grade": "B",
+          "published_at": "2022-06-06T22:13:59Z"
         }
       ]
     }

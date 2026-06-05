@@ -322,6 +322,14 @@ input {
   background: #fff;
 }
 
+.source-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 .source-card h3 {
   font-size: 16px;
 }
@@ -329,6 +337,32 @@ input {
 .source-card p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.source-meta {
+  margin-bottom: 8px !important;
+  color: var(--text) !important;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.source-kind {
+  display: inline-flex;
+  min-height: 26px;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: #f2f6ef;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.source-url {
+  display: inline-flex;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 .empty-state {

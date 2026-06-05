@@ -217,10 +217,16 @@ function renderSources() {
       const card = document.createElement("article");
       card.className = "source-card";
       const grade = String(source.grade || "C").toLowerCase();
+      const kind = sourceKindLabel(source.kind);
       card.innerHTML = `
-        <span class="source-grade grade-${grade}">${escapeHtml(source.grade || "C")}</span>
+        <div class="source-card-top">
+          <span class="source-grade grade-${grade}">${escapeHtml(source.grade || "C")}</span>
+          <span class="source-kind">${escapeHtml(kind)}</span>
+        </div>
         <h3>${escapeHtml(source.name || "未知来源")}</h3>
+        <p class="source-meta">${escapeHtml(source.region || "Global")} · ${escapeHtml(source.focus || "足球转会")}</p>
         <p>${escapeHtml(source.description || "暂无说明")}</p>
+        ${source.url ? `<a class="source-url" href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">打开来源</a>` : ""}
       `;
       return card;
     }),
@@ -240,6 +246,13 @@ function sourceLink(source) {
   a.rel = "noopener noreferrer";
   a.textContent = `${source.name || "来源"} · ${source.grade || "C"}`;
   return a;
+}
+
+function sourceKindLabel(kind) {
+  if (kind === "rss") return "自动采集";
+  if (kind === "social") return "社交目录";
+  if (kind === "reference") return "参考源";
+  return "来源";
 }
 
 function uniqueSorted(values) {

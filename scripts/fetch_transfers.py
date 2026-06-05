@@ -64,6 +64,9 @@ SOURCE_REGISTRY = [
         "grade": "B",
         "description": "英国主流媒体，适合追踪英超和欧洲转会新闻；转会确认仍以官方公告优先。",
         "kind": "rss",
+        "language": "en",
+        "region": "UK",
+        "focus": "英超、英国足球、欧洲转会",
     },
     {
         "name": "ESPN Soccer",
@@ -71,6 +74,89 @@ SOURCE_REGISTRY = [
         "grade": "B",
         "description": "国际主流体育媒体，覆盖欧洲主流联赛和转会动态。",
         "kind": "rss",
+        "language": "en",
+        "region": "Global",
+        "focus": "国际足球、欧洲主流联赛",
+    },
+    {
+        "name": "The Guardian Football",
+        "url": "https://www.theguardian.com/football/rss",
+        "grade": "B",
+        "description": "英国主流媒体，覆盖英超、欧洲足球和转会窗专题；适合作为多来源交叉验证。",
+        "kind": "rss",
+        "language": "en",
+        "region": "UK",
+        "focus": "英超、欧洲足球、转会窗",
+    },
+    {
+        "name": "Football Italia",
+        "url": "https://football-italia.net/feed/",
+        "grade": "B",
+        "description": "意大利足球英文媒体，适合追踪意甲、意大利俱乐部和意大利球员相关转会。",
+        "kind": "rss",
+        "language": "en",
+        "region": "Italy",
+        "focus": "意甲、意大利足球",
+    },
+    {
+        "name": "Marca Fichajes",
+        "url": "https://e00-marca.uecdn.es/rss/futbol/mercado-fichajes.xml",
+        "grade": "B",
+        "description": "西班牙主流体育媒体 Marca 的转会市场 RSS，适合追踪西甲和西语区转会新闻。",
+        "kind": "rss",
+        "language": "es",
+        "region": "Spain",
+        "focus": "西甲、转会市场",
+    },
+    {
+        "name": "AS Primera",
+        "url": "https://as.com/rss/futbol/primera.xml",
+        "grade": "B",
+        "description": "西班牙主流体育媒体 AS 的西甲 RSS，用于补充西甲和皇马、巴萨、马竞相关动态。",
+        "kind": "rss",
+        "language": "es",
+        "region": "Spain",
+        "focus": "西甲、皇马、巴萨、马竞",
+    },
+    {
+        "name": "Get French Football News",
+        "url": "https://www.getfootballnewsfrance.com/feed/",
+        "grade": "B",
+        "description": "法国足球英文专业站，适合追踪法甲、法国球员和法国媒体转会线索。",
+        "kind": "rss",
+        "language": "en",
+        "region": "France",
+        "focus": "法甲、法国球员",
+    },
+    {
+        "name": "Get German Football News",
+        "url": "https://www.getfootballnewsgermany.com/feed/",
+        "grade": "B",
+        "description": "德国足球英文专业站，适合追踪德甲和德国俱乐部相关转会。",
+        "kind": "rss",
+        "language": "en",
+        "region": "Germany",
+        "focus": "德甲、德国足球",
+    },
+    {
+        "name": "Get Italian Football News",
+        "url": "https://www.getfootballnewsitaly.com/feed/",
+        "grade": "B",
+        "description": "意大利足球英文专业站，补充意甲和意大利媒体线索。",
+        "kind": "rss",
+        "language": "en",
+        "region": "Italy",
+        "focus": "意甲、意大利足球",
+    },
+    {
+        "name": "Get Spanish Football News",
+        "url": "https://www.getfootballnewsspain.com/feed/",
+        "grade": "B",
+        "description": "西班牙足球英文专业站，补充西甲和西班牙媒体线索。",
+        "kind": "rss",
+        "language": "en",
+        "region": "Spain",
+        "focus": "西甲、西班牙足球",
     },
     {
         "name": "Transfermarkt",
@@ -78,6 +164,89 @@ SOURCE_REGISTRY = [
         "grade": "B",
         "description": "转会、身价和传闻聚合参考源；当前自动采集默认关闭，避免其反爬限制影响每小时更新。",
         "kind": "reference",
+        "language": "en",
+        "region": "Global",
+        "focus": "身价、转会记录、传闻参考",
+    },
+    {
+        "name": "Fabrizio Romano",
+        "url": "https://x.com/FabrizioRomano",
+        "grade": "A",
+        "description": "高可信转会记者；首版作为社交信源目录展示，不自动抓取 X。",
+        "kind": "social",
+        "language": "en",
+        "region": "Global",
+        "focus": "全球转会、Here we go",
+    },
+    {
+        "name": "David Ornstein",
+        "url": "https://x.com/David_Ornstein",
+        "grade": "A",
+        "description": "The Athletic 记者，英超和英国俱乐部转会可信度高；社交目录源。",
+        "kind": "social",
+        "language": "en",
+        "region": "UK",
+        "focus": "英超、英国俱乐部",
+    },
+    {
+        "name": "Matteo Moretto",
+        "url": "https://x.com/MatteMoretto",
+        "grade": "A",
+        "description": "西班牙和意大利转会记者，西甲、意甲线索较强；社交目录源。",
+        "kind": "social",
+        "language": "es",
+        "region": "Spain/Italy",
+        "focus": "西甲、意甲",
+    },
+    {
+        "name": "Gianluca Di Marzio",
+        "url": "https://x.com/DiMarzio",
+        "grade": "A",
+        "description": "意大利转会记者，意甲和意大利俱乐部信息源；社交目录源。",
+        "kind": "social",
+        "language": "it",
+        "region": "Italy",
+        "focus": "意甲、意大利足球",
+    },
+    {
+        "name": "Florian Plettenberg",
+        "url": "https://x.com/Plettigoal",
+        "grade": "B",
+        "description": "德国 Sky 记者，德甲和德国俱乐部转会线索；社交目录源。",
+        "kind": "social",
+        "language": "de",
+        "region": "Germany",
+        "focus": "德甲、德国足球",
+    },
+    {
+        "name": "Santi Aouna",
+        "url": "https://x.com/Santi_J_FM",
+        "grade": "B",
+        "description": "Foot Mercato 记者，法甲、法国球员和欧洲转会线索；社交目录源。",
+        "kind": "social",
+        "language": "fr",
+        "region": "France",
+        "focus": "法甲、法国球员",
+    },
+    {
+        "name": "Fabrice Hawkins",
+        "url": "https://x.com/FabriceHawkins",
+        "grade": "B",
+        "description": "RMC Sport 记者，法国足球和法甲转会线索；社交目录源。",
+        "kind": "social",
+        "language": "fr",
+        "region": "France",
+        "focus": "法甲、法国足球",
+    },
+    {
+        "name": "Ben Jacobs",
+        "url": "https://x.com/JacobsBen",
+        "grade": "B",
+        "description": "英超、中东资本和部分欧洲转会线索；社交目录源，需与 A/S 来源交叉验证。",
+        "kind": "social",
+        "language": "en",
+        "region": "UK/Global",
+        "focus": "英超、沙特/中东相关转会",
     },
 ]
 
@@ -99,6 +268,41 @@ TRANSFER_TERMS = [
     "medical",
     "contract",
     "loan",
+    "fichaje",
+    "fichajes",
+    "traspaso",
+    "mercado",
+    "cedido",
+    "cesion",
+    "cesión",
+    "rumor",
+    "rumores",
+    "calciomercato",
+    "mercato",
+    "accordo",
+    "prestito",
+    "trattativa",
+    "transfert",
+    "transferts",
+    "pret",
+    "prêt",
+    "rumeur",
+    "rumeurs",
+    "verpflichtet",
+    "wechsel",
+    "leihe",
+    "angebot",
+]
+
+EXCLUDE_TERMS = [
+    "podcast",
+    " pod ",
+    "joins the pod",
+    "quiz",
+    "match report",
+    "preview",
+    "ratings",
+    "talking points",
 ]
 
 TRANSLATION_CACHE: dict[str, str] = {}
@@ -144,6 +348,9 @@ class Source:
     grade: str
     description: str
     kind: str = "rss"
+    language: str = "en"
+    region: str = "Global"
+    focus: str = "Football transfers"
 
 
 def main() -> int:
@@ -181,6 +388,10 @@ def main() -> int:
                 "grade": source.grade,
                 "description": source.description,
                 "url": source.url,
+                "kind": source.kind,
+                "language": source.language,
+                "region": source.region,
+                "focus": source.focus,
             }
             for source in sources
         ],
@@ -238,7 +449,7 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
     collected_at = utc_now()
 
     summary = summarise(description or title)
-    summary_zh, translation_provider = translate_summary(summary)
+    summary_zh, translation_provider = translate_summary(summary, source.language)
 
     return {
         "id": stable_id(title, link),
@@ -315,7 +526,13 @@ def clean_html(value: str) -> str:
 
 def is_transfer_related(text: str) -> bool:
     lowered = text.lower()
-    return any(term in lowered for term in TRANSFER_TERMS)
+    if any(term in lowered for term in EXCLUDE_TERMS):
+        return False
+    return any(has_term(lowered, term) for term in TRANSFER_TERMS)
+
+
+def has_term(text: str, term: str) -> bool:
+    return re.search(rf"(?<![a-z0-9]){re.escape(term.lower())}(?![a-z0-9])", text, re.I) is not None
 
 
 def guess_player(title: str) -> str:
@@ -411,7 +628,7 @@ def summarise(text: str) -> str:
     return cleaned[:260] + ("..." if len(cleaned) > 260 else "")
 
 
-def translate_summary(text: str) -> tuple[str, str]:
+def translate_summary(text: str, source_language: str = "en") -> tuple[str, str]:
     if not text:
         return "", "empty"
     if has_cjk(text):
@@ -419,7 +636,7 @@ def translate_summary(text: str) -> tuple[str, str]:
     if text in TRANSLATION_CACHE:
         return TRANSLATION_CACHE[text], "cache"
 
-    translated = translate_with_mymemory(text)
+    translated = translate_with_mymemory(text, source_language)
     if translated:
         TRANSLATION_CACHE[text] = translated
         return translated, "mymemory"
@@ -429,8 +646,9 @@ def translate_summary(text: str) -> tuple[str, str]:
     return fallback, "glossary"
 
 
-def translate_with_mymemory(text: str) -> str:
-    params = urllib.parse.urlencode({"q": text[:500], "langpair": "en|zh-CN"})
+def translate_with_mymemory(text: str, source_language: str) -> str:
+    lang = source_language if source_language in {"en", "es", "it", "fr", "de", "pt", "nl"} else "en"
+    params = urllib.parse.urlencode({"q": text[:500], "langpair": f"{lang}|zh-CN"})
     url = f"https://api.mymemory.translated.net/get?{params}"
     try:
         request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})

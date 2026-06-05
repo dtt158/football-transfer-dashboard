@@ -24,7 +24,25 @@ python scripts/fetch_transfers.py
 
 - BBC Football：自动采集，可信度 B，适合英超和欧洲转会新闻。
 - ESPN Soccer：自动采集，可信度 B，覆盖国际足球和欧洲主流联赛。
+- The Guardian Football：自动采集，可信度 B，补充英超、欧洲足球和转会窗专题。
+- Football Italia：自动采集，可信度 B，补充意甲和意大利相关转会。
+- Marca Fichajes：自动采集，可信度 B，补充西甲和西语区转会市场。
+- AS Primera：自动采集，可信度 B，补充西甲、皇马、巴萨、马竞相关动态。
+- Get French/German/Italian/Spanish Football News：自动采集，可信度 B，补充法甲、德甲、意甲、西甲地区线索。
 - Transfermarkt：参考源，可信度 B，当前不自动采集，因为其 RSS 对脚本请求返回 405，避免影响 GitHub Actions 每小时更新。
+
+## 社交媒体观察源
+
+以下源当前作为“社交目录源”展示，不自动抓取 X。原因是 X 需要登录/API 或第三方镜像，稳定性和合规风险都比 RSS 高；后续如果接入 X API 或可信 RSSBridge 实例，再开启自动采集。
+
+- Fabrizio Romano：A，全球转会和 Here we go。
+- David Ornstein：A，英超和英国俱乐部。
+- Matteo Moretto：A，西甲、意甲。
+- Gianluca Di Marzio：A，意甲、意大利足球。
+- Florian Plettenberg：B，德甲、德国足球。
+- Santi Aouna：B，法甲、法国球员。
+- Fabrice Hawkins：B，法甲、法国足球。
+- Ben Jacobs：B，英超、沙特/中东相关转会，建议交叉验证。
 
 ## GitHub Pages 自动更新
 
