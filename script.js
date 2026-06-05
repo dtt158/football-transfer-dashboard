@@ -38,6 +38,11 @@ const els = {
   trustedList: document.querySelector("#trustedList"),
   sourcesGrid: document.querySelector("#sourcesGrid"),
   template: document.querySelector("#transferTemplate"),
+  entityModal: document.querySelector("#entityModal"),
+  entityType: document.querySelector("#entityType"),
+  entityTitle: document.querySelector("#entityTitle"),
+  entityDescription: document.querySelector("#entityDescription"),
+  entityLinks: document.querySelector("#entityLinks"),
 };
 
 async function loadData() {
@@ -188,14 +193,16 @@ function renderTransfers() {
     ...state.filtered.map((item) => {
       const node = els.template.content.firstElementChild.cloneNode(true);
       node.querySelector(".league").textContent = item.league || "其他";
-      node.querySelector("h3").textContent = item.player || "未知球员";
+      node.querySelector("h3").replaceChildren(...renderEntityText(item.title_zh || item.title || item.player || "未知标题", item.entities || []));
+      const originalTitle = node.querySelector(".original-title");
+      originalTitle.textContent = item.title && item.title_zh && item.title !== item.title_zh ? item.title : "";
 
       const status = node.querySelector(".status");
       status.textContent = statusLabels[item.status] || item.status || "传闻";
       status.classList.add(statusClasses[item.status] || "rumour");
 
-      node.querySelector(".route").textContent = `${item.from_club || "未知"} → ${item.to_club || "未知"}`;
-      node.querySelector(".summary").textContent = item.summary_zh || item.summary || "暂无摘要。";
+      node.querySelector(".route").replaceChildren(...renderEntityText(`${item.from_club || "未知"} → ${item.to_club || "未知"}`, item.entities || []));
+      node.querySelector(".summary").replaceChildren(...renderEntityText(item.summary_zh || item.summary || "暂无摘要。", item.entities || []));
       node.querySelector(".heat").textContent = `热度 ${Number(item.heat_score || 0)}`;
       node.querySelector(".credibility").textContent = `可信 ${Number(item.credibility_score || 0)}`;
       node.querySelector(".reported").textContent = item.reported_at ? formatDate(new Date(item.reported_at)) : "时间未知";
@@ -248,6 +255,81 @@ function sourceLink(source) {
   return a;
 }
 
+function renderEntityText(text, entities) {
+  const fragment = document.createDocumentFragment();
+  const candidates = [...entities]
+    .filter((entity) => entity.name && text.includes(entity.name))
+    .sort((a, b) => b.name.length - a.name.length);
+
+  if (!candidates.length) {
+    fragment.append(document.createTextNode(text));
+    return [fragment];
+  }
+
+  const pattern = new RegExp(candidates.map((entity) => escapeRegExp(entity.name)).join("|"), "g");
+  let cursor = 0;
+  for (const match of text.matchAll(pattern)) {
+    if (match.index > cursor) {
+      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+    }
+    const entity = candidates.find((item) => item.name === match[0]);
+    fragment.append(entityButton(entity || { name: match[0], type: "unknown" }));
+    cursor = match.index + match[0].length;
+  }
+  if (cursor < text.length) {
+    fragment.append(document.createTextNode(text.slice(cursor)));
+  }
+  return [fragment];
+}
+
+function entityButton(entity) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = `entity-link entity-${entity.type || "unknown"}`;
+  button.textContent = entity.name;
+  button.addEventListener("click", () => openEntityModal(entity));
+  return button;
+}
+
+function openEntityModal(entity) {
+  els.entityType.textContent = entityTypeLabel(entity.type);
+  els.entityTitle.textContent = entity.name || "未知词条";
+  els.entityDescription.textContent = entity.description || `${entity.name || "该词条"}：暂无补充说明。`;
+  const links = [];
+  if (entity.wiki_url) links.push(namedLink("维基搜索", entity.wiki_url));
+  if (entity.search_url) links.push(namedLink("网页搜索", entity.search_url));
+  els.entityLinks.replaceChildren(...links);
+  els.entityModal.hidden = false;
+}
+
+function namedLink(label, url) {
+  const a = document.createElement("a");
+  a.href = url;
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+  a.textContent = label;
+  return a;
+}
+
+function entityTypeLabel(type) {
+  if (type === "player") return "球员";
+  if (type === "club") return "俱乐部";
+  if (type === "league") return "联赛";
+  return "词条";
+}
+
+document.addEventListener("click", (event) => {
+  if (event.target.matches("[data-close-modal]")) {
+    els.entityModal.hidden = true;
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    els.entityModal.hidden = true;
+  }
+});
+
 function sourceKindLabel(kind) {
   if (kind === "rss") return "自动采集";
   if (kind === "social") return "社交目录";
@@ -275,6 +357,10 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#039;");
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 loadData();

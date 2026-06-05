@@ -49,6 +49,36 @@ LEAGUE_KEYWORDS = {
     "沙特/其他": ["saudi", "al-hilal", "al nassr", "al-nassr", "al ahli", "al-ittihad", "mls"],
 }
 
+CLUB_ALIASES = {
+    "Arsenal": ["arsenal"],
+    "Aston Villa": ["aston villa"],
+    "Atalanta": ["atalanta"],
+    "Barcelona": ["barcelona", "barça", "barca"],
+    "Bayern Munich": ["bayern", "bayern munich"],
+    "Benfica": ["benfica"],
+    "Borussia Dortmund": ["dortmund", "borussia dortmund"],
+    "Brighton": ["brighton"],
+    "Chelsea": ["chelsea"],
+    "Fiorentina": ["fiorentina"],
+    "Hearts": ["hearts"],
+    "Inter Milan": ["inter milan", "inter"],
+    "Juventus": ["juventus"],
+    "Liverpool": ["liverpool"],
+    "Manchester City": ["manchester city", "man city"],
+    "Manchester United": ["manchester united", "man united"],
+    "Napoli": ["napoli"],
+    "Newcastle United": ["newcastle", "newcastle united"],
+    "PSG": ["psg", "paris saint-germain"],
+    "Porto": ["porto"],
+    "Real Madrid": ["real madrid"],
+    "Roma": ["roma"],
+    "Sassuolo": ["sassuolo"],
+    "Sporting CP": ["sporting cp", "sporting lisbon"],
+    "Tottenham": ["tottenham", "spurs"],
+    "West Ham": ["west ham"],
+    "York City": ["york city"],
+}
+
 
 STATUS_PATTERNS = [
     ("official", ["official", "confirmed", "announced", "signs", "signed", "complete", "joins"]),
@@ -450,9 +480,14 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
 
     summary = summarise(description or title)
     summary_zh, translation_provider = translate_summary(summary, source.language)
+    title_zh, title_translation_provider = translate_summary(title, source.language)
+    entities = build_entities(player, clubs, league)
 
     return {
         "id": stable_id(title, link),
+        "title": title,
+        "title_zh": title_zh,
+        "title_translation_provider": title_translation_provider,
         "player": player,
         "from_club": clubs[0],
         "to_club": clubs[1],
@@ -467,6 +502,7 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
         "collected_at": collected_at,
         "credibility_score": credibility,
         "heat_score": heat,
+        "entities": entities,
         "tags": tags_for(status, combined),
         "sources": [
             {
@@ -494,8 +530,12 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
         if status_rank(item["status"]) > status_rank(current["status"]):
             current["status"] = item["status"]
         if DateOrLow(item["reported_at"]) > DateOrLow(current["reported_at"]):
+            current["title"] = item.get("title", current.get("title", ""))
+            current["title_zh"] = item.get("title_zh", current.get("title_zh", ""))
             current["summary"] = item["summary"]
+            current["summary_zh"] = item.get("summary_zh", current.get("summary_zh", ""))
             current["reported_at"] = item["reported_at"]
+        current["entities"] = merge_entities(current.get("entities", []), item.get("entities", []))
 
     return sorted(merged.values(), key=lambda item: (item["heat_score"], item["credibility_score"]), reverse=True)
 
@@ -537,6 +577,17 @@ def has_term(text: str, term: str) -> bool:
 
 def guess_player(title: str) -> str:
     title = re.sub(r"\s+-\s+.*$", "", title).strip()
+    patterns = [
+        r"\bfor\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
+        r"\bsign(?:s|ed|ing)?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
+        r"\bjoins?\s+([A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+(?:[- ][A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+){0,3})\b",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, title)
+        if match:
+            candidate = match.group(1).strip()
+            if looks_like_person_name(candidate):
+                return candidate
     for separator in [":", " - ", " | "]:
         if separator in title:
             candidate = title.split(separator, 1)[0].strip()
@@ -547,9 +598,13 @@ def guess_player(title: str) -> str:
 
 def guess_clubs(text: str) -> tuple[str, str]:
     clubs = []
+    lowered = text.lower()
+    for club, aliases in CLUB_ALIASES.items():
+        if any(has_term(lowered, alias) for alias in aliases):
+            clubs.append(club)
     for league_terms in LEAGUE_KEYWORDS.values():
         for term in league_terms:
-            if term in text.lower():
+            if has_term(lowered, term):
                 clubs.append(title_case_club(term))
     clubs = list(dict.fromkeys(clubs))
     if len(clubs) >= 2:
@@ -557,6 +612,72 @@ def guess_clubs(text: str) -> tuple[str, str]:
     if len(clubs) == 1:
         return "未知", clubs[0]
     return "未知", "未知"
+
+
+def build_entities(player: str, clubs: tuple[str, str], league: str) -> list[dict[str, str]]:
+    entities: list[dict[str, str]] = []
+    if looks_like_person_name(player):
+        entities.append(entity_record(player, "player", f"{player}：新闻中提到的球员或转会相关人物。"))
+    for club in clubs:
+        if club and club != "未知":
+            entities.append(entity_record(club, "club", f"{club}：新闻中提到的俱乐部或目标球队。"))
+    if league and league != "其他":
+        entities.append(entity_record(league, "league", f"{league}：该条新闻归类到的联赛或地区。"))
+    return merge_entities([], entities)
+
+
+def entity_record(name: str, kind: str, description: str) -> dict[str, str]:
+    wiki_query = urllib.parse.quote(name)
+    return {
+        "name": name,
+        "type": kind,
+        "description": description,
+        "wiki_url": f"https://zh.wikipedia.org/w/index.php?search={wiki_query}",
+        "search_url": f"https://www.google.com/search?q={urllib.parse.quote(name + ' football transfer')}",
+    }
+
+
+def merge_entities(existing: list[dict[str, str]], incoming: list[dict[str, str]]) -> list[dict[str, str]]:
+    merged: dict[str, dict[str, str]] = {}
+    for entity in existing + incoming:
+        name = entity.get("name", "").strip()
+        if name:
+            merged[name.lower()] = entity
+    return list(merged.values())
+
+
+def looks_like_person_name(value: str) -> bool:
+    if not value or len(value) > 48:
+        return False
+    lowered = value.lower()
+    blocked = {
+        "official",
+        "liverpool",
+        "manchester",
+        "real madrid",
+        "barcelona",
+        "arsenal",
+        "chelsea",
+        "transfer",
+        "transfers",
+        "offer",
+        "offers",
+        "accept",
+        "accepts",
+        "confirm",
+        "confirms",
+        "appointment",
+        "coach",
+        "head",
+        "city",
+        "why",
+        "how",
+        "what",
+    }
+    if any(word in lowered for word in blocked):
+        return False
+    words = re.findall(r"[A-Z][A-Za-zÀ-ÖØ-öø-ÿ'’-]+", value)
+    return 2 <= len(words) <= 4
 
 
 def title_case_club(value: str) -> str:

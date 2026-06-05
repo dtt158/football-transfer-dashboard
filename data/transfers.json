@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T03:32:09Z",
+  "generated_at": "2026-06-05T04:24:46Z",
   "sources": [
     {
       "name": "BBC Football",
@@ -196,9 +196,12 @@
   "transfers": [
     {
       "id": "f2c3082bb3a0c590",
+      "title": "York City accept Hearts offer for Fagan-Walcott",
+      "title_zh": "York City accept Hearts 报价 for Fagan-Walcott",
+      "title_translation_provider": "glossary",
       "player": "York City accept Hearts offer for Fagan-Walcott",
-      "from_club": "未知",
-      "to_club": "未知",
+      "from_club": "Hearts",
+      "to_club": "York City",
       "league": "其他",
       "status": "negotiating",
       "summary": "York City accept what would be a club-record, seven-figure bid for defender Malachi Fagan-Walcott from Heart of Midlothian.",
@@ -207,9 +210,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:00:01Z",
-      "collected_at": "2026-06-05T03:31:14Z",
+      "collected_at": "2026-06-05T04:23:09Z",
       "credibility_score": 71,
       "heat_score": 80,
+      "entities": [
+        {
+          "name": "Hearts",
+          "type": "club",
+          "description": "Hearts：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Hearts",
+          "search_url": "https://www.google.com/search?q=Hearts%20football%20transfer"
+        },
+        {
+          "name": "York City",
+          "type": "club",
+          "description": "York City：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=York%20City",
+          "search_url": "https://www.google.com/search?q=York%20City%20football%20transfer"
+        }
+      ],
       "tags": [
         "bid",
         "negotiating"
@@ -231,6 +250,9 @@
     },
     {
       "id": "34730863d69f8baf",
+      "title": "Why has Iraola only signed a two-year contract at Liverpool?",
+      "title_zh": "Why has Iraola only 签下 a two-year 合同 at Liverpool?",
+      "title_translation_provider": "glossary",
       "player": "Why has Iraola only signed a two-year contract at Liverpool?",
       "from_club": "未知",
       "to_club": "Liverpool",
@@ -242,9 +264,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:50:04Z",
-      "collected_at": "2026-06-05T03:31:13Z",
+      "collected_at": "2026-06-05T04:23:06Z",
       "credibility_score": 78,
       "heat_score": 78,
+      "entities": [
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "official"
@@ -260,6 +298,9 @@
     },
     {
       "id": "5f92cd4818ffe2fa",
+      "title": "Liverpool confirm appointment of Andoni Iraola as new head coach",
+      "title_zh": "Liverpool confirm appointment of Andoni Iraola as new head coach",
+      "title_translation_provider": "glossary",
       "player": "Liverpool confirm appointment of Andoni Iraola as new head coach",
       "from_club": "Liverpool",
       "to_club": "Leverkusen",
@@ -271,9 +312,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:31:22Z",
-      "collected_at": "2026-06-05T03:31:18Z",
+      "collected_at": "2026-06-05T04:23:17Z",
       "credibility_score": 78,
       "heat_score": 78,
+      "entities": [
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "Leverkusen",
+          "type": "club",
+          "description": "Leverkusen：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Leverkusen",
+          "search_url": "https://www.google.com/search?q=Leverkusen%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "official"
@@ -289,9 +353,12 @@
     },
     {
       "id": "ad084102b98d1bb1",
+      "title": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appointment official",
+      "title_zh": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appointment official",
+      "title_translation_provider": "glossary",
       "player": "Sassuolo release Grosso as Fiorentina prepare to make World Cup winner’s appoint",
-      "from_club": "未知",
-      "to_club": "未知",
+      "from_club": "Fiorentina",
+      "to_club": "Sassuolo",
       "league": "其他",
       "status": "official",
       "summary": "Fabio Grosso has officially departed Sassuolo following a mutual termination of his contract, clearing the...",
@@ -300,9 +367,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:48:00Z",
-      "collected_at": "2026-06-05T03:31:29Z",
+      "collected_at": "2026-06-05T04:23:36Z",
       "credibility_score": 78,
       "heat_score": 78,
+      "entities": [
+        {
+          "name": "Fiorentina",
+          "type": "club",
+          "description": "Fiorentina：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Fiorentina",
+          "search_url": "https://www.google.com/search?q=Fiorentina%20football%20transfer"
+        },
+        {
+          "name": "Sassuolo",
+          "type": "club",
+          "description": "Sassuolo：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Sassuolo",
+          "search_url": "https://www.google.com/search?q=Sassuolo%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "official"
@@ -318,6 +401,9 @@
     },
     {
       "id": "54a0b95053ca2d14",
+      "title": "Official | Auxerre part ways with Christophe Pélissier",
+      "title_zh": "Official | Auxerre part ways with Christophe Pélissier",
+      "title_translation_provider": "glossary",
       "player": "Official",
       "from_club": "未知",
       "to_club": "未知",
@@ -329,9 +415,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:19:00Z",
-      "collected_at": "2026-06-05T03:31:52Z",
+      "collected_at": "2026-06-05T04:24:19Z",
       "credibility_score": 78,
       "heat_score": 78,
+      "entities": [],
       "tags": [
         "contract",
         "official"
@@ -347,6 +434,9 @@
     },
     {
       "id": "6744d77235525260",
+      "title": "Florentino Pérez confirms Real Madrid’s first summer signing",
+      "title_zh": "Florentino Pérez confirms Real Madrid’s first 夏窗 签约",
+      "title_translation_provider": "glossary",
       "player": "Florentino Pérez confirms Real Madrid’s first summer signing",
       "from_club": "未知",
       "to_club": "Real Madrid",
@@ -358,9 +448,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:00:00Z",
-      "collected_at": "2026-06-05T03:32:09Z",
+      "collected_at": "2026-06-05T04:24:45Z",
       "credibility_score": 78,
       "heat_score": 78,
+      "entities": [
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "Real Madrid：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Real%20Madrid",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "official"
       ],
@@ -375,7 +481,10 @@
     },
     {
       "id": "6e1252f6ab6fad3e",
-      "player": "Gladbach set to sign Isac Lidberg",
+      "title": "Gladbach set to sign Isac Lidberg",
+      "title_zh": "Gladbach set to 签约 Isac Lidberg",
+      "title_translation_provider": "glossary",
+      "player": "Isac Lidberg",
       "from_club": "未知",
       "to_club": "Bundesliga",
       "league": "德甲",
@@ -386,9 +495,32 @@
       "fee": "€3.5m",
       "contract": "",
       "reported_at": "2026-06-03T07:21:31Z",
-      "collected_at": "2026-06-05T03:31:56Z",
+      "collected_at": "2026-06-05T04:24:25Z",
       "credibility_score": 74,
       "heat_score": 77,
+      "entities": [
+        {
+          "name": "Isac Lidberg",
+          "type": "player",
+          "description": "Isac Lidberg：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Isac%20Lidberg",
+          "search_url": "https://www.google.com/search?q=Isac%20Lidberg%20football%20transfer"
+        },
+        {
+          "name": "Bundesliga",
+          "type": "club",
+          "description": "Bundesliga：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bundesliga",
+          "search_url": "https://www.google.com/search?q=Bundesliga%20football%20transfer"
+        },
+        {
+          "name": "德甲",
+          "type": "league",
+          "description": "德甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%B7%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E5%BE%B7%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "advanced"
       ],
@@ -403,6 +535,9 @@
     },
     {
       "id": "fae00e6008768f5e",
+      "title": "Madrid's Pérez vows $174M Galactico bid if elected...",
+      "title_zh": "Madrid's Pérez vows $174M Galactico 报价 if elected...",
+      "title_translation_provider": "glossary",
       "player": "Madrid's Pérez vows $174M Galactico bid if elected...",
       "from_club": "未知",
       "to_club": "Real Madrid",
@@ -414,9 +549,25 @@
       "fee": "$174M",
       "contract": "",
       "reported_at": "2026-06-05T02:56:45Z",
-      "collected_at": "2026-06-05T03:31:16Z",
+      "collected_at": "2026-06-05T04:23:12Z",
       "credibility_score": 66,
       "heat_score": 76,
+      "entities": [
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "Real Madrid：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Real%20Madrid",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "bid",
         "negotiating"
@@ -432,6 +583,9 @@
     },
     {
       "id": "1150978014c58751",
+      "title": "Liverpool agree deal in principle with Andoni Iraola for two-year contract",
+      "title_zh": "Liverpool agree 交易 in principle with Andoni Iraola for two-year 合同",
+      "title_translation_provider": "glossary",
       "player": "Liverpool agree deal in principle with Andoni Iraola for two-year contract",
       "from_club": "未知",
       "to_club": "Liverpool",
@@ -443,9 +597,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T21:09:46Z",
-      "collected_at": "2026-06-05T03:31:20Z",
+      "collected_at": "2026-06-05T04:23:21Z",
       "credibility_score": 78,
       "heat_score": 73,
+      "entities": [
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "official"
@@ -461,6 +631,9 @@
     },
     {
       "id": "86eff25f8e66a209",
+      "title": "Football Daily | Will AI bring heavy-metal football back to Liverpool?",
+      "title_zh": "Football Daily | Will AI bring heavy-metal football back to Liverpool?",
+      "title_translation_provider": "glossary",
       "player": "Football Daily",
       "from_club": "未知",
       "to_club": "Liverpool",
@@ -472,9 +645,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T14:40:37Z",
-      "collected_at": "2026-06-05T03:31:24Z",
+      "collected_at": "2026-06-05T04:23:29Z",
       "credibility_score": 78,
       "heat_score": 73,
+      "entities": [
+        {
+          "name": "Football Daily",
+          "type": "player",
+          "description": "Football Daily：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Football%20Daily",
+          "search_url": "https://www.google.com/search?q=Football%20Daily%20football%20transfer"
+        },
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "official"
       ],
@@ -489,9 +685,12 @@
     },
     {
       "id": "70bd8fecbfe52864",
-      "player": "Brighton expect second Spurs bid for Van Hecke",
-      "from_club": "Tottenham",
-      "to_club": "Spurs",
+      "title": "Brighton expect second Spurs bid for Van Hecke",
+      "title_zh": "Brighton expect second Spurs 报价 for Van Hecke",
+      "title_translation_provider": "glossary",
+      "player": "Van Hecke",
+      "from_club": "Brighton",
+      "to_club": "Tottenham",
       "league": "英超",
       "status": "negotiating",
       "summary": "Brighton are expecting Tottenham to return with an increased offer after rejecting an initial £70m bid for Netherlands defender Jan Paul van Hecke.",
@@ -500,9 +699,39 @@
       "fee": "£70m",
       "contract": "",
       "reported_at": "2026-06-04T13:41:51Z",
-      "collected_at": "2026-06-05T03:31:12Z",
+      "collected_at": "2026-06-05T04:23:05Z",
       "credibility_score": 66,
       "heat_score": 72,
+      "entities": [
+        {
+          "name": "Van Hecke",
+          "type": "player",
+          "description": "Van Hecke：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Van%20Hecke",
+          "search_url": "https://www.google.com/search?q=Van%20Hecke%20football%20transfer"
+        },
+        {
+          "name": "Brighton",
+          "type": "club",
+          "description": "Brighton：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Brighton",
+          "search_url": "https://www.google.com/search?q=Brighton%20football%20transfer"
+        },
+        {
+          "name": "Tottenham",
+          "type": "club",
+          "description": "Tottenham：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Tottenham",
+          "search_url": "https://www.google.com/search?q=Tottenham%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "bid",
         "negotiating"
@@ -518,6 +747,9 @@
     },
     {
       "id": "ddd3ddc29461b94e",
+      "title": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this summer",
+      "title_zh": "Football Daily | World Cup Omitted XI: the star players watching from the sofa this 夏窗",
+      "title_translation_provider": "glossary",
       "player": "Football Daily | World Cup Omitted XI",
       "from_club": "未知",
       "to_club": "未知",
@@ -529,9 +761,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T14:24:52Z",
-      "collected_at": "2026-06-05T03:31:20Z",
+      "collected_at": "2026-06-05T04:23:19Z",
       "credibility_score": 66,
       "heat_score": 72,
+      "entities": [],
       "tags": [
         "negotiating"
       ],
@@ -546,6 +779,9 @@
     },
     {
       "id": "db9ba28c6bf7a81d",
+      "title": "Besiktas offer Italiano two-year deal worth €6m per season",
+      "title_zh": "Besiktas 报价 Italiano two-year 交易 worth €6m per season",
+      "title_translation_provider": "glossary",
       "player": "Besiktas offer Italiano two-year deal worth €6m per season",
       "from_club": "未知",
       "to_club": "未知",
@@ -557,9 +793,10 @@
       "fee": "€6m",
       "contract": "",
       "reported_at": "2026-06-04T18:02:19Z",
-      "collected_at": "2026-06-05T03:31:30Z",
+      "collected_at": "2026-06-05T04:23:38Z",
       "credibility_score": 66,
       "heat_score": 72,
+      "entities": [],
       "tags": [
         "negotiating"
       ],
@@ -574,9 +811,12 @@
     },
     {
       "id": "7f9a92f4cb1e74cd",
+      "title": "Man City consider legal action over Real candidate's promise to sign Haaland",
+      "title_zh": "Man City consider legal action over Real candidate's promise to 签约 Haaland",
+      "title_translation_provider": "glossary",
       "player": "Man City consider legal action over Real candidate's promise to sign Haaland",
       "from_club": "Manchester City",
-      "to_club": "Man City",
+      "to_club": "Real Madrid",
       "league": "英超",
       "status": "rumour",
       "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
@@ -585,9 +825,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:27:35Z",
-      "collected_at": "2026-06-05T03:31:10Z",
+      "collected_at": "2026-06-05T04:23:01Z",
       "credibility_score": 58,
       "heat_score": 72,
+      "entities": [
+        {
+          "name": "Manchester City",
+          "type": "club",
+          "description": "Manchester City：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Manchester%20City",
+          "search_url": "https://www.google.com/search?q=Manchester%20City%20football%20transfer"
+        },
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "Real Madrid：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Real%20Madrid",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -602,8 +865,11 @@
     },
     {
       "id": "31303c21f59a4700",
+      "title": "Transfer round-up: Juventus striker shopping, Inter exit imminent, Napoli and Milan business continues",
+      "title_zh": "转会 round-up: Juventus 前锋 shopping, Inter exit imminent, Napoli and Milan business continues",
+      "title_translation_provider": "glossary",
       "player": "Transfer round-up",
-      "from_club": "Serie A",
+      "from_club": "Inter Milan",
       "to_club": "Juventus",
       "league": "意甲",
       "status": "rumour",
@@ -613,9 +879,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T19:42:37Z",
-      "collected_at": "2026-06-05T03:31:28Z",
+      "collected_at": "2026-06-05T04:23:35Z",
       "credibility_score": 58,
       "heat_score": 72,
+      "entities": [
+        {
+          "name": "Inter Milan",
+          "type": "club",
+          "description": "Inter Milan：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Inter%20Milan",
+          "search_url": "https://www.google.com/search?q=Inter%20Milan%20football%20transfer"
+        },
+        {
+          "name": "Juventus",
+          "type": "club",
+          "description": "Juventus：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Juventus",
+          "search_url": "https://www.google.com/search?q=Juventus%20football%20transfer"
+        },
+        {
+          "name": "意甲",
+          "type": "league",
+          "description": "意甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%84%8F%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%84%8F%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -630,6 +919,9 @@
     },
     {
       "id": "0a3c324f26578be3",
+      "title": "Transfer-linked Barcelona star provides future update",
+      "title_zh": "转会-linked Barcelona star provides future update",
+      "title_translation_provider": "glossary",
       "player": "Transfer-linked Barcelona star provides future update",
       "from_club": "未知",
       "to_club": "Barcelona",
@@ -641,9 +933,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:27:00Z",
-      "collected_at": "2026-06-05T03:32:06Z",
+      "collected_at": "2026-06-05T04:24:41Z",
       "credibility_score": 58,
       "heat_score": 72,
+      "entities": [
+        {
+          "name": "Barcelona",
+          "type": "club",
+          "description": "Barcelona：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Barcelona",
+          "search_url": "https://www.google.com/search?q=Barcelona%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -658,6 +966,9 @@
     },
     {
       "id": "bc3d9acc97a2fe69",
+      "title": "Espanyol star in the sights of rival La Liga clubs",
+      "title_zh": "Espanyol star in the sights of rival La Liga clubs",
+      "title_translation_provider": "glossary",
       "player": "Espanyol star in the sights of rival La Liga clubs",
       "from_club": "未知",
       "to_club": "LaLiga",
@@ -669,9 +980,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T20:05:00Z",
-      "collected_at": "2026-06-05T03:32:07Z",
+      "collected_at": "2026-06-05T04:24:42Z",
       "credibility_score": 58,
       "heat_score": 72,
+      "entities": [
+        {
+          "name": "LaLiga",
+          "type": "club",
+          "description": "LaLiga：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=LaLiga",
+          "search_url": "https://www.google.com/search?q=LaLiga%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -686,9 +1013,12 @@
     },
     {
       "id": "26b6333b854b4754",
+      "title": "Bayern Munich reach agreement with Ismaël Saibari",
+      "title_zh": "Bayern Munich reach agreement with Ismaël Saibari",
+      "title_translation_provider": "glossary",
       "player": "Bayern Munich reach agreement with Ismaël Saibari",
-      "from_club": "Bayern",
-      "to_club": "Psv",
+      "from_club": "Bayern Munich",
+      "to_club": "Bayern",
       "league": "德甲",
       "status": "advanced",
       "summary": "Bayern Munich have reached an agreement with PSV Eindhoven attacker Ismaël Saibari (25), according to a report by Foot Mercato. Saibari, who scored 15 goals and provided eight assists in…",
@@ -697,9 +1027,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T06:45:31Z",
-      "collected_at": "2026-06-05T03:31:57Z",
+      "collected_at": "2026-06-05T04:24:26Z",
       "credibility_score": 74,
       "heat_score": 69,
+      "entities": [
+        {
+          "name": "Bayern Munich",
+          "type": "club",
+          "description": "Bayern Munich：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bayern%20Munich",
+          "search_url": "https://www.google.com/search?q=Bayern%20Munich%20football%20transfer"
+        },
+        {
+          "name": "Bayern",
+          "type": "club",
+          "description": "Bayern：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bayern",
+          "search_url": "https://www.google.com/search?q=Bayern%20football%20transfer"
+        },
+        {
+          "name": "德甲",
+          "type": "league",
+          "description": "德甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%B7%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E5%BE%B7%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "advanced"
       ],
@@ -713,37 +1066,11 @@
       ]
     },
     {
-      "id": "dc3df68088e5efa0",
-      "player": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
-      "from_club": "未知",
-      "to_club": "未知",
-      "league": "其他",
-      "status": "negotiating",
-      "summary": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
-      "summary_zh": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
-      "translation_provider": "glossary",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-04T22:04:33Z",
-      "collected_at": "2026-06-05T03:31:19Z",
-      "credibility_score": 66,
-      "heat_score": 68,
-      "tags": [
-        "bid",
-        "negotiating"
-      ],
-      "sources": [
-        {
-          "name": "The Guardian Football",
-          "url": "https://www.theguardian.com/football/2026/jun/04/spain-iraq-friendly-international-match-report",
-          "grade": "B",
-          "published_at": "2026-06-04T22:04:33Z"
-        }
-      ]
-    },
-    {
       "id": "bca1c4154897b635",
-      "player": "Roma reject €50m Chelsea bid for Mile Svilar",
+      "title": "Roma reject €50m Chelsea bid for Mile Svilar",
+      "title_zh": "Roma reject €50m Chelsea 报价 for Mile Svilar",
+      "title_translation_provider": "glossary",
+      "player": "Mile Svilar",
       "from_club": "Chelsea",
       "to_club": "Roma",
       "league": "英超",
@@ -754,9 +1081,39 @@
       "fee": "€50m",
       "contract": "",
       "reported_at": "2026-06-03T18:03:37Z",
-      "collected_at": "2026-06-05T03:32:02Z",
+      "collected_at": "2026-06-05T04:24:35Z",
       "credibility_score": 66,
       "heat_score": 67,
+      "entities": [
+        {
+          "name": "Mile Svilar",
+          "type": "player",
+          "description": "Mile Svilar：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Mile%20Svilar",
+          "search_url": "https://www.google.com/search?q=Mile%20Svilar%20football%20transfer"
+        },
+        {
+          "name": "Chelsea",
+          "type": "club",
+          "description": "Chelsea：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Chelsea",
+          "search_url": "https://www.google.com/search?q=Chelsea%20football%20transfer"
+        },
+        {
+          "name": "Roma",
+          "type": "club",
+          "description": "Roma：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Roma",
+          "search_url": "https://www.google.com/search?q=Roma%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "bid",
         "negotiating"
@@ -771,7 +1128,43 @@
       ]
     },
     {
+      "id": "dc3df68088e5efa0",
+      "title": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
+      "title_zh": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
+      "title_translation_provider": "glossary",
+      "player": "Doski stunner earns Iraq draw against understrength Spain in World Cup warm-up",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "negotiating",
+      "summary": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
+      "summary_zh": "Spain will depart from Santiago de Compostela at 10am on Friday morning bound for Chattanooga, via Nashville, but seven of the eight men who made their debuts in the final preparation game before the World Cup will not be on board with them. Nor will the selec...",
+      "translation_provider": "glossary",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T22:04:33Z",
+      "collected_at": "2026-06-05T04:23:18Z",
+      "credibility_score": 66,
+      "heat_score": 64,
+      "entities": [],
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "The Guardian Football",
+          "url": "https://www.theguardian.com/football/2026/jun/04/spain-iraq-friendly-international-match-report",
+          "grade": "B",
+          "published_at": "2026-06-04T22:04:33Z"
+        }
+      ]
+    },
+    {
       "id": "258154b6d18e80b7",
+      "title": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
+      "title_zh": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
+      "title_translation_provider": "glossary",
       "player": "Rafael Leao awaits Arsenal approach, Gunners handed chance",
       "from_club": "未知",
       "to_club": "Arsenal",
@@ -783,9 +1176,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:45:12Z",
-      "collected_at": "2026-06-05T03:32:01Z",
+      "collected_at": "2026-06-05T04:24:33Z",
       "credibility_score": 66,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Arsenal",
+          "type": "club",
+          "description": "Arsenal：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Arsenal",
+          "search_url": "https://www.google.com/search?q=Arsenal%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -800,6 +1209,9 @@
     },
     {
       "id": "beec6dba86cee91c",
+      "title": "Top players, title fights - why Iraola feels ready for Liverpool",
+      "title_zh": "Top players, title fights - why Iraola feels ready for Liverpool",
+      "title_translation_provider": "glossary",
       "player": "Top players, title fights",
       "from_club": "未知",
       "to_club": "Liverpool",
@@ -811,9 +1223,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:28:58Z",
-      "collected_at": "2026-06-05T03:31:09Z",
+      "collected_at": "2026-06-05T04:22:59Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -829,6 +1257,9 @@
     },
     {
       "id": "e0b75c497d0204a1",
+      "title": "Iraola will make Liverpool fans excited again - Murphy",
+      "title_zh": "Iraola will make Liverpool fans excited again - Murphy",
+      "title_translation_provider": "glossary",
       "player": "Iraola will make Liverpool fans excited again",
       "from_club": "未知",
       "to_club": "Liverpool",
@@ -840,9 +1271,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:35:16Z",
-      "collected_at": "2026-06-05T03:31:11Z",
+      "collected_at": "2026-06-05T04:23:02Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Liverpool",
+          "type": "club",
+          "description": "Liverpool：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Liverpool",
+          "search_url": "https://www.google.com/search?q=Liverpool%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -858,6 +1305,9 @@
     },
     {
       "id": "45d980a17e9b3e18",
+      "title": "Man Utd will not be swayed on transfer plan - Berrada",
+      "title_zh": "Man Utd will not be swayed on 转会 plan - Berrada",
+      "title_translation_provider": "glossary",
       "player": "Man Utd will not be swayed on transfer plan",
       "from_club": "未知",
       "to_club": "Manchester United",
@@ -869,9 +1319,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:10:00Z",
-      "collected_at": "2026-06-05T03:31:11Z",
+      "collected_at": "2026-06-05T04:23:04Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Manchester United",
+          "type": "club",
+          "description": "Manchester United：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Manchester%20United",
+          "search_url": "https://www.google.com/search?q=Manchester%20United%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -886,6 +1352,9 @@
     },
     {
       "id": "311959a14bbe9264",
+      "title": "EFL scraps three-window transfer ban for late payments",
+      "title_zh": "EFL scraps three-window 转会 ban for late payments",
+      "title_translation_provider": "glossary",
       "player": "EFL scraps three-window transfer ban for late payments",
       "from_club": "未知",
       "to_club": "未知",
@@ -897,9 +1366,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:37:36Z",
-      "collected_at": "2026-06-05T03:31:13Z",
+      "collected_at": "2026-06-05T04:23:08Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -914,9 +1384,12 @@
     },
     {
       "id": "a672c6223d80ad1a",
+      "title": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
+      "title_zh": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
+      "title_translation_provider": "glossary",
       "player": "Miller hopes to 'make a name' for himself at Hearts upon sealing Falkirk move",
       "from_club": "未知",
-      "to_club": "未知",
+      "to_club": "Hearts",
       "league": "其他",
       "status": "rumour",
       "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
@@ -925,9 +1398,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:48:24Z",
-      "collected_at": "2026-06-05T03:31:15Z",
+      "collected_at": "2026-06-05T04:23:10Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Hearts",
+          "type": "club",
+          "description": "Hearts：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Hearts",
+          "search_url": "https://www.google.com/search?q=Hearts%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -943,9 +1425,12 @@
     },
     {
       "id": "e928e2a2631ef997",
+      "title": "Transfer rumors, news: Real Madrid keen on Arsenal...",
+      "title_zh": "转会 rumors, news: Real Madrid keen on Arsenal...",
+      "title_translation_provider": "glossary",
       "player": "Transfer rumors, news",
       "from_club": "Arsenal",
-      "to_club": "Real Madrid",
+      "to_club": "Bayern Munich",
       "league": "英超",
       "status": "rumour",
       "summary": "Bayern Munich are eyeing a move to sign PSV and USMNT defender Sergiño Dest. Transfer Talk has the latest.",
@@ -954,9 +1439,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:13:02Z",
-      "collected_at": "2026-06-05T03:31:17Z",
+      "collected_at": "2026-06-05T04:23:14Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Arsenal",
+          "type": "club",
+          "description": "Arsenal：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Arsenal",
+          "search_url": "https://www.google.com/search?q=Arsenal%20football%20transfer"
+        },
+        {
+          "name": "Bayern Munich",
+          "type": "club",
+          "description": "Bayern Munich：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bayern%20Munich",
+          "search_url": "https://www.google.com/search?q=Bayern%20Munich%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -971,6 +1479,9 @@
     },
     {
       "id": "20198afb87a4a9ec",
+      "title": "Like Figo and Beckham, Riquelme's Haaland promise ...",
+      "title_zh": "Like Figo and Beckham, Riquelme's Haaland promise ...",
+      "title_translation_provider": "glossary",
       "player": "Like Figo and Beckham, Riquelme's Haaland promise ...",
       "from_club": "未知",
       "to_club": "Real Madrid",
@@ -982,9 +1493,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:03:06Z",
-      "collected_at": "2026-06-05T03:31:17Z",
+      "collected_at": "2026-06-05T04:23:15Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "Real Madrid：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Real%20Madrid",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -999,6 +1526,9 @@
     },
     {
       "id": "6773c11a1af7073f",
+      "title": "Why Roma are set to receive money from Calafiori transfer to Arsenal two years later",
+      "title_zh": "Why Roma are set to receive money from Calafiori 转会 to Arsenal two years later",
+      "title_translation_provider": "glossary",
       "player": "Why Roma are set to receive money from Calafiori transfer to Arsenal two years l",
       "from_club": "Arsenal",
       "to_club": "Roma",
@@ -1010,9 +1540,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T17:45:00Z",
-      "collected_at": "2026-06-05T03:31:30Z",
+      "collected_at": "2026-06-05T04:23:39Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Arsenal",
+          "type": "club",
+          "description": "Arsenal：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Arsenal",
+          "search_url": "https://www.google.com/search?q=Arsenal%20football%20transfer"
+        },
+        {
+          "name": "Roma",
+          "type": "club",
+          "description": "Roma：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Roma",
+          "search_url": "https://www.google.com/search?q=Roma%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1027,6 +1580,9 @@
     },
     {
       "id": "7384e2b728970952",
+      "title": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top signings",
+      "title_zh": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top signings",
+      "title_translation_provider": "glossary",
       "player": "Real Madrid eye Calafiori after Konaté and Dumfries deals as Perez vows more top",
       "from_club": "未知",
       "to_club": "Real Madrid",
@@ -1038,9 +1594,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T15:36:57Z",
-      "collected_at": "2026-06-05T03:31:31Z",
+      "collected_at": "2026-06-05T04:23:40Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Real Madrid",
+          "type": "club",
+          "description": "Real Madrid：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Real%20Madrid",
+          "search_url": "https://www.google.com/search?q=Real%20Madrid%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1055,9 +1627,12 @@
     },
     {
       "id": "cce3065a5b581ab1",
+      "title": "Chivu arrives for new meeting with Inter directors over contract and transfers",
+      "title_zh": "Chivu arrives for new meeting with Inter directors over 合同 and 转会",
+      "title_translation_provider": "glossary",
       "player": "Chivu arrives for new meeting with Inter directors over contract and transfers",
       "from_club": "未知",
-      "to_club": "未知",
+      "to_club": "Inter Milan",
       "league": "其他",
       "status": "rumour",
       "summary": "Cristian Chivu has arrived at Inter’s headquarters for a new meeting regarding his contract extension...",
@@ -1066,9 +1641,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:37:53Z",
-      "collected_at": "2026-06-05T03:31:32Z",
+      "collected_at": "2026-06-05T04:23:42Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Inter Milan",
+          "type": "club",
+          "description": "Inter Milan：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Inter%20Milan",
+          "search_url": "https://www.google.com/search?q=Inter%20Milan%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -1084,9 +1668,12 @@
     },
     {
       "id": "331d27522836bb24",
+      "title": "Why Solet is likely to sign Udinese contract extension before joining Inter",
+      "title_zh": "Why Solet is likely to 签约 Udinese 合同 extension before 加盟 Inter",
+      "title_translation_provider": "glossary",
       "player": "Why Solet is likely to sign Udinese contract extension before joining Inter",
       "from_club": "未知",
-      "to_club": "未知",
+      "to_club": "Inter Milan",
       "league": "其他",
       "status": "rumour",
       "summary": "Thursday’s reports claim that Oumar Solet is getting close to securing a move to Serie...",
@@ -1095,9 +1682,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:04:19Z",
-      "collected_at": "2026-06-05T03:31:32Z",
+      "collected_at": "2026-06-05T04:23:43Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Inter Milan",
+          "type": "club",
+          "description": "Inter Milan：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Inter%20Milan",
+          "search_url": "https://www.google.com/search?q=Inter%20Milan%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -1113,8 +1709,11 @@
     },
     {
       "id": "99ddb62b6723c6c5",
+      "title": "Monza attempting to secure deal for Man City winger previously wanted by Roma",
+      "title_zh": "Monza attempting to secure 交易 for Man City winger previously wanted by Roma",
+      "title_translation_provider": "glossary",
       "player": "Monza attempting to secure deal for Man City winger previously wanted by Roma",
-      "from_club": "Man City",
+      "from_club": "Manchester City",
       "to_club": "Roma",
       "league": "英超",
       "status": "rumour",
@@ -1124,9 +1723,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T12:26:49Z",
-      "collected_at": "2026-06-05T03:31:33Z",
+      "collected_at": "2026-06-05T04:23:44Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Manchester City",
+          "type": "club",
+          "description": "Manchester City：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Manchester%20City",
+          "search_url": "https://www.google.com/search?q=Manchester%20City%20football%20transfer"
+        },
+        {
+          "name": "Roma",
+          "type": "club",
+          "description": "Roma：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Roma",
+          "search_url": "https://www.google.com/search?q=Roma%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1141,6 +1763,9 @@
     },
     {
       "id": "dbea61e2896ef2aa",
+      "title": "Todos los caminos conducen a Kang-in Lee",
+      "title_zh": "Todos los caminos conducen a Kang-in Lee",
+      "title_translation_provider": "glossary",
       "player": "Todos los caminos conducen a Kang-in Lee",
       "from_club": "未知",
       "to_club": "PSG",
@@ -1152,9 +1777,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T12:30:35Z",
-      "collected_at": "2026-06-05T03:31:35Z",
+      "collected_at": "2026-06-05T04:23:47Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Todos los caminos conducen a Kang-in Lee",
+          "type": "player",
+          "description": "Todos los caminos conducen a Kang-in Lee：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Todos%20los%20caminos%20conducen%20a%20Kang-in%20Lee",
+          "search_url": "https://www.google.com/search?q=Todos%20los%20caminos%20conducen%20a%20Kang-in%20Lee%20football%20transfer"
+        },
+        {
+          "name": "PSG",
+          "type": "club",
+          "description": "PSG：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=PSG",
+          "search_url": "https://www.google.com/search?q=PSG%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1169,6 +1817,9 @@
     },
     {
       "id": "98bd2e84d813caf4",
+      "title": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
+      "title_zh": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
+      "title_translation_provider": "glossary",
       "player": "El Bayer Leverkusen apalabra el fichaje de Carles Martínez hasta 2028",
       "from_club": "未知",
       "to_club": "Leverkusen",
@@ -1180,9 +1831,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T10:33:34Z",
-      "collected_at": "2026-06-05T03:31:36Z",
+      "collected_at": "2026-06-05T04:23:48Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Leverkusen",
+          "type": "club",
+          "description": "Leverkusen：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Leverkusen",
+          "search_url": "https://www.google.com/search?q=Leverkusen%20football%20transfer"
+        },
+        {
+          "name": "德甲",
+          "type": "league",
+          "description": "德甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%B7%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E5%BE%B7%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1197,6 +1864,9 @@
     },
     {
       "id": "113287332efbbb76",
+      "title": "Out of contract with Nantes, Anthony Lopes set to join Angers",
+      "title_zh": "Out of 合同 with Nantes, Anthony Lopes set to join Angers",
+      "title_translation_provider": "glossary",
       "player": "Out of contract with Nantes, Anthony Lopes set to join Angers",
       "from_club": "未知",
       "to_club": "Ligue 1",
@@ -1208,9 +1878,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T16:23:25Z",
-      "collected_at": "2026-06-05T03:31:53Z",
+      "collected_at": "2026-06-05T04:24:21Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Ligue 1",
+          "type": "club",
+          "description": "Ligue 1：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Ligue%201",
+          "search_url": "https://www.google.com/search?q=Ligue%201%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "contract",
         "rumour"
@@ -1226,7 +1912,10 @@
     },
     {
       "id": "627dbfb902e21307",
-      "player": "PSG rule out a move for Lokomotiv’s Aleksey Batrakov",
+      "title": "PSG rule out a move for Lokomotiv’s Aleksey Batrakov",
+      "title_zh": "PSG rule out a move for Lokomotiv’s Aleksey Batrakov",
+      "title_translation_provider": "glossary",
+      "player": "Lokomotiv’s Aleksey Batrakov",
       "from_club": "PSG",
       "to_club": "Paris Saint-Germain",
       "league": "法甲",
@@ -1237,9 +1926,39 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T14:03:13Z",
-      "collected_at": "2026-06-05T03:31:54Z",
+      "collected_at": "2026-06-05T04:24:22Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Lokomotiv’s Aleksey Batrakov",
+          "type": "player",
+          "description": "Lokomotiv’s Aleksey Batrakov：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Lokomotiv%E2%80%99s%20Aleksey%20Batrakov",
+          "search_url": "https://www.google.com/search?q=Lokomotiv%E2%80%99s%20Aleksey%20Batrakov%20football%20transfer"
+        },
+        {
+          "name": "PSG",
+          "type": "club",
+          "description": "PSG：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=PSG",
+          "search_url": "https://www.google.com/search?q=PSG%20football%20transfer"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "type": "club",
+          "description": "Paris Saint-Germain：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Paris%20Saint-Germain",
+          "search_url": "https://www.google.com/search?q=Paris%20Saint-Germain%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1254,9 +1973,12 @@
     },
     {
       "id": "6d5e857939cd5645",
+      "title": "Barcelona dealt blow as transfer collapses",
+      "title_zh": "Barcelona dealt blow as 转会 collapses",
+      "title_translation_provider": "glossary",
       "player": "Barcelona dealt blow as transfer collapses",
-      "from_club": "LaLiga",
-      "to_club": "Barcelona",
+      "from_club": "Barcelona",
+      "to_club": "LaLiga",
       "league": "西甲",
       "status": "rumour",
       "summary": "La Liga champions Barcelona have on Thursday been dealt a setback on the financial front. This comes after AS Monaco made the call to pull the plug on their swoop…",
@@ -1265,9 +1987,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T18:25:00Z",
-      "collected_at": "2026-06-05T03:32:08Z",
+      "collected_at": "2026-06-05T04:24:44Z",
       "credibility_score": 58,
       "heat_score": 64,
+      "entities": [
+        {
+          "name": "Barcelona",
+          "type": "club",
+          "description": "Barcelona：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Barcelona",
+          "search_url": "https://www.google.com/search?q=Barcelona%20football%20transfer"
+        },
+        {
+          "name": "LaLiga",
+          "type": "club",
+          "description": "LaLiga：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=LaLiga",
+          "search_url": "https://www.google.com/search?q=LaLiga%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1282,9 +2027,12 @@
     },
     {
       "id": "7e2456792303880d",
+      "title": "Aston Villa hold an interest in Borussia Dortmund target Nicolò Tresoldi; Karim Adeyemi to Villa?",
+      "title_zh": "Aston Villa hold an interest in Borussia Dortmund 目标 Nicolò Tresoldi; Karim Adeyemi to Villa?",
+      "title_translation_provider": "glossary",
       "player": "Aston Villa hold an interest in Borussia Dortmund target Nicolò Tresoldi; Karim ",
       "from_club": "Aston Villa",
-      "to_club": "Dortmund",
+      "to_club": "Borussia Dortmund",
       "league": "英超",
       "status": "negotiating",
       "summary": "Former Hannover 96 attacker Nicolò Tresoldi (21) has scored 23 goals across all competitions in 2025/26 as Club Brugge claimed their 20th Belgian league title. The German youth international has…",
@@ -1293,9 +2041,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T09:17:49Z",
-      "collected_at": "2026-06-05T03:31:57Z",
+      "collected_at": "2026-06-05T04:24:28Z",
       "credibility_score": 66,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Aston Villa",
+          "type": "club",
+          "description": "Aston Villa：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Aston%20Villa",
+          "search_url": "https://www.google.com/search?q=Aston%20Villa%20football%20transfer"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "type": "club",
+          "description": "Borussia Dortmund：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Borussia%20Dortmund",
+          "search_url": "https://www.google.com/search?q=Borussia%20Dortmund%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -1310,9 +2081,12 @@
     },
     {
       "id": "fd54b7c2bd767a62",
+      "title": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
+      "title_zh": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
+      "title_translation_provider": "glossary",
       "player": "Dusan Vlahovic set for Juventus exit as renewal talks break down",
-      "from_club": "Serie A",
-      "to_club": "Juventus",
+      "from_club": "Juventus",
+      "to_club": "Serie A",
       "league": "意甲",
       "status": "negotiating",
       "summary": "Serie A side Juventus have been attempting to keep Dusan Vlahovic beyond this summer but it seems like those attempts have now failed. Vlahovic’s current deal runs out at the…",
@@ -1321,9 +2095,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T11:30:12Z",
-      "collected_at": "2026-06-05T03:32:02Z",
+      "collected_at": "2026-06-05T04:24:36Z",
       "credibility_score": 66,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Juventus",
+          "type": "club",
+          "description": "Juventus：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Juventus",
+          "search_url": "https://www.google.com/search?q=Juventus%20football%20transfer"
+        },
+        {
+          "name": "Serie A",
+          "type": "club",
+          "description": "Serie A：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Serie%20A",
+          "search_url": "https://www.google.com/search?q=Serie%20A%20football%20transfer"
+        },
+        {
+          "name": "意甲",
+          "type": "league",
+          "description": "意甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%84%8F%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%84%8F%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -1338,6 +2135,9 @@
     },
     {
       "id": "1317e17b501357b5",
+      "title": "Mercado de fichajes de verano de 2026 en la Ligue 1: altas, bajas y rumores",
+      "title_zh": "Mercado de fichajes de verano de 2026 en la Ligue 1: altas, bajas y rumores",
+      "title_translation_provider": "glossary",
       "player": "Mercado de fichajes de verano de 2026 en la Ligue 1",
       "from_club": "未知",
       "to_club": "Ligue 1",
@@ -1349,9 +2149,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T20:16:59Z",
-      "collected_at": "2026-06-05T03:31:37Z",
+      "collected_at": "2026-06-05T04:23:50Z",
       "credibility_score": 58,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Ligue 1",
+          "type": "club",
+          "description": "Ligue 1：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Ligue%201",
+          "search_url": "https://www.google.com/search?q=Ligue%201%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1366,6 +2182,9 @@
     },
     {
       "id": "e65da3db74621a71",
+      "title": "Mercado de fichajes de verano de 2026 en la Bundesliga: altas, bajas y rumores",
+      "title_zh": "Mercado de fichajes de verano de 2026 en la Bundesliga: altas, bajas y rumores",
+      "title_translation_provider": "glossary",
       "player": "Mercado de fichajes de verano de 2026 en la Bundesliga",
       "from_club": "未知",
       "to_club": "Bundesliga",
@@ -1377,9 +2196,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T17:25:47Z",
-      "collected_at": "2026-06-05T03:31:37Z",
+      "collected_at": "2026-06-05T04:23:51Z",
       "credibility_score": 58,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Bundesliga",
+          "type": "club",
+          "description": "Bundesliga：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bundesliga",
+          "search_url": "https://www.google.com/search?q=Bundesliga%20football%20transfer"
+        },
+        {
+          "name": "德甲",
+          "type": "league",
+          "description": "德甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%B7%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E5%BE%B7%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1394,6 +2229,9 @@
     },
     {
       "id": "2d89e190b854e773",
+      "title": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pagase 85 millones",
+      "title_zh": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pagase 85 millones",
+      "title_translation_provider": "glossary",
       "player": "El Nápoles se queda con Hojlund tres años después de que el Manchester United pa",
       "from_club": "未知",
       "to_club": "Manchester United",
@@ -1405,9 +2243,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T11:49:11Z",
-      "collected_at": "2026-06-05T03:31:38Z",
+      "collected_at": "2026-06-05T04:23:52Z",
       "credibility_score": 58,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Manchester United",
+          "type": "club",
+          "description": "Manchester United：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Manchester%20United",
+          "search_url": "https://www.google.com/search?q=Manchester%20United%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1422,6 +2276,9 @@
     },
     {
       "id": "7ca17e179b681d1c",
+      "title": "El Celta ve dificultades en la vuelta de Brais Méndez",
+      "title_zh": "El Celta ve dificultades en la vuelta de Brais Méndez",
+      "title_translation_provider": "glossary",
       "player": "El Celta ve dificultades en la vuelta de Brais Méndez",
       "from_club": "未知",
       "to_club": "未知",
@@ -1433,9 +2290,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T08:25:08Z",
-      "collected_at": "2026-06-05T03:31:39Z",
+      "collected_at": "2026-06-05T04:23:54Z",
       "credibility_score": 58,
       "heat_score": 59,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1450,6 +2308,9 @@
     },
     {
       "id": "6ae3ed9a6ff79781",
+      "title": "Mercado de fichajes de verano de 2026 en la Serie A: altas, bajas y rumores",
+      "title_zh": "Mercado de fichajes de verano de 2026 en la Serie A: altas, bajas y rumores",
+      "title_translation_provider": "glossary",
       "player": "Mercado de fichajes de verano de 2026 en la Serie A",
       "from_club": "未知",
       "to_club": "Serie A",
@@ -1461,9 +2322,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-02T13:05:09Z",
-      "collected_at": "2026-06-05T03:31:39Z",
+      "collected_at": "2026-06-05T04:23:55Z",
       "credibility_score": 58,
       "heat_score": 59,
+      "entities": [
+        {
+          "name": "Serie A",
+          "type": "club",
+          "description": "Serie A：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Serie%20A",
+          "search_url": "https://www.google.com/search?q=Serie%20A%20football%20transfer"
+        },
+        {
+          "name": "意甲",
+          "type": "league",
+          "description": "意甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%84%8F%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%84%8F%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1478,6 +2355,9 @@
     },
     {
       "id": "8c7b67b6dd971dfc",
+      "title": "Sign up for the Moving the Goalposts newsletter: our free women’s football email",
+      "title_zh": "签约 up for the Moving the Goalposts newsletter: our free women’s football email",
+      "title_translation_provider": "glossary",
       "player": "Sign up for the Moving the Goalposts newsletter",
       "from_club": "未知",
       "to_club": "未知",
@@ -1489,9 +2369,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-03-22T16:57:35Z",
-      "collected_at": "2026-06-05T03:31:22Z",
+      "collected_at": "2026-06-05T04:23:23Z",
       "credibility_score": 58,
       "heat_score": 58,
+      "entities": [
+        {
+          "name": "Sign up for the Moving the Goalposts newsletter",
+          "type": "player",
+          "description": "Sign up for the Moving the Goalposts newsletter：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Sign%20up%20for%20the%20Moving%20the%20Goalposts%20newsletter",
+          "search_url": "https://www.google.com/search?q=Sign%20up%20for%20the%20Moving%20the%20Goalposts%20newsletter%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1506,6 +2395,9 @@
     },
     {
       "id": "d3f54e84eb4dcc1e",
+      "title": "Christian Pulisic wanted to talk about something else. Now he can",
+      "title_zh": "Christian Pulisic wanted to talk about something else. Now he can",
+      "title_translation_provider": "glossary",
       "player": "Christian Pulisic wanted to talk about something else. Now he can",
       "from_club": "未知",
       "to_club": "未知",
@@ -1517,9 +2409,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T02:07:43Z",
-      "collected_at": "2026-06-05T03:31:23Z",
+      "collected_at": "2026-06-05T04:23:26Z",
       "credibility_score": 58,
       "heat_score": 58,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1534,8 +2427,11 @@
     },
     {
       "id": "669da56d095f3cd5",
+      "title": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
+      "title_zh": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
+      "title_translation_provider": "glossary",
       "player": "Fenerbahce hold discussions with Serhou Guirassy’s representatives",
-      "from_club": "未知",
+      "from_club": "Borussia Dortmund",
       "to_club": "Dortmund",
       "league": "德甲",
       "status": "negotiating",
@@ -1545,9 +2441,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T09:41:27Z",
-      "collected_at": "2026-06-05T03:31:58Z",
+      "collected_at": "2026-06-05T04:24:29Z",
       "credibility_score": 66,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Borussia Dortmund",
+          "type": "club",
+          "description": "Borussia Dortmund：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Borussia%20Dortmund",
+          "search_url": "https://www.google.com/search?q=Borussia%20Dortmund%20football%20transfer"
+        },
+        {
+          "name": "Dortmund",
+          "type": "club",
+          "description": "Dortmund：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Dortmund",
+          "search_url": "https://www.google.com/search?q=Dortmund%20football%20transfer"
+        },
+        {
+          "name": "德甲",
+          "type": "league",
+          "description": "德甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E5%BE%B7%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E5%BE%B7%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -1562,9 +2481,12 @@
     },
     {
       "id": "e8571360d96cbedd",
+      "title": "Aston Villa target Moritz Nicolas has ‘time-limited’ exit clause",
+      "title_zh": "Aston Villa 目标 Moritz Nicolas has ‘time-limited’ exit clause",
+      "title_translation_provider": "glossary",
       "player": "Aston Villa target Moritz Nicolas has ‘time-limited’ exit clause",
-      "from_club": "Premier League",
-      "to_club": "Aston Villa",
+      "from_club": "Aston Villa",
+      "to_club": "Borussia Dortmund",
       "league": "英超",
       "status": "negotiating",
       "summary": "Only Borussia Dortmund’s Gregor Kobel (15) kept more Bundesliga clean sheets than Moritz Nicolas (13) in 2025/26, which has naturally aroused interest in Borussia Mönchengladbach’s custodian. Premier League side Aston…",
@@ -1573,9 +2495,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T09:26:28Z",
-      "collected_at": "2026-06-05T03:31:59Z",
+      "collected_at": "2026-06-05T04:24:30Z",
       "credibility_score": 66,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Aston Villa",
+          "type": "club",
+          "description": "Aston Villa：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Aston%20Villa",
+          "search_url": "https://www.google.com/search?q=Aston%20Villa%20football%20transfer"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "type": "club",
+          "description": "Borussia Dortmund：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Borussia%20Dortmund",
+          "search_url": "https://www.google.com/search?q=Borussia%20Dortmund%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "negotiating"
       ],
@@ -1590,6 +2535,9 @@
     },
     {
       "id": "f00e3cf0675049a8",
+      "title": "Sign up for the Football Daily newsletter: our free football email",
+      "title_zh": "签约 up for the Football Daily newsletter: our free football email",
+      "title_translation_provider": "glossary",
       "player": "Sign up for the Football Daily newsletter",
       "from_club": "未知",
       "to_club": "未知",
@@ -1601,9 +2549,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-11-14T09:05:50Z",
-      "collected_at": "2026-06-05T03:31:21Z",
+      "collected_at": "2026-06-05T04:23:22Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Sign up for the Football Daily newsletter",
+          "type": "player",
+          "description": "Sign up for the Football Daily newsletter：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Sign%20up%20for%20the%20Football%20Daily%20newsletter",
+          "search_url": "https://www.google.com/search?q=Sign%20up%20for%20the%20Football%20Daily%20newsletter%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1618,6 +2575,9 @@
     },
     {
       "id": "f6dd6b3134e4bfda",
+      "title": "Sign up to the Sport in Focus newsletter: the sporting week in photos",
+      "title_zh": "签约 up to the Sport in Focus newsletter: the sporting week in photos",
+      "title_translation_provider": "glossary",
       "player": "Sign up to the Sport in Focus newsletter",
       "from_club": "未知",
       "to_club": "未知",
@@ -1629,9 +2589,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2025-10-01T11:00:23Z",
-      "collected_at": "2026-06-05T03:31:22Z",
+      "collected_at": "2026-06-05T04:23:25Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Sign up to the Sport in Focus newsletter",
+          "type": "player",
+          "description": "Sign up to the Sport in Focus newsletter：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Sign%20up%20to%20the%20Sport%20in%20Focus%20newsletter",
+          "search_url": "https://www.google.com/search?q=Sign%20up%20to%20the%20Sport%20in%20Focus%20newsletter%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1646,9 +2615,12 @@
     },
     {
       "id": "abd3cce3776fdd4a",
+      "title": "Premier League 2025-26 season review: our predictions v reality",
+      "title_zh": "Premier League 2025-26 season review: our predictions v reality",
+      "title_translation_provider": "glossary",
       "player": "Premier League 2025-26 season review",
-      "from_club": "Premier League",
-      "to_club": "Arsenal",
+      "from_club": "Arsenal",
+      "to_club": "Chelsea",
       "league": "英超",
       "status": "rumour",
       "summary": "We picked Liverpool as champions, Chelsea as challengers and tipped Brentford and Sunderland to go down. Oh dear What we predicted: Mikel Arteta vowed this would be a “big summer” after finishing as runners-up in the Premier League for a third season in succes...",
@@ -1657,9 +2629,39 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-26T15:56:24Z",
-      "collected_at": "2026-06-05T03:31:24Z",
+      "collected_at": "2026-06-05T04:23:27Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Premier League 2025-26 season review",
+          "type": "player",
+          "description": "Premier League 2025-26 season review：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Premier%20League%202025-26%20season%20review",
+          "search_url": "https://www.google.com/search?q=Premier%20League%202025-26%20season%20review%20football%20transfer"
+        },
+        {
+          "name": "Arsenal",
+          "type": "club",
+          "description": "Arsenal：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Arsenal",
+          "search_url": "https://www.google.com/search?q=Arsenal%20football%20transfer"
+        },
+        {
+          "name": "Chelsea",
+          "type": "club",
+          "description": "Chelsea：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Chelsea",
+          "search_url": "https://www.google.com/search?q=Chelsea%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1674,9 +2676,12 @@
     },
     {
       "id": "7e9b955e700cc7fd",
+      "title": "PSG now stand alongside some of Europe’s best-ever, but with caveats | Jonathan Wilson",
+      "title_zh": "PSG now stand alongside some of Europe’s best-ever, but with caveats | Jonathan Wilson",
+      "title_translation_provider": "glossary",
       "player": "PSG now stand alongside some of Europe’s best-ever, but with caveats",
       "from_club": "Arsenal",
-      "to_club": "Chelsea",
+      "to_club": "Bayern Munich",
       "league": "英超",
       "status": "rumour",
       "summary": "The origin of PSG’s largesse and the effect it’s had on their domestic game can’t be ignored, even as we appreciate the team’s stunning quality Sign up for the World Behind The Cup newsletter Since 1990, only one side had ever successfully defended the Champio...",
@@ -1685,9 +2690,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-01T16:00:22Z",
-      "collected_at": "2026-06-05T03:31:25Z",
+      "collected_at": "2026-06-05T04:23:30Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Arsenal",
+          "type": "club",
+          "description": "Arsenal：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Arsenal",
+          "search_url": "https://www.google.com/search?q=Arsenal%20football%20transfer"
+        },
+        {
+          "name": "Bayern Munich",
+          "type": "club",
+          "description": "Bayern Munich：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Bayern%20Munich",
+          "search_url": "https://www.google.com/search?q=Bayern%20Munich%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1702,6 +2730,9 @@
     },
     {
       "id": "497b85507f1f83be",
+      "title": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
+      "title_zh": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
+      "title_translation_provider": "glossary",
       "player": "Ousmane Dembélé quietly becomes the main man after long journey to the top",
       "from_club": "未知",
       "to_club": "PSG",
@@ -1713,9 +2744,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2025-12-20T08:00:25Z",
-      "collected_at": "2026-06-05T03:31:26Z",
+      "collected_at": "2026-06-05T04:23:32Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "PSG",
+          "type": "club",
+          "description": "PSG：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=PSG",
+          "search_url": "https://www.google.com/search?q=PSG%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1730,6 +2777,9 @@
     },
     {
       "id": "888f31315b08c83d",
+      "title": "Mercado de fichajes de LaLiga: altas, bajas y rumores para la temporada 2026-27",
+      "title_zh": "Mercado de fichajes de LaLiga: altas, bajas y rumores para la temporada 2026-27",
+      "title_translation_provider": "glossary",
       "player": "Mercado de fichajes de LaLiga",
       "from_club": "未知",
       "to_club": "LaLiga",
@@ -1741,9 +2791,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-31T16:21:01Z",
-      "collected_at": "2026-06-05T03:31:40Z",
+      "collected_at": "2026-06-05T04:23:56Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Mercado de fichajes de LaLiga",
+          "type": "player",
+          "description": "Mercado de fichajes de LaLiga：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Mercado%20de%20fichajes%20de%20LaLiga",
+          "search_url": "https://www.google.com/search?q=Mercado%20de%20fichajes%20de%20LaLiga%20football%20transfer"
+        },
+        {
+          "name": "LaLiga",
+          "type": "club",
+          "description": "LaLiga：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=LaLiga",
+          "search_url": "https://www.google.com/search?q=LaLiga%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1758,6 +2831,9 @@
     },
     {
       "id": "ee27d56fb4ca1147",
+      "title": "David Sánchez se rinde al fichaje de Anthony Gordon: “Así sí se puede pelear por una Liga de Campeones”",
+      "title_zh": "David Sánchez se rinde al fichaje de Anthony Gordon: “Así sí se puede pelear por una Liga de Campeones”",
+      "title_translation_provider": "glossary",
       "player": "David Sánchez se rinde al fichaje de Anthony Gordon",
       "from_club": "未知",
       "to_club": "未知",
@@ -1769,9 +2845,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-28T05:45:28Z",
-      "collected_at": "2026-06-05T03:31:41Z",
+      "collected_at": "2026-06-05T04:23:58Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1786,6 +2863,9 @@
     },
     {
       "id": "7f2bf1f6f98d9584",
+      "title": "Apollo no cambiará el mercado del Atlético",
+      "title_zh": "Apollo no cambiará el mercado del Atlético",
+      "title_translation_provider": "glossary",
       "player": "Apollo no cambiará el mercado del Atlético",
       "from_club": "未知",
       "to_club": "未知",
@@ -1797,9 +2877,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T13:23:24Z",
-      "collected_at": "2026-06-05T03:31:41Z",
+      "collected_at": "2026-06-05T04:23:59Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Apollo no cambiará el mercado del Atlético",
+          "type": "player",
+          "description": "Apollo no cambiará el mercado del Atlético：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Apollo%20no%20cambiar%C3%A1%20el%20mercado%20del%20Atl%C3%A9tico",
+          "search_url": "https://www.google.com/search?q=Apollo%20no%20cambiar%C3%A1%20el%20mercado%20del%20Atl%C3%A9tico%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1814,6 +2903,9 @@
     },
     {
       "id": "d34a4ac84db41705",
+      "title": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
+      "title_zh": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
+      "title_translation_provider": "glossary",
       "player": "Aleix Febas, a punto de cerrar su fichaje con el Celta",
       "from_club": "未知",
       "to_club": "未知",
@@ -1825,9 +2917,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T11:44:56Z",
-      "collected_at": "2026-06-05T03:31:42Z",
+      "collected_at": "2026-06-05T04:24:00Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1842,6 +2935,9 @@
     },
     {
       "id": "455d52c47fa14f84",
+      "title": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Riquelme",
+      "title_zh": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Riquelme",
+      "title_translation_provider": "glossary",
       "player": "Roberto Gómez adelanta dos fichajes galácticos para el proyecto de Enrique Rique",
       "from_club": "未知",
       "to_club": "未知",
@@ -1853,9 +2949,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2026-05-27T07:34:15Z",
-      "collected_at": "2026-06-05T03:31:43Z",
+      "collected_at": "2026-06-05T04:24:02Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1870,6 +2967,9 @@
     },
     {
       "id": "db86af893c587ccf",
+      "title": "Sarabia-Atleti: un acuerdo posible",
+      "title_zh": "Sarabia-Atleti: un acuerdo posible",
+      "title_translation_provider": "glossary",
       "player": "Sarabia-Atleti",
       "from_club": "未知",
       "to_club": "PSG",
@@ -1881,9 +2981,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T02:55:07Z",
-      "collected_at": "2026-06-05T03:31:44Z",
+      "collected_at": "2026-06-05T04:24:04Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "PSG",
+          "type": "club",
+          "description": "PSG：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=PSG",
+          "search_url": "https://www.google.com/search?q=PSG%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1898,6 +3014,9 @@
     },
     {
       "id": "d6ce5a0f3f00cd58",
+      "title": "Atasco extracomunitario",
+      "title_zh": "Atasco extracomunitario",
+      "title_translation_provider": "glossary",
       "player": "Atasco extracomunitario",
       "from_club": "未知",
       "to_club": "未知",
@@ -1909,9 +3028,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-10T10:43:04Z",
-      "collected_at": "2026-06-05T03:31:45Z",
+      "collected_at": "2026-06-05T04:24:06Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -1926,6 +3046,9 @@
     },
     {
       "id": "db2398f1036aa0eb",
+      "title": "La mujer que tiene en sus manos el destino de Koundé",
+      "title_zh": "La mujer que tiene en sus manos el destino de Koundé",
+      "title_translation_provider": "glossary",
       "player": "La mujer que tiene en sus manos el destino de Koundé",
       "from_club": "Chelsea",
       "to_club": "Sevilla",
@@ -1937,9 +3060,32 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T11:35:21Z",
-      "collected_at": "2026-06-05T03:31:45Z",
+      "collected_at": "2026-06-05T04:24:07Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Chelsea",
+          "type": "club",
+          "description": "Chelsea：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Chelsea",
+          "search_url": "https://www.google.com/search?q=Chelsea%20football%20transfer"
+        },
+        {
+          "name": "Sevilla",
+          "type": "club",
+          "description": "Sevilla：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Sevilla",
+          "search_url": "https://www.google.com/search?q=Sevilla%20football%20transfer"
+        },
+        {
+          "name": "英超",
+          "type": "league",
+          "description": "英超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%8B%B1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%8B%B1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1954,6 +3100,9 @@
     },
     {
       "id": "2e8a6e4e3bc04613",
+      "title": "El PSG activa la opción B tras el 'no' de Tchouaméni",
+      "title_zh": "El PSG activa la opción B tras el 'no' de Tchouaméni",
+      "title_translation_provider": "glossary",
       "player": "El PSG activa la opción B tras el 'no' de Tchouaméni",
       "from_club": "未知",
       "to_club": "PSG",
@@ -1965,9 +3114,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T20:42:45Z",
-      "collected_at": "2026-06-05T03:31:46Z",
+      "collected_at": "2026-06-05T04:24:08Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "PSG",
+          "type": "club",
+          "description": "PSG：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=PSG",
+          "search_url": "https://www.google.com/search?q=PSG%20football%20transfer"
+        },
+        {
+          "name": "法甲",
+          "type": "league",
+          "description": "法甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E6%B3%95%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E6%B3%95%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -1982,6 +3147,9 @@
     },
     {
       "id": "e03a6ec5e6544c20",
+      "title": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
+      "title_zh": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
+      "title_translation_provider": "glossary",
       "player": "Vía libre para hacer oficial el fichaje de Gennaro Gattuso",
       "from_club": "未知",
       "to_club": "Valencia",
@@ -1993,9 +3161,25 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T02:53:15Z",
-      "collected_at": "2026-06-05T03:31:47Z",
+      "collected_at": "2026-06-05T04:24:10Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Valencia",
+          "type": "club",
+          "description": "Valencia：新闻中提到的俱乐部或目标球队。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Valencia",
+          "search_url": "https://www.google.com/search?q=Valencia%20football%20transfer"
+        },
+        {
+          "name": "西甲",
+          "type": "league",
+          "description": "西甲：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%A5%BF%E7%94%B2",
+          "search_url": "https://www.google.com/search?q=%E8%A5%BF%E7%94%B2%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -2010,6 +3194,9 @@
     },
     {
       "id": "02e3816b84122447",
+      "title": "Vinicius vale más que Haaland",
+      "title_zh": "Vinicius vale más que Haaland",
+      "title_translation_provider": "glossary",
       "player": "Vinicius vale más que Haaland",
       "from_club": "未知",
       "to_club": "未知",
@@ -2021,9 +3208,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T19:30:46Z",
-      "collected_at": "2026-06-05T03:31:47Z",
+      "collected_at": "2026-06-05T04:24:11Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "Vinicius vale más que Haaland",
+          "type": "player",
+          "description": "Vinicius vale más que Haaland：新闻中提到的球员或转会相关人物。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=Vinicius%20vale%20m%C3%A1s%20que%20Haaland",
+          "search_url": "https://www.google.com/search?q=Vinicius%20vale%20m%C3%A1s%20que%20Haaland%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -2038,9 +3234,12 @@
     },
     {
       "id": "0f54da62d55c62a7",
+      "title": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
+      "title_zh": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
+      "title_translation_provider": "glossary",
       "player": "Bragarnik pide 1,8 millones por el traspaso de Marcone a Independiente",
       "from_club": "未知",
-      "to_club": "Braga",
+      "to_club": "未知",
       "league": "葡超",
       "status": "rumour",
       "summary": "El club de Avellaneda sigue tras los pasos del jugador, pero el propietario del Elche no está dispuesto a perder su inversión.",
@@ -2049,9 +3248,18 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-07T09:08:02Z",
-      "collected_at": "2026-06-05T03:31:48Z",
+      "collected_at": "2026-06-05T04:24:12Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [
+        {
+          "name": "葡超",
+          "type": "league",
+          "description": "葡超：该条新闻归类到的联赛或地区。",
+          "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%91%A1%E8%B6%85",
+          "search_url": "https://www.google.com/search?q=%E8%91%A1%E8%B6%85%20football%20transfer"
+        }
+      ],
       "tags": [
         "rumour"
       ],
@@ -2066,6 +3274,9 @@
     },
     {
       "id": "22aae982fb67fdb9",
+      "title": "Oficial: Álex Fernández renueva con el Cádiz hasta 2025",
+      "title_zh": "Oficial: Álex Fernández renueva con el Cádiz hasta 2025",
+      "title_translation_provider": "glossary",
       "player": "Oficial",
       "from_club": "未知",
       "to_club": "未知",
@@ -2077,9 +3288,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T15:54:13Z",
-      "collected_at": "2026-06-05T03:31:49Z",
+      "collected_at": "2026-06-05T04:24:14Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -2094,6 +3306,9 @@
     },
     {
       "id": "44e2681c88009001",
+      "title": "Portugal recoloca a William Carvalho en el escaparate",
+      "title_zh": "Portugal recoloca a William Carvalho en el escaparate",
+      "title_translation_provider": "glossary",
       "player": "Portugal recoloca a William Carvalho en el escaparate",
       "from_club": "未知",
       "to_club": "未知",
@@ -2105,9 +3320,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T15:31:19Z",
-      "collected_at": "2026-06-05T03:31:49Z",
+      "collected_at": "2026-06-05T04:24:15Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
@@ -2122,6 +3338,9 @@
     },
     {
       "id": "25dbdfaa0714ae85",
+      "title": "Lukaku, a la desesperada",
+      "title_zh": "Lukaku, a la desesperada",
+      "title_translation_provider": "glossary",
       "player": "Lukaku, a la desesperada",
       "from_club": "未知",
       "to_club": "未知",
@@ -2133,9 +3352,10 @@
       "fee": "",
       "contract": "",
       "reported_at": "2022-06-06T22:13:59Z",
-      "collected_at": "2026-06-05T03:31:50Z",
+      "collected_at": "2026-06-05T04:24:16Z",
       "credibility_score": 58,
       "heat_score": 50,
+      "entities": [],
       "tags": [
         "rumour"
       ],
