@@ -103,6 +103,7 @@ function applyFilters() {
       item.to_club,
       item.league,
       item.summary,
+      item.summary_zh,
       ...(item.sources || []).map((source) => source.name),
     ]
       .filter(Boolean)
@@ -194,7 +195,7 @@ function renderTransfers() {
       status.classList.add(statusClasses[item.status] || "rumour");
 
       node.querySelector(".route").textContent = `${item.from_club || "未知"} → ${item.to_club || "未知"}`;
-      node.querySelector(".summary").textContent = item.summary || "暂无摘要。";
+      node.querySelector(".summary").textContent = item.summary_zh || item.summary || "暂无摘要。";
       node.querySelector(".heat").textContent = `热度 ${Number(item.heat_score || 0)}`;
       node.querySelector(".credibility").textContent = `可信 ${Number(item.credibility_score || 0)}`;
       node.querySelector(".reported").textContent = item.reported_at ? formatDate(new Date(item.reported_at)) : "时间未知";

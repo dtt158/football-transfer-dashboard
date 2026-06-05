@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
@@ -98,6 +99,41 @@ TRANSFER_TERMS = [
     "medical",
     "contract",
     "loan",
+]
+
+TRANSLATION_CACHE: dict[str, str] = {}
+
+GLOSSARY_TRANSLATIONS = [
+    ("is set to become", "即将成为"),
+    ("are expecting", "预计"),
+    ("after rejecting", "在拒绝后"),
+    ("initial bid", "首次报价"),
+    ("increased offer", "提高后的报价"),
+    ("agreed a deal", "达成交易"),
+    ("agreed", "达成一致"),
+    ("deal", "交易"),
+    ("bid", "报价"),
+    ("offer", "报价"),
+    ("target", "目标"),
+    ("transfer", "转会"),
+    ("transfers", "转会"),
+    ("signed", "签下"),
+    ("signing", "签约"),
+    ("sign", "签约"),
+    ("joins", "加盟"),
+    ("joining", "加盟"),
+    ("medical", "体检"),
+    ("contract", "合同"),
+    ("loan", "租借"),
+    ("defender", "后卫"),
+    ("midfielder", "中场"),
+    ("striker", "前锋"),
+    ("goalkeeper", "门将"),
+    ("forward", "前锋"),
+    ("club", "俱乐部"),
+    ("manager", "主教练"),
+    ("summer", "夏窗"),
+    ("winter", "冬窗"),
 ]
 
 
@@ -201,6 +237,9 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
     heat = heat_score(source.grade, status, combined, published)
     collected_at = utc_now()
 
+    summary = summarise(description or title)
+    summary_zh, translation_provider = translate_summary(summary)
+
     return {
         "id": stable_id(title, link),
         "player": player,
@@ -208,7 +247,9 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
         "to_club": clubs[1],
         "league": league,
         "status": status,
-        "summary": summarise(description or title),
+        "summary": summary,
+        "summary_zh": summary_zh,
+        "translation_provider": translation_provider,
         "fee": guess_fee(combined),
         "contract": "",
         "reported_at": published or collected_at,
@@ -368,6 +409,52 @@ def tags_for(status: str, text: str) -> list[str]:
 def summarise(text: str) -> str:
     cleaned = clean_html(text)
     return cleaned[:260] + ("..." if len(cleaned) > 260 else "")
+
+
+def translate_summary(text: str) -> tuple[str, str]:
+    if not text:
+        return "", "empty"
+    if has_cjk(text):
+        return text, "original"
+    if text in TRANSLATION_CACHE:
+        return TRANSLATION_CACHE[text], "cache"
+
+    translated = translate_with_mymemory(text)
+    if translated:
+        TRANSLATION_CACHE[text] = translated
+        return translated, "mymemory"
+
+    fallback = glossary_translate(text)
+    TRANSLATION_CACHE[text] = fallback
+    return fallback, "glossary"
+
+
+def translate_with_mymemory(text: str) -> str:
+    params = urllib.parse.urlencode({"q": text[:500], "langpair": "en|zh-CN"})
+    url = f"https://api.mymemory.translated.net/get?{params}"
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
+        with urllib.request.urlopen(request, timeout=12) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+        return ""
+
+    translated = payload.get("responseData", {}).get("translatedText", "")
+    translated = clean_html(str(translated)).strip()
+    if not translated or translated.lower() == text.lower():
+        return ""
+    return translated
+
+
+def glossary_translate(text: str) -> str:
+    translated = text
+    for english, chinese in GLOSSARY_TRANSLATIONS:
+        translated = re.sub(rf"\b{re.escape(english)}\b", chinese, translated, flags=re.I)
+    return translated
+
+
+def has_cjk(text: str) -> bool:
+    return any("\u4e00" <= char <= "\u9fff" for char in text)
 
 
 def normalise_date(value: str) -> str:

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T15:06:21Z",
+  "generated_at": "2026-06-05T03:22:20Z",
   "sources": [
     {
       "name": "BBC Football",
@@ -23,28 +23,95 @@
   "errors": [],
   "transfers": [
     {
-      "id": "8bc49669a46899b2",
-      "player": "Man Utd agree £35m Ederson fee as they signal summer intentions",
-      "from_club": "Manchester United",
-      "to_club": "Atalanta",
-      "league": "英超",
-      "status": "advanced",
-      "summary": "Atalanta's Brazilian midfielder Ederson is set to become Michael Carrick's first signing after Manchester United agreed a £35m deal for the 26-year-old",
-      "fee": "£35m",
+      "id": "f2c3082bb3a0c590",
+      "player": "York City accept Hearts offer for Fagan-Walcott",
+      "from_club": "未知",
+      "to_club": "未知",
+      "league": "其他",
+      "status": "negotiating",
+      "summary": "York City accept what would be a club-record, seven-figure bid for defender Malachi Fagan-Walcott from Heart of Midlothian.",
+      "summary_zh": "约克市接受了中洛锡安中心对后卫马拉基·法根-沃尔科特的七位数竞标，这将是一个俱乐部纪录。",
+      "translation_provider": "mymemory",
+      "fee": "",
       "contract": "",
-      "reported_at": "2026-06-02T22:24:08Z",
-      "collected_at": "2026-06-04T15:06:20Z",
-      "credibility_score": 74,
-      "heat_score": 77,
+      "reported_at": "2026-06-04T16:00:01Z",
+      "collected_at": "2026-06-05T03:22:13Z",
+      "credibility_score": 71,
+      "heat_score": 80,
       "tags": [
-        "advanced"
+        "bid",
+        "negotiating"
       ],
       "sources": [
         {
           "name": "BBC Football",
-          "url": "https://www.bbc.com/sport/football/articles/c78q2dxv89go?at_medium=RSS&at_campaign=rss",
+          "url": "https://www.bbc.com/sport/football/articles/c0r2r8lgp5wo?at_medium=RSS&at_campaign=rss",
           "grade": "B",
-          "published_at": "2026-06-02T22:24:08Z"
+          "published_at": "2026-06-04T16:00:01Z"
+        },
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c0r2r8lgp5wo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T16:00:01Z"
+        }
+      ]
+    },
+    {
+      "id": "34730863d69f8baf",
+      "player": "Why has Iraola only signed a two-year contract at Liverpool?",
+      "from_club": "未知",
+      "to_club": "Liverpool",
+      "league": "英超",
+      "status": "official",
+      "summary": "Our Ask Me Anything team looks into why Andoni Iraola has signed a contract for just two years as Liverpool manager.",
+      "summary_zh": "我们的Ask Me Anything团队调查了Andoni Iraola作为利物浦经理仅签订两年合同的原因。",
+      "translation_provider": "mymemory",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:50:04Z",
+      "collected_at": "2026-06-05T03:22:11Z",
+      "credibility_score": 78,
+      "heat_score": 78,
+      "tags": [
+        "contract",
+        "official"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cdxp15z708ko?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T18:50:04Z"
+        }
+      ]
+    },
+    {
+      "id": "fae00e6008768f5e",
+      "player": "Madrid's Pérez vows $174M Galactico bid if elected...",
+      "from_club": "未知",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "negotiating",
+      "summary": "Florentino Pérez promised to bid for a $174 million (€150 million) \"Galáctico\" player this summer as he tries to win Sunday's presidential elections at Real Madrid.",
+      "summary_zh": "弗洛伦蒂诺·佩雷斯（ Florentino Pérez ）承诺今年夏天竞标1.74亿美元（ 1.5亿欧元）的“Galáctico”球员，因为他试图赢得周日在皇家马德里的总统选举。",
+      "translation_provider": "mymemory",
+      "fee": "$174M",
+      "contract": "",
+      "reported_at": "2026-06-05T02:56:45Z",
+      "collected_at": "2026-06-05T03:22:16Z",
+      "credibility_score": 66,
+      "heat_score": 76,
+      "tags": [
+        "bid",
+        "negotiating"
+      ],
+      "sources": [
+        {
+          "name": "ESPN Soccer",
+          "url": "https://www.espn.com/soccer/story/_/id/48969398/real-madrid-perez-vows-174m-galactico-bid-reelected",
+          "grade": "B",
+          "published_at": "2026-06-05T02:56:45Z"
         }
       ]
     },
@@ -56,12 +123,14 @@
       "league": "英超",
       "status": "negotiating",
       "summary": "Brighton are expecting Tottenham to return with an increased offer after rejecting an initial £70m bid for Netherlands defender Jan Paul van Hecke.",
+      "summary_zh": "布莱顿预计，在拒绝了荷兰后卫扬·保罗·范赫克（ Jan Paul van Hecke ）最初7000万英镑的报价后，托特纳姆热刺将以更高的报价回归。",
+      "translation_provider": "mymemory",
       "fee": "£70m",
       "contract": "",
       "reported_at": "2026-06-04T13:41:51Z",
-      "collected_at": "2026-06-04T15:06:20Z",
+      "collected_at": "2026-06-05T03:22:10Z",
       "credibility_score": 66,
-      "heat_score": 76,
+      "heat_score": 72,
       "tags": [
         "bid",
         "negotiating"
@@ -83,10 +152,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "After a candidate in Real Madrid's presidential election unveils an Erling Haaland shirt on live TV, Manchester City dismiss the suggestion their striker will move to Spain.",
+      "summary_zh": "在皇家马德里总统选举的一名候选人在电视直播中展示了一件Erling Haaland球衣后，曼城驳回了他们的前锋将移居西班牙的建议。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:27:35Z",
-      "collected_at": "2026-06-04T15:06:20Z",
+      "collected_at": "2026-06-05T03:22:07Z",
       "credibility_score": 58,
       "heat_score": 72,
       "tags": [
@@ -102,55 +173,116 @@
       ]
     },
     {
-      "id": "75e944eb667e0e47",
-      "player": "Sources",
+      "id": "eaec20849744c3e8",
+      "player": "Real Madrid unveil new home kit for quest to end m...",
       "from_club": "未知",
-      "to_club": "Manchester City",
-      "league": "英超",
-      "status": "negotiating",
-      "summary": "Manchester City have had their opening bid for Elliot Anderson rejected by Nottingham Forest, sources have told ESPN.",
+      "to_club": "Real Madrid",
+      "league": "西甲",
+      "status": "rumour",
+      "summary": "Real Madrid have a white jersey once again, but the design is offset by a fresh and bold color combination.",
+      "summary_zh": "皇家马德里再次采用白色球衣，但设计被清新大胆的颜色组合所抵消。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-04T15:53:51Z",
-      "collected_at": "2026-06-04T15:06:21Z",
-      "credibility_score": 66,
+      "reported_at": "2026-06-05T00:49:58Z",
+      "collected_at": "2026-06-05T03:22:19Z",
+      "credibility_score": 58,
       "heat_score": 68,
       "tags": [
-        "bid",
-        "negotiating"
+        "rumour"
       ],
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48962858/man-city-first-bid-elliot-anderson-rejected-nottingham-forest-sources",
+          "url": "https://www.espn.com/soccer/story/_/id/48955127/real-madrid-unveil-new-2026-27-home-kit-quest-end-major-trophy-drought-laliga-copa-del-rey-champions-league",
           "grade": "B",
-          "published_at": "2026-06-04T15:53:51Z"
+          "published_at": "2026-06-05T00:49:58Z"
         }
       ]
     },
     {
-      "id": "e928e2a2631ef997",
-      "player": "Transfer rumors, news",
-      "from_club": "Arsenal",
-      "to_club": "Real Madrid",
+      "id": "beec6dba86cee91c",
+      "player": "Top players, title fights",
+      "from_club": "未知",
+      "to_club": "Liverpool",
       "league": "英超",
-      "status": "negotiating",
-      "summary": "Real Madrid are weighing up an approach for Arsenal defender Riccardo Calafiori. Transfer Talk has the latest.",
+      "status": "rumour",
+      "summary": "Liverpool appoint Andoni Iraola as their new head coach on a two-year contract following the sacking of Arne Slot.",
+      "summary_zh": "在Arne Slot被解雇后，利物浦任命Andoni Iraola为他们的新主教练，合同为期两年。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-04T14:24:55Z",
-      "collected_at": "2026-06-04T15:06:21Z",
-      "credibility_score": 66,
-      "heat_score": 68,
+      "reported_at": "2026-06-04T18:28:58Z",
+      "collected_at": "2026-06-05T03:22:06Z",
+      "credibility_score": 58,
+      "heat_score": 64,
       "tags": [
-        "negotiating"
+        "contract",
+        "rumour"
       ],
       "sources": [
         {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48963013/transfer-rumors-news-real-madrid-keen-arsenals-calafiori",
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/cqjpkgx7084o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
-          "published_at": "2026-06-04T14:24:55Z"
+          "published_at": "2026-06-04T18:28:58Z"
+        }
+      ]
+    },
+    {
+      "id": "e0b75c497d0204a1",
+      "player": "Iraola will make Liverpool fans excited again",
+      "from_club": "未知",
+      "to_club": "Liverpool",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Andoni Iraola is the new Liverpool head coach on a two-year contract - but what is the feeling around the city to his impending arrival?",
+      "summary_zh": "安东尼·伊拉奥拉（ Andoni Iraola ）是利物浦的新任主教练，合同为期两年，但他即将到来，这座城市的感觉如何？",
+      "translation_provider": "mymemory",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:35:16Z",
+      "collected_at": "2026-06-05T03:22:08Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "contract",
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c62dpn93n9mo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T18:35:16Z"
+        }
+      ]
+    },
+    {
+      "id": "45d980a17e9b3e18",
+      "player": "Man Utd will not be swayed on transfer plan",
+      "from_club": "未知",
+      "to_club": "Manchester United",
+      "league": "英超",
+      "status": "rumour",
+      "summary": "Manchester United chief executive Omar Berrada says the club will not bow to pressure and overpay in the summer transfer window.",
+      "summary_zh": "曼联首席执行官奥马尔·贝拉达（ Omar Berrada ）表示，俱乐部不会在夏季转会窗口屈服于压力和超额支付。",
+      "translation_provider": "mymemory",
+      "fee": "",
+      "contract": "",
+      "reported_at": "2026-06-04T18:10:00Z",
+      "collected_at": "2026-06-05T03:22:09Z",
+      "credibility_score": 58,
+      "heat_score": 64,
+      "tags": [
+        "rumour"
+      ],
+      "sources": [
+        {
+          "name": "BBC Football",
+          "url": "https://www.bbc.com/sport/football/articles/c0e2enynl2qo?at_medium=RSS&at_campaign=rss",
+          "grade": "B",
+          "published_at": "2026-06-04T18:10:00Z"
         }
       ]
     },
@@ -162,12 +294,14 @@
       "league": "其他",
       "status": "rumour",
       "summary": "Clubs in the English Football League vote to reduce the length of free-restriction transfer windows for late payments.",
+      "summary_zh": "英格兰足球联赛中的俱乐部投票决定缩短逾期付款的自由限制转会窗口期。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-04T12:47:45Z",
-      "collected_at": "2026-06-04T15:06:20Z",
+      "reported_at": "2026-06-04T16:37:36Z",
+      "collected_at": "2026-06-05T03:22:12Z",
       "credibility_score": 58,
-      "heat_score": 68,
+      "heat_score": 64,
       "tags": [
         "rumour"
       ],
@@ -176,34 +310,7 @@
           "name": "BBC Football",
           "url": "https://www.bbc.com/sport/football/articles/cevprvr1l01o?at_medium=RSS&at_campaign=rss",
           "grade": "B",
-          "published_at": "2026-06-04T12:47:45Z"
-        }
-      ]
-    },
-    {
-      "id": "8108a4c3ea8f1ed6",
-      "player": "Miller hopes to make a name for himself at Hearts",
-      "from_club": "未知",
-      "to_club": "未知",
-      "league": "其他",
-      "status": "rumour",
-      "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-04T13:48:24Z",
-      "collected_at": "2026-06-04T15:06:20Z",
-      "credibility_score": 58,
-      "heat_score": 68,
-      "tags": [
-        "contract",
-        "rumour"
-      ],
-      "sources": [
-        {
-          "name": "BBC Football",
-          "url": "https://www.bbc.com/sport/football/articles/cvgzx77z08wo?at_medium=RSS&at_campaign=rss",
-          "grade": "B",
-          "published_at": "2026-06-04T13:48:24Z"
+          "published_at": "2026-06-04T16:37:36Z"
         }
       ]
     },
@@ -215,12 +322,14 @@
       "league": "其他",
       "status": "rumour",
       "summary": "Calvin Miller agrees a three-year contract to join Hearts from Falkirk later this month.",
+      "summary_zh": "Calvin Miller同意在本月晚些时候与福尔柯克的Hearts签订一份为期三年的合同。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T13:48:24Z",
-      "collected_at": "2026-06-04T15:06:20Z",
+      "collected_at": "2026-06-05T03:22:15Z",
       "credibility_score": 58,
-      "heat_score": 68,
+      "heat_score": 64,
       "tags": [
         "contract",
         "rumour"
@@ -235,54 +344,30 @@
       ]
     },
     {
-      "id": "4132fd81ac6a0ec0",
-      "player": "City warn Madrid with legal action over Haaland",
-      "from_club": "Manchester City",
+      "id": "e928e2a2631ef997",
+      "player": "Transfer rumors, news",
+      "from_club": "Arsenal",
       "to_club": "Real Madrid",
       "league": "英超",
       "status": "rumour",
-      "summary": "Manchester City have threatened legal action after Real Madrid presidential candidate Enrique Riquelme promised to sign Erling Haaland if he's elected.",
+      "summary": "Bayern Munich are eyeing a move to sign PSV and USMNT defender Sergiño Dest. Transfer Talk has the latest.",
+      "summary_zh": "拜仁慕尼黑正在考虑签下PSV和USMNT后卫Sergiño Dest。Transfer Talk有最新版本。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
-      "reported_at": "2026-06-04T15:53:51Z",
-      "collected_at": "2026-06-04T15:06:21Z",
+      "reported_at": "2026-06-04T16:13:02Z",
+      "collected_at": "2026-06-05T03:22:17Z",
       "credibility_score": 58,
-      "heat_score": 68,
+      "heat_score": 64,
       "tags": [
         "rumour"
       ],
       "sources": [
         {
           "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48963240/manchester-city-threaten-legal-action-real-madrid-erling-haaland-comments-enrique-riquelme-election",
+          "url": "https://www.espn.com/soccer/story/_/id/48963013/transfer-rumors-news-real-madrid-keen-arsenals-calafiori",
           "grade": "B",
-          "published_at": "2026-06-04T15:53:51Z"
-        }
-      ]
-    },
-    {
-      "id": "994158453d6b0733",
-      "player": "AC Milan chase Summerville",
-      "from_club": "Premier League",
-      "to_club": "Newcastle",
-      "league": "英超",
-      "status": "negotiating",
-      "summary": "AC Milan rival Premier League sides for West Ham's Crysencio Summerville, Real Madrid to sign Inter's Denzel Dumfries and Newcastle target Nigerian teenager Zadok Yohanna.",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-03T20:59:57Z",
-      "collected_at": "2026-06-04T15:06:20Z",
-      "credibility_score": 66,
-      "heat_score": 64,
-      "tags": [
-        "negotiating"
-      ],
-      "sources": [
-        {
-          "name": "BBC Football",
-          "url": "https://www.bbc.com/sport/football/articles/cvgz2wvw3ydo?at_medium=RSS&at_campaign=rss",
-          "grade": "B",
-          "published_at": "2026-06-03T20:59:57Z"
+          "published_at": "2026-06-04T16:13:02Z"
         }
       ]
     },
@@ -294,10 +379,12 @@
       "league": "西甲",
       "status": "rumour",
       "summary": "Real Madrid presidential candidate Enrique Riquelme promising he'll sign Erling Haaland is great showbiz, but he's also stealing a leaf directly from the Florentino Perez Election Playbook.",
+      "summary_zh": "皇家马德里总统候选人恩里克·里克尔梅（ Enrique Riquelme ）承诺，他将签下埃尔林·哈兰德（ Erling Haaland ）是一个伟大的演艺圈，但他也直接从弗洛伦蒂诺·佩雷斯（ Florentino Perez ）的选举",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-04T08:03:06Z",
-      "collected_at": "2026-06-04T15:06:21Z",
+      "collected_at": "2026-06-05T03:22:18Z",
       "credibility_score": 58,
       "heat_score": 64,
       "tags": [
@@ -313,32 +400,6 @@
       ]
     },
     {
-      "id": "eaec20849744c3e8",
-      "player": "Real Madrid unveil new home kit for quest to end m...",
-      "from_club": "未知",
-      "to_club": "Real Madrid",
-      "league": "西甲",
-      "status": "rumour",
-      "summary": "Real Madrid have a white jersey once again, but the design is offset by a fresh and bold color combination.",
-      "fee": "",
-      "contract": "",
-      "reported_at": "2026-06-04T08:03:06Z",
-      "collected_at": "2026-06-04T15:06:21Z",
-      "credibility_score": 58,
-      "heat_score": 64,
-      "tags": [
-        "rumour"
-      ],
-      "sources": [
-        {
-          "name": "ESPN Soccer",
-          "url": "https://www.espn.com/soccer/story/_/id/48955127/real-madrid-unveil-new-2026-27-home-kit-quest-end-major-trophy-drought-laliga-copa-del-rey-champions-league",
-          "grade": "B",
-          "published_at": "2026-06-04T08:03:06Z"
-        }
-      ]
-    },
-    {
       "id": "f078ceeee9660eb6",
       "player": "All done deals since February, including deadline day",
       "from_club": "未知",
@@ -346,10 +407,12 @@
       "league": "英超",
       "status": "rumour",
       "summary": "Check out the significant signings and departures in the Premier League, Scottish Premiership, EFL and Women's Super League.",
+      "summary_zh": "查看英超联赛、苏格兰超级联赛、EFL和女子超级联赛的重要签约和离职。",
+      "translation_provider": "mymemory",
       "fee": "",
       "contract": "",
       "reported_at": "2026-06-03T14:10:17Z",
-      "collected_at": "2026-06-04T15:06:20Z",
+      "collected_at": "2026-06-05T03:22:14Z",
       "credibility_score": 58,
       "heat_score": 59,
       "tags": [

@@ -18,7 +18,13 @@ python -m http.server 8000
 python scripts/fetch_transfers.py
 ```
 
-脚本会读取公开 RSS 源，筛选转会相关内容，写入 `data/transfers.json`。如果网络或来源临时失败，会保留已有数据并在 JSON 中记录 `errors`。
+脚本会读取公开 RSS 源，筛选转会相关内容，自动生成中文摘要，写入 `data/transfers.json`。如果在线翻译失败，会使用内置足球转会术语表兜底；如果网络或来源临时失败，会保留已有数据并在 JSON 中记录 `errors`。
+
+## 当前信息源
+
+- BBC Football：自动采集，可信度 B，适合英超和欧洲转会新闻。
+- ESPN Soccer：自动采集，可信度 B，覆盖国际足球和欧洲主流联赛。
+- Transfermarkt：参考源，可信度 B，当前不自动采集，因为其 RSS 对脚本请求返回 405，避免影响 GitHub Actions 每小时更新。
 
 ## GitHub Pages 自动更新
 
