@@ -695,6 +695,7 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def apply_openai_translations(items: list[dict[str, Any]]) -> None:
     api_key = os.environ.get("OPENAI_API_KEY", "").strip()
     if not api_key:
+        print("OpenAI translation skipped: OPENAI_API_KEY is not configured")
         return
     requests: list[dict[str, Any]] = []
     seen: set[str] = set()
@@ -724,11 +725,15 @@ def apply_openai_translations(items: list[dict[str, Any]]) -> None:
         if len(requests) >= MAX_OPENAI_TRANSLATION_ITEMS:
             break
     if not requests:
+        print("OpenAI translation skipped: no uncached or under-translated text")
         return
 
+    print(f"OpenAI translation requested for {len(requests)} text items")
     translated = openai_translate_batches(requests, api_key)
     if not translated:
+        print("OpenAI translation returned no usable translations")
         return
+    print(f"OpenAI translation applied to {len(translated)} text items")
     for item in items:
         language = item.get("sources", [{}])[0].get("language", "en")
         for field, target, provider in [
