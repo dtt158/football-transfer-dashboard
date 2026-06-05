@@ -695,14 +695,14 @@ def merge_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def apply_openai_translations(items: list[dict[str, Any]]) -> None:
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     RUN_DIAGNOSTICS["openai_configured"] = bool(api_key)
     RUN_DIAGNOSTICS["openai_requested"] = 0
     RUN_DIAGNOSTICS["openai_applied"] = 0
     RUN_DIAGNOSTICS["openai_error"] = ""
     RUN_DIAGNOSTICS["openai_model"] = get_openai_model()
     if not api_key:
-        print("OpenAI translation skipped: OPENAI_API_KEY is not configured")
+        print("DeepSeek translation skipped: DEEPSEEK_API_KEY is not configured")
         return
     requests: list[dict[str, Any]] = []
     seen: set[str] = set()
@@ -737,7 +737,7 @@ def apply_openai_translations(items: list[dict[str, Any]]) -> None:
 
     RUN_DIAGNOSTICS["openai_requested"] = len(requests)
     print(f"OpenAI translation requested for {len(requests)} text items")
-    translated = openai_translate_batches(requests, api_key)
+    translated = deepseek_translate_batches(requests, api_key)
     if not translated:
         print("OpenAI translation returned no usable translations")
         return
@@ -762,33 +762,35 @@ def looks_undertranslated(text: str) -> bool:
     return len(latin_words) >= 3 and len(chinese_chars) < 10
 
 
-def openai_translate_batches(requests: list[dict[str, Any]], api_key: str) -> dict[str, str]:
+def deepseek_translate_batches(requests: list[dict[str, Any]], api_key: str) -> dict[str, str]:
     output: dict[str, str] = {}
     for start in range(0, len(requests), OPENAI_TRANSLATION_BATCH_SIZE):
         batch = requests[start : start + OPENAI_TRANSLATION_BATCH_SIZE]
-        result = openai_translate_batch(batch, api_key)
+        result = deepseek_translate_batch(batch, api_key)
         output.update(result)
     return output
 
 
-def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[str, str]:
+def deepseek_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[str, str]:
     model = get_openai_model()
-    prompt = {
-        "task": "Translate football news text to Simplified Chinese.",
-        "rules": [
-            "Return strict JSON only: {\"translations\":[{\"id\":\"...\",\"text\":\"...\"}]}",
-            "Translate into natural Simplified Chinese.",
-            "Preserve player names, club names, league names, amounts, years, scores, and URLs exactly.",
-            "Do not add explanations.",
-        ],
-        "items": batch,
-    }
+    system_prompt = (
+        "You are a football news translator. "
+        "Translate the given items into natural Simplified Chinese. "
+        "Preserve player names, club names, league names, amounts, years, scores, and URLs exactly. "
+        'Return strict JSON only: {"translations":[{"id":"...","text":"..."}]}. '
+        "Do not add explanations or markdown fences."
+    )
+    user_prompt = json.dumps({"items": batch}, ensure_ascii=False)
     payload = {
         "model": model,
-        "input": json.dumps(prompt, ensure_ascii=False),
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "temperature": 0.1,
     }
     request = urllib.request.Request(
-        "https://api.openai.com/v1/responses",
+        "https://api.deepseek.com/v1/chat/completions",
         data=json.dumps(payload).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -798,8 +800,8 @@ def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[st
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=45) as response:
-            payload = json.loads(response.read().decode("utf-8"))
+        with urllib.request.urlopen(request, timeout=60) as response:
+            resp_payload = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         body = ""
         try:
@@ -817,10 +819,14 @@ def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[st
     except (json.JSONDecodeError, UnicodeDecodeError) as exc:
         RUN_DIAGNOSTICS["openai_error"] = f"response_decode_error: {exc}"
         return {}
-    text = extract_openai_text(payload)
+    text = extract_chat_completion_text(resp_payload)
     if not text.strip():
-        RUN_DIAGNOSTICS["openai_error"] = f"empty_response_text: {json.dumps(payload, ensure_ascii=False)[:500]}"
+        RUN_DIAGNOSTICS["openai_error"] = f"empty_response_text: {json.dumps(resp_payload, ensure_ascii=False)[:500]}"
         return {}
+    text = text.strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[^\n]*\n?", "", text)
+        text = re.sub(r"\n?```$", "", text.strip())
     try:
         parsed = json.loads(text)
     except json.JSONDecodeError:
@@ -846,21 +852,17 @@ def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[st
 
 def get_openai_model() -> str:
     return (
-        os.environ.get("OPENAI_TRANSLATION_MODEL", "").strip()
-        or os.environ.get("OPENAI_MODEL", "").strip()
-        or "gpt-4.1-mini"
+        os.environ.get("DEEPSEEK_TRANSLATION_MODEL", "").strip()
+        or os.environ.get("DEEPSEEK_MODEL", "").strip()
+        or "deepseek-chat"
     )
 
 
-def extract_openai_text(payload: dict[str, Any]) -> str:
-    if payload.get("output_text"):
-        return str(payload["output_text"])
-    parts: list[str] = []
-    for item in payload.get("output", []) or []:
-        for content in item.get("content", []) or []:
-            if content.get("type") in {"output_text", "text"} and content.get("text"):
-                parts.append(str(content["text"]))
-    return "\n".join(parts)
+def extract_chat_completion_text(payload: dict[str, Any]) -> str:
+    try:
+        return str(payload["choices"][0]["message"]["content"])
+    except (KeyError, IndexError, TypeError):
+        return ""
 
 
 def read_url(url: str) -> bytes:
