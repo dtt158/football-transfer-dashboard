@@ -336,6 +336,7 @@ EXCLUDE_TERMS = [
 ]
 
 TRANSLATION_CACHE: dict[str, str] = {}
+WIKI_CACHE: dict[str, dict[str, str]] = {}
 
 GLOSSARY_TRANSLATIONS = [
     ("is set to become", "即将成为"),
@@ -478,10 +479,11 @@ def classify_item(combined: str, title: str, description: str, link: str, publis
     heat = heat_score(source.grade, status, combined, published)
     collected_at = utc_now()
 
-    summary = summarise(description or title)
-    summary_zh, translation_provider = translate_summary(summary, source.language)
-    title_zh, title_translation_provider = translate_summary(title, source.language)
     entities = build_entities(player, clubs, league)
+    preserve_terms = [entity["name"] for entity in entities if entity.get("type") in {"player", "club"}]
+    summary = summarise(description or title)
+    summary_zh, translation_provider = translate_summary(summary, source.language, preserve_terms)
+    title_zh, title_translation_provider = translate_summary(title, source.language, preserve_terms)
 
     return {
         "id": stable_id(title, link),
@@ -627,14 +629,107 @@ def build_entities(player: str, clubs: tuple[str, str], league: str) -> list[dic
 
 
 def entity_record(name: str, kind: str, description: str) -> dict[str, str]:
-    wiki_query = urllib.parse.quote(name)
-    return {
+    wiki = fetch_wiki_entity(name, kind)
+    record = {
         "name": name,
         "type": kind,
-        "description": description,
-        "wiki_url": f"https://zh.wikipedia.org/w/index.php?search={wiki_query}",
+        "description": wiki.get("description") or description,
+        "wiki_url": wiki.get("wiki_url") or f"https://zh.wikipedia.org/w/index.php?search={urllib.parse.quote(name)}",
         "search_url": f"https://www.google.com/search?q={urllib.parse.quote(name + ' football transfer')}",
     }
+    if wiki.get("image_url"):
+        record["image_url"] = wiki["image_url"]
+    if wiki.get("wiki_title"):
+        record["wiki_title"] = wiki["wiki_title"]
+    return record
+
+
+def fetch_wiki_entity(name: str, kind: str) -> dict[str, str]:
+    cache_key = f"{kind}|{name}"
+    if cache_key in WIKI_CACHE:
+        return WIKI_CACHE[cache_key]
+    search_name = wiki_search_name(name, kind)
+    for language in ["zh", "en"]:
+        result = query_wikipedia(search_name, language)
+        if result:
+            WIKI_CACHE[cache_key] = result
+            return result
+    if search_name != name:
+        for language in ["zh", "en"]:
+            result = query_wikipedia(name, language)
+            if result and wiki_result_matches_kind(result, kind):
+                WIKI_CACHE[cache_key] = result
+                return result
+    WIKI_CACHE[cache_key] = {}
+    return {}
+
+
+def wiki_search_name(name: str, kind: str) -> str:
+    if kind == "club":
+        return f"{name} football club"
+    if kind == "player":
+        return f"{name} footballer"
+    if kind == "league":
+        return f"{name} football league"
+    return name
+
+
+def wiki_result_matches_kind(result: dict[str, str], kind: str) -> bool:
+    text = f"{result.get('wiki_title', '')} {result.get('description', '')}".lower()
+    if kind == "club":
+        return any(term in text for term in ["football club", "association football", "足球", "俱乐部", "俱樂部"])
+    if kind == "player":
+        return any(term in text for term in ["footballer", "association football", "足球运动员", "足球運動員"])
+    if kind == "league":
+        return any(term in text for term in ["league", "football", "联赛", "聯賽"])
+    return True
+
+
+def query_wikipedia(name: str, language: str) -> dict[str, str]:
+    params = urllib.parse.urlencode(
+        {
+            "action": "query",
+            "format": "json",
+            "generator": "search",
+            "gsrsearch": name,
+            "gsrlimit": 1,
+            "prop": "extracts|pageimages|info",
+            "exintro": 1,
+            "explaintext": 1,
+            "piprop": "thumbnail",
+            "pithumbsize": 360,
+            "inprop": "url",
+            "redirects": 1,
+        }
+    )
+    url = f"https://{language}.wikipedia.org/w/api.php?{params}"
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": "transfer-dashboard/1.0"})
+        with urllib.request.urlopen(request, timeout=12) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+        return {}
+
+    pages = payload.get("query", {}).get("pages", {})
+    if not pages:
+        return {}
+    page = next(iter(pages.values()))
+    extract = clean_html(str(page.get("extract", ""))).strip()
+    if not extract:
+        return {}
+    return {
+        "description": first_paragraph(extract),
+        "image_url": page.get("thumbnail", {}).get("source", ""),
+        "wiki_url": page.get("fullurl", ""),
+        "wiki_title": page.get("title", ""),
+    }
+
+
+def first_paragraph(text: str) -> str:
+    paragraph = text.split("\n", 1)[0].strip()
+    if len(paragraph) > 420:
+        paragraph = paragraph[:420].rsplit(" ", 1)[0] + "..."
+    return paragraph
 
 
 def merge_entities(existing: list[dict[str, str]], incoming: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -749,22 +844,47 @@ def summarise(text: str) -> str:
     return cleaned[:260] + ("..." if len(cleaned) > 260 else "")
 
 
-def translate_summary(text: str, source_language: str = "en") -> tuple[str, str]:
+def translate_summary(text: str, source_language: str = "en", preserve_terms: list[str] | None = None) -> tuple[str, str]:
     if not text:
         return "", "empty"
     if has_cjk(text):
         return text, "original"
-    if text in TRANSLATION_CACHE:
-        return TRANSLATION_CACHE[text], "cache"
+    preserve_terms = preserve_terms or []
+    cache_key = f"{source_language}|{text}|{'|'.join(sorted(preserve_terms))}"
+    if cache_key in TRANSLATION_CACHE:
+        return TRANSLATION_CACHE[cache_key], "cache"
 
-    translated = translate_with_mymemory(text, source_language)
+    protected_text, placeholders = protect_terms(text, preserve_terms)
+    translated = translate_with_mymemory(protected_text, source_language)
     if translated:
-        TRANSLATION_CACHE[text] = translated
-        return translated, "mymemory"
+        restored = restore_terms(translated, placeholders)
+        TRANSLATION_CACHE[cache_key] = restored
+        return restored, "mymemory"
 
-    fallback = glossary_translate(text)
-    TRANSLATION_CACHE[text] = fallback
+    fallback = restore_terms(glossary_translate(protected_text), placeholders)
+    TRANSLATION_CACHE[cache_key] = fallback
     return fallback, "glossary"
+
+
+def protect_terms(text: str, terms: list[str]) -> tuple[str, dict[str, str]]:
+    protected = text
+    placeholders: dict[str, str] = {}
+    for index, term in enumerate(sorted(set(terms), key=len, reverse=True)):
+        if not term or term == "未知":
+            continue
+        placeholder = f"ZXQENTITY{index}ZXQ"
+        protected = re.sub(re.escape(term), placeholder, protected)
+        placeholders[placeholder] = term
+    return protected, placeholders
+
+
+def restore_terms(text: str, placeholders: dict[str, str]) -> str:
+    restored = text
+    for placeholder, term in placeholders.items():
+        restored = restored.replace(placeholder, term)
+        restored = restored.replace(placeholder.lower(), term)
+        restored = restored.replace(placeholder.title(), term)
+    return restored
 
 
 def translate_with_mymemory(text: str, source_language: str) -> str:

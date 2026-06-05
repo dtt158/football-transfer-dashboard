@@ -41,6 +41,7 @@ const els = {
   entityModal: document.querySelector("#entityModal"),
   entityType: document.querySelector("#entityType"),
   entityTitle: document.querySelector("#entityTitle"),
+  entityImage: document.querySelector("#entityImage"),
   entityDescription: document.querySelector("#entityDescription"),
   entityLinks: document.querySelector("#entityLinks"),
 };
@@ -295,8 +296,17 @@ function openEntityModal(entity) {
   els.entityType.textContent = entityTypeLabel(entity.type);
   els.entityTitle.textContent = entity.name || "未知词条";
   els.entityDescription.textContent = entity.description || `${entity.name || "该词条"}：暂无补充说明。`;
+  if (entity.image_url) {
+    els.entityImage.src = entity.image_url;
+    els.entityImage.alt = entity.name || "";
+    els.entityImage.hidden = false;
+  } else {
+    els.entityImage.removeAttribute("src");
+    els.entityImage.alt = "";
+    els.entityImage.hidden = true;
+  }
   const links = [];
-  if (entity.wiki_url) links.push(namedLink("维基搜索", entity.wiki_url));
+  if (entity.wiki_url) links.push(namedLink(entity.wiki_title ? `Wiki：${entity.wiki_title}` : "Wiki 页面", entity.wiki_url));
   if (entity.search_url) links.push(namedLink("网页搜索", entity.search_url));
   els.entityLinks.replaceChildren(...links);
   els.entityModal.hidden = false;
