@@ -699,6 +699,7 @@ def apply_openai_translations(items: list[dict[str, Any]]) -> None:
     RUN_DIAGNOSTICS["openai_configured"] = bool(api_key)
     RUN_DIAGNOSTICS["openai_requested"] = 0
     RUN_DIAGNOSTICS["openai_applied"] = 0
+    RUN_DIAGNOSTICS["openai_error"] = ""
     RUN_DIAGNOSTICS["openai_model"] = os.environ.get("OPENAI_TRANSLATION_MODEL", os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"))
     if not api_key:
         print("OpenAI translation skipped: OPENAI_API_KEY is not configured")
@@ -799,21 +800,42 @@ def openai_translate_batch(batch: list[dict[str, Any]], api_key: str) -> dict[st
     try:
         with urllib.request.urlopen(request, timeout=45) as response:
             payload = json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, UnicodeDecodeError):
+    except urllib.error.HTTPError as exc:
+        body = ""
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = ""
+        RUN_DIAGNOSTICS["openai_error"] = f"http_{exc.code}: {body[:500]}"
+        return {}
+    except urllib.error.URLError as exc:
+        RUN_DIAGNOSTICS["openai_error"] = f"url_error: {exc.reason}"
+        return {}
+    except TimeoutError:
+        RUN_DIAGNOSTICS["openai_error"] = "timeout"
+        return {}
+    except (json.JSONDecodeError, UnicodeDecodeError) as exc:
+        RUN_DIAGNOSTICS["openai_error"] = f"response_decode_error: {exc}"
         return {}
     text = extract_openai_text(payload)
+    if not text.strip():
+        RUN_DIAGNOSTICS["openai_error"] = f"empty_response_text: {json.dumps(payload, ensure_ascii=False)[:500]}"
+        return {}
     try:
         parsed = json.loads(text)
     except json.JSONDecodeError:
         match = re.search(r"\{.*\}", text, re.S)
         if not match:
+            RUN_DIAGNOSTICS["openai_error"] = f"json_parse_error: {text[:500]}"
             return {}
         try:
             parsed = json.loads(match.group(0))
-        except json.JSONDecodeError:
+        except json.JSONDecodeError as exc:
+            RUN_DIAGNOSTICS["openai_error"] = f"json_parse_error: {exc}: {text[:500]}"
             return {}
     translations = parsed.get("translations", [])
     if not isinstance(translations, list):
+        RUN_DIAGNOSTICS["openai_error"] = f"invalid_translation_shape: {text[:500]}"
         return {}
     return {
         str(item.get("id")): str(item.get("text", "")).strip()

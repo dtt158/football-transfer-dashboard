@@ -35,6 +35,7 @@ jobs:
         run: python scripts/fetch_transfers.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_TRANSLATION_MODEL: ${{ vars.OPENAI_TRANSLATION_MODEL }}
 
       - name: Prepare site artifact
         run: |
