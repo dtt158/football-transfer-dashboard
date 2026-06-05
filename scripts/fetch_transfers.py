@@ -23,6 +23,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "data" / "transfers.json"
+DEFAULT_ENTITY_CACHE = ROOT / "data" / "entity_cache.json"
 
 
 LEAGUE_KEYWORDS = {
@@ -401,9 +402,11 @@ class Source:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--entity-cache", type=Path, default=DEFAULT_ENTITY_CACHE)
     parser.add_argument("--keep-existing-on-empty", action="store_true", default=True)
     args = parser.parse_args()
 
+    load_entity_cache(args.entity_cache)
     sources = [Source(**source) for source in SOURCE_REGISTRY]
     items: list[dict[str, Any]] = []
     errors: list[str] = []
@@ -444,10 +447,34 @@ def main() -> int:
         "transfers": transfers,
     }
     write_json(args.output, payload)
+    save_entity_cache(args.entity_cache)
     print(f"Wrote {len(transfers)} transfer items to {args.output}")
     if errors:
         print("Fetch warnings:", "; ".join(errors), file=sys.stderr)
     return 0
+
+
+def load_entity_cache(path: Path) -> None:
+    if not path.exists():
+        return
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return
+    records = payload.get("entities", payload)
+    if not isinstance(records, dict):
+        return
+    for key, value in records.items():
+        if isinstance(key, str) and isinstance(value, dict):
+            WIKI_CACHE[key] = {str(k): str(v) for k, v in value.items() if v is not None}
+
+
+def save_entity_cache(path: Path) -> None:
+    payload = {
+        "generated_at": utc_now(),
+        "entities": dict(sorted(WIKI_CACHE.items())),
+    }
+    write_json(path, payload)
 
 
 def fetch_source(source: Source) -> list[dict[str, Any]]:
