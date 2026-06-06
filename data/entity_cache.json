@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T04:22:34Z",
+  "generated_at": "2026-06-06T14:08:41Z",
   "entities": {
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
@@ -251,7 +251,15 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|Saudi": {},
+    "club|Saudi": {
+      "description": "沙特新月足球俱樂部（英語：Al-Hilal Saudi Football Club、阿拉伯語：الهلال السعودي，直译：「沙特新月」），也稱「利雅德新月」、「沙特新月」隊，舊稱「希拉爾」，一般簡稱為新月隊，是一間位於沙烏地阿拉伯首都利雅德的職業足球會。球會於1957年成立，該球會也是沙烏地阿拉伯乃至亞洲最受歡迎的球會之一。隊名「الهلال」在阿拉伯語中意為「新月」。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E7%89%B9%E5%B8%8C%E6%8B%89%E7%88%BE%E8%B6%B3%E7%90%83%E4%BF%B1%E6%A8%82%E9%83%A8",
+      "wiki_title": "沙特希拉爾足球俱樂部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Serie A": {
       "description": "2025年至2026年意大利足球甲级联赛（因贊助原因被稱為 Serie A Enilive）是意大利顶级联赛的第124个赛季。國際米蘭最終奪冠。",
       "wiki_url": "https://zh.wikipedia.org/wiki/2025%E5%B9%B4%E8%87%B32026%E5%B9%B4%E6%84%8F%E5%A4%A7%E5%88%A9%E8%B6%B3%E7%90%83%E7%94%B2%E7%B4%9A%E8%81%AF%E8%B3%BD",
@@ -387,7 +395,19 @@
     "player|Christian Pulisic": {},
     "player|Como’s Martin Baturina": {},
     "player|Cyle Larin": {},
+    "player|Dani Olmo": {},
+    "player|David Sullivan": {},
     "player|David Sánchez": {},
+    "player|Del Piero": {
+      "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alessandro_Del_Piero_in_2014.jpg/500px-Alessandro_Del_Piero_in_2014.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%BE%B7%E7%BD%97%C2%B7%E5%BE%B7%E5%B0%94%E7%9A%AE%E8%80%B6%E7%BD%97",
+      "wiki_title": "亚历山德罗·德尔皮耶罗",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Alessandro Del Piero"
+    },
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|El Aston Villa": {},
@@ -435,6 +455,7 @@
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|José Mourinho": {},
+    "player|Jürgen Klopp’s": {},
     "player|Kang-in Lee": {
       "description": "李刚仁（韩语：이강인，2001年2月19日—）是韩国男子职业足球员，出生于仁川，现时效力法甲球队巴黎圣日耳门及韩国国家足球队。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Lee_Kangin_2019.png/500px-Lee_Kangin_2019.png",
@@ -490,7 +511,17 @@
       "zh_title": "",
       "translated_from": "Moritz Nicolas"
     },
-    "player|Nicolò Tresoldi": {},
+    "player|Mr Irreplaceable": {},
+    "player|Nicolò Tresoldi": {
+      "description": "尼科洛·特雷索尔迪（德语： Nicolò Tresoldi ， 2004年8月20日－ ）是一名德国职业足球运动员，曾效力于比利时职业足球联赛布鲁日俱乐部和德国21岁以下国家队。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Tresoldi",
+      "wiki_title": "Nicolò Tresoldi",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Nicolò Tresoldi"
+    },
     "player|No wonder Steve Clarke is smiling": {},
     "player|Ousmane Dembélé": {
       "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
@@ -503,6 +534,7 @@
       "translated_from": "Ousmane Dembélé"
     },
     "player|PSG’s Pierre Mounguengue": {},
+    "player|Patrik Mercado": {},
     "player|Premier League 2025-26 season review": {},
     "player|Rafael Leao": {},
     "player|Raúl Jardiel": {},
@@ -527,6 +559,7 @@
       "zh_title": "",
       "translated_from": "Thierry Correia"
     },
+    "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
@@ -550,6 +583,7 @@
     },
     "player|World Cup": {},
     "player|World Cup 2026": {},
-    "player|World Cup 2026 wallchart": {}
+    "player|World Cup 2026 wallchart": {},
+    "player|Zohran Mamdani": {}
   }
 }
