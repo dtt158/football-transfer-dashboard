@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:37:31Z",
+  "generated_at": "2026-06-06T04:22:34Z",
   "entities": {
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
@@ -16,7 +16,16 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|Atalanta": {},
+    "club|Atalanta": {
+      "description": "亚特兰大贝加莫足球俱乐部（义大利语：Atalanta Bergamasca Calcio）乃一家位于意大利伦巴第省贝加莫市的足球会，现时在意大利甲组联赛作赛，主场馆为意大利蓝色竞技体育场（Stadio Atleti Azzurri d'Italia），球衣为蓝黑色。 这支球队成立于1907年，于1929年正式在意大利职业联赛作赛，1937年第一次在甲组比赛，但随即降班。长期以来阿特兰大都是在次级联赛打滚，所得荣誉撇除意大利杯，最佳成绩不过是乙组联赛冠军。亚特兰大于2006年升班后一直在中游浮沉，仅在2009年降入乙级并于次年重返顶级联赛。 亚特兰大以其优秀的青训系统闻名，曾为意大利国家足球队培育不少本土人才，最著名计有多纳多尼、维耶里、因扎吉等等。 2023-24赛季，亚特兰大在欧足总欧洲联赛决赛，以3-0击败51场不败的勒沃库森，取得队史上第一座欧洲杯赛冠军。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%BA%9E%E7%89%B9%E8%98%AD%E5%A4%A7%E8%B2%9D%E5%8A%A0%E8%8E%AB%E8%B6%B3%E7%90%83%E4%BF%B1%E6%A8%82%E9%83%A8",
+      "wiki_title": "亞特蘭大貝加莫足球俱樂部",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Atalanta BC"
+    },
     "club|Atletico": {},
     "club|Barcelona": {
       "description": "巴塞隆納女子足球俱樂部（加泰隆尼亞語：Futbol Club Barcelona (sección femenina)），通稱「巴萨女足」（Barça Femení）是一支位於加泰羅尼亞巴塞羅那的女子足球隊，為巴塞罗那的女足分部。1988年以「Club Femení Barcelona」之名成立，在西女甲參賽。目前為止，贏得了9次西女甲冠軍、10次女王盃冠軍、3次超級盃冠軍和3次欧冠冠军，為西班牙最成功的女足球隊。 球隊主場為约翰·克鲁伊夫球场，偶爾也會在諾坎普球場進行比賽。",
@@ -177,8 +186,24 @@
       "wiki_variant": "zh",
       "zh_title": ""
     },
-    "club|Newcastle": {},
-    "club|Newcastle United": {},
+    "club|Newcastle": {
+      "description": "紐卡索聯足球俱乐部（英語：Newcastle United Football Club）是一家英格蘭足球俱樂部，英格蘭超級足球聯賽球隊之一，並於2016–17賽季奪得英格蘭足球冠軍聯賽冠軍。球隊成立於1881年，主場位於英格蘭東北部城市泰恩河畔纽卡素的聖占士公園球場（St. James' Park）。 紐卡素第一次升上英超之後經歷了兩次降班，但之後都能在翌季成功奪得英冠冠軍重返英超。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%BA%BD%E5%8D%A1%E6%96%AF%E5%B0%94%E8%81%94%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "纽卡斯尔联足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
+    "club|Newcastle United": {
+      "description": "紐卡索聯足球俱乐部（英語：Newcastle United Football Club）是一家英格蘭足球俱樂部，英格蘭超級足球聯賽球隊之一，並於2016–17賽季奪得英格蘭足球冠軍聯賽冠軍。球隊成立於1881年，主場位於英格蘭東北部城市泰恩河畔纽卡素的聖占士公園球場（St. James' Park）。 紐卡素第一次升上英超之後經歷了兩次降班，但之後都能在翌季成功奪得英冠冠軍重返英超。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%BA%BD%E5%8D%A1%E6%96%AF%E5%B0%94%E8%81%94%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "纽卡斯尔联足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|PSG": {
       "description": "巴黎聖日耳門足球俱乐部（法語：Paris Saint-Germain Football Club，法語發音：[paʁi sɛ̃ ʒɛʁmɛ̃]）簡稱PSG，是一家位於法國首都巴黎的足球俱乐部，目前比賽於法国足球甲级联赛，球隊主場為王子公园体育场。",
       "image_url": "",
@@ -269,7 +294,15 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|West Ham": {},
+    "club|West Ham": {
+      "description": "西漢姆足球會（英語：West Ham United Football Club），是一家英格蘭職業足球俱樂部，成立于1895年，位于東倫敦紐漢區。初時名為「泰晤士鐵廠」（Thames Ironworks FC），於1900年才更改今名。球队主场是伦敦奥林匹克体育场。球隊在1919年加入英格蘭足球聯賽，曾獲得三屆英格蘭足總盃冠軍。欧战方面，曾於1965年贏得歐洲優勝者杯，1999年獲得過托托杯，以及2023年获得欧洲协会联赛冠军。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/EnglandLondon.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%B1%89%E5%A7%86%E8%81%94%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "西汉姆联足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|York City": {
       "description": "約克城足球會（英語：York City Football Club）是位於英格蘭約克郡-亨伯區域北約克郡約克的足球會，成立於1922年，在1929年加入英格蘭足球聯賽，主要在低級組別作賽，於2012年透過附加賽升班英格蘭足球乙級聯賽。2026年於英格蘭全國聯賽升級至英格蘭足球乙級聯賽作賽。 約克城在1970年代於聯賽曾升上第二層的乙組聯賽渡過兩季，但在2003–04年球季從丙級聯賽降班到英格蘭足球議會全國聯賽，自此一直未能回復聯賽球隊的身份。約克城在盃賽比聯賽取得更好成績，於1955年晉級英格蘭足總盃準決賽；1995–96年球季約克城於英格蘭聯賽盃在奧脫福球場以 3–0 擊敗曼聯，當屆曼聯贏得英超及足總盃雙料冠軍；同樣在足總盃，約克城曾經淘汰阿仙奴及兩次迫和利物浦。1993年約克城在舊溫布萊球場擊敗克魯贏得丙組附加賽冠軍。2009年約克城晉級英格蘭足總錦標決賽，在新溫布萊球場以 0–2 不敵史提芬納治屈居亞席。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/N-York.svg/500px-N-York.svg.png",
@@ -327,6 +360,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|Advantage Scotland": {},
     "player|Albert Grønbæk": {
       "description": "阿尔伯特·格伦拜克·埃利克（ Albert Grønbæk Erlykke ， 2001年5月23日－ ）是一名丹麦职业足球运动员，是德国德甲汉堡俱乐部的中场球员，租借自法国雷恩俱乐部和丹麦国家队。作为一名多才多艺的球员，他可以被部署为中场、进攻中场或左边锋。",
       "image_url": "",
@@ -339,6 +373,7 @@
     },
     "player|Aleix Febas": {},
     "player|Alejandro Grimaldo": {},
+    "player|Aleksander Stankovic": {},
     "player|Allan Saint-Maximin": {
       "description": "阿兰·伊雷内·辛特麦斯明（法语：Allan Irénée Saint-Maximin，1997年3月21日—）是法国的职业足球运动员，司职翼锋，现效力于法甲球队朗斯，他是瓜德罗普和法属圭亚那的后裔。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Allan_Saint-Maximin.jpg/500px-Allan_Saint-Maximin.jpg",
@@ -351,6 +386,7 @@
     },
     "player|Christian Pulisic": {},
     "player|Como’s Martin Baturina": {},
+    "player|Cyle Larin": {},
     "player|David Sánchez": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
@@ -369,13 +405,24 @@
       "zh_title": "",
       "translated_from": "Erling Haaland"
     },
-    "player|Ewen Jaouen": {},
+    "player|Ewen Jaouen": {
+      "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Ewen_Jaouen",
+      "wiki_title": "Ewen Jaouen",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Ewen Jaouen"
+    },
     "player|Football Daily": {},
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
     "player|France’s Rayan Cherki": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
+    "player|Graham Potter": {},
+    "player|Ibrahim Mbaye": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -409,7 +456,18 @@
       "translated_from": "Kennet Eichhorn"
     },
     "player|Man Utd": {},
-    "player|Mason Greenwood": {},
+    "player|Marco Palestra": {},
+    "player|Martin O’Neill": {},
+    "player|Mason Greenwood": {
+      "description": "梅森·威尔·约翰·格林伍德（ Mason Will John Greenwood ， 2001年10月1日－ ）是一名英国职业足球运动员，曾在马赛法甲俱乐部担任前锋。格林伍德毕业于曼联的青年队，在2019年9月对阵阿斯塔纳的欧足联欧洲联赛比赛中得分，成为俱乐部有史以来最年轻的欧洲比赛射手， 17岁353天。他在英格兰的高级国际处子秀来到了...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Greenwood_asse_om_2425.png/500px-Greenwood_asse_om_2425.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mason_Greenwood",
+      "wiki_title": "Mason Greenwood",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "美臣·格連活",
+      "translated_from": "Mason Greenwood"
+    },
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Michael Olise": {},
@@ -422,8 +480,18 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
-    "player|Moritz Nicolas": {},
+    "player|Moritz Nicolas": {
+      "description": "莫里茨·尼古拉斯（ Moritz Nicolas ， 1997年10月21日－ ）是一名德国职业足球运动员，曾在德甲门兴格拉德巴赫俱乐部（ Borussia Mönchengladbach ）担任守门员。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Moritz_Nicolas",
+      "wiki_title": "Moritz Nicolas",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Moritz Nicolas"
+    },
     "player|Nicolò Tresoldi": {},
+    "player|No wonder Steve Clarke is smiling": {},
     "player|Ousmane Dembélé": {
       "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg",
@@ -434,14 +502,20 @@
       "zh_title": "",
       "translated_from": "Ousmane Dembélé"
     },
+    "player|PSG’s Pierre Mounguengue": {},
     "player|Premier League 2025-26 season review": {},
+    "player|Rafael Leao": {},
     "player|Raúl Jardiel": {},
     "player|Roberto Gómez": {},
+    "player|Rodez’s Taïryk Arconte": {},
+    "player|Roma’s Jan": {},
     "player|Serhou Guirassy’s": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|St Mirren": {},
+    "player|Stockport County": {},
+    "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
     "player|Thierry Correia": {
       "description": "蒂埃里·伦达尔·科雷亚（ Thierry Rendall Correia ， 1999年3月9日出生）是一名葡萄牙职业足球运动员，曾在西甲瓦伦西亚俱乐部担任右后卫。",
@@ -453,6 +527,7 @@
       "zh_title": "",
       "translated_from": "Thierry Correia"
     },
+    "player|Tottenham’s Roberto De Zerbi": {},
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/500px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg",
