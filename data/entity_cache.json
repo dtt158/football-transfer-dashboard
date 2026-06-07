@@ -1,6 +1,7 @@
 {
-  "generated_at": "2026-06-07T04:55:27Z",
+  "generated_at": "2026-06-07T14:21:58Z",
   "entities": {
+    "club|Ajax": {},
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%A3%AE%E7%BA%B3%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -354,6 +355,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "league|荷甲": {},
     "league|葡超": {
       "description": "葡超：该条新闻归类到的联赛或地区。",
       "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%91%A1%E8%B6%85",
@@ -369,6 +371,7 @@
       "wiki_variant": "legacy-zh"
     },
     "player|Advantage Scotland": {},
+    "player|Al Ajax": {},
     "player|Albert Grønbæk": {
       "description": "阿尔伯特·格伦拜克·埃利克（ Albert Grønbæk Erlykke ， 2001年5月23日－ ）是一名丹麦职业足球运动员，是德国德甲汉堡俱乐部的中场球员，租借自法国雷恩俱乐部和丹麦国家队。作为一名多才多艺的球员，他可以被部署为中场、进攻中场或左边锋。",
       "image_url": "",
@@ -382,6 +385,7 @@
     "player|Aleix Febas": {},
     "player|Alejandro Grimaldo": {},
     "player|Aleksander Stankovic": {},
+    "player|Alexandre Dujeux": {},
     "player|Allan Saint-Maximin": {
       "description": "阿兰·伊雷内·辛特麦斯明（法语：Allan Irénée Saint-Maximin，1997年3月21日—）是法国的职业足球运动员，司职翼锋，现效力于法甲球队朗斯，他是瓜德罗普和法属圭亚那的后裔。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Allan_Saint-Maximin.jpg/500px-Allan_Saint-Maximin.jpg",
@@ -392,13 +396,34 @@
       "zh_title": "",
       "translated_from": "Allan Saint-Maximin"
     },
+    "player|Anthony Gordon": {
+      "description": "安东尼·迈克尔·戈登（英语：Anthony Michael Gordon，2001年2月24日—）是英格兰男子足球员，现效力于英格兰超级足球联赛球会纽卡索，将在2026年7月1日加入西班牙足球甲级联赛俱乐部巴塞隆纳。英格兰足球代表队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gordon_in_2024.jpg/500px-Gordon_in_2024.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E6%9D%B1%E5%B0%BC%C2%B7%E5%93%A5%E9%A0%93",
+      "wiki_title": "安東尼·哥頓",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Anthony Gordon (footballer)"
+    },
+    "player|Antoine Kombouaré": {},
+    "player|Atletico Madrid": {},
     "player|Christian Pulisic": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Cyle Larin": {},
     "player|Dani Olmo": {},
     "player|David Sullivan": {},
-    "player|David Sánchez": {},
+    "player|David Sánchez": {
+      "description": "大卫·桑切斯·罗德里格斯（ David Sánchez Rodríguez ， 1982年7月25日出生）是一名西班牙前职业足球运动员，曾担任防守或攻击型中场球员。他目前是Tercera Federación俱乐部Linense的经理。他在18年的职业生涯中大部分时间都在乙级联赛中度过，在阿拉韦斯、阿尔瓦塞特、吉姆纳斯蒂克和埃尔切出场时，他在五个赛季中总共打了111场乙级联赛比赛和7个进球。他补充说...",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/David_S%C3%A1nchez_(footballer,_born_1982)",
+      "wiki_title": "David Sánchez (footballer, born 1982)",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "David Sánchez (footballer, born 1982)"
+    },
     "player|Del Piero": {
       "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alessandro_Del_Piero_in_2014.jpg/500px-Alessandro_Del_Piero_in_2014.jpg",
@@ -426,6 +451,7 @@
       "zh_title": "",
       "translated_from": "Erling Haaland"
     },
+    "player|Estéban Lepaul": {},
     "player|Ewen Jaouen": {
       "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
       "image_url": "",
@@ -443,6 +469,8 @@
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
     "player|Graham Potter": {},
+    "player|Hansi Flick": {},
+    "player|Hugo Sotelo": {},
     "player|Ibrahim Mbaye": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
@@ -456,6 +484,7 @@
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|José Mourinho": {},
+    "player|Jürgen Klopp": {},
     "player|Jürgen Klopp’s": {},
     "player|Kang-in Lee": {
       "description": "李刚仁（韩语：이강인，2001年2月19日—）是韩国男子职业足球员，出生于仁川，现时效力法甲球队巴黎圣日耳门及韩国国家足球队。",
@@ -477,6 +506,16 @@
       "zh_title": "",
       "translated_from": "Kennet Eichhorn"
     },
+    "player|Luis de la Fuente": {
+      "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E6%96%AF%C2%B7%E5%BE%B7%E6%8B%89%E5%AF%8C%E6%81%A9%E7%89%B9",
+      "wiki_title": "路易斯·德拉富恩特",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Luis de la Fuente (footballer, born 1961)"
+    },
     "player|Man Utd": {},
     "player|Marco Palestra": {},
     "player|Martin O’Neill": {},
@@ -490,6 +529,7 @@
       "zh_title": "美臣·格連活",
       "translated_from": "Mason Greenwood"
     },
+    "player|Max Allegri": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Michael Olise": {},
@@ -524,6 +564,7 @@
       "translated_from": "Nicolò Tresoldi"
     },
     "player|No wonder Steve Clarke is smiling": {},
+    "player|North America’s": {},
     "player|Ousmane Dembélé": {
       "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg",
@@ -536,12 +577,18 @@
     },
     "player|PSG’s Pierre Mounguengue": {},
     "player|Patrik Mercado": {},
+    "player|Pep Guardiola": {},
+    "player|Philippe Montanier": {},
+    "player|Philippe Senderos": {},
     "player|Premier League 2025-26 season review": {},
     "player|Rafael Leao": {},
     "player|Raúl Jardiel": {},
+    "player|Real Betis": {},
     "player|Roberto Gómez": {},
     "player|Rodez’s Taïryk Arconte": {},
+    "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
+    "player|Sarah Rhind": {},
     "player|Serhou Guirassy’s": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
