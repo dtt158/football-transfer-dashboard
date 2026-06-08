@@ -1,7 +1,15 @@
 {
-  "generated_at": "2026-06-07T14:21:58Z",
+  "generated_at": "2026-06-08T05:03:05Z",
   "entities": {
-    "club|Ajax": {},
+    "club|Ajax": {
+      "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.svg/500px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%B4%BE%E5%85%8B%E6%96%AF%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "阿贾克斯足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%A3%AE%E7%BA%B3%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -45,6 +53,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Benfica": {},
     "club|Borussia Dortmund": {
       "description": "多特蒙德普鲁士09球类體育俱乐部註冊協會（德語：Ballspielverein Borussia 09 e. V. Dortmund，缩写为BVB）是位於德国北莱茵-威斯特法伦州鲁尔区多特蒙德的足球球會。 5/9 0:1 loser 在德甲球会中，多特蒙德曾八次取得顶级联赛冠軍，為拜仁慕尼黑之後奪冠次數最多的球隊，其中三次为德甲创立前的全德锦标赛冠军，五次为为德國足球甲級聯賽冠军，多特蒙德隊服上的兩顆星便代表了五次德甲冠軍。在德國杯的比賽中，多特蒙德也曾五次奪冠。此外多特蒙德还获得过七次德国超级杯冠军。 在歐洲賽場上，多特蒙德于1966年击败利物浦捧得歐洲优胜者杯，成为德国第一支获得欧洲冠军的球队。1997年、2013年与2024年，多特蒙德三度打入歐洲冠軍聯賽決賽，其中在1997年戰勝尤文圖斯獲得冠軍，成为德国仅有三支捧得冠军杯的足球俱乐部之一，此后在同年洲际杯足球赛的赛场上击败了巴西球会克鲁塞罗成功加冕，登顶世界足坛。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
@@ -78,6 +87,26 @@
       "zh_title": ""
     },
     "club|Dortmund": {},
+    "club|Eredivisie": {
+      "description": "荷兰足球甲级联赛（荷兰语：Eredivisie，荷兰语发音：[ˈeːrədivizi]，意为“荣誉联赛”），简称荷甲，是荷兰足球联赛系统的第 1 级别，亦是职业联赛的最高级别，联赛系统的最高级别和荷兰顶级足球联赛。目前取得联赛冠军次数最多的球队是阿贾克斯（36 次）。其次分别是PSV燕豪芬（27 次）及飞燕诺（16 次）。自1965年起，只有三次的联赛冠军并非由以上三大球会所取得，分别是由阿尔克马尔（1981年及2009年）和川迪（2010年）夺得。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eredivisie_nieuw_logo_2017-.svg/500px-Eredivisie_nieuw_logo_2017-.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8D%B7%E5%85%B0%E8%B6%B3%E7%90%83%E7%94%B2%E7%BA%A7%E8%81%94%E8%B5%9B",
+      "wiki_title": "荷兰足球甲级联赛",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Eredivisie"
+    },
+    "club|Feyenoord": {
+      "description": "飞燕诺（荷兰语：Feyenoord，发音：[ˈfɛiənoːrt]），是一支位于荷兰第二大城市鹿特丹的足球俱乐部。成立于1908年7月19日。鹿特丹市尚有两支职业足球队，鹿特丹斯巴达（Sparta Rotterdam）及SBV精英（Excelsior Rotterdam），在荷兰甲组联赛中作赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Feyenoord_logo_since_2024.svg/500px-Feyenoord_logo_since_2024.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%A3%9B%E7%87%95%E8%AB%BE",
+      "wiki_title": "飛燕諾",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Feyenoord"
+    },
     "club|Fiorentina": {
       "description": "佛罗伦萨足球俱樂部（ACF Fiorentina），是一間位於意大利托斯卡納區佛羅倫斯的足球會，現時於意甲作賽，成立於1926年8月26日。 佛罗伦萨曾於五十至六十年代兩奪意甲聯賽冠軍，之後長期處於聯賽中上游。2002年因財赤宣佈破產，被意大利賽會判罰降班。之後得到鞋業商人德拉瓦萊（Diego Della Valle）的支持組成新球隊 Florentia Viola，並於意大利丙二組聯賽開始比賽。2003年夏天，德拉瓦萊買回「Fiorentina」這個名稱，並再次以費倫天拿的名稱參加比賽。2004年在升級附加賽中擊敗佩魯賈得以重返甲組聯賽。球隊成立初時選用紅色和白色為球隊顏色，但之後改為紫色和白色。其會徽上有一對百合花，故費倫天拿又有紫百合之別稱。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg/500px-ACF_Fiorentina_-_logo_%28Italy%2C_2022%29.svg.png",
@@ -355,7 +384,15 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "league|荷甲": {},
+    "league|荷甲": {
+      "description": "強大意志力阿姆斯特丹足球會（荷蘭語：Amsterdamsche Football Club Door Wilskracht Sterk，英語：Amsterdam Football Club Strong Through Willpower），也稱為DWS足球會，是一家位於荷蘭阿姆斯特丹的足球會，目前參加荷蘭第六級別業餘足球聯賽比賽。 DWS足球會成立於1907年10月11日，由Robert Beijerbacht、Theo Beijerbacht和 Jan van Galen三人以Fortuna的名義成立，不久後改名為Hercules。球隊穿著藍白條紋襯衫和白色短褲，1909年3月 22日，正式更名為DWS，襯衫顏色變為藍色和黑色垂直條紋。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/DWS_Amsterdam_%28logo%2C_60s%29.svg/500px-DWS_Amsterdam_%28logo%2C_60s%29.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/DWS%E8%B6%B3%E7%90%83%E6%9C%83",
+      "wiki_title": "DWS足球會",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "league|葡超": {
       "description": "葡超：该条新闻归类到的联赛或地区。",
       "wiki_url": "https://zh.wikipedia.org/w/index.php?search=%E8%91%A1%E8%B6%85",
@@ -408,11 +445,23 @@
     },
     "player|Antoine Kombouaré": {},
     "player|Atletico Madrid": {},
+    "player|Baldini coy on Italy future": {},
+    "player|Bayern Munich’s Michael Olise": {},
+    "player|Christian Eriksen": {},
     "player|Christian Pulisic": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Cyle Larin": {},
-    "player|Dani Olmo": {},
+    "player|Dani Olmo": {
+      "description": "丹尼尔·奥尔莫·卡瓦哈尔（西班牙语： Daniel Olmo Carvajal ， 1998年5月7日－ ）是一名西班牙职业足球运动员，曾在巴塞罗那西甲俱乐部和西班牙国家队担任攻击型中场或左边锋。在La Masia工作了一段时间后， Olmo于2015年在克罗地亚的萨格勒布迪纳摩队首次亮相。他为俱乐部总共出场124次，打入34球，五次赢得联赛冠军，...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dani_Olmo_2022.jpg/500px-Dani_Olmo_2022.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Dani_Olmo",
+      "wiki_title": "Dani Olmo",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "達尼·奧爾莫",
+      "translated_from": "Dani Olmo"
+    },
     "player|David Sullivan": {},
     "player|David Sánchez": {
       "description": "大卫·桑切斯·罗德里格斯（ David Sánchez Rodríguez ， 1982年7月25日出生）是一名西班牙前职业足球运动员，曾担任防守或攻击型中场球员。他目前是Tercera Federación俱乐部Linense的经理。他在18年的职业生涯中大部分时间都在乙级联赛中度过，在阿拉韦斯、阿尔瓦塞特、吉姆纳斯蒂克和埃尔切出场时，他在五个赛季中总共打了111场乙级联赛比赛和7个进球。他补充说...",
@@ -434,13 +483,26 @@
       "zh_title": "",
       "translated_from": "Alessandro Del Piero"
     },
+    "player|Denzel Dumfries": {
+      "description": "登泽尔·于斯特斯·莫里斯·邓弗里斯（荷兰语：Denzel Justus Morris Dumfries，1996年4月18日—），荷兰足球运动员，司职右后卫，现效力义甲球会国际米兰。他于2014年加入阿鲁巴代表队，2018年加入荷兰国家队。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Edison_ndreca_inter_egnati_%28cropped_Denzel_Dumfries%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%99%BB%E6%BE%A4%E7%88%BE%C2%B7%E9%84%A7%E5%BC%97%E9%87%8C%E6%96%AF",
+      "wiki_title": "登澤爾·鄧弗里斯",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Denzel Dumfries"
+    },
+    "player|Didier Deschamps": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|El Aston Villa": {},
     "player|El Bayer Leverkusen": {},
     "player|El Celta": {},
+    "player|El Dépor": {},
     "player|El Nápoles": {},
     "player|El PSG": {},
+    "player|Emi Martinez": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
@@ -452,6 +514,7 @@
       "translated_from": "Erling Haaland"
     },
     "player|Estéban Lepaul": {},
+    "player|Euro Final": {},
     "player|Ewen Jaouen": {
       "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
       "image_url": "",
@@ -462,6 +525,7 @@
       "zh_title": "",
       "translated_from": "Ewen Jaouen"
     },
+    "player|Florentino Pérez": {},
     "player|Football Daily": {},
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
@@ -469,9 +533,21 @@
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
     "player|Graham Potter": {},
+    "player|Greece 0-1 Italy": {},
     "player|Hansi Flick": {},
-    "player|Hugo Sotelo": {},
+    "player|Herbert Hainer": {},
+    "player|Hugo Sotelo": {
+      "description": "雨果·索特洛·戈麦斯（ Hugo Sotelo Gómez ， 2003年12月19日－ ）是一名西班牙职业足球运动员，曾在西甲俱乐部塞尔塔·德维戈（ Celta de Vigo ）担任中场球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hugo_Sotelo_%28cropped%29.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Hugo_Sotelo",
+      "wiki_title": "Hugo Sotelo",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Hugo Sotelo"
+    },
     "player|Ibrahim Mbaye": {},
+    "player|International Friendly Liveblog": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -533,6 +609,7 @@
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Michael Olise": {},
+    "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
@@ -576,7 +653,16 @@
       "translated_from": "Ousmane Dembélé"
     },
     "player|PSG’s Pierre Mounguengue": {},
-    "player|Patrik Mercado": {},
+    "player|Patrik Mercado": {
+      "description": "帕特里克·克莱弗·梅尔卡多·阿尔塔米拉诺（ Patrik Kleiver Mercado Altamirano ， 2003年7月31日－ ）是一名厄瓜多尔足球运动员，目前在独立山谷队（ Independiente del Valle ）和厄瓜多尔国家队（ Ec他将在2026年世界杯后加入西甲俱乐部塞维利亚。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Patrik_mercado.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Patrik_Mercado",
+      "wiki_title": "Patrik Mercado",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Patrik Mercado"
+    },
     "player|Pep Guardiola": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
@@ -584,6 +670,7 @@
     "player|Rafael Leao": {},
     "player|Raúl Jardiel": {},
     "player|Real Betis": {},
+    "player|Reggiani’s Italy": {},
     "player|Roberto Gómez": {},
     "player|Rodez’s Taïryk Arconte": {},
     "player|Roma’s Donyell Malen": {},
@@ -608,6 +695,7 @@
       "zh_title": "",
       "translated_from": "Thierry Correia"
     },
+    "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Van Hecke": {
@@ -618,6 +706,17 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|Van Persie": {
+      "description": "Shaqueel van Persie （ 2006年11月16日出生）是一名荷兰-摩洛哥职业足球运动员，曾在Eredivisie俱乐部Feyenoord担任前锋。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Feyenoord_Rotterdam_U19_vs._FC_Salburg_U19_%28Uefa_Youth_League_2024-11-06_Vierte_Runde%29_37_%28Shaqueel_van_Persie%29.jpg/500px-Feyenoord_Rotterdam_U19_vs._FC_Salburg_U19_%28Uefa_Youth_League_2024-11-06_Vierte_Runde%29_37_%28Shaqueel_van_Persie%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Shaqueel_van_Persie",
+      "wiki_title": "Shaqueel van Persie",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Shaqueel van Persie"
+    },
+    "player|Vitória’s Diogo Sousa": {},
     "player|West Ham’s Mohamadou Kanté": {},
     "player|Wilfried Nancy": {},
     "player|William Carvalho": {
