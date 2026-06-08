@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T05:03:05Z",
+  "generated_at": "2026-06-08T16:18:25Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -423,6 +423,16 @@
     "player|Alejandro Grimaldo": {},
     "player|Aleksander Stankovic": {},
     "player|Alexandre Dujeux": {},
+    "player|Alexia Putellas": {
+      "description": "亚历克西娅·普特利亚斯·塞古拉（加泰隆尼亚语：Alèxia Putellas i Segura，发音：[əˈlɛksiə puˈteʎə səˈɣuɾə] ；1994年2月4日—）是西班牙职业女子足球员，司职中场，目前效力于巴塞罗那。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A5851_%28cropped%29.jpg/500px-Brann_-_Bar%C3%A7a_Femen%C3%AD_CG3A5851_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%BA%9A%E5%8E%86%E5%85%8B%E8%A5%BF%E5%A8%85%C2%B7%E6%99%AE%E7%89%B9%E5%88%A9%E4%BA%9A%E6%96%AF",
+      "wiki_title": "亚历克西娅·普特利亚斯",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Alexia Putellas"
+    },
     "player|Allan Saint-Maximin": {
       "description": "阿兰·伊雷内·辛特麦斯明（法语：Allan Irénée Saint-Maximin，1997年3月21日—）是法国的职业足球运动员，司职翼锋，现效力于法甲球队朗斯，他是瓜德罗普和法属圭亚那的后裔。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Allan_Saint-Maximin.jpg/500px-Allan_Saint-Maximin.jpg",
@@ -447,7 +457,18 @@
     "player|Atletico Madrid": {},
     "player|Baldini coy on Italy future": {},
     "player|Bayern Munich’s Michael Olise": {},
-    "player|Christian Eriksen": {},
+    "player|Billionaire West Ham": {},
+    "player|Brahim Diaz": {},
+    "player|Christian Eriksen": {
+      "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%96%AF%E7%94%B8%C2%B7%E8%89%BE%E6%AD%B7%E8%87%A3",
+      "wiki_title": "基斯甸·艾歷臣",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Christian Eriksen"
+    },
     "player|Christian Pulisic": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
@@ -472,6 +493,16 @@
       "wiki_variant": "translated-en",
       "zh_title": "",
       "translated_from": "David Sánchez (footballer, born 1982)"
+    },
+    "player|De Bruyne": {
+      "description": "凯文·德布劳内（荷兰语：Kevin De Bruyne，发音：[ˈkɛvɪn də ˈbrœynə]；1991年6月28日—），比利时男子职业足球员，司职中场，现效力于义甲俱乐部拿坡里，同时是比利时国家足球队队长。他连续两年获得英格兰PFA足球先生的荣耀，在他之前仅有两人曾有这样的纪录。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_201807091.jpg/500px-Kevin_De_Bruyne_201807091.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%87%AF%E6%96%87%C2%B7%E5%BE%B7%E5%B8%83%E5%8A%B3%E5%86%85",
+      "wiki_title": "凯文·德布劳内",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Kevin De Bruyne"
     },
     "player|Del Piero": {
       "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
@@ -500,6 +531,8 @@
     "player|El Bayer Leverkusen": {},
     "player|El Celta": {},
     "player|El Dépor": {},
+    "player|El Huesca vuelve a pescar en la Cultural": {},
+    "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El PSG": {},
     "player|Emi Martinez": {},
@@ -535,6 +568,7 @@
     "player|Graham Potter": {},
     "player|Greece 0-1 Italy": {},
     "player|Hansi Flick": {},
+    "player|Harry Kane": {},
     "player|Herbert Hainer": {},
     "player|Hugo Sotelo": {
       "description": "雨果·索特洛·戈麦斯（ Hugo Sotelo Gómez ， 2003年12月19日－ ）是一名西班牙职业足球运动员，曾在西甲俱乐部塞尔塔·德维戈（ Celta de Vigo ）担任中场球员。",
@@ -582,6 +616,17 @@
       "zh_title": "",
       "translated_from": "Kennet Eichhorn"
     },
+    "player|Kolo Muani": {
+      "description": "朗达尔·科洛·穆瓦尼（法语：Randal Kolo Muani；1998年12月5日—），法国足球运动员，司职前锋，现效力于法甲俱乐部巴黎圣日耳曼。法国国家队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Randal_Kolo_Muani_2020.jpg/500px-Randal_Kolo_Muani_2020.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9C%97%E8%BE%BE%E5%B0%94%C2%B7%E7%A7%91%E6%B4%9B%C2%B7%E7%A9%86%E7%93%A6%E5%B0%BC",
+      "wiki_title": "朗达尔·科洛·穆瓦尼",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Randal Kolo Muani"
+    },
+    "player|Los mundos de Klopp": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -685,6 +730,7 @@
     "player|Suzanne Wrack": {},
     "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
+    "player|The Hotspot | ‘This may be our last chance’": {},
     "player|Thierry Correia": {
       "description": "蒂埃里·伦达尔·科雷亚（ Thierry Rendall Correia ， 1999年3月9日出生）是一名葡萄牙职业足球运动员，曾在西甲瓦伦西亚俱乐部担任右后卫。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thierry_Correia_2019.png/500px-Thierry_Correia_2019.png",
@@ -695,6 +741,7 @@
       "zh_title": "",
       "translated_from": "Thierry Correia"
     },
+    "player|Thomas Meunier": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
