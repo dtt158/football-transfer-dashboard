@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T16:18:25Z",
+  "generated_at": "2026-06-09T04:23:20Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -443,6 +443,7 @@
       "zh_title": "",
       "translated_from": "Allan Saint-Maximin"
     },
+    "player|Allegri to Napoli": {},
     "player|Anthony Gordon": {
       "description": "安东尼·迈克尔·戈登（英语：Anthony Michael Gordon，2001年2月24日—）是英格兰男子足球员，现效力于英格兰超级足球联赛球会纽卡索，将在2026年7月1日加入西班牙足球甲级联赛俱乐部巴塞隆纳。英格兰足球代表队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gordon_in_2024.jpg/500px-Gordon_in_2024.jpg",
@@ -483,6 +484,7 @@
       "zh_title": "達尼·奧爾莫",
       "translated_from": "Dani Olmo"
     },
+    "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|David Sullivan": {},
     "player|David Sánchez": {
       "description": "大卫·桑切斯·罗德里格斯（ David Sánchez Rodríguez ， 1982年7月25日出生）是一名西班牙前职业足球运动员，曾担任防守或攻击型中场球员。他目前是Tercera Federación俱乐部Linense的经理。他在18年的职业生涯中大部分时间都在乙级联赛中度过，在阿拉韦斯、阿尔瓦塞特、吉姆纳斯蒂克和埃尔切出场时，他在五个赛季中总共打了111场乙级联赛比赛和7个进球。他补充说...",
@@ -535,6 +537,7 @@
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El PSG": {},
+    "player|Elliot Anderson": {},
     "player|Emi Martinez": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
@@ -548,6 +551,7 @@
     },
     "player|Estéban Lepaul": {},
     "player|Euro Final": {},
+    "player|Evan Ferguson": {},
     "player|Ewen Jaouen": {
       "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
       "image_url": "",
@@ -606,6 +610,7 @@
       "zh_title": "",
       "translated_from": "Lee Kang-in"
     },
+    "player|Kelly Cates": {},
     "player|Kennet Eichhorn": {
       "description": "肯尼特·艾希霍恩（德语： Kennet Eichhorn ， 2009年7月27日－ ）是一名德国职业足球运动员，曾担任2名防守型中场球员。Bundesliga club Hertha BSC.",
       "image_url": "",
@@ -626,6 +631,7 @@
       "zh_title": "",
       "translated_from": "Randal Kolo Muani"
     },
+    "player|Lassana Diarra": {},
     "player|Los mundos de Klopp": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
@@ -687,6 +693,8 @@
     },
     "player|No wonder Steve Clarke is smiling": {},
     "player|North America’s": {},
+    "player|Nottingham Forest": {},
+    "player|Omar Artan": {},
     "player|Ousmane Dembélé": {
       "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg",
