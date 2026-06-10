@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T15:30:18Z",
+  "generated_at": "2026-06-10T04:48:12Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -149,6 +149,7 @@
       "zh_title": "",
       "translated_from": "La Liga"
     },
+    "club|Lazio": {},
     "club|Leverkusen": {
       "description": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena. Founded in 1904 by employees of the paint factory, today...",
       "wiki_url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
@@ -462,6 +463,16 @@
     "player|Billionaire West Ham": {},
     "player|Brahim Diaz": {},
     "player|Brest’s Daouda Guindo": {},
+    "player|Bukayo Saka": {
+      "description": "布卡约·阿约因卡·泰米达约·萨卡（英语：Bukayo Ayoyinka Temidayo Saka，2001年9月5日—）是一名英格兰职业足球员，司职翼锋，出身于阿仙奴青训系统，现时效力英超球会阿仙奴，并代表英格兰国家队出战国际比赛。擅于盘扭、护球、及优良球赛视野使其为现今球坛最高身价的翼锋及足坛超级巨星之一 。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/500px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E5%8D%A1%E7%BA%A6%C2%B7%E8%90%A8%E5%8D%A1",
+      "wiki_title": "布卡约·萨卡",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Bukayo Saka"
+    },
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
@@ -491,6 +502,7 @@
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|David Squires": {},
     "player|David Sullivan": {},
+    "player|David Sullivan’s Sport": {},
     "player|David Sánchez": {
       "description": "大卫·桑切斯·罗德里格斯（ David Sánchez Rodríguez ， 1982年7月25日出生）是一名西班牙前职业足球运动员，曾担任防守或攻击型中场球员。他目前是Tercera Federación俱乐部Linense的经理。他在18年的职业生涯中大部分时间都在乙级联赛中度过，在阿拉韦斯、阿尔瓦塞特、吉姆纳斯蒂克和埃尔切出场时，他在五个赛季中总共打了111场乙级联赛比赛和7个进球。他补充说...",
       "image_url": "",
@@ -544,7 +556,16 @@
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El PSG": {},
-    "player|Elliot Anderson": {},
+    "player|Elliot Anderson": {
+      "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E5%88%A9%E5%A5%A5%E7%89%B9%C2%B7%E5%AE%89%E5%BE%B7%E6%A3%AE",
+      "wiki_title": "埃利奥特·安德森",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Elliot Anderson (footballer)"
+    },
     "player|Emi Martinez": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
@@ -604,10 +625,23 @@
       "wiki_variant": "legacy-en"
     },
     "player|Ismaël Saibari": {},
+    "player|Jacob Steinberg": {},
+    "player|Jean-Philippe Mateta": {
+      "description": "让-菲利普·马特塔（法语：Jean-Philippe Mateta，1997年6月28日—）是一位法国足球运动员，现效力于英超球队水晶宫及法国国家足球队，于场上司职前锋。他的父亲是刚果民主共和国人，母亲是法国人。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jean-Philippe_Mateta_%28cropped%29.jpg/500px-Jean-Philippe_Mateta_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%AE%A9-%E8%8F%B2%E5%88%A9%E6%99%AE%C2%B7%E9%A9%AC%E7%89%B9%E5%A1%94",
+      "wiki_title": "让-菲利普·马特塔",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Jean-Philippe Mateta"
+    },
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|José Mourinho": {},
+    "player|Julián Alvarez": {},
     "player|Julián Alvarez’s": {},
+    "player|Juventus Sorloth": {},
     "player|Jürgen Klopp": {},
     "player|Jürgen Klopp’s": {},
     "player|Kang-in Lee": {
@@ -643,6 +677,7 @@
     },
     "player|La Repubblica": {},
     "player|Lassana Diarra": {},
+    "player|Lazio’s Provedel": {},
     "player|Los mundos de Klopp": {},
     "player|Lucas Chevalier": {},
     "player|Luis de la Fuente": {
@@ -684,6 +719,7 @@
     "player|Michael Olise": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
+    "player|Milan forward Gimenez": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg",
@@ -692,6 +728,7 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|Mo Touré": {},
     "player|Moritz Nicolas": {
       "description": "莫里茨·尼古拉斯（ Moritz Nicolas ， 1997年10月21日－ ）是一名德国职业足球运动员，曾在德甲门兴格拉德巴赫俱乐部（ Borussia Mönchengladbach ）担任守门员。",
       "image_url": "",
@@ -716,6 +753,7 @@
     "player|No wonder Steve Clarke is smiling": {},
     "player|North America’s": {},
     "player|Nottingham Forest": {},
+    "player|Nottingham Forest’s Nicolo Savona": {},
     "player|Oliver Glasner": {
       "description": "奥利弗·格拉斯纳（德語：Oliver Glasner，1974年8月28日—）是一位奥地利前足球运动员及现任足球教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg/500px-2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg",
@@ -725,8 +763,18 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "player|Olivier Pantaloni": {},
     "player|Omar Artan": {},
-    "player|Oumar Solet": {},
+    "player|Oumar Solet": {
+      "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg/500px-FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E9%A6%AC%E7%88%BE%C2%B7%E8%98%87%E5%88%97%E7%89%B9",
+      "wiki_title": "奧馬爾·蘇列特",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Oumar Solet"
+    },
     "player|Ousmane Dembélé": {
       "description": "奥斯文·丹比利（法语：Ousmane Dembélé，1997年5月15日—），是一名司职翼锋的毛里塔尼亚裔法国职业足球员，现效力法甲球队巴黎圣日耳曼，也代表法国国家队出战国际比赛。 登贝莱凭借著24-25赛季的三冠王成绩荣获2025年金球奖，成为史上第十位同时赢得国际足总世界杯、欧洲冠军联赛及金球奖的球员之一。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ousmane_Demb%C3%A9l%C3%A9_2018_%28cropped%29.jpg",
@@ -771,6 +819,7 @@
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|St Mirren": {},
     "player|Stockport County": {},
+    "player|Stéphane Gilli": {},
     "player|Suzanne Wrack": {},
     "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
@@ -829,6 +878,16 @@
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
     "player|Yann Bisseck": {},
+    "player|Zambo Anguissa": {
+      "description": "安德烈-法兰克·森保·安古沙（法语：André-Frank Zambo Anguissa，1995年11月16日—），是一名喀麦隆职业足球员，司职中场，现时效力意甲球会拿玻里，并代表喀麦隆参与国际赛事。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ZAMBO_ANGUISSA.jpg/500px-ZAMBO_ANGUISSA.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E5%BE%B7%E7%83%88-%E6%B3%95%E8%98%AD%E5%85%8B%C2%B7%E6%A3%AE%E4%BF%9D%C2%B7%E5%AE%89%E5%8F%A4%E6%B2%99",
+      "wiki_title": "安德烈-法蘭克·森保·安古沙",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Frank Anguissa"
+    },
     "player|Zohran Mamdani": {}
   }
 }
