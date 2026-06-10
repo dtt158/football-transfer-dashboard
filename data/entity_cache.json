@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T04:48:12Z",
+  "generated_at": "2026-06-10T16:08:13Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -62,6 +62,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Braga": {},
     "club|Brighton": {
       "description": "布莱顿和霍夫阿尔比恩足球俱乐部（英語：Brighton & Hove Albion Football Club，/ˈbraɪtən ən ˈhoʊv/），通常简称为布莱顿（Brighton），是一家位於英格蘭東南部沿海布莱顿和霍夫市的职业足球俱乐部，参加英格兰足球联赛的最高级别——英格兰足球超级联赛，綽號為“海鷗”。俱乐部的主场是位于白禮頓城东北部法爾默的美国运通体育场（American Express Stadium）。",
       "image_url": "",
@@ -317,6 +318,7 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "club|Stuttgart": {},
     "club|Tottenham": {
       "description": "托特納姆熱刺女子足球俱樂部（英語：Tottenham Hotspur Football Club Women），簡稱熱刺（Spurs），是位於英格蘭倫敦東區萊頓的一家職業女子足球俱樂部，成立於1985年，隸屬於托特納姆熱刺足球俱樂部。球隊於2018–19年英冠賽季以第2名升級至英格蘭女子足球超級聯賽（最高級別） 熱刺女足目前的主場在萊頓的布里斯班路球場，偶爾會在熱刺球場進行比賽。球隊最近一次獲得的冠軍是2016–17年賽季的英格蘭足球總會女子南部超級聯賽（第三級別）。",
       "image_url": "",
@@ -408,6 +410,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
     "player|Albert Grønbæk": {
@@ -456,8 +459,10 @@
       "translated_from": "Anthony Gordon (footballer)"
     },
     "player|Antoine Kombouaré": {},
+    "player|Arsene Wenger": {},
     "player|Atletico Madrid": {},
     "player|Baldini coy on Italy future": {},
+    "player|Bayer Leverkusen": {},
     "player|Bayern Munich’s Michael Olise": {},
     "player|Bernardo Silva": {},
     "player|Billionaire West Ham": {},
@@ -487,6 +492,7 @@
     "player|Christophe Pélissier": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
+    "player|Cristiano Ronaldo’s Al-Nassr": {},
     "player|Crystal Palace": {},
     "player|Cyle Larin": {},
     "player|Dani Olmo": {
@@ -502,6 +508,7 @@
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|David Squires": {},
     "player|David Sullivan": {},
+    "player|David Sullivan’s": {},
     "player|David Sullivan’s Sport": {},
     "player|David Sánchez": {
       "description": "大卫·桑切斯·罗德里格斯（ David Sánchez Rodríguez ， 1982年7月25日出生）是一名西班牙前职业足球运动员，曾担任防守或攻击型中场球员。他目前是Tercera Federación俱乐部Linense的经理。他在18年的职业生涯中大部分时间都在乙级联赛中度过，在阿拉韦斯、阿尔瓦塞特、吉姆纳斯蒂克和埃尔切出场时，他在五个赛季中总共打了111场乙级联赛比赛和7个进球。他补充说...",
@@ -543,6 +550,7 @@
       "zh_title": "",
       "translated_from": "Denzel Dumfries"
     },
+    "player|Dibu Martinez": {},
     "player|Didier Deschamps": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
@@ -636,8 +644,10 @@
       "zh_title": "",
       "translated_from": "Jean-Philippe Mateta"
     },
+    "player|Jon Guridi": {},
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
+    "player|Jorge Mendes": {},
     "player|José Mourinho": {},
     "player|Julián Alvarez": {},
     "player|Julián Alvarez’s": {},
@@ -679,6 +689,16 @@
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
     "player|Los mundos de Klopp": {},
+    "player|Luca Koleosho": {
+      "description": "卢卡·沃里克·达埃奥维耶·高尼奥素（英语：Luca Warrick Daeovie Koleosho，2004年9月15日—）是一名美国出生的职业足球运动员，司职左翼锋, 前锋，现效力于法甲球会巴黎FC (般尼外借)，曾代表美国U15、意大利U19及意大利U20。 2023年7月，高尼奥素以230万英磅加86万英磅附加条款加盟英格兰超级足球联赛球会般尼，并签约4年。 2023年3月，高尼奥素接受了意大利U19的征召，参加了训练营，为2023年U19欧洲国家杯做准备。随后，他被列入该比赛的20人大名单，3月25日，他在与斯洛文尼亚U190-0打和的友谊赛中替补出场。 2023年6月，他入选了在马耳他举行的2023年U19欧洲国家杯大名单并获得冠军。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/BHA_5_v_Espanyol_1_pre_season_30_07_2022_159_%28cropped%29.jpg/500px-BHA_5_v_Espanyol_1_pre_season_30_07_2022_159_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9B%A7%E5%8D%A1%C2%B7%E9%AB%98%E5%B0%BC%E5%A5%A7%E7%B4%A0",
+      "wiki_title": "盧卡·高尼奧素",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Luca Koleosho"
+    },
     "player|Lucas Chevalier": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
@@ -713,6 +733,17 @@
       "translated_from": "Mason Greenwood"
     },
     "player|Matej Kovar": {},
+    "player|Matteo Moretto": {},
+    "player|Matthis Abline": {
+      "description": "Matthis Abline （ 2003年3月28日出生）是一名法国职业足球运动员，曾在南特联赛2俱乐部担任前锋。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Abline_asse_fcn_2425.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Matthis_Abline",
+      "wiki_title": "Matthis Abline",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Matthis Abline"
+    },
     "player|Max Allegri": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
@@ -739,6 +770,7 @@
       "zh_title": "",
       "translated_from": "Moritz Nicolas"
     },
+    "player|Mourinho se despide del Benfica": {},
     "player|Mr Irreplaceable": {},
     "player|Nicolò Tresoldi": {
       "description": "尼科洛·特雷索尔迪（德语： Nicolò Tresoldi ， 2004年8月20日－ ）是一名德国职业足球运动员，曾效力于比利时职业足球联赛布鲁日俱乐部和德国21岁以下国家队。",
@@ -765,6 +797,7 @@
     },
     "player|Olivier Pantaloni": {},
     "player|Omar Artan": {},
+    "player|Ongoing Juventus": {},
     "player|Oumar Solet": {
       "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg/500px-FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg",
@@ -787,6 +820,7 @@
     },
     "player|Out-of-contract XIs": {},
     "player|PSG’s Pierre Mounguengue": {},
+    "player|Patrick Videira": {},
     "player|Patrik Mercado": {
       "description": "帕特里克·克莱弗·梅尔卡多·阿尔塔米拉诺（ Patrik Kleiver Mercado Altamirano ， 2003年7月31日－ ）是一名厄瓜多尔足球运动员，目前在独立山谷队（ Independiente del Valle ）和厄瓜多尔国家队（ Ec他将在2026年世界杯后加入西甲俱乐部塞维利亚。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Patrik_mercado.png",
@@ -812,6 +846,7 @@
     "player|Rodez’s Taïryk Arconte": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
+    "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
     "player|Serhou Guirassy’s": {},
     "player|Sign up for the Football Daily newsletter": {},
@@ -820,6 +855,7 @@
     "player|St Mirren": {},
     "player|Stockport County": {},
     "player|Stéphane Gilli": {},
+    "player|Super Mario": {},
     "player|Suzanne Wrack": {},
     "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
@@ -859,6 +895,7 @@
     "player|Vitória’s Diogo Sousa": {},
     "player|West Ham": {},
     "player|West Ham’s Mohamadou Kanté": {},
+    "player|West Ham’s Soungoutou Magassa": {},
     "player|Wilfried Nancy": {},
     "player|William Carvalho": {
       "description": "威廉·施华·迪卡维奴（葡萄牙语：William Silva de Carvalho；1992年4月7日—），是葡萄牙男子职业足球员，现时效力于墨西哥足球超级联赛球会帕丘卡。司职防守中场。",
