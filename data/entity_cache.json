@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T04:59:51Z",
+  "generated_at": "2026-06-11T16:24:46Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -335,6 +335,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Villarreal": {},
     "club|West Ham": {
       "description": "西漢姆足球會（英語：West Ham United Football Club），是一家英格蘭職業足球俱樂部，成立于1895年，位于東倫敦紐漢區。初時名為「泰晤士鐵廠」（Thames Ironworks FC），於1900年才更改今名。球队主场是伦敦奥林匹克体育场。球隊在1919年加入英格蘭足球聯賽，曾獲得三屆英格蘭足總盃冠軍。欧战方面，曾於1965年贏得歐洲優勝者杯，1999年獲得過托托杯，以及2023年获得欧洲协会联赛冠军。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/EnglandLondon.png",
@@ -410,6 +411,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|2026 World Cup": {},
     "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
@@ -462,7 +464,11 @@
     "player|Arsene Wenger": {},
     "player|Atletico Madrid": {},
     "player|Baldini coy on Italy future": {},
+    "player|Barney Ronay": {},
+    "player|Barred WC": {},
+    "player|Barça y Bernardo Silva": {},
     "player|Bayer Leverkusen": {},
+    "player|Bayern Munich": {},
     "player|Bayern Munich’s Michael Olise": {},
     "player|Bernardo Silva": {},
     "player|Billionaire West Ham": {},
@@ -478,6 +484,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Carlos Martínez": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
@@ -490,12 +497,23 @@
     },
     "player|Christian Pulisic": {},
     "player|Christophe Pélissier": {},
+    "player|Clément Lenglet": {
+      "description": "基文迪·尼古拉·洛朗·朗格勒（法语：Clément Nicolas Laurent Lenglet，法语发音：[klemɑ̃ nikɔla lɔʁɑ̃ lɑ̃ɡlɛ]；1995年6月17日—），是一名法国职业足球员，司职中后卫。现效力西甲俱乐部马德里竞技。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sevilla-SM_%282%29_%28cropped%29_%282%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%85%8B%E8%90%8A%E8%8A%92%C2%B7%E6%9C%97%E6%A0%BC%E8%90%8A",
+      "wiki_title": "克萊芒·朗格萊",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Clément Lenglet"
+    },
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Costa Rica": {},
     "player|Cristiano Ronaldo’s Al-Nassr": {},
     "player|Crystal Palace": {},
     "player|Cyle Larin": {},
+    "player|César Peixoto": {},
     "player|Dani Olmo": {
       "description": "丹尼尔·奥尔莫·卡瓦哈尔（西班牙语： Daniel Olmo Carvajal ， 1998年5月7日－ ）是一名西班牙职业足球运动员，曾在巴塞罗那西甲俱乐部和西班牙国家队担任攻击型中场或左边锋。在La Masia工作了一段时间后， Olmo于2015年在克罗地亚的萨格勒布迪纳摩队首次亮相。他为俱乐部总共出场124次，打入34球，五次赢得联赛冠军，...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dani_Olmo_2022.jpg/500px-Dani_Olmo_2022.jpg",
@@ -553,6 +571,8 @@
     },
     "player|Dibu Martinez": {},
     "player|Didier Deschamps": {},
+    "player|Didier Digard": {},
+    "player|Dunkerque’s Enzo Bardeli": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|El Alba": {},
@@ -567,6 +587,7 @@
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El PSG": {},
+    "player|El Rayo Vallecano": {},
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
       "image_url": "",
@@ -578,6 +599,16 @@
       "translated_from": "Elliot Anderson (footballer)"
     },
     "player|Emi Martinez": {},
+    "player|Enzo Bardeli": {
+      "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg/500px-Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Enzo_Bardeli",
+      "wiki_title": "Enzo Bardeli",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Enzo Bardeli"
+    },
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
@@ -606,6 +637,8 @@
     "player|Feature I Chevalier, Fati, Morton": {},
     "player|Florentino Pérez": {},
     "player|Football Daily": {},
+    "player|Football Daily | World Cup day is upon us": {},
+    "player|Former Marseille": {},
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
     "player|France’s Rayan Cherki": {},
@@ -627,6 +660,7 @@
       "translated_from": "Hugo Sotelo"
     },
     "player|Ibrahim Mbaye": {},
+    "player|Ibrahima Konaté": {},
     "player|International Friendly Liveblog": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
@@ -638,6 +672,7 @@
     },
     "player|Ismaël Saibari": {},
     "player|Jacob Steinberg": {},
+    "player|Jean Butez": {},
     "player|Jean-Philippe Mateta": {
       "description": "让-菲利普·马特塔（法语：Jean-Philippe Mateta，1997年6月28日—）是一位法国足球运动员，现效力于英超球队水晶宫及法国国家足球队，于场上司职前锋。他的父亲是刚果民主共和国人，母亲是法国人。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jean-Philippe_Mateta_%28cropped%29.jpg/500px-Jean-Philippe_Mateta_%28cropped%29.jpg",
@@ -658,10 +693,21 @@
       "zh_title": "",
       "translated_from": "Jon Guridi"
     },
+    "player|Jonah Kusi-Asare": {},
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|Jorge Mendes": {},
     "player|José Mourinho": {},
+    "player|Juan Iglesias": {
+      "description": "胡安·安东尼奥·伊格莱西亚斯·桑切斯（ Juan Antonio Iglesias Sánchez ） （ 1998年7月3日出生）是一名西班牙职业足球运动员，曾在西甲赫塔菲俱乐部担任后卫。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Juan_Iglesias",
+      "wiki_title": "Juan Iglesias",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Juan Iglesias"
+    },
     "player|Julián Alvarez": {},
     "player|Julián Alvarez’s": {},
     "player|Juventus Sorloth": {},
@@ -701,6 +747,7 @@
       "translated_from": "Randal Kolo Muani"
     },
     "player|La Repubblica": {},
+    "player|Lamine Camara": {},
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
     "player|Los mundos de Klopp": {},
@@ -763,6 +810,7 @@
     "player|Max Allegri": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
+    "player|Mexico v South Africa": {},
     "player|Michael Olise": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
@@ -802,6 +850,7 @@
     "player|North America’s": {},
     "player|Nottingham Forest": {},
     "player|Nottingham Forest’s Nicolo Savona": {},
+    "player|OGC Nice’s Charles Vanhoutte": {},
     "player|Oliver Glasner": {
       "description": "奥利弗·格拉斯纳（德語：Oliver Glasner，1974年8月28日—）是一位奥地利前足球运动员及现任足球教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg/500px-2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg",
@@ -835,6 +884,7 @@
       "translated_from": "Ousmane Dembélé"
     },
     "player|Out-of-contract XIs": {},
+    "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
     "player|Patrick Videira": {},
     "player|Patrik Mercado": {
@@ -862,6 +912,7 @@
     "player|Rodez’s Taïryk Arconte": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
+    "player|Roma’s Matias Soule": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
     "player|Serhou Guirassy’s": {},
@@ -886,10 +937,21 @@
       "zh_title": "",
       "translated_from": "Thierry Correia"
     },
+    "player|Thierry Henry": {},
     "player|Thomas Meunier": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Valentín Barco": {
+      "description": "巴伦廷·巴尔科（西班牙语：Valentín Barco；2004年7月23日—）是一名阿根廷的职业足球运动员，司职左后卫。现效力法甲球队斯特拉斯堡竞赛会。阿根廷国家足球队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg/500px-Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E5%80%AB%E5%BB%B7%C2%B7%E5%B7%B4%E7%88%BE%E7%A7%91",
+      "wiki_title": "巴倫廷·巴爾科",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Valentín Barco"
+    },
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/500px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg",
@@ -928,6 +990,7 @@
     "player|World Cup 2026 news": {},
     "player|World Cup 2026 visa chaos": {},
     "player|World Cup 2026 wallchart": {},
+    "player|World Cup Group D view from Turkey": {},
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
     "player|Yann Bisseck": {},
