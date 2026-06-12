@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T16:24:46Z",
+  "generated_at": "2026-06-12T05:03:43Z",
   "entities": {
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
@@ -208,7 +208,16 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|Marseille": {},
+    "club|Marseille": {
+      "description": "马赛奥林匹克（法语：Olympique de Marseille，发音：[ɔlɛ̃pik də maʁsɛj]，本地发音：[ɔlɛ̃ˈpikə də mɑχˈsɛjə]）位于法国东南部普罗旺斯首府、地中海最大的港口及法国第二大城市的马赛的足球会，成立于1899年，现时在法国足球甲级联赛比赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Olympique_de_Marseille_2026_logo.svg/500px-Olympique_de_Marseille_2026_logo.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E8%B5%9B%E5%A5%A5%E6%9E%97%E5%8C%B9%E5%85%8B",
+      "wiki_title": "马赛奥林匹克",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Olympique de Marseille"
+    },
     "club|Napoli": {
       "description": "那不勒斯足球俱乐部（義大利語：Società Sportiva Calcio Napoli），簡稱為那不勒斯，是一家設於坎帕尼亞大區首府那不勒斯的意大利職業足球會，現正於意大利甲組足球聯賽進行比賽，為意大利足球联赛系统的頂級賽事。拿玻里於1926年成立，曾贏得4次意甲聯賽冠軍、6次意大利盃冠軍、2次意大利超級盃，以及1次歐洲足協盃。 據統計，拿坡里於意大利擁有第4多的球迷。於2015年，拿玻里於意甲聯賽最有價值球會的排行榜中排名第5，亦被列入同年的福布斯足球俱乐部财富排行榜。球會為歐洲足球會協會其中一員，截至2016年1月，拿玻里於歐洲足協積分排名中位列第8，於一眾意大利球會中則排名第2。 自1959年起，拿玻里以位於城市西郊Fuorigrotta地區的聖保羅球場作為主場。球隊的球衣主色調為天藍色配上白色短褲，會歌則為「'O surdato...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg/500px-SSC_Napoli_2025_%28white_and_azure%29.svg.png",
@@ -649,6 +658,7 @@
     "player|Hansi Flick": {},
     "player|Harry Kane": {},
     "player|Herbert Hainer": {},
+    "player|Hidalgo ya tiene al primer refuerzo de Primera": {},
     "player|Hugo Sotelo": {
       "description": "雨果·索特洛·戈麦斯（ Hugo Sotelo Gómez ， 2003年12月19日－ ）是一名西班牙职业足球运动员，曾在西甲俱乐部塞尔塔·德维戈（ Celta de Vigo ）担任中场球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hugo_Sotelo_%28cropped%29.png",
@@ -662,6 +672,7 @@
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
     "player|International Friendly Liveblog": {},
+    "player|Inter’s Dumfries": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -671,8 +682,18 @@
       "wiki_variant": "legacy-en"
     },
     "player|Ismaël Saibari": {},
+    "player|Ivory Coast": {},
     "player|Jacob Steinberg": {},
-    "player|Jean Butez": {},
+    "player|Jean Butez": {
+      "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jean_Butez_%28cropped%29.jpg/500px-Jean_Butez_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jean_Butez",
+      "wiki_title": "Jean Butez",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Jean Butez"
+    },
     "player|Jean-Philippe Mateta": {
       "description": "让-菲利普·马特塔（法语：Jean-Philippe Mateta，1997年6月28日—）是一位法国足球运动员，现效力于英超球队水晶宫及法国国家足球队，于场上司职前锋。他的父亲是刚果民主共和国人，母亲是法国人。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jean-Philippe_Mateta_%28cropped%29.jpg/500px-Jean-Philippe_Mateta_%28cropped%29.jpg",
@@ -698,6 +719,7 @@
     "player|Jonathan Wilson": {},
     "player|Jorge Mendes": {},
     "player|José Mourinho": {},
+    "player|José Mourinho’s": {},
     "player|Juan Iglesias": {
       "description": "胡安·安东尼奥·伊格莱西亚斯·桑切斯（ Juan Antonio Iglesias Sánchez ） （ 1998年7月3日出生）是一名西班牙职业足球运动员，曾在西甲赫塔菲俱乐部担任后卫。",
       "image_url": "",
@@ -836,6 +858,8 @@
     },
     "player|Mourinho se despide del Benfica": {},
     "player|Mr Irreplaceable": {},
+    "player|Newcastle United": {},
+    "player|Nico Paz": {},
     "player|Nicolò Tresoldi": {
       "description": "尼科洛·特雷索尔迪（德语： Nicolò Tresoldi ， 2004年8月20日－ ）是一名德国职业足球运动员，曾效力于比利时职业足球联赛布鲁日俱乐部和德国21岁以下国家队。",
       "image_url": "",
@@ -913,12 +937,16 @@
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
     "player|Roma’s Matias Soule": {},
+    "player|Ruben Amorim": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
+    "player|Scotland’s World Cup": {},
     "player|Serhou Guirassy’s": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
+    "player|South Africa": {},
+    "player|South Korea": {},
     "player|St Mirren": {},
     "player|Stockport County": {},
     "player|Stéphane Gilli": {},
@@ -927,6 +955,7 @@
     "player|Switzerland’s Dan Ndoye": {},
     "player|The Athletic": {},
     "player|The Hotspot | ‘This may be our last chance’": {},
+    "player|The Joy of Six": {},
     "player|Thierry Correia": {
       "description": "蒂埃里·伦达尔·科雷亚（ Thierry Rendall Correia ， 1999年3月9日出生）是一名葡萄牙职业足球运动员，曾在西甲瓦伦西亚俱乐部担任右后卫。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Thierry_Correia_2019.png/500px-Thierry_Correia_2019.png",
@@ -942,6 +971,7 @@
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Udinese’s Arthur Atta": {},
     "player|Valentín Barco": {
       "description": "巴伦廷·巴尔科（西班牙语：Valentín Barco；2004年7月23日—）是一名阿根廷的职业足球运动员，司职左后卫。现效力法甲球队斯特拉斯堡竞赛会。阿根廷国家足球队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg/500px-Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg",
