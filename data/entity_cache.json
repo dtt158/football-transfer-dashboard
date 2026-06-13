@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-13T04:49:37Z",
+  "generated_at": "2026-06-13T14:24:41Z",
   "entities": {
+    "club|Ac Milan": {
+      "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/500px-Logo_of_AC_Milan.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/AC%E7%B1%B3%E5%85%B0",
+      "wiki_title": "AC米兰",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "AC Milan"
+    },
     "club|Ajax": {
       "description": "阿姆斯特丹阿賈克斯足球會（荷蘭語：Amsterdamsche Football Club Ajax），簡稱阿賈克斯（Ajax，[ˈaːjɑks]，Euronext：AJAX），創立於1900年3月18日，是一支位于荷兰首都阿姆斯特丹的足球俱樂部。與飛燕諾以及PSV燕豪芬并称荷兰足球三强。阿贾克斯被譽為世界第一的球星加工厂和世界第一青訓球會，其青训系统培养大量球星。阿贾克斯為荷蘭國家足球隊的培養了大批球員，包括约翰·克鲁伊夫、弗兰克·里杰卡尔德和马尔科·范巴斯滕等。 阿賈克斯在歐洲賽事上表現優秀，夺得过欧洲三大盃賽（歐洲聯賽冠軍盃、歐洲足協盃、歐洲盃賽冠軍盃）。1962年，阿賈克斯在首屆歐洲足協圖圖盃中擊敗同國球會飛燕諾獲得首次國際賽事冠軍，隨後取得多個歐洲賽事冠軍，包括四屆歐洲聯賽冠軍盃、一屆歐洲足協盃、一屆歐洲盃賽冠軍盃、三屆歐洲超級盃以及兩屆洲際盃冠軍。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Logo_AFC_Ajax_%281928-1991%2C_2025-%29.svg/500px-Logo_AFC_Ajax_%281928-1991%2C_2025-%29.svg.png",
@@ -151,7 +161,16 @@
       "translated_from": "La Liga"
     },
     "club|Lazio": {},
-    "club|Leipzig": {},
+    "club|Leipzig": {
+      "description": "莱比锡草地球类运动注册协会（德语：RasenBallsport Leipzig e. V.）简称为RB莱比锡，是一家总部设于德国萨克森州莱比锡的足球俱乐部。该俱乐部是由功能饮料生产商红牛公司在2009年透过收购第五级别联赛球队马克兰施泰特而得，并制订了一个10年内升入德国足球甲级联赛的计划。其主场设于红牛竞技场。 在俱乐部成立的首个赛季中，RB莱比锡即统治了东北高级联赛南区（第五级别），并以冠军身份晋身至2010-2011赛季的北部地区联赛（第四级别）。在2012-2013赛季中，RB莱比锡以不败的战绩升入丙级联赛（第三级别）。至2013-2014赛季，他们又以亚军身份进一步晋级至乙级联赛。2014-2015赛季，球队的第一个乙组联赛赛季只拿下第五名，无缘升级，一直到2015-2016赛季的第32轮，球队在主场战胜了卡尔斯鲁厄，才成功锁定了一个升上德甲的名额。在之后的几个赛季球队越战越勇，取得德甲亚军，并打入欧冠。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Red_Bull_arena%2C_Leipzig_von_oben_Zentralstadion.jpg/500px-Red_Bull_arena%2C_Leipzig_von_oben_Zentralstadion.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/RB%E8%90%8A%E6%AF%94%E9%8C%AB",
+      "wiki_title": "RB萊比錫",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "RB Leipzig"
+    },
     "club|Leverkusen": {
       "description": "Bayer 04 Leverkusen, officially known as Bayer 04 Leverkusen Fußball GmbH (German: [ˌbaɪ̯ɐ ˈleːvɐˌkuːzn̩]) and commonly known as Bayer Leverkusen or simply Leverkusen, is a German professional football club based in Leverkusen, North Rhine-Westphalia. It competes in the Bundesliga, the top tier of German football, and plays its home matches at the BayArena. Founded in 1904 by employees of the paint factory, today...",
       "wiki_url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
@@ -518,6 +537,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Can Vinicius": {},
     "player|Carlos Martínez": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
@@ -645,6 +665,7 @@
       "translated_from": "Elliot Anderson (footballer)"
     },
     "player|Emi Martinez": {},
+    "player|England’s Declan Rice": {},
     "player|Enzo Bardeli": {
       "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg/500px-Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg",
@@ -824,6 +845,7 @@
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
     "player|Liam Rosenior": {},
+    "player|Los Angeles": {},
     "player|Los mundos de Klopp": {},
     "player|Luca Koleosho": {
       "description": "卢卡·沃里克·达埃奥维耶·高尼奥素（英语：Luca Warrick Daeovie Koleosho，2004年9月15日—）是一名美国出生的职业足球运动员，司职左翼锋, 前锋，现效力于法甲球会巴黎FC (般尼外借)，曾代表美国U15、意大利U19及意大利U20。 2023年7月，高尼奥素以230万英磅加86万英磅附加条款加盟英格兰超级足球联赛球会般尼，并签约4年。 2023年3月，高尼奥素接受了意大利U19的征召，参加了训练营，为2023年U19欧洲国家杯做准备。随后，他被列入该比赛的20人大名单，3月25日，他在与斯洛文尼亚U190-0打和的友谊赛中替补出场。 2023年6月，他入选了在马耳他举行的2023年U19欧洲国家杯大名单并获得冠军。",
@@ -1013,6 +1035,7 @@
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|South Africa": {},
     "player|South Korea": {},
+    "player|Spurs’ Dragusin": {},
     "player|St Mirren": {},
     "player|Standard Liege’s Matthieu Epolo": {},
     "player|Steve Clarke": {},
