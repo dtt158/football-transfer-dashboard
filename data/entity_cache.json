@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T05:08:16Z",
+  "generated_at": "2026-06-14T14:29:09Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -213,6 +213,7 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "club|Man United": {},
     "club|Manchester City": {
       "description": "曼徹斯特城足球俱樂部（英語：Manchester City Football Club），簡稱曼城（英語：Man City），是一家位於英國曼徹斯特的足球俱樂部，前身為成立於1880年的「圣马可的西戈顿」（英語：St. Mark's West Gorton），1887年改名為阿德维克足球俱乐部（英語：Ardwick Association Football Club），1894年改名為「曼徹斯特城」。同年，曼城正式採用天藍色作主場球衣顏色，這也是他們被稱為藍月亮的第一個賽季。目前於英格蘭超級聯賽比賽。球隊主场為阿提哈德球场（又被译作“伊蒂哈德球場”）。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
@@ -239,7 +240,15 @@
       "zh_title": "",
       "translated_from": "Olympique de Marseille"
     },
-    "club|Monaco": {},
+    "club|Monaco": {
+      "description": "摩纳哥体育协会足球俱乐部（法語：Association Sportive de Monaco Football Club，法語發音：[a.sɔ.sja.sjɔ̃ spɔrtɪv də mɔnaˈkɔ]，簡稱摩納哥體育會（AS Monaco）或摩納哥）是位於地中海的摩纳哥公國的足球會，成立於1924年，在1948年轉為職業球隊，曾於2011–12及2012–13賽季於法國乙組聯賽中作賽，由於2012–13賽季摩纳哥奪得法國足球乙級聯賽冠軍，於2013–14年球季重返法國甲級聯賽中角逐，最後摩纳哥奪得亞軍，差點締造「凱沙羅頓神話」。摩纳哥是最成功的法甲球隊之一，曾奪得八屆甲組聯賽冠軍及五次法國盃。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Stadion_von_Monaco_Seitenansicht.jpg/500px-Stadion_von_Monaco_Seitenansicht.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%91%A9%E7%BA%B3%E5%93%A5%E4%BD%93%E8%82%B2%E5%8D%8F%E4%BC%9A%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "摩纳哥体育协会足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Napoli": {
       "description": "那不勒斯足球俱乐部（義大利語：Società Sportiva Calcio Napoli），簡稱為那不勒斯，是一家設於坎帕尼亞大區首府那不勒斯的意大利職業足球會，現正於意大利甲組足球聯賽進行比賽，為意大利足球联赛系统的頂級賽事。拿玻里於1926年成立，曾贏得4次意甲聯賽冠軍、6次意大利盃冠軍、2次意大利超級盃，以及1次歐洲足協盃。 據統計，拿坡里於意大利擁有第4多的球迷。於2015年，拿玻里於意甲聯賽最有價值球會的排行榜中排名第5，亦被列入同年的福布斯足球俱乐部财富排行榜。球會為歐洲足球會協會其中一員，截至2016年1月，拿玻里於歐洲足協積分排名中位列第8，於一眾意大利球會中則排名第2。 自1959年起，拿玻里以位於城市西郊Fuorigrotta地區的聖保羅球場作為主場。球隊的球衣主色調為天藍色配上白色短褲，會歌則為「'O surdato...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg/500px-SSC_Napoli_2025_%28white_and_azure%29.svg.png",
@@ -463,6 +472,7 @@
     "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
+    "player|Al Sadd": {},
     "player|Albert Grønbæk": {
       "description": "阿尔伯特·格伦拜克·埃利克（ Albert Grønbæk Erlykke ， 2001年5月23日－ ）是一名丹麦职业足球运动员，是德国德甲汉堡俱乐部的中场球员，租借自法国雷恩俱乐部和丹麦国家队。作为一名多才多艺的球员，他可以被部署为中场、进攻中场或左边锋。",
       "image_url": "",
@@ -515,6 +525,7 @@
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
     "player|Australia v Turkey": {},
+    "player|BBC Sport": {},
     "player|Baldini coy on Italy future": {},
     "player|Barca Legends": {},
     "player|Barney Ronay": {},
@@ -669,6 +680,7 @@
     "player|El Nápoles": {},
     "player|El PSG": {},
     "player|El Rayo Vallecano": {},
+    "player|Electric Ben Gannon-Doak": {},
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
       "image_url": "",
@@ -681,6 +693,7 @@
     },
     "player|Emi Martinez": {},
     "player|England’s Declan Rice": {},
+    "player|Envoy’s Proposal": {},
     "player|Enzo Bardeli": {
       "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg/500px-Enzo_Bardeli%2C_RC_Lens_-_USL_Dunkerque_%2808-07-2023%29_61.jpg",
@@ -724,6 +737,7 @@
     "player|Former Marseille": {},
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
+    "player|France’s Manu Kone": {},
     "player|France’s Ousmane Dembélé": {},
     "player|France’s Rayan Cherki": {},
     "player|France’s William Saliba": {},
@@ -1021,7 +1035,16 @@
       "zh_title": "",
       "translated_from": "Patrik Mercado"
     },
-    "player|Paul Pogba": {},
+    "player|Paul Pogba": {
+      "description": "保罗·拉比勒·博格巴（法语：Paul Labile Pogba，1993年3月15日—）是一名法国职业足球员，现时效力法甲球队摩纳哥，曾效力法国国家足球队。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/FRA-ARG_%2811%29_-_Paul_Pogba_%28cropped_2%29.jpg/500px-FRA-ARG_%2811%29_-_Paul_Pogba_%28cropped_2%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E5%8D%9A%E6%A0%BC%E5%B7%B4",
+      "wiki_title": "保罗·博格巴",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Paul Pogba"
+    },
     "player|Pep Guardiola": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
@@ -1032,6 +1055,7 @@
     "player|Rafael Leao": {},
     "player|Ralf Rangnick": {},
     "player|Randal Kolo Muani": {},
+    "player|Rayo Vallecano": {},
     "player|Raúl Jardiel": {},
     "player|Real Betis": {},
     "player|Reggiani’s Italy": {},
@@ -1096,7 +1120,16 @@
       "zh_title": "",
       "translated_from": "Thomas Partey"
     },
-    "player|Thomas Tuchel": {},
+    "player|Thomas Tuchel": {
+      "description": "托马斯·图切尔（德语： Thomas Tuchel ， 1973年8月29日－ ）是一名德国职业足球经理人，曾任英格兰国家队主教练。他被认为是他那一代最好的战术家之一。图切尔出生于巴伐利亚州的克伦巴赫， 25岁时因膝盖软骨受伤而退役， 2000年开始了他的教练生涯，担任青年教练。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93175.jpg/500px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93175.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Thomas_Tuchel",
+      "wiki_title": "Thomas Tuchel",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "托马斯·图赫尔",
+      "translated_from": "Thomas Tuchel"
+    },
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
