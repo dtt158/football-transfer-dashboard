@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T14:24:41Z",
+  "generated_at": "2026-06-14T05:08:16Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -186,6 +186,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "club|Lille": {},
     "club|Liverpool": {
       "description": "利物浦足球俱樂部（英語：Liverpool Football Club，縮寫：LFC或LIV）是一家位於英國英格蘭西北部默西賽德郡港口城市利物浦的英格蘭職業足球俱樂部，目前參賽級別為英格蘭足球超級聯賽。俱樂部成立於1892年6月3日，次年加入英格蘭足球聯賽，俱樂部自成立以來一直以安菲爾德球場作為主場。利物浦是世界上最有價值和最廣受支持的足球俱樂部之一，其市值與收入及全球球迷數量均位於歐洲足球俱樂部前列。 1964年，在比爾·辛奇利的管理下，球隊從過往的紅色上衣和白色短褲改為全紅色的主場球衣，並沿用至今，因此有「紅軍」的稱號。俱樂部的隊歌為《You'll Never Walk...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E7%89%A9%E6%B5%A6%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -238,6 +239,7 @@
       "zh_title": "",
       "translated_from": "Olympique de Marseille"
     },
+    "club|Monaco": {},
     "club|Napoli": {
       "description": "那不勒斯足球俱乐部（義大利語：Società Sportiva Calcio Napoli），簡稱為那不勒斯，是一家設於坎帕尼亞大區首府那不勒斯的意大利職業足球會，現正於意大利甲組足球聯賽進行比賽，為意大利足球联赛系统的頂級賽事。拿玻里於1926年成立，曾贏得4次意甲聯賽冠軍、6次意大利盃冠軍、2次意大利超級盃，以及1次歐洲足協盃。 據統計，拿坡里於意大利擁有第4多的球迷。於2015年，拿玻里於意甲聯賽最有價值球會的排行榜中排名第5，亦被列入同年的福布斯足球俱乐部财富排行榜。球會為歐洲足球會協會其中一員，截至2016年1月，拿玻里於歐洲足協積分排名中位列第8，於一眾意大利球會中則排名第2。 自1959年起，拿玻里以位於城市西郊Fuorigrotta地區的聖保羅球場作為主場。球隊的球衣主色調為天藍色配上白色短褲，會歌則為「'O surdato...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/SSC_Napoli_2025_%28white_and_azure%29.svg/500px-SSC_Napoli_2025_%28white_and_azure%29.svg.png",
@@ -449,6 +451,15 @@
       "wiki_variant": "legacy-zh"
     },
     "player|2026 World Cup": {},
+    "player|AC Milan": {
+      "description": "米蘭足球俱樂部（義大利語：Associazione Calcio Milan）是一家位於義大利北部倫巴第大區米蘭市的足球俱乐部。為了和同在米蘭的另一家足球俱樂部國際米蘭區別，一般被稱為AC米蘭或米蘭，目前於義大利足球甲级联赛比賽。 AC米蘭是意大利最受欢迎的足球俱樂部之一，根據2010年德國著名體育市場調查公司Sport+Markt的調查，AC米兰的球迷人數名列歐洲第七位，達到1840萬人，是歐洲最受歡迎的意大利球會。 AC米蘭是全世界獲得主要洲际和大洲俱樂部賽事冠軍的球隊之一，包括7次歐洲冠軍杯冠軍、5次歐洲超級杯冠軍、2次欧洲优胜者杯冠军和4次洲際盃和世俱杯冠軍。在意大利國內AC米蘭總共獲得過19次意甲聯賽冠軍，2次意乙聯賽冠軍，5次杯賽冠軍和8次意大利超級盃冠军。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/500px-Logo_of_AC_Milan.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/AC%E7%B1%B3%E5%85%B0",
+      "wiki_title": "AC米兰",
+      "source_language": "zh",
+      "wiki_variant": "zh",
+      "zh_title": ""
+    },
     "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
@@ -500,8 +511,10 @@
     },
     "player|Antoine Kombouaré": {},
     "player|Arsene Wenger": {},
+    "player|Aston Villa’s Emi Martinez": {},
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
+    "player|Australia v Turkey": {},
     "player|Baldini coy on Italy future": {},
     "player|Barca Legends": {},
     "player|Barney Ronay": {},
@@ -522,6 +535,7 @@
     },
     "player|Best Canada": {},
     "player|Beth Mead": {},
+    "player|Big Lalas Energy to ulcerative colitis meds": {},
     "player|Billionaire West Ham": {},
     "player|Bomba en Mallorca": {},
     "player|Bosnia’s Tarik Muharemovic": {},
@@ -578,6 +592,7 @@
       "zh_title": "",
       "translated_from": "César Peixoto"
     },
+    "player|DR Congo": {},
     "player|Dani Olmo": {
       "description": "丹尼尔·奥尔莫·卡瓦哈尔（西班牙语： Daniel Olmo Carvajal ， 1998年5月7日－ ）是一名西班牙职业足球运动员，曾在巴塞罗那西甲俱乐部和西班牙国家队担任攻击型中场或左边锋。在La Masia工作了一段时间后， Olmo于2015年在克罗地亚的萨格勒布迪纳摩队首次亮相。他为俱乐部总共出场124次，打入34球，五次赢得联赛冠军，...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dani_Olmo_2022.jpg/500px-Dani_Olmo_2022.jpg",
@@ -690,6 +705,7 @@
     "player|Estéban Lepaul": {},
     "player|Euro Final": {},
     "player|Evan Ferguson": {},
+    "player|Everton’s Iliman Ndiaye": {},
     "player|Ewan Murray": {},
     "player|Ewen Jaouen": {
       "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
@@ -719,6 +735,7 @@
     "player|Harry Kane": {},
     "player|Herbert Hainer": {},
     "player|Hidalgo ya tiene al primer refuerzo de Primera": {},
+    "player|Hollywood Walk": {},
     "player|Hugo Sotelo": {
       "description": "雨果·索特洛·戈麦斯（ Hugo Sotelo Gómez ， 2003年12月19日－ ）是一名西班牙职业足球运动员，曾在西甲俱乐部塞尔塔·德维戈（ Celta de Vigo ）担任中场球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hugo_Sotelo_%28cropped%29.png",
@@ -817,6 +834,7 @@
     },
     "player|Katy Perry": {},
     "player|Kelly Cates": {},
+    "player|Kenan Yildiz’s": {},
     "player|Kennet Eichhorn": {
       "description": "肯尼特·艾希霍恩（德语： Kennet Eichhorn ， 2009年7月27日－ ）是一名德国职业足球运动员，曾担任2名防守型中场球员。Bundesliga club Hertha BSC.",
       "image_url": "",
@@ -839,12 +857,16 @@
       "zh_title": "",
       "translated_from": "Randal Kolo Muani"
     },
+    "player|Kylian Mbappé on Michael Olise": {},
     "player|La Liga": {},
     "player|La Repubblica": {},
     "player|Lamine Camara": {},
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
+    "player|Lens’ Hervé Koffi": {},
     "player|Liam Rosenior": {},
+    "player|Lille’s Ayyoub Bouaddi": {},
+    "player|Lorient’s Pablo Pagis": {},
     "player|Los Angeles": {},
     "player|Los mundos de Klopp": {},
     "player|Luca Koleosho": {
@@ -893,6 +915,7 @@
     },
     "player|Matej Kovar": {},
     "player|Matteo Moretto": {},
+    "player|Matthias Jaissle": {},
     "player|Matthis Abline": {
       "description": "Matthis Abline （ 2003年3月28日出生）是一名法国职业足球运动员，曾在南特联赛2俱乐部担任前锋。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Abline_asse_fcn_2425.png",
@@ -1005,6 +1028,7 @@
     "player|Pierre Sage": {},
     "player|Play BBC Sport": {},
     "player|Premier League 2025-26 season review": {},
+    "player|RB Salzburg": {},
     "player|Rafael Leao": {},
     "player|Ralf Rangnick": {},
     "player|Randal Kolo Muani": {},
@@ -1012,6 +1036,7 @@
     "player|Real Betis": {},
     "player|Reggiani’s Italy": {},
     "player|Roberto Gómez": {},
+    "player|Rodez’s Nolan Galves": {},
     "player|Rodez’s Taïryk Arconte": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
@@ -1035,6 +1060,7 @@
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|South Africa": {},
     "player|South Korea": {},
+    "player|Spectacular Vinicius Jr": {},
     "player|Spurs’ Dragusin": {},
     "player|St Mirren": {},
     "player|Standard Liege’s Matthieu Epolo": {},
@@ -1103,6 +1129,7 @@
       "zh_title": "",
       "translated_from": "Shaqueel van Persie"
     },
+    "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Víctor Muñoz": {},
     "player|West Ham": {},
