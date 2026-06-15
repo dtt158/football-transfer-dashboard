@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T14:29:09Z",
+  "generated_at": "2026-06-15T05:27:12Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -508,6 +508,7 @@
       "translated_from": "Allan Saint-Maximin"
     },
     "player|Allegri to Napoli": {},
+    "player|Amad Diallo": {},
     "player|Américo Branco": {},
     "player|Anthony Gordon": {
       "description": "安东尼·迈克尔·戈登（英语：Anthony Michael Gordon，2001年2月24日—）是英格兰男子足球员，现效力于英格兰超级足球联赛球会纽卡索，将在2026年7月1日加入西班牙足球甲级联赛俱乐部巴塞隆纳。英格兰足球代表队成员。",
@@ -667,6 +668,7 @@
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|EXCLUSIVE | Michael Owen": {},
+    "player|Eintracht Frankfurt": {},
     "player|El Alba": {},
     "player|El Andorra": {},
     "player|El Aston Villa": {},
@@ -678,6 +680,7 @@
     "player|El Huesca vuelve a pescar en la Cultural": {},
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
+    "player|El Oviedo": {},
     "player|El PSG": {},
     "player|El Rayo Vallecano": {},
     "player|Electric Ben Gannon-Doak": {},
@@ -693,6 +696,7 @@
     },
     "player|Emi Martinez": {},
     "player|England’s Declan Rice": {},
+    "player|England’s X-factor": {},
     "player|Envoy’s Proposal": {},
     "player|Enzo Bardeli": {
       "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
@@ -737,12 +741,14 @@
     "player|Former Marseille": {},
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
+    "player|France’s Adrien Rabiot": {},
     "player|France’s Manu Kone": {},
     "player|France’s Ousmane Dembélé": {},
     "player|France’s Rayan Cherki": {},
     "player|France’s William Saliba": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
+    "player|Graham Arnold": {},
     "player|Graham Potter": {},
     "player|Greece 0-1 Italy": {},
     "player|Hansi Flick": {},
@@ -760,6 +766,7 @@
       "zh_title": "",
       "translated_from": "Hugo Sotelo"
     },
+    "player|INSTANT REACTION | Germany 7-1 Curaçao": {},
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
     "player|International Friendly Liveblog": {},
@@ -905,6 +912,7 @@
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
     "player|Man Utd": {},
+    "player|Marc Cucurella": {},
     "player|Marco Palestra": {
       "description": "马尔科·帕拉（ 2005年3月3日出生）是一名意大利职业足球运动员，他从亚特兰大租借，在意甲卡利亚里俱乐部和意大利国家队担任右后卫或右后卫。",
       "image_url": "",
@@ -1075,6 +1083,8 @@
       "zh_title": "",
       "translated_from": "Ruben Amorim"
     },
+    "player|Rubén Albés": {},
+    "player|Ryunosuke Sato": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
     "player|Scotland’s World Cup": {},
@@ -1133,6 +1143,7 @@
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Two-goal Yasin Ayari": {},
     "player|Udinese’s Arthur Atta": {},
     "player|Valentín Barco": {
       "description": "巴伦廷·巴尔科（西班牙语：Valentín Barco；2004年7月23日—）是一名阿根廷的职业足球运动员，司职左后卫。现效力法甲球队斯特拉斯堡竞赛会。阿根廷国家足球队成员。",
@@ -1190,6 +1201,7 @@
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
     "player|Yann Bisseck": {},
+    "player|Young Socceroos": {},
     "player|Zambo Anguissa": {
       "description": "安德烈-法兰克·森保·安古沙（法语：André-Frank Zambo Anguissa，1995年11月16日—），是一名喀麦隆职业足球员，司职中场，现时效力意甲球会拿玻里，并代表喀麦隆参与国际赛事。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ZAMBO_ANGUISSA.jpg/500px-ZAMBO_ANGUISSA.jpg",
