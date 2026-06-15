@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T05:27:12Z",
+  "generated_at": "2026-06-15T17:30:32Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -212,6 +212,16 @@
       "source_language": "zh",
       "wiki_variant": "original",
       "zh_title": ""
+    },
+    "club|Man City": {
+      "description": "曼彻斯特城足球俱乐部（英语：Manchester City Football Club），简称曼城（英语：Man City），是一家位于英国曼彻斯特的足球俱乐部，前身为成立于1880年的“圣马可的西戈顿”（英语：St. Mark's West Gorton），1887年改名为阿德维克足球俱乐部（英语：Ardwick Association Football Club），1894年改名为“曼彻斯特城”。同年，曼城正式采用天蓝色作主场球衣颜色，这也是他们被称为蓝月亮的第一个赛季。目前于英格兰超级联赛比赛。球队主场为阿提哈德球场（又被译作“伊蒂哈德球场”）。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%BD%BB%E6%96%AF%E7%89%B9%E5%9F%8E%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "曼彻斯特城足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Manchester City F.C."
     },
     "club|Man United": {},
     "club|Manchester City": {
@@ -460,6 +470,7 @@
       "wiki_variant": "legacy-zh"
     },
     "player|2026 World Cup": {},
+    "player|2026 World Cup updates": {},
     "player|AC Milan": {
       "description": "米蘭足球俱樂部（義大利語：Associazione Calcio Milan）是一家位於義大利北部倫巴第大區米蘭市的足球俱乐部。為了和同在米蘭的另一家足球俱樂部國際米蘭區別，一般被稱為AC米蘭或米蘭，目前於義大利足球甲级联赛比賽。 AC米蘭是意大利最受欢迎的足球俱樂部之一，根據2010年德國著名體育市場調查公司Sport+Markt的調查，AC米兰的球迷人數名列歐洲第七位，達到1840萬人，是歐洲最受歡迎的意大利球會。 AC米蘭是全世界獲得主要洲际和大洲俱樂部賽事冠軍的球隊之一，包括7次歐洲冠軍杯冠軍、5次歐洲超級杯冠軍、2次欧洲优胜者杯冠军和4次洲際盃和世俱杯冠軍。在意大利國內AC米蘭總共獲得過19次意甲聯賽冠軍，2次意乙聯賽冠軍，5次杯賽冠軍和8次意大利超級盃冠军。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/500px-Logo_of_AC_Milan.svg.png",
@@ -550,8 +561,10 @@
     "player|Big Lalas Energy to ulcerative colitis meds": {},
     "player|Billionaire West Ham": {},
     "player|Bomba en Mallorca": {},
+    "player|Borussia Dortmund’s Felix Nmecha": {},
     "player|Bosnia’s Tarik Muharemovic": {},
     "player|Brahim Diaz": {},
+    "player|Brazil-born Nunes": {},
     "player|Brest’s Daouda Guindo": {},
     "player|Bukayo Saka": {
       "description": "布卡约·阿约因卡·泰米达约·萨卡（英语：Bukayo Ayoyinka Temidayo Saka，2001年9月5日—）是一名英格兰职业足球员，司职翼锋，出身于阿仙奴青训系统，现时效力英超球会阿仙奴，并代表英格兰国家队出战国际比赛。擅于盘扭、护球、及优良球赛视野使其为现今球坛最高身价的翼锋及足坛超级巨星之一 。",
@@ -669,11 +682,13 @@
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|EXCLUSIVE | Michael Owen": {},
     "player|Eintracht Frankfurt": {},
+    "player|Eintracht Frankfurt’s Markus Krösche": {},
     "player|El Alba": {},
     "player|El Andorra": {},
     "player|El Aston Villa": {},
     "player|El Barça": {},
     "player|El Bayer Leverkusen": {},
+    "player|El Birmingham": {},
     "player|El Celta": {},
     "player|El Dépor": {},
     "player|El Getafe": {},
@@ -683,6 +698,17 @@
     "player|El Oviedo": {},
     "player|El PSG": {},
     "player|El Rayo Vallecano": {},
+    "player|El Shaarawy": {
+      "description": "斯特凡·卡里姆·沙拉维（义大利语：Stephan Kareem El Shaarawy，阿拉伯语：ستيفان کریم الشعراوي；1992年10月27日—），是埃及裔意大利男子职业足球运动员，司职前锋，现在效力于意甲球队罗马，同时也效力于意大利国家足球队。他的昵称为“小法老”（Il Faraone），因他的父亲为埃及人。 艾沙拉维于热那亚开始其职业生涯。在外借至帕多瓦有着出色的表现后，AC米兰于2011年签下他。艾沙拉维被认为是其中一位最有潜质的年轻球员，2012年西班牙杂志Don Balón评定他为出生于1991年之后的其中一位顶级的球员，而他于卫报的全球最佳球员排行榜中排名第52。 在国家队方面，艾沙拉维曾代表意大利 U16至U19国家队上阵。2011年11月15日，他晋升至意大利...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Stephan_El_Shaarawy.jpg/500px-20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Stephan_El_Shaarawy.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%89%B9%E5%87%A1%C2%B7%E6%B2%99%E6%8B%89%E7%BB%B4",
+      "wiki_title": "斯特凡·沙拉维",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Stephan El Shaarawy"
+    },
+    "player|El Valencia": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
@@ -753,6 +779,7 @@
     "player|Greece 0-1 Italy": {},
     "player|Hansi Flick": {},
     "player|Harry Kane": {},
+    "player|Henderson’s Euro": {},
     "player|Herbert Hainer": {},
     "player|Hidalgo ya tiene al primer refuerzo de Primera": {},
     "player|Hollywood Walk": {},
@@ -779,6 +806,7 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
+    "player|Ismael Saibari": {},
     "player|Ismaël Saibari": {},
     "player|Ivory Coast": {},
     "player|Jacob Steinberg": {},
@@ -911,6 +939,7 @@
       "zh_title": "",
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
+    "player|Man Uni": {},
     "player|Man Utd": {},
     "player|Marc Cucurella": {},
     "player|Marco Palestra": {
@@ -957,6 +986,7 @@
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
     "player|Milan forward Gimenez": {},
+    "player|Milan-linked Krösche": {},
     "player|Milan’s Christian Pulisic": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
@@ -995,6 +1025,7 @@
     "player|North America’s": {},
     "player|Nottingham Forest": {},
     "player|Nottingham Forest’s Nicolo Savona": {},
+    "player|Nuno Mendes": {},
     "player|OGC Nice": {},
     "player|OGC Nice’s Charles Vanhoutte": {},
     "player|Oliver Glasner": {
@@ -1059,6 +1090,7 @@
     "player|Pierre Sage": {},
     "player|Play BBC Sport": {},
     "player|Premier League 2025-26 season review": {},
+    "player|Provedel Inter": {},
     "player|RB Salzburg": {},
     "player|Rafael Leao": {},
     "player|Ralf Rangnick": {},
@@ -1085,6 +1117,7 @@
     },
     "player|Rubén Albés": {},
     "player|Ryunosuke Sato": {},
+    "player|Sabri Lamouchi": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
     "player|Scotland’s World Cup": {},
@@ -1094,6 +1127,7 @@
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|South Africa": {},
     "player|South Korea": {},
+    "player|Spain v Cape Verde": {},
     "player|Spectacular Vinicius Jr": {},
     "player|Spurs’ Dragusin": {},
     "player|St Mirren": {},
@@ -1155,6 +1189,7 @@
       "zh_title": "",
       "translated_from": "Valentín Barco"
     },
+    "player|Van Dijk": {},
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/500px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg",
