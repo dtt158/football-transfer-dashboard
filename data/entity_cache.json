@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T05:32:34Z",
+  "generated_at": "2026-06-16T17:24:44Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -186,7 +186,15 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|Lille": {},
+    "club|Lille": {
+      "description": "里爾奧林匹克體育會（法語：Lille Olympique Sporting Club Lille Métropole，法語發音：[lil ɔlɛ̃pik]，簡稱 Lille OSC、 LOSC Lille或更簡單的Lille）乃法國一家足球會，位處法國北部最大的城市，北部-加莱海峡大区首府和诺尔省省会里爾市。它是在1944年由兩家法國球會通過併購中成立，現時在法國甲組足球聯賽作賽。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%87%8C%E7%88%BE%E5%A5%A7%E6%9E%97%E5%8C%B9%E5%85%8B%E9%AB%94%E8%82%B2%E6%9C%83",
+      "wiki_title": "里爾奧林匹克體育會",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Liverpool": {
       "description": "利物浦足球俱樂部（英語：Liverpool Football Club，縮寫：LFC或LIV）是一家位於英國英格蘭西北部默西賽德郡港口城市利物浦的英格蘭職業足球俱樂部，目前參賽級別為英格蘭足球超級聯賽。俱樂部成立於1892年6月3日，次年加入英格蘭足球聯賽，俱樂部自成立以來一直以安菲爾德球場作為主場。利物浦是世界上最有價值和最廣受支持的足球俱樂部之一，其市值與收入及全球球迷數量均位於歐洲足球俱樂部前列。 1964年，在比爾·辛奇利的管理下，球隊從過往的紅色上衣和白色短褲改為全紅色的主場球衣，並沿用至今，因此有「紅軍」的稱號。俱樂部的隊歌為《You'll Never Walk...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E5%88%A9%E7%89%A9%E6%B5%A6%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -223,7 +231,16 @@
       "zh_title": "",
       "translated_from": "Manchester City F.C."
     },
-    "club|Man United": {},
+    "club|Man United": {
+      "description": "曼联足球俱乐部（英语：Manchester United Football Club）简称曼联（Manchester United），是一家位于英国大曼彻斯特郡特拉福德的足球俱乐部，前身为成立于1878年的“纽顿希夫LYR”（Newton Heath LYR F.C.），1902年改名为曼联。目前于英格兰足球超级联赛作赛。球队主场为奥脱福球场。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%BE%B9%E6%96%AF%E7%89%B9%E8%81%AF%E8%B6%B3%E7%90%83%E4%BF%B1%E6%A8%82%E9%83%A8",
+      "wiki_title": "曼徹斯特聯足球俱樂部",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Manchester United F.C."
+    },
     "club|Manchester City": {
       "description": "曼徹斯特城足球俱樂部（英語：Manchester City Football Club），簡稱曼城（英語：Man City），是一家位於英國曼徹斯特的足球俱樂部，前身為成立於1880年的「圣马可的西戈顿」（英語：St. Mark's West Gorton），1887年改名為阿德维克足球俱乐部（英語：Ardwick Association Football Club），1894年改名為「曼徹斯特城」。同年，曼城正式採用天藍色作主場球衣顏色，這也是他們被稱為藍月亮的第一個賽季。目前於英格蘭超級聯賽比賽。球隊主场為阿提哈德球场（又被译作“伊蒂哈德球場”）。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/EnglandGreaterManchester.png",
@@ -532,6 +549,8 @@
     "player|Allegri to Napoli": {},
     "player|Amad Diallo": {},
     "player|Américo Branco": {},
+    "player|André-Pierre Gignac": {},
+    "player|Ansu Fati": {},
     "player|Anthony Gordon": {
       "description": "安东尼·迈克尔·戈登（英语：Anthony Michael Gordon，2001年2月24日—）是英格兰男子足球员，现效力于英格兰超级足球联赛球会纽卡索，将在2026年7月1日加入西班牙足球甲级联赛俱乐部巴塞隆纳。英格兰足球代表队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gordon_in_2024.jpg/500px-Gordon_in_2024.jpg",
@@ -574,7 +593,16 @@
     "player|Bleep tests, alcohol bans and Gazza": {},
     "player|Bobby Gardiner": {},
     "player|Bomba en Mallorca": {},
-    "player|Borussia Dortmund": {},
+    "player|Borussia Dortmund": {
+      "description": "多特蒙德足球俱乐部（ Borussia Dortmund ）是一支德国女子足球队，总部位于北莱茵-威斯特伐利亚州多特蒙德。俱乐部实现了连续晋级，在前三个赛季保持不败，最终进入地区联赛，并连续四次赢得Kreispokal。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund_(women)",
+      "wiki_title": "Borussia Dortmund (women)",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Borussia Dortmund (women)"
+    },
     "player|Borussia Dortmund’s Felix Nmecha": {},
     "player|Borussia Dortmund’s Julien Duranville": {},
     "player|Bosnia’s Tarik Muharemovic": {},
@@ -582,6 +610,7 @@
     "player|Brazil-born Nunes": {},
     "player|Brest’s Daouda Guindo": {},
     "player|Bruce Arena": {},
+    "player|Bruno Fernandes": {},
     "player|Bukayo Saka": {
       "description": "布卡约·阿约因卡·泰米达约·萨卡（英语：Bukayo Ayoyinka Temidayo Saka，2001年9月5日—）是一名英格兰职业足球员，司职翼锋，出身于阿仙奴青训系统，现时效力英超球会阿仙奴，并代表英格兰国家队出战国际比赛。擅于盘扭、护球、及优良球赛视野使其为现今球坛最高身价的翼锋及足坛超级巨星之一 。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/500px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg",
@@ -597,6 +626,7 @@
     "player|Cape Verde GK Vozinha": {},
     "player|Cape Verde’s Vozinha": {},
     "player|Carlos Martínez": {},
+    "player|Champions League": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
@@ -609,6 +639,7 @@
     },
     "player|Christian Pulisic": {},
     "player|Christophe Pélissier": {},
+    "player|Club Brugge": {},
     "player|Clément Lenglet": {
       "description": "基文迪·尼古拉·洛朗·朗格勒（法语：Clément Nicolas Laurent Lenglet，法语发音：[klemɑ̃ nikɔla lɔʁɑ̃ lɑ̃ɡlɛ]；1995年6月17日—），是一名法国职业足球员，司职中后卫。现效力西甲俱乐部马德里竞技。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sevilla-SM_%282%29_%28cropped%29_%282%29.jpg",
@@ -620,6 +651,7 @@
       "translated_from": "Clément Lenglet"
     },
     "player|Cold War Steve": {},
+    "player|Cologne’s Jakub": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Costa Rica": {},
@@ -673,6 +705,7 @@
       "zh_title": "",
       "translated_from": "Kevin De Bruyne"
     },
+    "player|De Zerbi": {},
     "player|Del Piero": {
       "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alessandro_Del_Piero_in_2014.jpg/500px-Alessandro_Del_Piero_in_2014.jpg",
@@ -696,11 +729,13 @@
     "player|Dibu Martinez": {},
     "player|Didier Deschamps": {},
     "player|Didier Digard": {},
+    "player|Dino Toppmöller": {},
     "player|Dunkerque’s Enzo Bardeli": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|EXCLUSIVE | Michael Owen": {},
     "player|Eintracht Frankfurt": {},
+    "player|Eintracht Frankfurt’s Jean-Matteo Bahoya": {},
     "player|Eintracht Frankfurt’s Markus Krösche": {},
     "player|El Alba": {},
     "player|El Andorra": {},
@@ -710,6 +745,7 @@
     "player|El Birmingham": {},
     "player|El Celta": {},
     "player|El Dépor": {},
+    "player|El Espanyol": {},
     "player|El Getafe": {},
     "player|El Huesca vuelve a pescar en la Cultural": {},
     "player|El Marsella piensa en Akor": {},
@@ -790,6 +826,7 @@
       "zh_title": "",
       "translated_from": "Federico Chiesa"
     },
+    "player|Ferland Mendy": {},
     "player|Florentino Pérez": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
@@ -801,6 +838,8 @@
     "player|France’s Ousmane Dembélé": {},
     "player|France’s Rayan Cherki": {},
     "player|France’s William Saliba": {},
+    "player|Franck Leboeuf": {},
+    "player|From Shamrock Rovers to defying Spain": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
     "player|Graham Arnold": {},
@@ -838,6 +877,7 @@
     "player|Ismael Saibari": {},
     "player|Ismaël Saibari": {},
     "player|Ivory Coast": {},
+    "player|Izan González": {},
     "player|Jacob Steinberg": {},
     "player|Jean Butez": {
       "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
@@ -882,6 +922,7 @@
     "player|Jonathan David": {},
     "player|Jonathan Wilson": {},
     "player|Jorge Mendes": {},
+    "player|Joshua Kimmich defends Leroy Sané": {},
     "player|José Mourinho": {},
     "player|José Mourinho’s": {},
     "player|Juan Iglesias": {
@@ -898,6 +939,7 @@
     "player|Julián Alvarez’s": {},
     "player|Juventus Sorloth": {},
     "player|Juventus-linked Martinez": {},
+    "player|Juventus’ Andrea Cambiaso": {},
     "player|Jürgen Klopp": {},
     "player|Jürgen Klopp’s": {},
     "player|Kang-in Lee": {
@@ -935,6 +977,7 @@
       "zh_title": "",
       "translated_from": "Randal Kolo Muani"
     },
+    "player|Konrad Laimer": {},
     "player|Kylian Mbappé on Michael Olise": {},
     "player|La Liga": {},
     "player|La Repubblica": {},
@@ -958,7 +1001,16 @@
       "translated_from": "Luca Koleosho"
     },
     "player|Lucas Chevalier": {},
-    "player|Luis Carrión": {},
+    "player|Luis Carrión": {
+      "description": "路易斯·米格尔·卡里翁·德尔加多（西班牙语： Luis Miguel Carrión Delgado ， 1979年2月7日－ ）是一名西班牙前职业足球运动员，曾担任右后卫",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Luis_Carri%C3%B3n",
+      "wiki_title": "Luis Carrión",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Luis Carrión"
+    },
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -983,6 +1035,7 @@
       "zh_title": "",
       "translated_from": "Marco Palestra"
     },
+    "player|Marcus Rashford": {},
     "player|Marseille’s Bilal Nadir": {},
     "player|Martin O’Neill": {},
     "player|Mason Greenwood": {
@@ -996,6 +1049,7 @@
       "translated_from": "Mason Greenwood"
     },
     "player|Matej Kovar": {},
+    "player|Matias Soulé’s": {},
     "player|Matteo Moretto": {},
     "player|Matthias Jaissle": {},
     "player|Matthis Abline": {
@@ -1096,6 +1150,7 @@
     "player|Out-of-contract XIs": {},
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
+    "player|Partey WC": {},
     "player|Patrick Videira": {},
     "player|Patrik Mercado": {
       "description": "帕特里克·克莱弗·梅尔卡多·阿尔塔米拉诺（ Patrik Kleiver Mercado Altamirano ， 2003年7月31日－ ）是一名厄瓜多尔足球运动员，目前在独立山谷队（ Independiente del Valle ）和厄瓜多尔国家队（ Ec他将在2026年世界杯后加入西甲俱乐部塞维利亚。",
@@ -1133,6 +1188,7 @@
     "player|Rayo Vallecano": {},
     "player|Raúl Jardiel": {},
     "player|Real Betis": {},
+    "player|Red Star": {},
     "player|Reggiani’s Italy": {},
     "player|Roberto Gómez": {},
     "player|Rodez’s Nolan Galves": {},
@@ -1177,6 +1233,7 @@
     },
     "player|Scotland’s World Cup": {},
     "player|Serhou Guirassy’s": {},
+    "player|Sevilla FC": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
@@ -1229,11 +1286,13 @@
       "zh_title": "托马斯·图赫尔",
       "translated_from": "Thomas Tuchel"
     },
+    "player|Today’s Papers": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Two-goal Yasin Ayari": {},
     "player|Udinese’s Arthur Atta": {},
+    "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
       "description": "巴伦廷·巴尔科（西班牙语：Valentín Barco；2004年7月23日—）是一名阿根廷的职业足球运动员，司职左后卫。现效力法甲球队斯特拉斯堡竞赛会。阿根廷国家足球队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg/500px-Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg",
@@ -1282,7 +1341,16 @@
       "zh_title": "",
       "translated_from": "William Carvalho"
     },
-    "player|World Cup": {},
+    "player|World Cup": {
+      "description": "国际足球总会世界杯（英语：FIFA World Cup），又称世界杯足球赛，常简称世界杯（英语：World Cup），是男子国家足球队之间的国际性赛事，由世界足坛最高管理机构国际足球协会（FIFA）每4年举办1次，与奥运会交替进行。1930年为世界杯的首届赛事，而1942年、1946年则因第二次世界大战而停办。今日的世界杯为世界最具影响力的国际单项目体育赛事，自1998年法国世界杯起电视转播观众人数达到40亿人次，2022年世界杯决赛有15亿人次收看。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg/500px-ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9C%8B%E9%9A%9B%E8%B6%B3%E5%8D%94%E4%B8%96%E7%95%8C%E7%9B%83",
+      "wiki_title": "國際足協世界盃",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "FIFA World Cup"
+    },
     "player|World Cup 2026": {},
     "player|World Cup 2026 news": {},
     "player|World Cup 2026 visa chaos": {},
@@ -1302,6 +1370,7 @@
       "zh_title": "",
       "translated_from": "Frank Anguissa"
     },
+    "player|Zinedine Zidane": {},
     "player|Zohran Mamdani": {}
   }
 }
