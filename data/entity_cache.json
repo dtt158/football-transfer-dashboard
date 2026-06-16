@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T17:30:32Z",
+  "generated_at": "2026-06-16T05:32:34Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -469,6 +469,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|1982 Italy winner Collovati slams Infantino": {},
     "player|2026 World Cup": {},
     "player|2026 World Cup updates": {},
     "player|AC Milan": {
@@ -484,6 +485,16 @@
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
     "player|Al Sadd": {},
+    "player|Alan Hutton": {
+      "description": "安东尼·\"阿伦\"·侯顿（英语：Anthony \"Alan\" Hutton，1984年11月30日—）是一名前苏格兰职业足球员，司职右后卫，最后效力于阿士东维拉，亦是前苏格兰国家队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Alan_Hutton.jpg/500px-Alan_Hutton.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%85%B0%C2%B7%E8%B5%AB%E9%A1%BF",
+      "wiki_title": "阿兰·赫顿",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Alan Hutton"
+    },
     "player|Albert Grønbæk": {
       "description": "阿尔伯特·格伦拜克·埃利克（ Albert Grønbæk Erlykke ， 2001年5月23日－ ）是一名丹麦职业足球运动员，是德国德甲汉堡俱乐部的中场球员，租借自法国雷恩俱乐部和丹麦国家队。作为一名多才多艺的球员，他可以被部署为中场、进攻中场或左边锋。",
       "image_url": "",
@@ -560,12 +571,17 @@
     "player|Beth Mead": {},
     "player|Big Lalas Energy to ulcerative colitis meds": {},
     "player|Billionaire West Ham": {},
+    "player|Bleep tests, alcohol bans and Gazza": {},
+    "player|Bobby Gardiner": {},
     "player|Bomba en Mallorca": {},
+    "player|Borussia Dortmund": {},
     "player|Borussia Dortmund’s Felix Nmecha": {},
+    "player|Borussia Dortmund’s Julien Duranville": {},
     "player|Bosnia’s Tarik Muharemovic": {},
     "player|Brahim Diaz": {},
     "player|Brazil-born Nunes": {},
     "player|Brest’s Daouda Guindo": {},
+    "player|Bruce Arena": {},
     "player|Bukayo Saka": {
       "description": "布卡约·阿约因卡·泰米达约·萨卡（英语：Bukayo Ayoyinka Temidayo Saka，2001年9月5日—）是一名英格兰职业足球员，司职翼锋，出身于阿仙奴青训系统，现时效力英超球会阿仙奴，并代表英格兰国家队出战国际比赛。擅于盘扭、护球、及优良球赛视野使其为现今球坛最高身价的翼锋及足坛超级巨星之一 。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1_bukayo_saka_arsenal_2025_%28cropped%29.jpg/500px-1_bukayo_saka_arsenal_2025_%28cropped%29.jpg",
@@ -577,6 +593,9 @@
       "translated_from": "Bukayo Saka"
     },
     "player|Can Vinicius": {},
+    "player|Cape Verde": {},
+    "player|Cape Verde GK Vozinha": {},
+    "player|Cape Verde’s Vozinha": {},
     "player|Carlos Martínez": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
@@ -761,6 +780,16 @@
       "translated_from": "Ewen Jaouen"
     },
     "player|Feature I Chevalier, Fati, Morton": {},
+    "player|Federico Chiesa": {
+      "description": "费德里科·奇萨（义大利语：Federico Chiesa；1997年10月25日—）是一位意大利职业足球运动员，在场上的位置通常是边锋，但也可以充当前锋、攻击型中场和中场角色。现时效力于英超球队利物浦。他也代表意大利国家足球队参赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Federico_Chiesa_2021_2.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%B2%BB%E5%BE%B7%E9%87%8C%E7%A7%91%C2%B7%E5%A5%87%E8%96%A9",
+      "wiki_title": "費德里科·奇薩",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Federico Chiesa"
+    },
     "player|Florentino Pérez": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
@@ -929,6 +958,7 @@
       "translated_from": "Luca Koleosho"
     },
     "player|Lucas Chevalier": {},
+    "player|Luis Carrión": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -939,6 +969,7 @@
       "zh_title": "",
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
+    "player|Mads Bidstrup": {},
     "player|Man Uni": {},
     "player|Man Utd": {},
     "player|Marc Cucurella": {},
@@ -997,6 +1028,7 @@
       "wiki_variant": "legacy-en"
     },
     "player|Mo Touré": {},
+    "player|Monaco’s Kassoum Ouattara": {},
     "player|Moritz Nicolas": {
       "description": "莫里茨·尼古拉斯（ Moritz Nicolas ， 1997年10月21日－ ）是一名德国职业足球运动员，曾在德甲门兴格拉德巴赫俱乐部（ Borussia Mönchengladbach ）担任守门员。",
       "image_url": "",
@@ -1009,6 +1041,7 @@
     },
     "player|Mourinho se despide del Benfica": {},
     "player|Mr Irreplaceable": {},
+    "player|Nathaniel Brown": {},
     "player|Newcastle United": {},
     "player|Nico Paz": {},
     "player|Nicolò Tresoldi": {
@@ -1089,10 +1122,12 @@
     "player|Philippe Senderos": {},
     "player|Pierre Sage": {},
     "player|Play BBC Sport": {},
+    "player|Premier League": {},
     "player|Premier League 2025-26 season review": {},
     "player|Provedel Inter": {},
     "player|RB Salzburg": {},
     "player|Rafael Leao": {},
+    "player|Rafael Leao’s": {},
     "player|Ralf Rangnick": {},
     "player|Randal Kolo Muani": {},
     "player|Rayo Vallecano": {},
@@ -1116,10 +1151,30 @@
       "translated_from": "Ruben Amorim"
     },
     "player|Rubén Albés": {},
+    "player|Russell Martin": {
+      "description": "罗素·坚尼夫·亚历山大·马田（英语：Russell Kenneth Alexander Martin，1986年1月4日—）生于布莱顿，是一名在英格兰出生的苏格兰职业足球员，司职右闸，最后效力米尔顿凯恩斯。曾执教英超球队南安普顿足球俱乐部。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Russell_Martin_2019.jpg/500px-Russell_Martin_2019.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%BD%97%E7%B4%A0%C2%B7%E9%A9%AC%E4%B8%81_(%E8%B6%B3%E7%90%83%E8%BF%90%E5%8A%A8%E5%91%98)",
+      "wiki_title": "罗素·马丁 (足球运动员)",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Russell Martin (footballer)"
+    },
     "player|Ryunosuke Sato": {},
     "player|Sabri Lamouchi": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Sarah Rhind": {},
+    "player|Saudi Arabia": {
+      "description": "沙特职业足球联赛（阿拉伯语：دوري المحترفين السعودي）是沙特阿拉伯的足球联赛，始于1976年。希拉尔夺得 19 次联赛冠军，是沙特联赛最成功的球队。联赛前三名及沙特国王杯冠军可得到亚足联冠军联赛参赛资格。 沙特职业足球联赛于2010–11年参赛队数由 12 队扩充到 14 队，到2018–19年再度增加至 16 队，2023–24年起增加至 18 队。沙特职业足球联赛在亚足联球会赛事排名稳居前列，希拉尔不仅是联赛最成功的俱乐部，也是亚足联冠军联赛夺冠最多的俱乐部。 自2023年开始，包括基斯坦奴·朗拿度、宾斯马、简迪等知名欧洲球星受高额薪资合同吸引而转会沙特职业足球联赛，沙特足球联赛实力迅速增强，引起欧洲足坛关注。同时沙特足球联赛被列入沙特阿拉伯2030年愿景，沙特阿拉伯公共投资基金收购了吉达国民、利雅得新月、吉达联合、利雅得胜利四家俱乐部。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%B2%99%E7%89%B9%E8%81%8C%E4%B8%9A%E8%B6%B3%E7%90%83%E8%81%94%E8%B5%9B",
+      "wiki_title": "沙特职业足球联赛",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Saudi Pro League"
+    },
     "player|Scotland’s World Cup": {},
     "player|Serhou Guirassy’s": {},
     "player|Sign up for the Football Daily newsletter": {},
