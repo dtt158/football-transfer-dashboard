@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T05:12:29Z",
+  "generated_at": "2026-06-17T16:04:44Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -502,6 +502,7 @@
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
     "player|Al Sadd": {},
+    "player|Al Valencia": {},
     "player|Alan Hutton": {
       "description": "安东尼·\"阿伦\"·侯顿（英语：Anthony \"Alan\" Hutton，1984年11月30日—）是一名前苏格兰职业足球员，司职右后卫，最后效力于阿士东维拉，亦是前苏格兰国家队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Alan_Hutton.jpg/500px-Alan_Hutton.jpg",
@@ -622,6 +623,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Can Bellingham": {},
     "player|Can Vinicius": {},
     "player|Cape Verde": {},
     "player|Cape Verde GK Vozinha": {},
@@ -650,6 +652,7 @@
     },
     "player|Christian Pulisic": {},
     "player|Christophe Pélissier": {},
+    "player|Claude Puel": {},
     "player|Club Brugge": {},
     "player|Clément Lenglet": {
       "description": "基文迪·尼古拉·洛朗·朗格勒（法语：Clément Nicolas Laurent Lenglet，法语发音：[klemɑ̃ nikɔla lɔʁɑ̃ lɑ̃ɡlɛ]；1995年6月17日—），是一名法国职业足球员，司职中后卫。现效力西甲俱乐部马德里竞技。",
@@ -743,6 +746,7 @@
     "player|Didier Deschamps on Michael Olise": {},
     "player|Didier Digard": {},
     "player|Dino Toppmöller": {},
+    "player|Does Ousmane Dembélé": {},
     "player|Dunkerque’s Enzo Bardeli": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
@@ -755,17 +759,22 @@
     "player|El Aston Villa": {},
     "player|El Barça": {},
     "player|El Bayer Leverkusen": {},
+    "player|El Betis": {},
     "player|El Birmingham": {},
     "player|El Celta": {},
     "player|El Dépor": {},
+    "player|El Eibar": {},
+    "player|El Elche": {},
     "player|El Espanyol": {},
     "player|El Getafe": {},
+    "player|El Huesca": {},
     "player|El Huesca vuelve a pescar en la Cultural": {},
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El Oviedo": {},
     "player|El PSG": {},
     "player|El Rayo Vallecano": {},
+    "player|El Rayo decide su nuevo entrenador": {},
     "player|El Shaarawy": {
       "description": "斯特凡·卡里姆·沙拉维（义大利语：Stephan Kareem El Shaarawy，阿拉伯语：ستيفان کریم الشعراوي；1992年10月27日—），是埃及裔意大利男子职业足球运动员，司职前锋，现在效力于意甲球队罗马，同时也效力于意大利国家足球队。他的昵称为“小法老”（Il Faraone），因他的父亲为埃及人。 艾沙拉维于热那亚开始其职业生涯。在外借至帕多瓦有着出色的表现后，AC米兰于2011年签下他。艾沙拉维被认为是其中一位最有潜质的年轻球员，2012年西班牙杂志Don Balón评定他为出生于1991年之后的其中一位顶级的球员，而他于卫报的全球最佳球员排行榜中排名第52。 在国家队方面，艾沙拉维曾代表意大利 U16至U19国家队上阵。2011年11月15日，他晋升至意大利...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Stephan_El_Shaarawy.jpg/500px-20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Stephan_El_Shaarawy.jpg",
@@ -828,6 +837,7 @@
       "zh_title": "",
       "translated_from": "Ewen Jaouen"
     },
+    "player|FIFA World Cup 2026 and Serie A": {},
     "player|Feature I Chevalier, Fati, Morton": {},
     "player|Federico Chiesa": {
       "description": "费德里科·奇萨（义大利语：Federico Chiesa；1997年10月25日—）是一位意大利职业足球运动员，在场上的位置通常是边锋，但也可以充当前锋、攻击型中场和中场角色。现时效力于英超球队利物浦。他也代表意大利国家足球队参赛。",
@@ -891,6 +901,7 @@
     },
     "player|Ismael Saibari": {},
     "player|Ismaël Saibari": {},
+    "player|Issa Soumaré": {},
     "player|Ivory Coast": {},
     "player|Izan González": {},
     "player|Jacob Steinberg": {},
@@ -1007,6 +1018,7 @@
     "player|La Liga": {},
     "player|La Repubblica": {},
     "player|Lamine Camara": {},
+    "player|Las Palmas": {},
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
     "player|Lens’ Hervé Koffi": {},
@@ -1047,7 +1059,9 @@
       "zh_title": "",
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
+    "player|Lyon’s Afonso Moreira": {},
     "player|Mads Bidstrup": {},
+    "player|Maffeo, antes de poner rumbo al Olympiacos": {},
     "player|Man Uni": {},
     "player|Man Utd": {},
     "player|Manu Kone": {},
@@ -1106,8 +1120,10 @@
     "player|Messi v Ronaldo": {},
     "player|Mexico v South Africa": {},
     "player|Michael Olise": {},
+    "player|Michel Der Zakarian": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
+    "player|Mikel Merino": {},
     "player|Milan forward Gimenez": {},
     "player|Milan-linked Krösche": {},
     "player|Milan’s Christian Pulisic": {},
@@ -1121,6 +1137,7 @@
     },
     "player|Mo Touré": {},
     "player|Monaco’s Kassoum Ouattara": {},
+    "player|Montpellier’s Téji Savanier": {},
     "player|Moritz Nicolas": {
       "description": "莫里茨·尼古拉斯（ Moritz Nicolas ， 1997年10月21日－ ）是一名德国职业足球运动员，曾在德甲门兴格拉德巴赫俱乐部（ Borussia Mönchengladbach ）担任守门员。",
       "image_url": "",
@@ -1133,6 +1150,7 @@
     },
     "player|Mourinho se despide del Benfica": {},
     "player|Mr Irreplaceable": {},
+    "player|NO PUBLICAR Así": {},
     "player|Nathaniel Brown": {},
     "player|Newcastle United": {},
     "player|Newcastle United’s": {},
@@ -1190,6 +1208,7 @@
     "player|Out-of-contract XIs": {},
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
+    "player|Parma’s Suzuki": {},
     "player|Partey WC": {},
     "player|Patrick Videira": {},
     "player|Patrik Mercado": {
@@ -1216,7 +1235,9 @@
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
     "player|Pierre Sage": {},
+    "player|Pierre Sage’s Crystal Palace": {},
     "player|Play BBC Sport": {},
+    "player|Portugal v DR Congo": {},
     "player|Premier League": {},
     "player|Premier League 2025-26 season review": {},
     "player|Project Mbappe": {},
@@ -1332,6 +1353,7 @@
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Two-goal Yasin Ayari": {},
+    "player|Téji Savanier": {},
     "player|Udinese’s Arthur Atta": {},
     "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
@@ -1366,6 +1388,16 @@
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Víctor Muñoz": {},
+    "player|West Brom": {
+      "description": "西布朗足球会（英语：West Bromwich Albion Football Club，发音为/wɛst ˈbrɒmɨdʒ/），简称“西布朗”（West Brom），英格兰西米德兰兹郡西布罗米奇的足球会，于1878年创立，是足球联盟创始成员，主场为山楂球场，现时在英格兰足球冠军联赛竞逐。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/EnglandWestMidlandsCounty.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%A5%BF%E5%B8%83%E7%BD%97%E5%A7%86%E7%BB%B4%E5%A5%87%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
+      "wiki_title": "西布罗姆维奇足球俱乐部",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "West Bromwich Albion F.C."
+    },
     "player|West Ham": {},
     "player|West Ham’s": {},
     "player|West Ham’s Mohamadou Kanté": {},
@@ -1412,6 +1444,7 @@
       "translated_from": "Frank Anguissa"
     },
     "player|Zinedine Zidane": {},
-    "player|Zohran Mamdani": {}
+    "player|Zohran Mamdani": {},
+    "player|‘The night before I dreamt about my ACL’": {}
   }
 }
