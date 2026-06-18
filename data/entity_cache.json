@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T05:02:49Z",
+  "generated_at": "2026-06-18T15:53:14Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -328,6 +328,7 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "club|Psv": {},
     "club|Real Madrid": {
       "description": "皇家馬德里足球俱樂部（西班牙語：Real Madrid Club de Fútbol），簡稱皇馬，是一家位於西班牙首都馬德里的足球俱樂部，被公認為足壇最頂尖的豪門之一。 皇家馬德里成立於1902年3月6日，原名為「馬德里足球會」（Madrid Football Club）。1920年西班牙國王阿方索十三世為球隊授予皇家的稱號與徽章上的皇冠。自俱樂部創立以來，皇家馬德里一直身穿全白的球衣。球隊主場是自1947年啟用的伯納烏球場，可以容納81044人。與大多數的歐洲職業運動實體不同，皇家馬德里由十幾萬名會員擁有並經營俱樂部。 皇家馬德里是目前贏得西班牙足球甲级联赛、歐洲冠軍聯賽、歐洲超級盃及世俱杯冠軍次數最多的足球俱樂部。國內賽事方面一共奪得36次西甲冠軍、20次西班牙國王盃冠軍及13次西班牙超級盃；歐洲賽事方面共奪得15次欧冠冠軍、2次歐洲足協盃冠軍及6次歐洲超級盃冠軍；洲際賽事方面共奪得3次洲際盃足球賽冠軍及5次世俱杯冠軍。...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E9%A9%AC%E5%BE%B7%E9%87%8C%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -595,6 +596,7 @@
     "player|Billionaire West Ham": {},
     "player|Bleep tests, alcohol bans and Gazza": {},
     "player|Bobby Gardiner": {},
+    "player|Boca Juniors": {},
     "player|Bomba en Mallorca": {},
     "player|Borussia Dortmund": {
       "description": "多特蒙德足球俱乐部（ Borussia Dortmund ）是一支德国女子足球队，总部位于北莱茵-威斯特伐利亚州多特蒙德。俱乐部实现了连续晋级，在前三个赛季保持不败，最终进入地区联赛，并连续四次赢得Kreispokal。",
@@ -676,6 +678,7 @@
     "player|Cristiano Ronaldo’s Al-Nassr": {},
     "player|Crystal Palace": {},
     "player|Cyle Larin": {},
+    "player|Czechia v South Africa": {},
     "player|César Peixoto": {
       "description": "保罗·塞萨尔·席尔瓦·佩索托（ Paulo César Silva Peixoto ， 1980年5月12日－ ）是一名葡萄牙前职业足球运动员，主要担任左中场，偶尔担任左后卫。他是Primeira Liga俱乐部Gil Vicente的经理。他在13个赛季中积累了总共205场比赛和25个进球，代表贝伦内斯、波尔图、吉马良斯、布拉加、本菲卡和吉尔维森特参加了比赛。他玩过一次……",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/C%C3%A9sar_Peixoto%2C_Confer%C3%AAncia_29.%C2%AA_Jornada_da_I_Liga_de_Futebol_2023.png/500px-C%C3%A9sar_Peixoto%2C_Confer%C3%AAncia_29.%C2%AA_Jornada_da_I_Liga_de_Futebol_2023.png",
@@ -790,6 +793,7 @@
       "zh_title": "",
       "translated_from": "Stephan El Shaarawy"
     },
+    "player|El Tenerife": {},
     "player|El Valencia": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Elliot Anderson": {
@@ -952,6 +956,7 @@
       "translated_from": "Jonah Kusi-Asare"
     },
     "player|Jonathan David": {},
+    "player|Jonathan Liew": {},
     "player|Jonathan Wilson": {},
     "player|Jorge Mendes": {},
     "player|Joshua Kimmich defends Leroy Sané": {},
@@ -985,6 +990,7 @@
       "translated_from": "Lee Kang-in"
     },
     "player|Katy Perry": {},
+    "player|Kean’s Fiorentina": {},
     "player|Kelly Cates": {},
     "player|Kenan Yildiz’s": {},
     "player|Kennet Eichhorn": {
@@ -1032,6 +1038,16 @@
     "player|Kylian Mbappé’s": {},
     "player|La Liga": {},
     "player|La Repubblica": {},
+    "player|Lalo Arantegui": {
+      "description": "Gonzalo Arantegui Peñafiel （ 1977年6月12日出生） ，俗称Lalo ，是一名西班牙退役足球运动员，曾担任右翼球员和足球总监。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Lalo_Arantegui",
+      "wiki_title": "Lalo Arantegui",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Lalo Arantegui"
+    },
     "player|Lamine Camara": {},
     "player|Las Palmas": {},
     "player|Lassana Diarra": {},
@@ -1198,6 +1214,7 @@
     "player|Nuno Mendes": {},
     "player|OGC Nice": {},
     "player|OGC Nice’s Charles Vanhoutte": {},
+    "player|OL Lyonnes": {},
     "player|Oliver Glasner": {
       "description": "奥利弗·格拉斯纳（德語：Oliver Glasner，1974年8月28日—）是一位奥地利前足球运动员及现任足球教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg/500px-2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg",
@@ -1267,6 +1284,7 @@
     "player|Premier League 2025-26 season review": {},
     "player|Project Mbappe": {},
     "player|Provedel Inter": {},
+    "player|RB Leipzig": {},
     "player|RB Salzburg": {},
     "player|Rafael Leao": {},
     "player|Rafael Leao’s": {},
@@ -1321,6 +1339,7 @@
     "player|Scotland’s World Cup": {},
     "player|Serhou Guirassy’s": {},
     "player|Sevilla FC": {},
+    "player|Si Bouaddi": {},
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
@@ -1448,6 +1467,7 @@
       "zh_title": "",
       "translated_from": "William Carvalho"
     },
+    "player|Women’s World Cup playoffs": {},
     "player|World Cup": {
       "description": "国际足球总会世界杯（英语：FIFA World Cup），又称世界杯足球赛，常简称世界杯（英语：World Cup），是男子国家足球队之间的国际性赛事，由世界足坛最高管理机构国际足球协会（FIFA）每4年举办1次，与奥运会交替进行。1930年为世界杯的首届赛事，而1942年、1946年则因第二次世界大战而停办。今日的世界杯为世界最具影响力的国际单项目体育赛事，自1998年法国世界杯起电视转播观众人数达到40亿人次，2022年世界杯决赛有15亿人次收看。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg/500px-ARG_Line-up_-_ARG_vs_MEX_for_2022_FIFA_WC.jpg",
