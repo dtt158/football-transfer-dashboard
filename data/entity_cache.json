@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T16:04:44Z",
+  "generated_at": "2026-06-18T05:02:49Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -550,6 +550,7 @@
     "player|Allegri to Napoli": {},
     "player|Amad Diallo": {},
     "player|Américo Branco": {},
+    "player|Andrea Cambiaso-Nico Jackson": {},
     "player|André-Pierre Gignac": {},
     "player|Ansu Fati": {},
     "player|Anthony Gordon": {
@@ -623,6 +624,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Caleb Yirenkyi’s": {},
     "player|Can Bellingham": {},
     "player|Can Vinicius": {},
     "player|Cape Verde": {},
@@ -640,6 +642,7 @@
       "zh_title": "中北美洲及加勒比海足協冠軍盃",
       "translated_from": "CONCACAF Champions Cup"
     },
+    "player|Chivu’s Inter": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
@@ -741,6 +744,7 @@
       "zh_title": "",
       "translated_from": "Denzel Dumfries"
     },
+    "player|Derek McInnes": {},
     "player|Dibu Martinez": {},
     "player|Didier Deschamps": {},
     "player|Didier Deschamps on Michael Olise": {},
@@ -749,6 +753,7 @@
     "player|Does Ousmane Dembélé": {},
     "player|Dunkerque’s Enzo Bardeli": {},
     "player|EURO Final": {},
+    "player|EXCLUSIVE | Chris Waddle": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|EXCLUSIVE | Michael Owen": {},
     "player|Eintracht Frankfurt": {},
@@ -811,6 +816,7 @@
       "zh_title": "",
       "translated_from": "Enzo Bardeli"
     },
+    "player|Eric Roy": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
@@ -1003,7 +1009,16 @@
       "zh_title": "",
       "translated_from": "Randal Kolo Muani"
     },
-    "player|Konrad Laimer": {},
+    "player|Konrad Laimer": {
+      "description": "康拉德·莱默（德语：Konrad Laimer；1997年5月27日—）是奥地利男子职业足球运动员。司职边锋。他现在效力于德甲球队拜仁慕尼黑。他也代表奥地利国家足球队参赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg/500px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%BA%B7%E6%8B%89%E5%BE%B7%C2%B7%E8%90%8A%E9%BB%98",
+      "wiki_title": "康拉德·萊默",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Konrad Laimer"
+    },
     "player|Kylian Mbappé": {
       "description": "基利安·姆巴佩·洛坦（法語：Kylian Mbappé Lottin，發音：[kiljan mbape] ；1998年12月20日—）是法国職業足球運動員，司職前鋒。現效力西甲俱樂部皇家馬德里並擔任法國國家足球隊隊長。 姆巴佩出生於法國巴黎，在附近的邦迪長大，於2015年加盟摩納哥足球俱樂部，並助摩納哥贏得了2016年至2017年賽季的法甲冠軍。2017年，姆巴佩以1.8億歐元的轉會費加盟巴黎聖日耳曼，成為史上身價第二高的球員和史上身價最高的青少年球員。其巴黎聖日耳曼贏得六次法甲冠軍和四次法國盃冠軍，其中包括2019-20賽季的國內四冠王，並在2020年帶領球隊首次闖入歐冠決賽。他是巴黎聖日耳曼史最佳射手，助攻數排名第三，也是法甲史上第七大射手。2024年，姆巴佩以自由轉會的方式加盟皇家馬德里。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Picture_with_Mbapp%C3%A9_%28cropped%29.jpg/500px-Picture_with_Mbapp%C3%A9_%28cropped%29.jpg",
@@ -1115,6 +1130,16 @@
       "translated_from": "Matthis Abline"
     },
     "player|Mauricio Pochettino": {},
+    "player|Mauro Arambarri": {
+      "description": "毛罗·维尔内·阿兰巴里·罗萨（西班牙语：Mauro Wilney Arambarri Rosa；1995年9月30日—），是一名乌拉圭的职业足球运动员，现效力西甲球会赫塔费。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Mauro_Arambarri_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%AF%9B%E7%BE%85%C2%B7%E9%98%BF%E8%98%AD%E5%B7%B4%E9%87%8C",
+      "wiki_title": "毛羅·阿蘭巴里",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Mauro Arambarri"
+    },
     "player|Max Allegri": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
@@ -1366,6 +1391,15 @@
       "zh_title": "",
       "translated_from": "Valentín Barco"
     },
+    "player|Van Bronckhorst": {
+      "description": "乔瓦尼·克里斯蒂安·范布隆克霍斯特（Giovanni Christiaan van Bronckhorst，1975年2月5日—）是荷蘭退役男子足球運動員，司職後衛。世界足壇最佳荷蘭巨星之一。 球員時期他效力過多家著名球會，如飛燕諾、格拉斯哥流浪、阿仙奴等等。2003年巴塞羅那請來荷蘭人列卡特出掌球會教練，雲邦荷斯便在該年加盟巴塞羅那。在巴塞期間他不但贏得多屆西甲聯賽冠軍，還於2006年協助球會贏得歐冠杯。雲邦荷斯早於1998年入選國家隊出戰世界杯，其後他亦出席了2000年、2004年、2008年三届歐洲國家盃。2006年世界盃荷兰队在十六強止步，2010年南非世界杯范布隆克霍斯特率队获得亚军。 作為後衛，雲邦荷斯並非僅僅擔任後衛，事實上他更能擔任左翼或打中場中路，不過無論在球會或國家隊，主要都是司職左後衛。除此之外，其外圍射術亦非常出色。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Giovanni_van_Brocnkhorst_20240803.jpg/500px-Giovanni_van_Brocnkhorst_20240803.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E7%93%A6%E5%B0%BC%C2%B7%E8%8C%83%E5%B8%83%E9%9A%86%E5%85%8B%E9%9C%8D%E6%96%AF%E7%89%B9",
+      "wiki_title": "乔瓦尼·范布隆克霍斯特",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Van Dijk": {},
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
@@ -1432,6 +1466,7 @@
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
     "player|Yann Bisseck": {},
+    "player|Yoane Wissa": {},
     "player|Young Socceroos": {},
     "player|Zambo Anguissa": {
       "description": "安德烈-法兰克·森保·安古沙（法语：André-Frank Zambo Anguissa，1995年11月16日—），是一名喀麦隆职业足球员，司职中场，现时效力意甲球会拿玻里，并代表喀麦隆参与国际赛事。",
