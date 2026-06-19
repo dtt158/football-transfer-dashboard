@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T05:25:35Z",
+  "generated_at": "2026-06-19T15:43:03Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -587,6 +587,7 @@
     "player|Barça y Bernardo Silva": {},
     "player|Bayer Leverkusen": {},
     "player|Bayern Munich": {},
+    "player|Bayern Munich’s Alexander Nübel": {},
     "player|Bayern Munich’s Michael Olise": {},
     "player|Bernardo Silva": {
       "description": "贝纳尔多·莫塔·韦加·德卡瓦略·席尔瓦（葡萄牙语：Bernardo Mota Veiga de Carvalho e Silva，发音：[bɨɾˈnaɾðu ˈsilvɐ]；1994年8月10日—）是一名葡萄牙职业足球员。司职中场。目前效力于英超俱乐部曼城并担任队长，也代表葡萄牙国家足球队参加国际赛事。",
@@ -662,6 +663,7 @@
       "zh_title": "中北美洲及加勒比海足協冠軍盃",
       "translated_from": "CONCACAF Champions Cup"
     },
+    "player|Che Adams": {},
     "player|Chivu’s Inter": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
@@ -690,6 +692,7 @@
     },
     "player|Cold War Steve": {},
     "player|Cologne’s Jakub": {},
+    "player|Cologne’s Said El Mala": {},
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Costa Rica": {},
@@ -747,7 +750,15 @@
       "translated_from": "Kevin De Bruyne"
     },
     "player|De Zerbi": {},
-    "player|Declan Rice": {},
+    "player|Declan Rice": {
+      "description": "德克蘭·賴斯（英語：Declan Rice，1999年1月14日—）是英格蘭足球運動員，目前效力於英格兰足球超级联赛球會阿仙奴，是現時世界上現役最強防守中場之一，身價高達1.2億歐元。他出生在英格蘭大倫敦的泰晤士河畔金斯頓，他的祖父母來自愛爾蘭科克，他亦同時擁有英國和愛爾蘭國籍。他早期也為愛爾蘭國家隊效力，後來轉為效力英格蘭足球代表隊。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%85%8B%E8%98%AD%C2%B7%E8%B3%B4%E6%96%AF",
+      "wiki_title": "德克蘭·賴斯",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Del Piero": {
       "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alessandro_Del_Piero_in_2014.jpg/500px-Alessandro_Del_Piero_in_2014.jpg",
@@ -786,11 +797,13 @@
     "player|El Alba": {},
     "player|El Andorra": {},
     "player|El Aston Villa": {},
+    "player|El Atlético activa el plan B": {},
     "player|El Barça": {},
     "player|El Bayer Leverkusen": {},
     "player|El Betis": {},
     "player|El Birmingham": {},
     "player|El Celta": {},
+    "player|El Córdoba": {},
     "player|El Dépor": {},
     "player|El Eibar": {},
     "player|El Elche": {},
@@ -1049,6 +1062,7 @@
       "zh_title": "",
       "translated_from": "Konrad Laimer"
     },
+    "player|Korea GK": {},
     "player|Kylian Mbappé": {
       "description": "基利安·姆巴佩·洛坦（法語：Kylian Mbappé Lottin，發音：[kiljan mbape] ；1998年12月20日—）是法国職業足球運動員，司職前鋒。現效力西甲俱樂部皇家馬德里並擔任法國國家足球隊隊長。 姆巴佩出生於法國巴黎，在附近的邦迪長大，於2015年加盟摩納哥足球俱樂部，並助摩納哥贏得了2016年至2017年賽季的法甲冠軍。2017年，姆巴佩以1.8億歐元的轉會費加盟巴黎聖日耳曼，成為史上身價第二高的球員和史上身價最高的青少年球員。其巴黎聖日耳曼贏得六次法甲冠軍和四次法國盃冠軍，其中包括2019-20賽季的國內四冠王，並在2020年帶領球隊首次闖入歐冠決賽。他是巴黎聖日耳曼史最佳射手，助攻數排名第三，也是法甲史上第七大射手。2024年，姆巴佩以自由轉會的方式加盟皇家馬德里。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Picture_with_Mbapp%C3%A9_%28cropped%29.jpg/500px-Picture_with_Mbapp%C3%A9_%28cropped%29.jpg",
@@ -1133,6 +1147,7 @@
       "zh_title": "",
       "translated_from": "Manu Koné"
     },
+    "player|Manuel Neuer": {},
     "player|Marc Cucurella": {},
     "player|Marco Palestra": {
       "description": "马尔科·帕拉（ 2005年3月3日出生）是一名意大利职业足球运动员，他从亚特兰大租借，在意甲卡利亚里俱乐部和意大利国家队担任右后卫或右后卫。",
@@ -1158,6 +1173,7 @@
       "translated_from": "Mason Greenwood"
     },
     "player|Matej Kovar": {},
+    "player|Materazzi taunts Ibrahimovic": {},
     "player|Matias Soule": {},
     "player|Matias Soulé’s": {},
     "player|Matteo Moretto": {},
@@ -1189,6 +1205,7 @@
     "player|Mexico v South Africa": {},
     "player|Michael Olise": {},
     "player|Michel Der Zakarian": {},
+    "player|Mika Mármol": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
     "player|Mikel Merino": {},
@@ -1312,6 +1329,7 @@
     "player|Portugal v DR Congo": {},
     "player|Premier League": {},
     "player|Premier League 2025-26 season review": {},
+    "player|Premier League fixtures": {},
     "player|Premier League fixtures released at 10": {},
     "player|Project Mbappe": {},
     "player|Provedel Inter": {},
@@ -1356,6 +1374,7 @@
     "player|Ryunosuke Sato": {},
     "player|Sabri Lamouchi": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
+    "player|Sandro Wagner": {},
     "player|Sarah Rhind": {},
     "player|Saudi Arabia": {
       "description": "沙特职业足球联赛（阿拉伯语：دوري المحترفين السعودي）是沙特阿拉伯的足球联赛，始于1976年。希拉尔夺得 19 次联赛冠军，是沙特联赛最成功的球队。联赛前三名及沙特国王杯冠军可得到亚足联冠军联赛参赛资格。 沙特职业足球联赛于2010–11年参赛队数由 12 队扩充到 14 队，到2018–19年再度增加至 16 队，2023–24年起增加至 18 队。沙特职业足球联赛在亚足联球会赛事排名稳居前列，希拉尔不仅是联赛最成功的俱乐部，也是亚足联冠军联赛夺冠最多的俱乐部。 自2023年开始，包括基斯坦奴·朗拿度、宾斯马、简迪等知名欧洲球星受高额薪资合同吸引而转会沙特职业足球联赛，沙特足球联赛实力迅速增强，引起欧洲足坛关注。同时沙特足球联赛被列入沙特阿拉伯2030年愿景，沙特阿拉伯公共投资基金收购了吉达国民、利雅得新月、吉达联合、利雅得胜利四家俱乐部。",
@@ -1470,6 +1489,7 @@
       "zh_title": "",
       "translated_from": "Shaqueel van Persie"
     },
+    "player|Vedat Muriqi": {},
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Víctor Muñoz": {},
@@ -1511,6 +1531,7 @@
       "translated_from": "FIFA World Cup"
     },
     "player|World Cup 2026": {},
+    "player|World Cup 2026 Power Rankings after one game": {},
     "player|World Cup 2026 news": {},
     "player|World Cup 2026 visa chaos": {},
     "player|World Cup 2026 wallchart": {},
@@ -1541,6 +1562,7 @@
     },
     "player|Zinedine Zidane": {},
     "player|Zohran Mamdani": {},
+    "player|‘People think I’ve vanished’": {},
     "player|‘The night before I dreamt about my ACL’": {}
   }
 }
