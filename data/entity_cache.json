@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T15:53:14Z",
+  "generated_at": "2026-06-19T05:25:35Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -328,7 +328,15 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
-    "club|Psv": {},
+    "club|Psv": {
+      "description": "皇家飛利浦體育會（荷蘭語：Philips Sport Vereniging；英語：Philips Sports Union），普遍稱呼為PSV、燕豪芬或PSV埃因霍温，是一家位於荷蘭埃因霍温的足球俱乐部。是國內最成功的足球俱乐部之一，和飛燕諾及阿積士並稱荷蘭足球三強。於1988年奪得欧洲冠军杯，即現今的欧洲冠军联赛，這家球會曾有多位著名世界級前鋒效力，包括罗纳尔多、羅馬里奧、及范尼斯特鲁伊等。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/PSV%E7%87%95%E8%B1%AA%E8%8A%AC",
+      "wiki_title": "PSV燕豪芬",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Real Madrid": {
       "description": "皇家馬德里足球俱樂部（西班牙語：Real Madrid Club de Fútbol），簡稱皇馬，是一家位於西班牙首都馬德里的足球俱樂部，被公認為足壇最頂尖的豪門之一。 皇家馬德里成立於1902年3月6日，原名為「馬德里足球會」（Madrid Football Club）。1920年西班牙國王阿方索十三世為球隊授予皇家的稱號與徽章上的皇冠。自俱樂部創立以來，皇家馬德里一直身穿全白的球衣。球隊主場是自1947年啟用的伯納烏球場，可以容納81044人。與大多數的歐洲職業運動實體不同，皇家馬德里由十幾萬名會員擁有並經營俱樂部。 皇家馬德里是目前贏得西班牙足球甲级联赛、歐洲冠軍聯賽、歐洲超級盃及世俱杯冠軍次數最多的足球俱樂部。國內賽事方面一共奪得36次西甲冠軍、20次西班牙國王盃冠軍及13次西班牙超級盃；歐洲賽事方面共奪得15次欧冠冠軍、2次歐洲足協盃冠軍及6次歐洲超級盃冠軍；洲際賽事方面共奪得3次洲際盃足球賽冠軍及5次世俱杯冠軍。...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%87%E5%AE%B6%E9%A9%AC%E5%BE%B7%E9%87%8C%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -611,6 +619,16 @@
     "player|Borussia Dortmund’s Felix Nmecha": {},
     "player|Borussia Dortmund’s Julien Duranville": {},
     "player|Bosnia’s Tarik Muharemovic": {},
+    "player|Bradley Barcola": {
+      "description": "巴特利·罗伦特·巴高拿（法语：Bradley Laurent Barcola；2002年9月2日—）是一名法国职业足球员，司职前锋或翼锋，现效力法甲球会巴黎圣日耳门。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Bradley_Barcola_vs_MHSC_7_May_2023.png/500px-Bradley_Barcola_vs_MHSC_7_May_2023.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%89%B9%E5%88%A9%C2%B7%E5%B7%B4%E9%AB%98%E6%8B%BF",
+      "wiki_title": "巴特利·巴高拿",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Bradley Barcola"
+    },
     "player|Brahim Diaz": {},
     "player|Brazil-born Nunes": {},
     "player|Brest’s Daouda Guindo": {},
@@ -657,6 +675,7 @@
     },
     "player|Christian Pulisic": {},
     "player|Christophe Pélissier": {},
+    "player|Clarke warns Scotland": {},
     "player|Claude Puel": {},
     "player|Club Brugge": {},
     "player|Clément Lenglet": {
@@ -716,6 +735,7 @@
       "zh_title": "",
       "translated_from": "David Sánchez (footballer, born 1982)"
     },
+    "player|David’s Juventus": {},
     "player|De Bruyne": {
       "description": "凯文·德布劳内（荷兰语：Kevin De Bruyne，发音：[ˈkɛvɪn də ˈbrœynə]；1991年6月28日—），比利时男子职业足球员，司职中场，现效力于义甲俱乐部拿坡里，同时是比利时国家足球队队长。他连续两年获得英格兰PFA足球先生的荣耀，在他之前仅有两人曾有这样的纪录。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_201807091.jpg/500px-Kevin_De_Bruyne_201807091.jpg",
@@ -727,6 +747,7 @@
       "translated_from": "Kevin De Bruyne"
     },
     "player|De Zerbi": {},
+    "player|Declan Rice": {},
     "player|Del Piero": {
       "description": "亚历山德罗·德尔皮耶罗（义大利语：Alessandro Del Piero，发音：[alesˈsandro del ˈpjɛːro]；1974年11月9日—），意大利男子足球运动员。他职业生涯大部分时间效力祖云达斯，被称为“斑马王子”，是斑马军团史上出场最多和进球最多的纪录保持者，共为球队出场705次并打进290球。他是2006年世界杯冠军队成员，球王贝利评选的在世的最伟大的125名球员（FIFA 100）其中之一，他亦是意大利史上进球第三多的本土球员（仅次于朱塞佩·梅阿查及西尔维奥·皮奥拉）。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Alessandro_Del_Piero_in_2014.jpg/500px-Alessandro_Del_Piero_in_2014.jpg",
@@ -806,6 +827,7 @@
       "zh_title": "",
       "translated_from": "Elliot Anderson (footballer)"
     },
+    "player|Elye Wahi": {},
     "player|Emi Martinez": {},
     "player|England’s Declan Rice": {},
     "player|England’s X-factor": {},
@@ -896,9 +918,11 @@
       "zh_title": "",
       "translated_from": "Hugo Sotelo"
     },
+    "player|IFK Göteborg’s Swedish": {},
     "player|INSTANT REACTION | Germany 7-1 Curaçao": {},
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
+    "player|Ibrahimovic criticism spreads to the USA": {},
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Isac Lidberg": {
@@ -1055,7 +1079,9 @@
     "player|Lens’ Hervé Koffi": {},
     "player|Liam Rosenior": {},
     "player|Lille’s Ayyoub Bouaddi": {},
+    "player|Lille’s Matias Fernandez-Pardo": {},
     "player|Lionel Messi": {},
+    "player|Lionel Messi’s": {},
     "player|Lorient’s Pablo Pagis": {},
     "player|Los Angeles": {},
     "player|Los mundos de Klopp": {},
@@ -1093,6 +1119,7 @@
     "player|Lyon’s Afonso Moreira": {},
     "player|Mads Bidstrup": {},
     "player|Maffeo, antes de poner rumbo al Olympiacos": {},
+    "player|Maghnes Akliouche": {},
     "player|Man Uni": {},
     "player|Man Utd": {},
     "player|Manu Kone": {},
@@ -1177,6 +1204,7 @@
       "wiki_variant": "legacy-en"
     },
     "player|Mo Touré": {},
+    "player|Monaco’s Caio Henrique": {},
     "player|Monaco’s Kassoum Ouattara": {},
     "player|Montpellier’s Téji Savanier": {},
     "player|Moritz Nicolas": {
@@ -1197,6 +1225,7 @@
     "player|Newcastle United’s": {},
     "player|Nico Paz": {},
     "player|Nico Paz’s Como": {},
+    "player|Nicolo Zaniolo": {},
     "player|Nicolò Tresoldi": {
       "description": "尼科洛·特雷索尔迪（德语： Nicolò Tresoldi ， 2004年8月20日－ ）是一名德国职业足球运动员，曾效力于比利时职业足球联赛布鲁日俱乐部和德国21岁以下国家队。",
       "image_url": "",
@@ -1251,6 +1280,7 @@
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
     "player|Parma’s Suzuki": {},
+    "player|Parma’s Zion Suzuki": {},
     "player|Partey WC": {},
     "player|Patrick Videira": {},
     "player|Patrik Mercado": {
@@ -1282,6 +1312,7 @@
     "player|Portugal v DR Congo": {},
     "player|Premier League": {},
     "player|Premier League 2025-26 season review": {},
+    "player|Premier League fixtures released at 10": {},
     "player|Project Mbappe": {},
     "player|Provedel Inter": {},
     "player|RB Leipzig": {},
@@ -1356,6 +1387,7 @@
     "player|Super Mario": {},
     "player|Suzanne Wrack": {},
     "player|Switzerland’s Dan Ndoye": {},
+    "player|Talisman’ McTominay": {},
     "player|Tartan Army": {},
     "player|The Athletic": {},
     "player|The Hotspot | ‘This may be our last chance’": {},
@@ -1485,6 +1517,15 @@
     "player|World Cup Group D view from Turkey": {},
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
+    "player|Yan Diomande": {
+      "description": "扬·迪奥曼德（法語：Yan Diomande，2006年11月14日—）是一位科特迪瓦足球运动员，自2025-26赛季起效力于德甲俱乐部RB莱比锡，并代表科特迪瓦国家足球队参加国际比赛，于场上司职翼锋。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%89%AC%C2%B7%E8%BF%AA%E5%A5%A5%E6%9B%BC%E5%BE%B7",
+      "wiki_title": "扬·迪奥曼德",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Yann Bisseck": {},
     "player|Yoane Wissa": {},
     "player|Young Socceroos": {},
