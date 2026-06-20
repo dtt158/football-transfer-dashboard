@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T15:43:03Z",
+  "generated_at": "2026-06-20T04:42:29Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -807,6 +807,7 @@
     "player|El Dépor": {},
     "player|El Eibar": {},
     "player|El Elche": {},
+    "player|El Eldense": {},
     "player|El Espanyol": {},
     "player|El Getafe": {},
     "player|El Huesca": {},
@@ -842,6 +843,7 @@
     },
     "player|Elye Wahi": {},
     "player|Emi Martinez": {},
+    "player|Emma Hayes": {},
     "player|England’s Declan Rice": {},
     "player|England’s X-factor": {},
     "player|Envoy’s Proposal": {},
@@ -909,6 +911,7 @@
     "player|France’s William Saliba": {},
     "player|Franck Leboeuf": {},
     "player|From Shamrock Rovers to defying Spain": {},
+    "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
     "player|Graham Arnold": {},
@@ -950,7 +953,16 @@
     "player|Ismaël Saibari": {},
     "player|Issa Soumaré": {},
     "player|Ivory Coast": {},
-    "player|Izan González": {},
+    "player|Izan González": {
+      "description": "伊桑·冈萨雷斯·穆尼奥斯（西班牙语： Izan González Muñoz ， 2004年11月5日－ ）是一名西班牙职业足球运动员，曾在格拉纳达足球俱乐部担任中场球员，租借自UE Cornellà。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Izan_Gonz%C3%A1lez",
+      "wiki_title": "Izan González",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Izan González"
+    },
     "player|Jacob Steinberg": {},
     "player|Jean Butez": {
       "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
@@ -1137,6 +1149,7 @@
     "player|Man Uni": {},
     "player|Man Utd": {},
     "player|Manu Kone": {},
+    "player|Manu Kone’s": {},
     "player|Manu Koné": {
       "description": "夸迪奥·埃马纽埃尔·鲍里斯·科内（法语：Kouadio Emmanuel Boris Koné，2001年5月17日—），法国职业足球运动员，司职中场，现效力于意甲联赛罗马。曾代表法国国奥队获得2024年夏季奥林匹克运动会银牌。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Kouadio_Manu_Kon%C3%A9_%282019-08-31%29_%28cropped%29.jpg/500px-Kouadio_Manu_Kon%C3%A9_%282019-08-31%29_%28cropped%29.jpg",
@@ -1200,6 +1213,7 @@
       "translated_from": "Mauro Arambarri"
     },
     "player|Max Allegri": {},
+    "player|Max Allegri to Napoli": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Mexico v South Africa": {},
@@ -1320,6 +1334,7 @@
       "zh_title": "",
       "translated_from": "Paul Pogba"
     },
+    "player|Paulo Dybala": {},
     "player|Pep Guardiola": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
@@ -1387,6 +1402,7 @@
       "translated_from": "Saudi Pro League"
     },
     "player|Scotland’s World Cup": {},
+    "player|Sergi Roberto": {},
     "player|Serhou Guirassy’s": {},
     "player|Sevilla FC": {},
     "player|Si Bouaddi": {},
@@ -1447,6 +1463,7 @@
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Turkey v Paraguay": {},
     "player|Two-goal Yasin Ayari": {},
     "player|Téji Savanier": {},
     "player|Udinese’s Arthur Atta": {},
@@ -1489,7 +1506,16 @@
       "zh_title": "",
       "translated_from": "Shaqueel van Persie"
     },
-    "player|Vedat Muriqi": {},
+    "player|Vedat Muriqi": {
+      "description": "Vedat Muriqi （ 1994年4月24日出生）是一名科索沃职业足球运动员，曾在Süper Lig俱乐部Fenerbahçe和科索沃国家队担任前锋。Muriqi的职业生涯始于Liria Prizren ，后来移居阿尔巴尼亚，为Teuta Durrës和Besa Kavajë效力。后来，他在土耳其的Giresunspor、Gençlerbirliği和Çaykur Rizespor继续他的职业生涯，因为他的进球表现而声名鹊起。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/FC_Red_Bull_Salzburg_gegen_%C3%87aykur_Rizespor_%28Muriqi%29_05.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Vedat_Muriqi",
+      "wiki_title": "Vedat Muriqi",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Vedat Muriqi"
+    },
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Víctor Muñoz": {},
