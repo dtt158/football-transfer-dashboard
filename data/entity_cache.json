@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T04:42:29Z",
+  "generated_at": "2026-06-20T14:31:15Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -724,6 +724,16 @@
     },
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|Danny Röhl": {},
+    "player|David Raya": {
+      "description": "大卫·拉亚·马丁（西班牙语：David Raya Martín；1995年9月15日—），西班牙男子职业足球运动员，现效力于英超球会阿仙奴、西班牙国家足球队，司职守门员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/David_Raya_in_2025_%28cropped%29.jpg/500px-David_Raya_in_2025_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%A1%9B%C2%B7%E6%8B%89%E8%80%B6",
+      "wiki_title": "大衛·拉耶",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "David Raya"
+    },
     "player|David Squires": {},
     "player|David Sullivan": {},
     "player|David Sullivan’s": {},
@@ -830,6 +840,7 @@
     },
     "player|El Tenerife": {},
     "player|El Valencia": {},
+    "player|El Vasco": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
@@ -857,6 +868,7 @@
       "zh_title": "",
       "translated_from": "Enzo Bardeli"
     },
+    "player|Enzo Maresca": {},
     "player|Eric Roy": {},
     "player|Erling Haaland": {
       "description": "埃尔林·布赖于特·哈兰德（挪威语：Erling Braut Håland，挪威语发音：[ˈhòːlɑn]；英化：Erling Braut Haaland；2000年7月21日—），挪威职业足球员，司职前锋。现效力于英超球会曼城和挪威国家足球队。曾在英超单季的入球数为36球，超越舒利亚的纪录（34球）。他是世界足坛公认的最佳前锋之一，和姆巴佩均被认为是足坛新时代的领军人物。",
@@ -983,6 +995,16 @@
       "wiki_variant": "zh-hans",
       "zh_title": "",
       "translated_from": "Jean-Philippe Mateta"
+    },
+    "player|Jokin Aranbarri": {
+      "description": "Jokin Aranbarri Arrizabalaga （ 1984年10月23日出生）是一名西班牙退役足球运动员，曾担任前锋和经理。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Jokin_Aranbarri",
+      "wiki_title": "Jokin Aranbarri",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Jokin Aranbarri"
     },
     "player|Jon Guridi": {
       "description": "Jon Guridi Aldalur （ 1995年2月28日出生）是一名西班牙职业足球运动员，为西甲俱乐部塞维利亚效力。他通常是中场球员，也可以担任右后卫或右后卫。",
@@ -1411,6 +1433,7 @@
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|South Africa": {},
     "player|South Korea": {},
+    "player|Spaceship stadiums and Ronaldo-mania": {},
     "player|Spain v Cape Verde": {},
     "player|Spectacular Vinicius Jr": {},
     "player|Spurs’ Dragusin": {},
@@ -1467,6 +1490,7 @@
     "player|Two-goal Yasin Ayari": {},
     "player|Téji Savanier": {},
     "player|Udinese’s Arthur Atta": {},
+    "player|Udinese’s Zaniolo": {},
     "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
       "description": "巴伦廷·巴尔科（西班牙语：Valentín Barco；2004年7月23日—）是一名阿根廷的职业足球运动员，司职左后卫。现效力法甲球队斯特拉斯堡竞赛会。阿根廷国家足球队成员。",
@@ -1587,6 +1611,7 @@
       "translated_from": "Frank Anguissa"
     },
     "player|Zinedine Zidane": {},
+    "player|Zlatan Ibrahimovic": {},
     "player|Zohran Mamdani": {},
     "player|‘People think I’ve vanished’": {},
     "player|‘The night before I dreamt about my ACL’": {}
