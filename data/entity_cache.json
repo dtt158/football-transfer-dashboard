@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T05:18:55Z",
+  "generated_at": "2026-06-21T14:36:17Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -383,7 +383,15 @@
       "source_language": "en",
       "wiki_variant": "legacy-en"
     },
-    "club|Sporting CP": {},
+    "club|Sporting CP": {
+      "description": "葡萄牙體育俱樂部（葡萄牙語：Sporting Clube de Portugal）OM, ComC, MHIH，通稱「士砵亭」（Sporting CP），國際上常以「里斯本士砵亭」（英語：Sporting Lisbon）為簡稱，是位於葡萄牙首都里斯本的一間體育會，成立於1906年。該俱樂部長期派出多支代表隊競逐葡國當地的各個體育項目，並以其下的足球隊最廣為人知。 作為葡萄牙的著名足球會之一，士砵亭與賓菲加和波圖併稱「葡國足球三巨頭」；而其球迷常將該球會及其球員統稱為「獅子」，源於會旗上的獅子標誌。截至2004年12月，該俱樂部的註冊會員已達12万名。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Est%C3%A1dio_Alvalade_XXI.jpg/500px-Est%C3%A1dio_Alvalade_XXI.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%91%A1%E8%90%84%E7%89%99%E5%A3%AB%E7%A0%B5%E4%BA%AD%E4%BF%B1%E6%A8%82%E9%83%A8",
+      "wiki_title": "葡萄牙士砵亭俱樂部",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Sporting Cp": {},
     "club|Spurs": {
       "description": "托特納姆熱刺女子足球俱樂部（英語：Tottenham Hotspur Football Club Women），簡稱熱刺（Spurs），是位於英格蘭倫敦東區萊頓的一家職業女子足球俱樂部，成立於1985年，隸屬於托特納姆熱刺足球俱樂部。球隊於2018–19年英冠賽季以第2名升級至英格蘭女子足球超級聯賽（最高級別） 熱刺女足目前的主場在萊頓的布里斯班路球場，偶爾會在熱刺球場進行比賽。球隊最近一次獲得的冠軍是2016–17年賽季的英格蘭足球總會女子南部超級聯賽（第三級別）。",
@@ -573,7 +581,18 @@
       "translated_from": "Anthony Gordon (footballer)"
     },
     "player|Antoine Kombouaré": {},
+    "player|Antonio Vergara": {
+      "description": "安东尼奥·维加拉（ Antonio Vergara ， 2003年1月16日－ ）是一名意大利职业足球运动员，曾在意甲那不勒斯俱乐部担任攻击型中场球员。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Antonio_Vergara",
+      "wiki_title": "Antonio Vergara",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Antonio Vergara"
+    },
     "player|Arsene Wenger": {},
+    "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
@@ -655,7 +674,16 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
-    "player|Caio Henrique": {},
+    "player|Caio Henrique": {
+      "description": "卡约·恩里克·奥利维拉·席尔瓦（葡萄牙语：Caio Henrique Oliveira Silva；1997年7月31日—），简称卡约·恩里克（葡萄牙语：Caio Henrique），是巴西男子足球运动员，场上司职左后卫与中场，目前效力于法甲球队摩纳哥。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Caio_Henrique_Oliveira_Silva_2017.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E7%BA%A6%C2%B7%E6%81%A9%E9%87%8C%E5%85%8B",
+      "wiki_title": "卡约·恩里克",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Caio Henrique"
+    },
     "player|Caleb Yirenkyi’s": {},
     "player|Can Bellingham": {},
     "player|Can Vinicius": {},
@@ -675,7 +703,16 @@
       "zh_title": "中北美洲及加勒比海足協冠軍盃",
       "translated_from": "CONCACAF Champions Cup"
     },
-    "player|Charles Vanhoutte": {},
+    "player|Charles Vanhoutte": {
+      "description": "查尔斯·万豪特（ Charles Vanhoutte ， 1998年9月16日－ ）是一名比利时职业足球运动员，曾在欧洲足球甲级联赛（ Eredivisie club Feyenoord ）和比利时国家队担任中场球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Charles_Vanhoutte_RUSG_2025.jpg/500px-Charles_Vanhoutte_RUSG_2025.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Charles_Vanhoutte",
+      "wiki_title": "Charles Vanhoutte",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Charles Vanhoutte"
+    },
     "player|Che Adams": {},
     "player|Chivu’s Inter": {},
     "player|Christian Eriksen": {
@@ -928,6 +965,7 @@
     "player|Florian Thauvin’s": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
+    "player|Former England": {},
     "player|Former FIGC president Gravina": {},
     "player|Former Marseille": {},
     "player|Former Spurs": {},
@@ -1014,6 +1052,7 @@
       "zh_title": "",
       "translated_from": "Jean-Philippe Mateta"
     },
+    "player|Joao Mario": {},
     "player|Jokin Aranbarri": {
       "description": "Jokin Aranbarri Arrizabalaga （ 1984年10月23日出生）是一名西班牙退役足球运动员，曾担任前锋和经理。",
       "image_url": "",
@@ -1173,6 +1212,7 @@
       "translated_from": "Luis Carrión"
     },
     "player|Luis García": {},
+    "player|Luis Henrique": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -1297,7 +1337,17 @@
     "player|Nathaniel Brown": {},
     "player|Newcastle United": {},
     "player|Newcastle United’s": {},
-    "player|Nico Paz": {},
+    "player|Newcastle’s Sandro Tonali": {},
+    "player|Nico Paz": {
+      "description": "尼古拉斯·帕斯·马丁内斯（西班牙语：Nicolás Paz Martínez，2004年9月8日—），阿根廷职业足球运动员，司职前腰，现效力于意甲联赛科莫。2026年入选国际足联世界杯阿根廷国家队名单。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Nico_Paz_Como_2025.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%B0%BC%E7%A7%91%C2%B7%E5%B8%95%E6%96%AF",
+      "wiki_title": "尼科·帕斯",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Nico Paz"
+    },
     "player|Nico Paz’s Como": {},
     "player|Nicolo Zaniolo": {},
     "player|Nicolò Tresoldi": {
@@ -1351,6 +1401,7 @@
       "translated_from": "Ousmane Dembélé"
     },
     "player|Out-of-contract XIs": {},
+    "player|PSG’s Goncalo Ramos": {},
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
     "player|Parma’s Suzuki": {},
@@ -1407,6 +1458,7 @@
     "player|Rodez’s Taïryk Arconte": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
+    "player|Roma’s Manu Kone": {},
     "player|Roma’s Matias Soule": {},
     "player|Ruben Amorim": {
       "description": "鲁本·菲利佩·马克斯·阿莫林（葡萄牙语：Rúben Filipe Marques Amorim，葡萄牙语发音：[ˈʁubɛn ɐmuˈɾĩ]；1985年1月27日—），生于葡萄牙里斯本，葡萄牙职业足球教练，前男子职业足球运动员，曾为英超球队曼联主教练。",
@@ -1456,6 +1508,7 @@
     "player|South Korea": {},
     "player|Spaceship stadiums and Ronaldo-mania": {},
     "player|Spain v Cape Verde": {},
+    "player|Spain v Saudi Arabia": {},
     "player|Spectacular Vinicius Jr": {},
     "player|Spurs’ Dragusin": {},
     "player|St Mirren": {},
@@ -1480,6 +1533,7 @@
     "player|Talisman’ McTominay": {},
     "player|Tartan Army": {},
     "player|The Athletic": {},
+    "player|The French aristocrat and the all-American idiot": {},
     "player|The Hotspot | ‘This may be our last chance’": {},
     "player|The Joy of Six": {},
     "player|Thierry Correia": {
@@ -1515,6 +1569,7 @@
       "translated_from": "Thomas Tuchel"
     },
     "player|Today’s Papers": {},
+    "player|Tottenham Hotspur": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
@@ -1523,6 +1578,7 @@
     "player|Two-goal Yasin Ayari": {},
     "player|Téji Savanier": {},
     "player|Udinese’s Arthur Atta": {},
+    "player|Udinese’s Nicolo Zaniolo": {},
     "player|Udinese’s Zaniolo": {},
     "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
