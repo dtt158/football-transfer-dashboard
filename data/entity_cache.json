@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T14:31:15Z",
+  "generated_at": "2026-06-21T05:18:55Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -579,6 +579,16 @@
     "player|Atlético Madrid": {},
     "player|Australia v Turkey": {},
     "player|Austria v Jordan": {},
+    "player|Ayase Ueda": {
+      "description": "上田绮世（日语：上田 綺世／うえだ あやせ，罗马化：Ueda Ayase，1998年8月28日—），日本足球运动员，现效力于荷甲球队飞燕诺，日本国家足球队成员，司职前锋。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg/500px-Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E4%B8%8A%E7%94%B0%E7%B6%BA%E4%B8%96",
+      "wiki_title": "上田綺世",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Ayase Ueda"
+    },
     "player|BBC Sport": {},
     "player|Baldini coy on Italy future": {},
     "player|Barca Legends": {},
@@ -645,6 +655,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Caio Henrique": {},
     "player|Caleb Yirenkyi’s": {},
     "player|Can Bellingham": {},
     "player|Can Vinicius": {},
@@ -653,6 +664,7 @@
     "player|Cape Verde’s Vozinha": {},
     "player|Carlos Martínez": {},
     "player|Celta Vigo": {},
+    "player|Cenk, la dura 'operación salida' del Valencia": {},
     "player|Champions League": {
       "description": "CONCACAF冠军杯，前身为CONCACAF冠军联赛（ 2008–2023 ） ，是由CONCACAF为北美、中美洲和加勒比地区的俱乐部举办的顶级大陆锦标赛。冠军将自动获得参加FIFA俱乐部世界杯和FIFA洲际杯的资格。锦标赛目前使用淘汰赛形式；它有一个...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CONCACAF_Champions_Cup_logo.svg/500px-CONCACAF_Champions_Cup_logo.svg.png",
@@ -663,6 +675,7 @@
       "zh_title": "中北美洲及加勒比海足協冠軍盃",
       "translated_from": "CONCACAF Champions Cup"
     },
+    "player|Charles Vanhoutte": {},
     "player|Che Adams": {},
     "player|Chivu’s Inter": {},
     "player|Christian Eriksen": {
@@ -699,6 +712,7 @@
     "player|Cristiano Ronaldo’s": {},
     "player|Cristiano Ronaldo’s Al-Nassr": {},
     "player|Crystal Palace": {},
+    "player|Curaçao GK": {},
     "player|Cyle Larin": {},
     "player|Czechia v South Africa": {},
     "player|César Peixoto": {
@@ -779,6 +793,7 @@
       "zh_title": "",
       "translated_from": "Alessandro Del Piero"
     },
+    "player|Deniz Undav’s": {},
     "player|Denzel Dumfries": {
       "description": "登泽尔·于斯特斯·莫里斯·邓弗里斯（荷兰语：Denzel Justus Morris Dumfries，1996年4月18日—），荷兰足球运动员，司职右后卫，现效力义甲球会国际米兰。他于2014年加入阿鲁巴代表队，2018年加入荷兰国家队。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Edison_ndreca_inter_egnati_%28cropped_Denzel_Dumfries%29.jpg",
@@ -910,6 +925,7 @@
     },
     "player|Ferland Mendy": {},
     "player|Florentino Pérez": {},
+    "player|Florian Thauvin’s": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
     "player|Former FIGC president Gravina": {},
@@ -922,6 +938,7 @@
     "player|France’s Rayan Cherki": {},
     "player|France’s William Saliba": {},
     "player|Franck Leboeuf": {},
+    "player|From Osimhen to Sané": {},
     "player|From Shamrock Rovers to defying Spain": {},
     "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
@@ -951,6 +968,7 @@
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
     "player|Ibrahimovic criticism spreads to the USA": {},
+    "player|Igor Protti": {},
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Isac Lidberg": {
@@ -1154,6 +1172,7 @@
       "zh_title": "",
       "translated_from": "Luis Carrión"
     },
+    "player|Luis García": {},
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -1169,6 +1188,7 @@
     "player|Maffeo, antes de poner rumbo al Olympiacos": {},
     "player|Maghnes Akliouche": {},
     "player|Man Uni": {},
+    "player|Man Unite": {},
     "player|Man Utd": {},
     "player|Manu Kone": {},
     "player|Manu Kone’s": {},
@@ -1209,6 +1229,7 @@
     },
     "player|Matej Kovar": {},
     "player|Materazzi taunts Ibrahimovic": {},
+    "player|Mathis Jangeal": {},
     "player|Matias Soule": {},
     "player|Matias Soulé’s": {},
     "player|Matteo Moretto": {},
@@ -1439,8 +1460,19 @@
     "player|Spurs’ Dragusin": {},
     "player|St Mirren": {},
     "player|Standard Liege’s Matthieu Epolo": {},
+    "player|Steeve Kango": {
+      "description": "斯蒂夫·坎戈（ Steeve Kango ， 2006年12月9日－ ）是一名法国足球运动员，曾在里昂法甲俱乐部担任右后卫。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Steeve_Kango",
+      "wiki_title": "Steeve Kango",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Steeve Kango"
+    },
     "player|Steve Clarke": {},
     "player|Stockport County": {},
+    "player|Stung’ Spain": {},
     "player|Stéphane Gilli": {},
     "player|Super Mario": {},
     "player|Suzanne Wrack": {},
@@ -1486,6 +1518,7 @@
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Tunisia v Japan": {},
     "player|Turkey v Paraguay": {},
     "player|Two-goal Yasin Ayari": {},
     "player|Téji Savanier": {},
