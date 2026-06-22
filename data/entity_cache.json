@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T14:36:17Z",
+  "generated_at": "2026-06-22T05:31:21Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -543,6 +543,7 @@
     "player|Aleix Febas": {},
     "player|Alejandro Grimaldo": {},
     "player|Aleksander Stankovic": {},
+    "player|Alexander Abnos": {},
     "player|Alexandre Dujeux": {},
     "player|Alexia Putellas": {
       "description": "亚历克西娅·普特利亚斯·塞古拉（加泰隆尼亚语：Alèxia Putellas i Segura，发音：[əˈlɛksiə puˈteʎə səˈɣuɾə] ；1994年2月4日—）是西班牙职业女子足球员，司职中场，目前效力于巴塞罗那。",
@@ -690,6 +691,7 @@
     "player|Cape Verde": {},
     "player|Cape Verde GK Vozinha": {},
     "player|Cape Verde’s Vozinha": {},
+    "player|Carlo Ancelotti": {},
     "player|Carlos Martínez": {},
     "player|Celta Vigo": {},
     "player|Cenk, la dura 'operación salida' del Valencia": {},
@@ -746,6 +748,7 @@
     "player|Como President": {},
     "player|Como’s Martin Baturina": {},
     "player|Costa Rica": {},
+    "player|Cristiano Ronaldo": {},
     "player|Cristiano Ronaldo’s": {},
     "player|Cristiano Ronaldo’s Al-Nassr": {},
     "player|Crystal Palace": {},
@@ -809,6 +812,16 @@
       "wiki_variant": "zh-hans",
       "zh_title": "",
       "translated_from": "Kevin De Bruyne"
+    },
+    "player|De Vrij": {
+      "description": "斯特凡·德弗赖（荷兰语：Stefan de Vrij，发音：[ˈsteːfɑn də ˈvrɛi]；1992年2月5日—），是一名荷兰足球运动员，司职后卫，现效力于意大利足球甲级联赛球队国际米兰。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/DK-Lazio_%2813%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%96%AF%E7%89%B9%E5%87%A1%C2%B7%E5%BE%B7%E5%BC%97%E8%B5%96",
+      "wiki_title": "斯特凡·德弗赖",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Stefan de Vrij"
     },
     "player|De Zerbi": {},
     "player|Declan Rice": {
@@ -978,6 +991,7 @@
     "player|Franck Leboeuf": {},
     "player|From Osimhen to Sané": {},
     "player|From Shamrock Rovers to defying Spain": {},
+    "player|From Times Square to England squad": {},
     "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
     "player|Goncalo Inacio": {},
@@ -1009,6 +1023,7 @@
     "player|Igor Protti": {},
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
+    "player|Inter’s Jones": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -1163,6 +1178,7 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "player|Kylian Mbappé leaves door open to MLS move": {},
     "player|Kylian Mbappé on Michael Olise": {},
     "player|Kylian Mbappé’s": {},
     "player|La Liga": {},
@@ -1178,6 +1194,15 @@
       "translated_from": "Lalo Arantegui"
     },
     "player|Lamine Camara": {},
+    "player|Lamine Yamal": {
+      "description": "拉明·亞馬爾·纳斯拉维·埃巴纳（西班牙語：Lamine Yamal Nasraoui Ebana；2007年7月13日—），是西班牙男子職業足球運動員，司職翼鋒，現效力於西班牙甲組足球聯賽球會巴塞隆拿，同時亦是西班牙國家足球隊成員。2025年6月，其身价达2亿欧元，超越姆巴佩等，一度成为全球身价最高球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Lamine_Yamal_in_2025.jpg/500px-Lamine_Yamal_in_2025.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E6%98%8E%C2%B7%E4%BA%9E%E9%A6%AC%E7%88%BE",
+      "wiki_title": "拉明·亞馬爾",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Las Palmas": {},
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
@@ -1212,7 +1237,16 @@
       "translated_from": "Luis Carrión"
     },
     "player|Luis García": {},
-    "player|Luis Henrique": {},
+    "player|Luis Henrique": {
+      "description": "路易斯·恩里克·托马斯·德利马（葡萄牙语：Luis Henrique Tomaz de Lima，2001年12月14日—），是一名巴西足球运动员，现效力意甲球队国际米兰。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Lens_-_Marseille_%2822-01-2022%29_14.jpg/500px-Lens_-_Marseille_%2822-01-2022%29_14.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%B7%AF%E6%98%93%E6%96%AF%C2%B7%E6%81%A9%E9%87%8C%E5%85%8B_(2001%E5%B9%B412%E6%9C%88)",
+      "wiki_title": "路易斯·恩里克 (2001年12月)",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Luis Henrique (footballer, born 2001)"
+    },
     "player|Luis de la Fuente": {
       "description": "路易斯·德拉富恩特·卡斯蒂略（西班牙语：Luis de la Fuente Castillo，1961年6月21日—），西班牙足球教练，前职业球员，司职左后卫。德拉富恩特是西班牙国家足球队现任主教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg/500px-Luis_de_la_Fuente_Castillo_-_2023_05_06_Final_de_la_Copa_del_Rey_0001_%28cropped%29.jpg",
@@ -1434,6 +1468,7 @@
     "player|Philippe Senderos": {},
     "player|Pierre Sage": {},
     "player|Pierre Sage’s Crystal Palace": {},
+    "player|Pisa’s Akinsanmiro": {},
     "player|Play BBC Sport": {},
     "player|Portugal v DR Congo": {},
     "player|Premier League": {},
@@ -1453,6 +1488,7 @@
     "player|Real Betis": {},
     "player|Red Star": {},
     "player|Reggiani’s Italy": {},
+    "player|Remarkable Lamine": {},
     "player|Roberto Gómez": {},
     "player|Rodez’s Nolan Galves": {},
     "player|Rodez’s Taïryk Arconte": {},
@@ -1527,6 +1563,7 @@
     "player|Stockport County": {},
     "player|Stung’ Spain": {},
     "player|Stéphane Gilli": {},
+    "player|Sunderland’s Eliezer Mayenda": {},
     "player|Super Mario": {},
     "player|Suzanne Wrack": {},
     "player|Switzerland’s Dan Ndoye": {},
@@ -1569,6 +1606,7 @@
       "translated_from": "Thomas Tuchel"
     },
     "player|Today’s Papers": {},
+    "player|Toni Kroos": {},
     "player|Tottenham Hotspur": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
