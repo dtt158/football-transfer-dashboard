@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:31:21Z",
+  "generated_at": "2026-06-22T17:16:35Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -506,6 +506,7 @@
     "player|1982 Italy winner Collovati slams Infantino": {},
     "player|2026 World Cup": {},
     "player|2026 World Cup updates": {},
+    "player|A history of World Cup red cards": {},
     "player|AC Milan": {
       "description": "米蘭足球俱樂部（義大利語：Associazione Calcio Milan）是一家位於義大利北部倫巴第大區米蘭市的足球俱乐部。為了和同在米蘭的另一家足球俱樂部國際米蘭區別，一般被稱為AC米蘭或米蘭，目前於義大利足球甲级联赛比賽。 AC米蘭是意大利最受欢迎的足球俱樂部之一，根據2010年德國著名體育市場調查公司Sport+Markt的調查，AC米兰的球迷人數名列歐洲第七位，達到1840萬人，是歐洲最受歡迎的意大利球會。 AC米蘭是全世界獲得主要洲际和大洲俱樂部賽事冠軍的球隊之一，包括7次歐洲冠軍杯冠軍、5次歐洲超級杯冠軍、2次欧洲优胜者杯冠军和4次洲際盃和世俱杯冠軍。在意大利國內AC米蘭總共獲得過19次意甲聯賽冠軍，2次意乙聯賽冠軍，5次杯賽冠軍和8次意大利超級盃冠军。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/500px-Logo_of_AC_Milan.svg.png",
@@ -581,6 +582,7 @@
       "zh_title": "",
       "translated_from": "Anthony Gordon (footballer)"
     },
+    "player|Anthony Martial": {},
     "player|Antoine Kombouaré": {},
     "player|Antonio Vergara": {
       "description": "安东尼奥·维加拉（ Antonio Vergara ， 2003年1月16日－ ）是一名意大利职业足球运动员，曾在意甲那不勒斯俱乐部担任攻击型中场球员。",
@@ -592,6 +594,7 @@
       "zh_title": "",
       "translated_from": "Antonio Vergara"
     },
+    "player|Argentina v Austria": {},
     "player|Arsene Wenger": {},
     "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
@@ -675,6 +678,7 @@
       "zh_title": "",
       "translated_from": "Bukayo Saka"
     },
+    "player|Burkina Faso": {},
     "player|Caio Henrique": {
       "description": "卡约·恩里克·奥利维拉·席尔瓦（葡萄牙语：Caio Henrique Oliveira Silva；1997年7月31日—），简称卡约·恩里克（葡萄牙语：Caio Henrique），是巴西男子足球运动员，场上司职左后卫与中场，目前效力于法甲球队摩纳哥。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Caio_Henrique_Oliveira_Silva_2017.jpg",
@@ -751,6 +755,7 @@
     "player|Cristiano Ronaldo": {},
     "player|Cristiano Ronaldo’s": {},
     "player|Cristiano Ronaldo’s Al-Nassr": {},
+    "player|Crysencio Summerville": {},
     "player|Crystal Palace": {},
     "player|Curaçao GK": {},
     "player|Cyle Larin": {},
@@ -945,6 +950,7 @@
       "zh_title": "",
       "translated_from": "Erling Haaland"
     },
+    "player|Erwan Colas": {},
     "player|Essex Police": {},
     "player|Estéban Lepaul": {},
     "player|Euro Final": {},
@@ -978,6 +984,7 @@
     "player|Florian Thauvin’s": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
+    "player|Former Eintracht Frankfurt": {},
     "player|Former England": {},
     "player|Former FIGC president Gravina": {},
     "player|Former Marseille": {},
@@ -992,8 +999,19 @@
     "player|From Osimhen to Sané": {},
     "player|From Shamrock Rovers to defying Spain": {},
     "player|From Times Square to England squad": {},
+    "player|García Junyent": {
+      "description": "奥斯卡·加西亚·祖耶特（加泰隆尼亚语：Òscar Garcia i Junyent；1973年4月26日—）是一名前西班牙足球运动员，司职进攻中场，退役后转任教练，曾执教特拉维夫马卡比、英冠球会白礼顿和屈福特、萨尔斯堡和西甲切尔塔等俱乐部。 作为球员时，加西亚是多才多艺的进攻选择，可以担任进攻中场或影子前锋。在他14年长的职业球员生涯中主要效力母会巴塞隆拿，具有一定的影响，亦曾为另外四支国内球队上阵。加西亚在西甲的12个球季合共上阵169场及射入31球，除巴塞隆拿外，亦曾效力爱斯宾奴4个球季和阿尔巴塞特及华伦西亚各一个球季。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_Admira_Wacker_M%C3%B6dling_vs._FC_Red_Bull_Salzburg_%28Cup%29_2017-04-26_%28032%29.jpg/500px-FC_Admira_Wacker_M%C3%B6dling_vs._FC_Red_Bull_Salzburg_%28Cup%29_2017-04-26_%28032%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%A5%A7%E6%96%AF%E5%8D%A1%C2%B7%E5%8A%A0%E8%A5%BF%E4%BA%9E",
+      "wiki_title": "奧斯卡·加西亞",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Óscar García (footballer, born 1973)"
+    },
     "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
+    "player|Goalkeeper Keating": {},
     "player|Goncalo Inacio": {},
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
@@ -1024,6 +1042,7 @@
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Inter’s Jones": {},
+    "player|Ipswich’s Philogene": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -1117,6 +1136,7 @@
     },
     "player|Julián Alvarez": {},
     "player|Julián Alvarez’s": {},
+    "player|Julián Quiñones": {},
     "player|Juventus Sorloth": {},
     "player|Juventus-linked Martinez": {},
     "player|Juventus’ Andrea Cambiaso": {},
@@ -1134,6 +1154,7 @@
     },
     "player|Katy Perry": {},
     "player|Kean’s Fiorentina": {},
+    "player|Keasse Bah": {},
     "player|Kelly Cates": {},
     "player|Kenan Yildiz’s": {},
     "player|Kennet Eichhorn": {
@@ -1183,6 +1204,7 @@
     "player|Kylian Mbappé’s": {},
     "player|La Liga": {},
     "player|La Repubblica": {},
+    "player|La salida de Demichelis agobia al Mallorca": {},
     "player|Lalo Arantegui": {
       "description": "Gonzalo Arantegui Peñafiel （ 1977年6月12日出生） ，俗称Lalo ，是一名西班牙退役足球运动员，曾担任右翼球员和足球总监。",
       "image_url": "",
@@ -1463,6 +1485,7 @@
       "translated_from": "Paul Pogba"
     },
     "player|Paulo Dybala": {},
+    "player|Peio Canales": {},
     "player|Pep Guardiola": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
@@ -1490,8 +1513,10 @@
     "player|Reggiani’s Italy": {},
     "player|Remarkable Lamine": {},
     "player|Roberto Gómez": {},
+    "player|Roberto Gómez insiste con Olise": {},
     "player|Rodez’s Nolan Galves": {},
     "player|Rodez’s Taïryk Arconte": {},
+    "player|Rodez’s Wilitty Younoussa": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Jan": {},
     "player|Roma’s Manu Kone": {},
@@ -1571,6 +1596,7 @@
     "player|Tartan Army": {},
     "player|The Athletic": {},
     "player|The French aristocrat and the all-American idiot": {},
+    "player|The Hotspot": {},
     "player|The Hotspot | ‘This may be our last chance’": {},
     "player|The Joy of Six": {},
     "player|Thierry Correia": {
@@ -1715,6 +1741,7 @@
     "player|World Cup Group D view from Turkey": {},
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
+    "player|World Cup live updates": {},
     "player|Yan Diomande": {
       "description": "扬·迪奥曼德（法語：Yan Diomande，2006年11月14日—）是一位科特迪瓦足球运动员，自2025-26赛季起效力于德甲俱乐部RB莱比锡，并代表科特迪瓦国家足球队参加国际比赛，于场上司职翼锋。",
       "image_url": "",
