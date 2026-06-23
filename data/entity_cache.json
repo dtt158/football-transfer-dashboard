@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T04:20:49Z",
+  "generated_at": "2026-06-23T15:25:49Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -503,6 +503,7 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
+    "player|'Caso Julián Álvarez'": {},
     "player|1982 Italy winner Collovati slams Infantino": {},
     "player|2026 World Cup": {},
     "player|2026 World Cup updates": {},
@@ -883,6 +884,7 @@
     "player|El Bayer Leverkusen": {},
     "player|El Betis": {},
     "player|El Birmingham": {},
+    "player|El Burgos": {},
     "player|El Celta": {},
     "player|El Córdoba": {},
     "player|El Dépor": {},
@@ -1483,6 +1485,7 @@
     "player|PSG’s Goncalo Ramos": {},
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
+    "player|Palestra to Inter": {},
     "player|Parma’s Suzuki": {},
     "player|Parma’s Zion Suzuki": {},
     "player|Partey WC": {},
@@ -1510,6 +1513,7 @@
     "player|Paulo Dybala": {},
     "player|Peio Canales": {},
     "player|Pep Guardiola": {},
+    "player|Philipp Lahm": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
     "player|Pierre Sage": {},
@@ -1517,6 +1521,7 @@
     "player|Pisa’s Akinsanmiro": {},
     "player|Play BBC Sport": {},
     "player|Portugal v DR Congo": {},
+    "player|Portugal v Uzbekistan": {},
     "player|Premier League": {},
     "player|Premier League 2025-26 season review": {},
     "player|Premier League fixtures": {},
@@ -1542,6 +1547,7 @@
     "player|Rodez’s Wilitty Younoussa": {},
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Dovbyk": {},
+    "player|Roma’s El Aynaoui": {},
     "player|Roma’s Jan": {},
     "player|Roma’s Manu Kone": {},
     "player|Roma’s Matias Soule": {},
@@ -1720,6 +1726,7 @@
     "player|Villa’s Morgan Rogers": {},
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
+    "player|Vlahovic’s Juventus": {},
     "player|Víctor Muñoz": {},
     "player|West Brom": {
       "description": "西布朗足球会（英语：West Bromwich Albion Football Club，发音为/wɛst ˈbrɒmɨdʒ/），简称“西布朗”（West Brom），英格兰西米德兰兹郡西布罗米奇的足球会，于1878年创立，是足球联盟创始成员，主场为山楂球场，现时在英格兰足球冠军联赛竞逐。",
@@ -1780,6 +1787,7 @@
     "player|Yann Bisseck": {},
     "player|Yoane Wissa": {},
     "player|Young Socceroos": {},
+    "player|Zaid Romero, al Getafe": {},
     "player|Zambo Anguissa": {
       "description": "安德烈-法兰克·森保·安古沙（法语：André-Frank Zambo Anguissa，1995年11月16日—），是一名喀麦隆职业足球员，司职中场，现时效力意甲球会拿玻里，并代表喀麦隆参与国际赛事。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ZAMBO_ANGUISSA.jpg/500px-ZAMBO_ANGUISSA.jpg",
