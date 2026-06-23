@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:16:35Z",
+  "generated_at": "2026-06-23T04:20:49Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -598,6 +598,7 @@
     "player|Arsene Wenger": {},
     "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
+    "player|Aston Villa’s Martinez": {},
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
     "player|Australia v Turkey": {},
@@ -910,6 +911,7 @@
     },
     "player|El Tenerife": {},
     "player|El Valencia": {},
+    "player|El Valladolid": {},
     "player|El Vasco": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Elliot Anderson": {
@@ -1012,6 +1014,16 @@
     "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
     "player|Goalkeeper Keating": {},
+    "player|Golden Boot": {
+      "description": "英格兰超级联赛金靴奖（英语：Premier League Golden Boot），简称英超金靴奖，是一项授予英格兰超级足球联赛神射手的足球奖项，以表彰在单个英超赛季中取得最多进球的球员。因赞助商的缘故，该奖项从1994年到2001年被称为嘉宁金靴奖（Carling Golden Boot），从2001到2014被称为巴克莱信用卡金靴奖（Barclaycard Golden Boot），在2013年被称为巴克莱金靴奖（Barclays Golden Boot）。该奖项的获得者除了得到一座奖杯外，通常会获得每球1000英镑的奖金以捐献给他们选择的慈善机构，而2012–13赛季的金靴得主罗宾·范佩西以26球收到了30000英镑。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Thierry_Henry_applauding_2012.jpg/500px-Thierry_Henry_applauding_2012.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8B%B1%E6%A0%BC%E8%98%AD%E8%B6%85%E7%B4%9A%E8%B6%B3%E7%90%83%E8%81%AF%E8%B3%BD%E9%87%91%E9%9D%B4%E7%8D%8E",
+      "wiki_title": "英格蘭超級足球聯賽金靴獎",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Premier League Golden Boot"
+    },
     "player|Goncalo Inacio": {},
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
@@ -1120,6 +1132,7 @@
     "player|Jonathan David": {},
     "player|Jonathan Liew": {},
     "player|Jonathan Wilson": {},
+    "player|Jordan v Algeria": {},
     "player|Jorge Mendes": {},
     "player|Joshua Kimmich defends Leroy Sané": {},
     "player|José Mourinho": {},
@@ -1140,6 +1153,7 @@
     "player|Juventus Sorloth": {},
     "player|Juventus-linked Martinez": {},
     "player|Juventus’ Andrea Cambiaso": {},
+    "player|Jérémy Doku": {},
     "player|Jürgen Klopp": {},
     "player|Jürgen Klopp’s": {},
     "player|Kang-in Lee": {
@@ -1298,7 +1312,16 @@
       "zh_title": "",
       "translated_from": "Manu Koné"
     },
-    "player|Manuel Neuer": {},
+    "player|Manuel Neuer": {
+      "description": "曼努埃尔·彼得·诺伊尔（德语：Manuel Peter Neuer，1986年3月27日—）是一名德国足球运动员，在场上司职守门员。他现效力于德甲球队拜仁慕尼黑，曾担任德国国家足球队队长，于2024年8月22日从国家队退役，亦是自2024年欧洲杯后第四位宣布从德国国家队退役的球员。现任德甲拜仁慕尼黑的队长，是世界上最顶级的门将之一。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg/500px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Manuel_Neuer_850_0723.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%9B%BC%E5%8A%AA%E5%9F%83%E5%B0%94%C2%B7%E8%AF%BA%E4%BC%8A%E5%B0%94",
+      "wiki_title": "曼努埃尔·诺伊尔",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Manuel Neuer"
+    },
     "player|Marc Cucurella": {},
     "player|Marco Palestra": {
       "description": "马尔科·帕拉（ 2005年3月3日出生）是一名意大利职业足球运动员，他从亚特兰大租借，在意甲卡利亚里俱乐部和意大利国家队担任右后卫或右后卫。",
@@ -1518,6 +1541,7 @@
     "player|Rodez’s Taïryk Arconte": {},
     "player|Rodez’s Wilitty Younoussa": {},
     "player|Roma’s Donyell Malen": {},
+    "player|Roma’s Dovbyk": {},
     "player|Roma’s Jan": {},
     "player|Roma’s Manu Kone": {},
     "player|Roma’s Matias Soule": {},
@@ -1693,6 +1717,7 @@
       "zh_title": "",
       "translated_from": "Vedat Muriqi"
     },
+    "player|Villa’s Morgan Rogers": {},
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Víctor Muñoz": {},
@@ -1741,6 +1766,7 @@
     "player|World Cup Group D view from Turkey": {},
     "player|World Cup Power Rankings": {},
     "player|World Cup Rank": {},
+    "player|World Cup VAR review": {},
     "player|World Cup live updates": {},
     "player|Yan Diomande": {
       "description": "扬·迪奥曼德（法語：Yan Diomande，2006年11月14日—）是一位科特迪瓦足球运动员，自2025-26赛季起效力于德甲俱乐部RB莱比锡，并代表科特迪瓦国家足球队参加国际比赛，于场上司职翼锋。",
