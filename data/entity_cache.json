@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T04:26:53Z",
+  "generated_at": "2026-06-24T14:55:48Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -517,7 +517,16 @@
       "wiki_variant": "zh",
       "zh_title": ""
     },
-    "player|Aaron Ramsey": {},
+    "player|Aaron Ramsey": {
+      "description": "亚伦·詹姆斯·拉姆齐（ Aaron James Ramsey ， 2003年1月21日－ ）是一名英国职业足球运动员，曾在EFL冠军俱乐部伯恩利（ Burnley ）担任边锋或攻击型中场。他是阿斯顿维拉学院的产品，曾代表英格兰参加过20岁以下的青年级比赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Aaron_Ramsey_26042025_%281%29.jpg/500px-Aaron_Ramsey_26042025_%281%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Aaron_Ramsey_(English_footballer)",
+      "wiki_title": "Aaron Ramsey (English footballer)",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Aaron Ramsey (English footballer)"
+    },
     "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
@@ -599,6 +608,16 @@
     },
     "player|Argentina v Austria": {},
     "player|Arsene Wenger": {},
+    "player|Arthur Piedfort": {
+      "description": "亚瑟·皮德福特（ Arthur Piedfort ， 2005年2月1日－ ）是一名比利时职业足球运动员，曾在比利时职业联赛俱乐部韦斯特洛（ Westerlo ）担任防守中场。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Arthur_Piedfort",
+      "wiki_title": "Arthur Piedfort",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Arthur Piedfort"
+    },
     "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
     "player|Aston Villa’s Martinez": {},
@@ -616,6 +635,15 @@
       "wiki_variant": "zh-hans",
       "zh_title": "",
       "translated_from": "Ayase Ueda"
+    },
+    "player|Ayyoub Bouaddi": {
+      "description": "阿尤布·布阿迪（阿拉伯語：أيوب بوعدي，柏柏爾語：ⴰⵢⵢⵓⴱ ⴱⵓⵄⴰⴷⴷⵉ，法語：Ayyoub Bouaddi；2007年10月2日—），摩洛哥裔法國職業足球運動員，司職中場，現效力法甲的里爾和摩洛哥國家足球隊。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ayyoub_Bouaddi_Morocco_v_Norway_7_June_2026-71.jpg/500px-Ayyoub_Bouaddi_Morocco_v_Norway_7_June_2026-71.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%A4%E5%B8%83%C2%B7%E5%B8%83%E9%98%BF%E8%BF%AA",
+      "wiki_title": "阿尤布·布阿迪",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
     },
     "player|BBC Sport": {},
     "player|Baldini coy on Italy future": {},
@@ -790,6 +818,7 @@
     "player|Daniel Muñoz": {},
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|Danny Röhl": {},
+    "player|David Pleat": {},
     "player|David Raya": {
       "description": "大卫·拉亚·马丁（西班牙语：David Raya Martín；1995年9月15日—），西班牙男子职业足球运动员，现效力于英超球会阿仙奴、西班牙国家足球队，司职守门员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/David_Raya_in_2025_%28cropped%29.jpg/500px-David_Raya_in_2025_%28cropped%29.jpg",
@@ -855,6 +884,7 @@
       "zh_title": "",
       "translated_from": "Alessandro Del Piero"
     },
+    "player|Deniz Undav": {},
     "player|Deniz Undav’s": {},
     "player|Denzel Dumfries": {
       "description": "登泽尔·于斯特斯·莫里斯·邓弗里斯（荷兰语：Denzel Justus Morris Dumfries，1996年4月18日—），荷兰足球运动员，司职右后卫，现效力义甲球会国际米兰。他于2014年加入阿鲁巴代表队，2018年加入荷兰国家队。",
@@ -875,6 +905,7 @@
     "player|Does Ousmane Dembélé": {},
     "player|Donald Trump": {},
     "player|Dunkerque’s Enzo Bardeli": {},
+    "player|Dynamo Kyiv": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Chris Waddle": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
@@ -893,6 +924,7 @@
     "player|El Burgos": {},
     "player|El Celta": {},
     "player|El Córdoba": {},
+    "player|El Córdoba es el gran animador del mercado": {},
     "player|El Dépor": {},
     "player|El Eibar": {},
     "player|El Elche": {},
@@ -919,6 +951,7 @@
     },
     "player|El Tenerife": {},
     "player|El Valencia": {},
+    "player|El Valencia 'pelea' un asunto delicado con Sato": {},
     "player|El Valladolid": {},
     "player|El Vasco": {},
     "player|Electric Ben Gannon-Doak": {},
@@ -967,6 +1000,7 @@
     "player|Euro Final": {},
     "player|Evan Ferguson": {},
     "player|Everton’s Iliman Ndiaye": {},
+    "player|Evertton Araujo": {},
     "player|Ewan Murray": {},
     "player|Ewen Jaouen": {
       "description": "尤恩·贾万（ Ewen Jaouen ， 2005年12月29日－ ）是一名法国职业足球运动员，曾在兰斯联赛2号俱乐部担任守门员。",
@@ -979,6 +1013,16 @@
       "translated_from": "Ewen Jaouen"
     },
     "player|FIFA World Cup 2026 and Serie A": {},
+    "player|Facundo Medina": {
+      "description": "法昆多·阿克塞尔·梅迪纳（西班牙语：Facundo Axel Medina；1999年5月28日—），是一名阿根廷的职业足球运动员，司职左后卫，现由法甲球队朗斯外借至马赛。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_21.jpg/500px-Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_21.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%B3%95%E6%98%86%E5%A4%9A%C2%B7%E6%A2%85%E8%BF%AA%E7%B4%8D",
+      "wiki_title": "法昆多·梅迪納",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Facundo Medina"
+    },
     "player|Feature I Chevalier, Fati, Morton": {},
     "player|Federico Chiesa": {
       "description": "费德里科·奇萨（义大利语：Federico Chiesa；1997年10月25日—）是一位意大利职业足球运动员，在场上的位置通常是边锋，但也可以充当前锋、攻击型中场和中场角色。现时效力于英超球队利物浦。他也代表意大利国家足球队参赛。",
@@ -1089,6 +1133,7 @@
       "translated_from": "Izan González"
     },
     "player|Jacob Steinberg": {},
+    "player|Jamal Musiala": {},
     "player|Jean Butez": {
       "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jean_Butez_%28cropped%29.jpg/500px-Jean_Butez_%28cropped%29.jpg",
@@ -1159,7 +1204,17 @@
       "zh_title": "",
       "translated_from": "Juan Iglesias"
     },
-    "player|Julián Alvarez": {},
+    "player|Julien Lachuer": {},
+    "player|Julián Alvarez": {
+      "description": "胡利安·阿尔瓦雷斯（西班牙语： Julián Alvarez ， 2000年1月31日－ ）是一名阿根廷职业足球运动员，曾在马德里竞技俱乐部和阿根廷国家队担任前锋。阿尔瓦雷斯在他的家乡阿根廷开始了他的足球生涯，在那里他是River Plate的学院毕业生，他在2018年为俱乐部首次亮相。在那里，他度过了四个赛季，赢得了杯赛冠军……",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Argentina_national_football_team_-_2_-_2022_%28Juli%C3%A1n_%C3%81lvarez%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Alvarez",
+      "wiki_title": "Julián Alvarez",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "胡利安·阿尔瓦雷斯",
+      "translated_from": "Julián Alvarez"
+    },
     "player|Julián Alvarez’s": {},
     "player|Julián Quiñones": {},
     "player|Juventus Sorloth": {},
@@ -1230,6 +1285,7 @@
     "player|Kylian Mbappé on Michael Olise": {},
     "player|Kylian Mbappé’s": {},
     "player|La Liga": {},
+    "player|La Real": {},
     "player|La Repubblica": {},
     "player|La salida de Demichelis agobia al Mallorca": {},
     "player|Lalo Arantegui": {
@@ -1254,6 +1310,7 @@
     },
     "player|Las Palmas": {},
     "player|Lassana Diarra": {},
+    "player|Lazio Women": {},
     "player|Lazio’s Provedel": {},
     "player|Lens’ Hervé Koffi": {},
     "player|Leverkusen’s Kerim Alajbegovic": {},
@@ -1275,7 +1332,18 @@
       "zh_title": "",
       "translated_from": "Luca Koleosho"
     },
+    "player|Lucas Bergvall": {
+      "description": "卢卡斯·埃里克·霍尔格·贝里瓦尔（瑞典语：Lucas Erik Holger Bergvall，2006年2月2日—），生于瑞典斯德哥尔摩，男子职业足球运动员，司职中场，效力于英超俱乐部托特纳姆热刺和瑞典国家队。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Lucas_Bergvall_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29.jpg/500px-Lucas_Bergvall_%28Sweden_U21_vs_Moldova_U21%2C_13_October_2023%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%8D%A2%E5%8D%A1%E6%96%AF%C2%B7%E8%B4%9D%E9%87%8C%E7%93%A6%E5%B0%94",
+      "wiki_title": "卢卡斯·贝里瓦尔",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Lucas Bergvall"
+    },
     "player|Lucas Chevalier": {},
+    "player|Luciano Spalletti": {},
     "player|Luis Carrión": {
       "description": "路易斯·米格尔·卡里翁·德尔加多（西班牙语： Luis Miguel Carrión Delgado ， 1979年2月7日－ ）是一名西班牙前职业足球运动员，曾担任右后卫",
       "image_url": "",
@@ -1390,6 +1458,7 @@
     },
     "player|Max Allegri": {},
     "player|Max Allegri to Napoli": {},
+    "player|Maxime Dupé": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Mexico v South Africa": {},
@@ -1476,6 +1545,7 @@
     },
     "player|Olivier Pantaloni": {},
     "player|Omar Artan": {},
+    "player|Omar Mascarell": {},
     "player|Ongoing Juventus": {},
     "player|Oumar Solet": {
       "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
@@ -1818,6 +1888,7 @@
       "translated_from": "Frank Anguissa"
     },
     "player|Zinedine Zidane": {},
+    "player|Zinédine Zidane": {},
     "player|Zlatan Ibrahimovic": {},
     "player|Zohran Mamdani": {},
     "player|‘People think I’ve vanished’": {},
