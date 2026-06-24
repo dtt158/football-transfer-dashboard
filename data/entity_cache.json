@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:25:49Z",
+  "generated_at": "2026-06-24T04:26:53Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -517,6 +517,7 @@
       "wiki_variant": "zh",
       "zh_title": ""
     },
+    "player|Aaron Ramsey": {},
     "player|Adiós Rashford": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
@@ -570,6 +571,7 @@
     "player|Allegri to Napoli": {},
     "player|Amad Diallo": {},
     "player|Américo Branco": {},
+    "player|Andrea Cambiaso": {},
     "player|Andrea Cambiaso-Nico Jackson": {},
     "player|André-Pierre Gignac": {},
     "player|Ansu Fati": {},
@@ -600,6 +602,7 @@
     "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
     "player|Aston Villa’s Martinez": {},
+    "player|Atalanta’s Marco Palestra": {},
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
     "player|Australia v Turkey": {},
@@ -639,6 +642,7 @@
     "player|Big Lalas Energy to ulcerative colitis meds": {},
     "player|Billionaire West Ham": {},
     "player|Bleep tests, alcohol bans and Gazza": {},
+    "player|BlueCo-owned Strasbourg": {},
     "player|Bobby Gardiner": {},
     "player|Boca Juniors": {},
     "player|Bomba en Mallorca": {},
@@ -783,6 +787,7 @@
       "zh_title": "達尼·奧爾莫",
       "translated_from": "Dani Olmo"
     },
+    "player|Daniel Muñoz": {},
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|Danny Röhl": {},
     "player|David Raya": {
@@ -868,6 +873,7 @@
     "player|Didier Digard": {},
     "player|Dino Toppmöller": {},
     "player|Does Ousmane Dembélé": {},
+    "player|Donald Trump": {},
     "player|Dunkerque’s Enzo Bardeli": {},
     "player|EURO Final": {},
     "player|EXCLUSIVE | Chris Waddle": {},
@@ -942,6 +948,7 @@
       "zh_title": "",
       "translated_from": "Enzo Bardeli"
     },
+    "player|Enzo Fernández vs Ayyoub Bouaddi": {},
     "player|Enzo Maresca": {},
     "player|Eric Roy": {},
     "player|Erling Haaland": {
@@ -1056,7 +1063,9 @@
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Inter’s Jones": {},
+    "player|Ipswich Town": {},
     "player|Ipswich’s Philogene": {},
+    "player|Irrepressible Messi": {},
     "player|Isac Lidberg": {
       "description": "Isac Alexi Sivert Lidberg (born 8 September 1998) is a Swedish professional footballer who plays as a forward for 2. Bundesliga club Darmstadt 98 and the Sweden national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg/500px-Isac_Lidberg_-_Go_Ahead_Eagles_-_FC_Volendam_-_52914784076_%282023%29.jpg",
@@ -1132,6 +1141,7 @@
       "translated_from": "Jonah Kusi-Asare"
     },
     "player|Jonathan David": {},
+    "player|Jonathan Fischer": {},
     "player|Jonathan Liew": {},
     "player|Jonathan Wilson": {},
     "player|Jordan v Algeria": {},
@@ -1185,6 +1195,7 @@
     },
     "player|Kenny Jackett": {},
     "player|Kieran McKenna": {},
+    "player|Kim Min-jae": {},
     "player|Kolo Muani": {
       "description": "朗达尔·科洛·穆瓦尼（法语：Randal Kolo Muani；1998年12月5日—），法国足球运动员，司职前锋，现效力于法甲俱乐部巴黎圣日耳曼。法国国家队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Randal_Kolo_Muani_2020.jpg/500px-Randal_Kolo_Muani_2020.jpg",
@@ -1245,6 +1256,7 @@
     "player|Lassana Diarra": {},
     "player|Lazio’s Provedel": {},
     "player|Lens’ Hervé Koffi": {},
+    "player|Leverkusen’s Kerim Alajbegovic": {},
     "player|Liam Rosenior": {},
     "player|Lille’s Ayyoub Bouaddi": {},
     "player|Lille’s Matias Fernandez-Pardo": {},
@@ -1383,10 +1395,13 @@
     "player|Mexico v South Africa": {},
     "player|Michael Olise": {},
     "player|Michel Der Zakarian": {},
+    "player|Michele Kang": {},
     "player|Mika Mármol": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
+    "player|Mike Penders": {},
     "player|Mikel Merino": {},
+    "player|Milan Chase Tottenham Midfielder": {},
     "player|Milan forward Gimenez": {},
     "player|Milan-linked Krösche": {},
     "player|Milan’s Christian Pulisic": {},
@@ -1449,6 +1464,7 @@
     "player|OGC Nice": {},
     "player|OGC Nice’s Charles Vanhoutte": {},
     "player|OL Lyonnes": {},
+    "player|Ocean Drive": {},
     "player|Oliver Glasner": {
       "description": "奥利弗·格拉斯纳（德語：Oliver Glasner，1974年8月28日—）是一位奥地利前足球运动员及现任足球教练。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg/500px-2022128173931_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_2395_-_B70I8506_%28cropped%29.jpg",
@@ -1518,6 +1534,7 @@
     "player|Philippe Senderos": {},
     "player|Pierre Sage": {},
     "player|Pierre Sage’s Crystal Palace": {},
+    "player|Pierre-Emerick Aubameyang": {},
     "player|Pisa’s Akinsanmiro": {},
     "player|Play BBC Sport": {},
     "player|Portugal v DR Congo": {},
@@ -1548,6 +1565,7 @@
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Dovbyk": {},
     "player|Roma’s El Aynaoui": {},
+    "player|Roma’s Evan Ndicka": {},
     "player|Roma’s Jan": {},
     "player|Roma’s Manu Kone": {},
     "player|Roma’s Matias Soule": {},
@@ -1775,6 +1793,7 @@
     "player|World Cup Rank": {},
     "player|World Cup VAR review": {},
     "player|World Cup live updates": {},
+    "player|Wouter Vrancken": {},
     "player|Yan Diomande": {
       "description": "扬·迪奥曼德（法語：Yan Diomande，2006年11月14日—）是一位科特迪瓦足球运动员，自2025-26赛季起效力于德甲俱乐部RB莱比锡，并代表科特迪瓦国家足球队参加国际比赛，于场上司职翼锋。",
       "image_url": "",
