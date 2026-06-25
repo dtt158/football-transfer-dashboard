@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T04:24:07Z",
+  "generated_at": "2026-06-25T14:55:41Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -624,6 +624,7 @@
     "player|Atalanta’s Marco Palestra": {},
     "player|Atletico Madrid": {},
     "player|Atlético Madrid": {},
+    "player|Atlético Madrid’s": {},
     "player|Australia v Turkey": {},
     "player|Austria v Jordan": {},
     "player|Ayase Ueda": {
@@ -655,6 +656,7 @@
     "player|Bayern Munich": {},
     "player|Bayern Munich’s Alexander Nübel": {},
     "player|Bayern Munich’s Michael Olise": {},
+    "player|Belgian Vrancken": {},
     "player|Bernardo Silva": {
       "description": "贝纳尔多·莫塔·韦加·德卡瓦略·席尔瓦（葡萄牙语：Bernardo Mota Veiga de Carvalho e Silva，发音：[bɨɾˈnaɾðu ˈsilvɐ]；1994年8月10日—）是一名葡萄牙职业足球员。司职中场。目前效力于英超俱乐部曼城并担任队长，也代表葡萄牙国家足球队参加国际赛事。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png/500px-Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png",
@@ -818,6 +820,7 @@
     "player|Daniel Muñoz": {},
     "player|Danilo on Juventus, Ronaldo and Ancelotti": {},
     "player|Danny Röhl": {},
+    "player|Darwin Nunez": {},
     "player|David Pleat": {},
     "player|David Raya": {
       "description": "大卫·拉亚·马丁（西班牙语：David Raya Martín；1995年9月15日—），西班牙男子职业足球运动员，现效力于英超球会阿仙奴、西班牙国家足球队，司职守门员。",
@@ -1046,6 +1049,7 @@
       "translated_from": "Federico Chiesa"
     },
     "player|Ferland Mendy": {},
+    "player|Fiorentina’s Dodo": {},
     "player|Florentino Pérez": {},
     "player|Florian Thauvin’s": {},
     "player|Football Daily": {},
@@ -1061,6 +1065,7 @@
     "player|France’s Ousmane Dembélé": {},
     "player|France’s Rayan Cherki": {},
     "player|France’s William Saliba": {},
+    "player|Franck Kita on Nantes’ disastrous season": {},
     "player|Franck Leboeuf": {},
     "player|From Osimhen to Sané": {},
     "player|From Shamrock Rovers to defying Spain": {},
@@ -1075,6 +1080,7 @@
       "zh_title": "",
       "translated_from": "Óscar García (footballer, born 1973)"
     },
+    "player|Gareth Southgate": {},
     "player|Gary O’Neil": {},
     "player|Gennaro Gattuso": {},
     "player|Goalkeeper Keating": {},
@@ -1092,6 +1098,7 @@
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
     "player|Greece 0-1 Italy": {},
+    "player|Génération Foot": {},
     "player|Hansi Flick": {},
     "player|Harry Kane": {},
     "player|Harry Kane’s American dream begins": {},
@@ -1473,7 +1480,16 @@
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
     "player|Mexico v South Africa": {},
-    "player|Michael Olise": {},
+    "player|Michael Olise": {
+      "description": "迈克尔·阿克波维·奥利斯（ Michael Akpovie Olise ） （; o-LEE-say; Urhobo ： [à .k ”p” .vj ”.”. ”.”. ”.l” .s ”.” ）是一名法国职业足球运动员，曾在德甲拜仁慕尼黑俱乐部担任边锋或进攻中场。他出生于英格兰，为法国国家队效力。他被认为是世界上最好的边锋之一，以其创造力、运球和天赋而闻名。各种各样的产品……",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg/500px-Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Michael_Olise",
+      "wiki_title": "Michael Olise",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "米高·奧利斯",
+      "translated_from": "Michael Olise"
+    },
     "player|Michel Der Zakarian": {},
     "player|Michele Kang": {},
     "player|Mika Mármol": {},
@@ -1593,6 +1609,7 @@
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
     "player|Palestra to Inter": {},
+    "player|Paris FC": {},
     "player|Parma’s Suzuki": {},
     "player|Parma’s Zion Suzuki": {},
     "player|Partey WC": {},
@@ -1771,11 +1788,22 @@
       "translated_from": "Thomas Tuchel"
     },
     "player|Today’s Papers": {},
+    "player|Tom Ritzy Hülsmann": {
+      "description": "Tom Ritzy Hülsmann （生于2004年4月11日）是一名德国职业足球运动员，曾在奥地利德甲俱乐部TSV Hartberg担任守门员。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/Tom_Ritzy_H%C3%BClsmann",
+      "wiki_title": "Tom Ritzy Hülsmann",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Tom Ritzy Hülsmann"
+    },
     "player|Toni Kroos": {},
     "player|Tottenham Hotspur": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
     "player|Tottenham’s Roberto De Zerbi": {},
+    "player|Trevoh Chalobah": {},
     "player|Tunisia v Japan": {},
     "player|Turkey v Paraguay": {},
     "player|Two-goal Yasin Ayari": {},
@@ -1882,6 +1910,7 @@
     "player|World Cup 2026 wallchart": {},
     "player|World Cup Group D view from Turkey": {},
     "player|World Cup Power Rankings": {},
+    "player|World Cup Q&A": {},
     "player|World Cup Rank": {},
     "player|World Cup VAR review": {},
     "player|World Cup live updates": {},
@@ -1898,6 +1927,16 @@
     "player|Yann Bisseck": {},
     "player|Yoane Wissa": {},
     "player|Young Socceroos": {},
+    "player|Youssef El Kachati": {
+      "description": "优素福·卡恰蒂（阿拉伯语： Youssef El Kachati يوسف الكشاطي，罗马化： Yūsuf al-Kashāųī ； 1999年11月30日出生）是一名职业足球运动员，曾在Eredivisie club NEC担任前锋或边锋。他出生于荷兰，在国际上代表摩洛哥。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Youssef_el_Kachati.jpg/500px-Youssef_el_Kachati.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Youssef_El_Kachati",
+      "wiki_title": "Youssef El Kachati",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Youssef El Kachati"
+    },
     "player|Zaid Romero, al Getafe": {},
     "player|Zambo Anguissa": {
       "description": "安德烈-法兰克·森保·安古沙（法语：André-Frank Zambo Anguissa，1995年11月16日—），是一名喀麦隆职业足球员，司职中场，现时效力意甲球会拿玻里，并代表喀麦隆参与国际赛事。",
