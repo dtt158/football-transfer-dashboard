@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T14:55:48Z",
+  "generated_at": "2026-06-25T04:24:07Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -854,6 +854,7 @@
       "zh_title": "",
       "translated_from": "Kevin De Bruyne"
     },
+    "player|De Laurentiis": {},
     "player|De Vrij": {
       "description": "斯特凡·德弗赖（荷兰语：Stefan de Vrij，发音：[ˈsteːfɑn də ˈvrɛi]；1992年2月5日—），是一名荷兰足球运动员，司职后卫，现效力于意大利足球甲级联赛球队国际米兰。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/DK-Lazio_%2813%29.jpg",
@@ -884,7 +885,16 @@
       "zh_title": "",
       "translated_from": "Alessandro Del Piero"
     },
-    "player|Deniz Undav": {},
+    "player|Deniz Undav": {
+      "description": "德尼兹·温达夫（德语：Deniz Undav；1996年7月19日—），是一名德国的名称职业足球员，现效力德甲球队斯图加特。德国国家足球队成员。司职前锋。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Deniz_undav.jpg/500px-Deniz_undav.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%BE%B7%E5%B0%BC%E8%8C%B2%C2%B7%E6%BA%AB%E9%81%94%E5%A4%AB",
+      "wiki_title": "德尼茲·溫達夫",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Deniz Undav"
+    },
     "player|Deniz Undav’s": {},
     "player|Denzel Dumfries": {
       "description": "登泽尔·于斯特斯·莫里斯·邓弗里斯（荷兰语：Denzel Justus Morris Dumfries，1996年4月18日—），荷兰足球运动员，司职右后卫，现效力义甲球会国际米兰。他于2014年加入阿鲁巴代表队，2018年加入荷兰国家队。",
@@ -918,6 +928,7 @@
     "player|El Aston Villa": {},
     "player|El Atlético activa el plan B": {},
     "player|El Barça": {},
+    "player|El Barça espera su momento": {},
     "player|El Bayer Leverkusen": {},
     "player|El Betis": {},
     "player|El Birmingham": {},
@@ -1499,6 +1510,7 @@
     "player|Mourinho se despide del Benfica": {},
     "player|Mr Irreplaceable": {},
     "player|NO PUBLICAR Así": {},
+    "player|NY Mets": {},
     "player|Nathaniel Brown": {},
     "player|Newcastle United": {},
     "player|Newcastle United’s": {},
@@ -1545,7 +1557,16 @@
     },
     "player|Olivier Pantaloni": {},
     "player|Omar Artan": {},
-    "player|Omar Mascarell": {},
+    "player|Omar Mascarell": {
+      "description": "奥马尔·马斯卡雷尔·冈萨雷斯（ Omar Mascarell González ， 1993年2月2日－ ）是一名职业足球运动员，曾在西甲马略卡俱乐部担任防守中场。他在皇家马德里发展起来，在那里他出现了一支一线队，他还在西甲联赛中为希洪体育、埃尔切和马略卡岛效力。他还为Eintracht Frankfurt和Schalke 04总共赢得了98场德甲比赛，并在2018年与前者一起赢得了DFB-Pokal。出生于西班牙，...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Omar_Mascarell_2018.jpg/500px-Omar_Mascarell_2018.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Omar_Mascarell",
+      "wiki_title": "Omar Mascarell",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "奧馬爾·馬斯卡雷利",
+      "translated_from": "Omar Mascarell"
+    },
     "player|Ongoing Juventus": {},
     "player|Oumar Solet": {
       "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
@@ -1812,6 +1833,7 @@
       "translated_from": "Vedat Muriqi"
     },
     "player|Villa’s Morgan Rogers": {},
+    "player|Vinicius Jr": {},
     "player|Vinícius Júnior": {},
     "player|Vitória’s Diogo Sousa": {},
     "player|Vlahovic’s Juventus": {},
