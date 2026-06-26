@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T14:55:41Z",
+  "generated_at": "2026-06-26T04:39:45Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -583,7 +583,16 @@
     "player|Andrea Cambiaso": {},
     "player|Andrea Cambiaso-Nico Jackson": {},
     "player|André-Pierre Gignac": {},
-    "player|Ansu Fati": {},
+    "player|Ansu Fati": {
+      "description": "安苏曼·法蒂·维埃拉（西班牙语：Anssumane Fati Vieira；2002年10月31日—），是一名西班牙足球运动员。现效力法甲球队摩纳哥 ，场上主要担任翼锋，西班牙国家足球队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Barcelona_Training_Miami_2022_01_%28cropped%29.jpg/500px-Barcelona_Training_Miami_2022_01_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%AE%89%E8%98%87%C2%B7%E6%B3%95%E8%92%82",
+      "wiki_title": "安蘇·法蒂",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Ansu Fati"
+    },
     "player|Anthony Gordon": {
       "description": "安东尼·迈克尔·戈登（英语：Anthony Michael Gordon，2001年2月24日—）是英格兰男子足球员，现效力于英格兰超级足球联赛球会纽卡索，将在2026年7月1日加入西班牙足球甲级联赛俱乐部巴塞隆纳。英格兰足球代表队成员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gordon_in_2024.jpg/500px-Gordon_in_2024.jpg",
@@ -676,6 +685,7 @@
     "player|Bobby Gardiner": {},
     "player|Boca Juniors": {},
     "player|Bomba en Mallorca": {},
+    "player|Bombazo en la NBA": {},
     "player|Borussia Dortmund": {
       "description": "多特蒙德足球俱乐部（ Borussia Dortmund ）是一支德国女子足球队，总部位于北莱茵-威斯特伐利亚州多特蒙德。俱乐部实现了连续晋级，在前三个赛季保持不败，最终进入地区联赛，并连续四次赢得Kreispokal。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
@@ -927,6 +937,7 @@
     "player|Eintracht Frankfurt’s Jean-Matteo Bahoya": {},
     "player|Eintracht Frankfurt’s Markus Krösche": {},
     "player|El Alba": {},
+    "player|El Almería": {},
     "player|El Andorra": {},
     "player|El Aston Villa": {},
     "player|El Atlético activa el plan B": {},
@@ -1069,6 +1080,7 @@
     "player|Franck Leboeuf": {},
     "player|From Osimhen to Sané": {},
     "player|From Shamrock Rovers to defying Spain": {},
+    "player|From Spain": {},
     "player|From Times Square to England squad": {},
     "player|García Junyent": {
       "description": "奥斯卡·加西亚·祖耶特（加泰隆尼亚语：Òscar Garcia i Junyent；1973年4月26日—）是一名前西班牙足球运动员，司职进攻中场，退役后转任教练，曾执教特拉维夫马卡比、英冠球会白礼顿和屈福特、萨尔斯堡和西甲切尔塔等俱乐部。 作为球员时，加西亚是多才多艺的进攻选择，可以担任进攻中场或影子前锋。在他14年长的职业球员生涯中主要效力母会巴塞隆拿，具有一定的影响，亦曾为另外四支国内球队上阵。加西亚在西甲的12个球季合共上阵169场及射入31球，除巴塞隆拿外，亦曾效力爱斯宾奴4个球季和阿尔巴塞特及华伦西亚各一个球季。",
@@ -1095,12 +1107,22 @@
       "translated_from": "Premier League Golden Boot"
     },
     "player|Goncalo Inacio": {},
+    "player|Gonçalo Ramos": {},
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
     "player|Greece 0-1 Italy": {},
     "player|Génération Foot": {},
     "player|Hansi Flick": {},
-    "player|Harry Kane": {},
+    "player|Harry Kane": {
+      "description": "哈里·爱德华·卡尼，MBE（英语：Harry Edward Kane，1993年7月28日—），英格兰职业足球员，司职前锋。现效力德甲俱乐部拜仁慕尼黑，同时是英格兰足球代表队的队长。被誉为当今世界足坛最佳前锋之一。 卡尼曾代表英格兰各级青年队参加比赛。2011年8月25日，他于热刺对赫斯的欧霸杯比赛中首次代表一队出场参加比赛。升上一队之前，卡尼大部份时间外借至其他球会，计有英甲的莱顿东方、英冠的米尔沃尔和莱斯特城、和英超的诺里奇城。简尼于2014–15球季成为托特纳姆热刺的常规正选，在2015年3月27日攻入首个国家成年队入球。并以31球入球成为球队神射手、其中21球为联赛入球。他更获选为2015年PFA年度最佳青年球员。 在2009年至2023年效力热刺期间，卡尼在国内联赛进球数为213球，并夺得三次英格兰超级足球联赛金靴奖及一次英格兰足球超级联赛赛季最佳组织者，并当选七次英格兰足球超级联赛月度最佳球员。...",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Harry_Kane_2023.jpg/500px-Harry_Kane_2023.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%93%88%E9%87%8C%C2%B7%E5%87%B1%E6%81%A9",
+      "wiki_title": "哈里·凱恩",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Harry Kane"
+    },
     "player|Harry Kane’s American dream begins": {},
     "player|Henderson’s Euro": {},
     "player|Herbert Hainer": {},
@@ -1222,6 +1244,7 @@
       "zh_title": "",
       "translated_from": "Juan Iglesias"
     },
+    "player|Juanjo Nieto": {},
     "player|Julien Lachuer": {},
     "player|Julián Alvarez": {
       "description": "胡利安·阿尔瓦雷斯（西班牙语： Julián Alvarez ， 2000年1月31日－ ）是一名阿根廷职业足球运动员，曾在马德里竞技俱乐部和阿根廷国家队担任前锋。阿尔瓦雷斯在他的家乡阿根廷开始了他的足球生涯，在那里他是River Plate的学院毕业生，他在2018年为俱乐部首次亮相。在那里，他度过了四个赛季，赢得了杯赛冠军……",
@@ -1394,7 +1417,16 @@
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
     "player|Lyon’s Afonso Moreira": {},
-    "player|Mads Bidstrup": {},
+    "player|Mads Bidstrup": {
+      "description": "马德斯·比德斯特鲁普（丹麦语： Mads Bidstrup ， 2001年2月25日－ ）是一名丹麦职业足球运动员，曾在奥地利萨尔茨堡德甲红牛俱乐部担任中场球员，并担任俱乐部队长。Bidstrup是哥本哈根学院的产物，于2020年在英国布伦特福德开始了他的高级职业生涯。他在Nordsjælland租借了俱乐部三年的大部分时间......",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/FC_Red_Bull_Salzburg_gegen_WSG_Tirol_%282023-08-06%29_18.jpg/500px-FC_Red_Bull_Salzburg_gegen_WSG_Tirol_%282023-08-06%29_18.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Mads_Bidstrup",
+      "wiki_title": "Mads Bidstrup",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Mads Bidstrup"
+    },
     "player|Maffeo, antes de poner rumbo al Olympiacos": {},
     "player|Maghnes Akliouche": {},
     "player|Man Uni": {},
@@ -1722,6 +1754,7 @@
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
     "player|South Africa": {},
+    "player|South Americans": {},
     "player|South Korea": {},
     "player|Spaceship stadiums and Ronaldo-mania": {},
     "player|Spain v Cape Verde": {},
@@ -1805,6 +1838,7 @@
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Trevoh Chalobah": {},
     "player|Tunisia v Japan": {},
+    "player|Turkey 3-2 USA": {},
     "player|Turkey v Paraguay": {},
     "player|Two-goal Yasin Ayari": {},
     "player|Téji Savanier": {},
