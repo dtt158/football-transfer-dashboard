@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T04:17:03Z",
+  "generated_at": "2026-06-27T14:06:22Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -633,6 +633,7 @@
     "player|Aston Villa’s Martinez": {},
     "player|Atalanta’s Marco Palestra": {},
     "player|Atletico Madrid": {},
+    "player|Atletico Madrid’s Ruggeri": {},
     "player|Atlético Madrid": {},
     "player|Atlético Madrid’s": {},
     "player|Australia v Turkey": {},
@@ -679,6 +680,7 @@
     },
     "player|Best Canada": {},
     "player|Beth Mead": {},
+    "player|Bielsa exits World Cup with admission": {},
     "player|Big Lalas Energy to ulcerative colitis meds": {},
     "player|Billionaire West Ham": {},
     "player|Bleep tests, alcohol bans and Gazza": {},
@@ -858,6 +860,7 @@
       "zh_title": "",
       "translated_from": "David Sánchez (footballer, born 1982)"
     },
+    "player|Davide Ancelotti": {},
     "player|David’s Juventus": {},
     "player|De Bruyne": {
       "description": "凯文·德布劳内（荷兰语：Kevin De Bruyne，发音：[ˈkɛvɪn də ˈbrœynə]；1991年6月28日—），比利时男子职业足球员，司职中场，现效力于义甲俱乐部拿坡里，同时是比利时国家足球队队长。他连续两年获得英格兰PFA足球先生的荣耀，在他之前仅有两人曾有这样的纪录。",
@@ -993,6 +996,7 @@
       "zh_title": "",
       "translated_from": "Elliot Anderson (footballer)"
     },
+    "player|Elliot Anderson’s": {},
     "player|Elye Wahi": {},
     "player|Emi Martinez": {},
     "player|Emma Hayes": {},
@@ -1661,6 +1665,7 @@
       "zh_title": "奧馬爾·馬斯卡雷利",
       "translated_from": "Omar Mascarell"
     },
+    "player|One night in Miami": {},
     "player|Ongoing Juventus": {},
     "player|Oumar Solet": {
       "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
@@ -1886,6 +1891,7 @@
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Trevoh Chalobah": {},
     "player|Troyes’ Nicolas Lemaître": {},
+    "player|Trump’s American": {},
     "player|Tunisia v Japan": {},
     "player|Turkey 3-2 USA": {},
     "player|Turkey v Paraguay": {},
@@ -1959,6 +1965,7 @@
     "player|Vitória’s Diogo Sousa": {},
     "player|Vlahovic’s Juventus": {},
     "player|Víctor Muñoz": {},
+    "player|Wallsend Boys": {},
     "player|West Brom": {
       "description": "西布朗足球会（英语：West Bromwich Albion Football Club，发音为/wɛst ˈbrɒmɨdʒ/），简称“西布朗”（West Brom），英格兰西米德兰兹郡西布罗米奇的足球会，于1878年创立，是足球联盟创始成员，主场为山楂球场，现时在英格兰足球冠军联赛竞逐。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/EnglandWestMidlandsCounty.png",
