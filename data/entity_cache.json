@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T14:48:49Z",
+  "generated_at": "2026-06-27T04:17:03Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -507,6 +507,7 @@
     "player|1982 Italy winner Collovati slams Infantino": {},
     "player|2026 World Cup": {},
     "player|2026 World Cup updates": {},
+    "player|A Premier League star who does it all": {},
     "player|A history of World Cup red cards": {},
     "player|AC Milan": {
       "description": "米蘭足球俱樂部（義大利語：Associazione Calcio Milan）是一家位於義大利北部倫巴第大區米蘭市的足球俱乐部。為了和同在米蘭的另一家足球俱樂部國際米蘭區別，一般被稱為AC米蘭或米蘭，目前於義大利足球甲级联赛比賽。 AC米蘭是意大利最受欢迎的足球俱樂部之一，根據2010年德國著名體育市場調查公司Sport+Markt的調查，AC米兰的球迷人數名列歐洲第七位，達到1840萬人，是歐洲最受歡迎的意大利球會。 AC米蘭是全世界獲得主要洲际和大洲俱樂部賽事冠軍的球隊之一，包括7次歐洲冠軍杯冠軍、5次歐洲超級杯冠軍、2次欧洲优胜者杯冠军和4次洲際盃和世俱杯冠軍。在意大利國內AC米蘭總共獲得過19次意甲聯賽冠軍，2次意乙聯賽冠軍，5次杯賽冠軍和8次意大利超級盃冠军。",
@@ -934,6 +935,7 @@
     "player|EXCLUSIVE | Chris Waddle": {},
     "player|EXCLUSIVE | Franck Leboeuf": {},
     "player|EXCLUSIVE | Michael Owen": {},
+    "player|Egypt v Iran": {},
     "player|Eintracht Frankfurt": {},
     "player|Eintracht Frankfurt’s Jean-Matteo Bahoya": {},
     "player|Eintracht Frankfurt’s Markus Krösche": {},
@@ -1075,6 +1077,7 @@
     "player|Former Spurs": {},
     "player|France-Zinédine Zidane": {},
     "player|France’s Adrien Rabiot": {},
+    "player|France’s Guy Stéphan": {},
     "player|France’s Manu Kone": {},
     "player|France’s Ousmane Dembélé": {},
     "player|France’s Rayan Cherki": {},
@@ -1148,10 +1151,12 @@
     "player|Ibrahima Konaté": {},
     "player|Ibrahimovic criticism spreads to the USA": {},
     "player|Igor Protti": {},
+    "player|Impressive Koné": {},
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Inter’s Jones": {},
     "player|Ipswich Town": {},
+    "player|Ipswich Women": {},
     "player|Ipswich’s Philogene": {},
     "player|Irrepressible Messi": {},
     "player|Isac Lidberg": {
@@ -1177,7 +1182,16 @@
       "translated_from": "Izan González"
     },
     "player|Jacob Steinberg": {},
-    "player|Jamal Musiala": {},
+    "player|Jamal Musiala": {
+      "description": "贾马尔·穆西亚拉（德语：Jamal Musiala；2003年2月26日—）是一位具有尼日利亚血统的德国足球运动员，现效力于德甲俱乐部拜仁慕尼黑，德国国家足球队成员。司职进攻中场。 穆西亚拉出生于德国，父亲是奈及利亚人，母亲是有波兰血统的德国人，其早年主要在英国长大，曾分别代表英格兰青年队和德国青年队参加国际比赛，后于2021年2月起选择代表德国国家足球队。 穆西亚拉是拜仁慕尼黑历史上最年轻的德甲出场、入球以及最年轻的欧冠入球纪录保持者。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Jamal_Musiala_2022_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%B4%BE%E9%A9%AC%E5%B0%94%C2%B7%E7%A9%86%E8%A5%BF%E4%BA%9A%E6%8B%89",
+      "wiki_title": "贾马尔·穆西亚拉",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Jamal Musiala"
+    },
     "player|Jean Butez": {
       "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jean_Butez_%28cropped%29.jpg/500px-Jean_Butez_%28cropped%29.jpg",
@@ -1366,6 +1380,8 @@
     "player|Lassana Diarra": {},
     "player|Lazio Women": {},
     "player|Lazio’s Provedel": {},
+    "player|Leandro Trossard": {},
+    "player|Legendary Vieira": {},
     "player|Lens’ Hervé Koffi": {},
     "player|Leverkusen’s Kerim Alajbegovic": {},
     "player|Liam Rosenior": {},
@@ -1537,6 +1553,7 @@
       "zh_title": "米高·奧利斯",
       "translated_from": "Michael Olise"
     },
+    "player|Michaël Cuisance": {},
     "player|Michel Der Zakarian": {},
     "player|Michele Kang": {},
     "player|Mika Mármol": {},
@@ -1577,6 +1594,7 @@
     "player|NY Mets": {},
     "player|Napoli’s Antonio Vergara": {},
     "player|Nathaniel Brown": {},
+    "player|New Zealand v Belgium": {},
     "player|Newcastle United": {},
     "player|Newcastle United’s": {},
     "player|Newcastle’s Sandro Tonali": {},
