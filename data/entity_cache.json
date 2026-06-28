@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T04:52:12Z",
+  "generated_at": "2026-06-28T14:15:05Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -608,6 +608,7 @@
     },
     "player|Anthony Martial": {},
     "player|Antoine Kombouaré": {},
+    "player|Antonio Silva": {},
     "player|Antonio Vergara": {
       "description": "安东尼奥·维加拉（ Antonio Vergara ， 2003年1月16日－ ）是一名意大利职业足球运动员，曾在意甲那不勒斯俱乐部担任攻击型中场球员。",
       "image_url": "",
@@ -751,7 +752,16 @@
     "player|Carlos Martínez": {},
     "player|Celta Vigo": {},
     "player|Cenk, la dura 'operación salida' del Valencia": {},
-    "player|Cesare Casadei": {},
+    "player|Cesare Casadei": {
+      "description": "切萨雷·卡萨迪（ Cesare Casadei ， 2003年1月10日－ ）是一名意大利职业足球运动员，曾在都灵意甲俱乐部担任中场球员。卡萨迪在2022年从国际米兰转会到切尔西之前，曾在各家意大利俱乐部踢过青年足球。他于2023年1月被租借，并在雷丁的职业生涯中首次亮相。然后，他在2023–24赛季租借加入莱斯特城。他于2月加入都灵……",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Norway_Italy_-_June_2025_A_28_%28cropped%29.jpg/500px-Norway_Italy_-_June_2025_A_28_%28cropped%29.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Cesare_Casadei",
+      "wiki_title": "Cesare Casadei",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "施薩·卡沙迪爾",
+      "translated_from": "Cesare Casadei"
+    },
     "player|Champions League": {
       "description": "CONCACAF冠军杯，前身为CONCACAF冠军联赛（ 2008–2023 ） ，是由CONCACAF为北美、中美洲和加勒比地区的俱乐部举办的顶级大陆锦标赛。冠军将自动获得参加FIFA俱乐部世界杯和FIFA洲际杯的资格。锦标赛目前使用淘汰赛形式；它有一个...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CONCACAF_Champions_Cup_logo.svg/500px-CONCACAF_Champions_Cup_logo.svg.png",
@@ -1400,6 +1410,7 @@
     },
     "player|Las Palmas": {},
     "player|Lassana Diarra": {},
+    "player|Lautaro Martinez": {},
     "player|Lazio Women": {},
     "player|Lazio’s Provedel": {},
     "player|Leandro Trossard": {},
@@ -1508,6 +1519,7 @@
       "translated_from": "Manuel Neuer"
     },
     "player|Marc Cucurella": {},
+    "player|Marcelo Bielsa": {},
     "player|Marco Palestra": {
       "description": "马尔科·帕拉（ 2005年3月3日出生）是一名意大利职业足球运动员，他从亚特兰大租借，在意甲卡利亚里俱乐部和意大利国家队担任右后卫或右后卫。",
       "image_url": "",
@@ -1832,6 +1844,7 @@
       "translated_from": "Saudi Pro League"
     },
     "player|Scotland’s World Cup": {},
+    "player|Sergi Altimira’s Sporting CP": {},
     "player|Sergi Roberto": {},
     "player|Serhou Guirassy’s": {},
     "player|Sevilla FC": {},
@@ -2042,6 +2055,7 @@
     "player|World Cup 2026": {},
     "player|World Cup 2026 Power Rankings after one game": {},
     "player|World Cup 2026 news": {},
+    "player|World Cup 2026 power rankings": {},
     "player|World Cup 2026 visa chaos": {},
     "player|World Cup 2026 wallchart": {},
     "player|World Cup Group D view from Turkey": {},
