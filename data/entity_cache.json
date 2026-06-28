@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T14:06:22Z",
+  "generated_at": "2026-06-28T04:52:12Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -568,6 +568,7 @@
       "zh_title": "",
       "translated_from": "Alexia Putellas"
     },
+    "player|Algeria 3-3 Austria": {},
     "player|Allan Saint-Maximin": {
       "description": "阿兰·伊雷内·辛特麦斯明（法语：Allan Irénée Saint-Maximin，1997年3月21日—）是法国的职业足球运动员，司职翼锋，现效力于法甲球队朗斯，他是瓜德罗普和法属圭亚那的后裔。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Allan_Saint-Maximin.jpg/500px-Allan_Saint-Maximin.jpg",
@@ -579,6 +580,7 @@
       "translated_from": "Allan Saint-Maximin"
     },
     "player|Allegri to Napoli": {},
+    "player|Alphonso Davies": {},
     "player|Amad Diallo": {},
     "player|Américo Branco": {},
     "player|Andrea Cambiaso": {},
@@ -749,6 +751,7 @@
     "player|Carlos Martínez": {},
     "player|Celta Vigo": {},
     "player|Cenk, la dura 'operación salida' del Valencia": {},
+    "player|Cesare Casadei": {},
     "player|Champions League": {
       "description": "CONCACAF冠军杯，前身为CONCACAF冠军联赛（ 2008–2023 ） ，是由CONCACAF为北美、中美洲和加勒比地区的俱乐部举办的顶级大陆锦标赛。冠军将自动获得参加FIFA俱乐部世界杯和FIFA洲际杯的资格。锦标赛目前使用淘汰赛形式；它有一个...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/CONCACAF_Champions_Cup_logo.svg/500px-CONCACAF_Champions_Cup_logo.svg.png",
@@ -769,6 +772,7 @@
       "zh_title": "",
       "translated_from": "Charles Vanhoutte"
     },
+    "player|Charlie Cresswell": {},
     "player|Che Adams": {},
     "player|Chivu’s Inter": {},
     "player|Christian Eriksen": {
@@ -820,7 +824,16 @@
       "zh_title": "",
       "translated_from": "César Peixoto"
     },
-    "player|DR Congo": {},
+    "player|DR Congo": {
+      "description": "刚果民主共和国国家足球队（法语：Équipe de République démocratique du Congo de football），前称扎伊尔国国家足球队（法语：Équipe du Zaïre de football），是刚果民主共和国的国家足球代表队，由刚果民主共和国足球协会管理，现时属于国际足协及非洲足协成员国之一。刚果民主共和国曾经19次参加非洲国家杯，并且于1968年和1974年夺得冠军，1974年曾经以扎伊尔身份晋级过世界杯决赛周，最终在分组赛3战全败并失了14球出局。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/500px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%89%9B%E6%9E%9C%E6%B0%91%E4%B8%BB%E5%85%B1%E5%92%8C%E5%9C%8B%E5%9C%8B%E5%AE%B6%E8%B6%B3%E7%90%83%E9%9A%8A",
+      "wiki_title": "剛果民主共和國國家足球隊",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "DR Congo national football team"
+    },
     "player|Dani Olmo": {
       "description": "丹尼尔·奥尔莫·卡瓦哈尔（西班牙语： Daniel Olmo Carvajal ， 1998年5月7日－ ）是一名西班牙职业足球运动员，曾在巴塞罗那西甲俱乐部和西班牙国家队担任攻击型中场或左边锋。在La Masia工作了一段时间后， Olmo于2015年在克罗地亚的萨格勒布迪纳摩队首次亮相。他为俱乐部总共出场124次，打入34球，五次赢得联赛冠军，...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Dani_Olmo_2022.jpg/500px-Dani_Olmo_2022.jpg",
@@ -862,6 +875,7 @@
     },
     "player|Davide Ancelotti": {},
     "player|David’s Juventus": {},
+    "player|Davinson Sanchez": {},
     "player|De Bruyne": {
       "description": "凯文·德布劳内（荷兰语：Kevin De Bruyne，发音：[ˈkɛvɪn də ˈbrœynə]；1991年6月28日—），比利时男子职业足球员，司职中场，现效力于义甲俱乐部拿坡里，同时是比利时国家足球队队长。他连续两年获得英格兰PFA足球先生的荣耀，在他之前仅有两人曾有这样的纪录。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_201807091.jpg/500px-Kevin_De_Bruyne_201807091.jpg",
@@ -1121,6 +1135,7 @@
     "player|Gonçalo Ramos": {},
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
+    "player|Granit Xhaka": {},
     "player|Greece 0-1 Italy": {},
     "player|Génération Foot": {},
     "player|Hansi Flick": {},
@@ -1151,11 +1166,13 @@
     },
     "player|IFK Göteborg’s Swedish": {},
     "player|INSTANT REACTION | Germany 7-1 Curaçao": {},
+    "player|Ian Cathro": {},
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
     "player|Ibrahimovic criticism spreads to the USA": {},
     "player|Igor Protti": {},
     "player|Impressive Koné": {},
+    "player|Inter Miami": {},
     "player|International Friendly Liveblog": {},
     "player|Inter’s Dumfries": {},
     "player|Inter’s Jones": {},
@@ -1251,6 +1268,7 @@
     "player|Jonathan Fischer": {},
     "player|Jonathan Liew": {},
     "player|Jonathan Wilson": {},
+    "player|Jordan 1-3 Argentina": {},
     "player|Jordan v Algeria": {},
     "player|Jorge Mendes": {},
     "player|Joshua Kimmich defends Leroy Sané": {},
@@ -1385,6 +1403,7 @@
     "player|Lazio Women": {},
     "player|Lazio’s Provedel": {},
     "player|Leandro Trossard": {},
+    "player|Lech Poznan": {},
     "player|Legendary Vieira": {},
     "player|Lens’ Hervé Koffi": {},
     "player|Leverkusen’s Kerim Alajbegovic": {},
@@ -1516,9 +1535,20 @@
     "player|Matej Kovar": {},
     "player|Materazzi taunts Ibrahimovic": {},
     "player|Mathis Jangeal": {},
+    "player|Mathys Detourbet": {},
     "player|Matias Soule": {},
     "player|Matias Soulé’s": {},
     "player|Matteo Moretto": {},
+    "player|Matteo Ruggeri": {
+      "description": "马泰奥·鲁杰里（义大利语：Matteo Ruggeri，2002年7月11日—），意大利足球运动员，司职左边后卫，现效力于西班牙足球甲级联赛马德里竞技。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Next_Generation_Trophy_2017_Dritter_Tag_01.jpg/500px-Next_Generation_Trophy_2017_Dritter_Tag_01.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%A9%AC%E6%B3%B0%E5%A5%A5%C2%B7%E9%B2%81%E6%9D%B0%E9%87%8C",
+      "wiki_title": "马泰奥·鲁杰里",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Matteo Ruggeri"
+    },
     "player|Matthias Jaissle": {},
     "player|Matthis Abline": {
       "description": "Matthis Abline （ 2003年3月28日出生）是一名法国职业足球运动员，曾在南特联赛2俱乐部担任前锋。",
@@ -1580,6 +1610,7 @@
     "player|Mo Touré": {},
     "player|Monaco’s Caio Henrique": {},
     "player|Monaco’s Kassoum Ouattara": {},
+    "player|Monaco’s Maghnes Akliouche": {},
     "player|Montpellier’s Téji Savanier": {},
     "player|Moritz Nicolas": {
       "description": "莫里茨·尼古拉斯（ Moritz Nicolas ， 1997年10月21日－ ）是一名德国职业足球运动员，曾在德甲门兴格拉德巴赫俱乐部（ Borussia Mönchengladbach ）担任守门员。",
@@ -1689,8 +1720,10 @@
     },
     "player|Out-of-contract XIs": {},
     "player|PSG’s Goncalo Ramos": {},
+    "player|PSG’s Gonçalo Ramos": {},
     "player|PSG’s Lee Kang-in": {},
     "player|PSG’s Pierre Mounguengue": {},
+    "player|PSG’s Renato Marin": {},
     "player|Palestra to Inter": {},
     "player|Paris FC": {},
     "player|Parma’s Suzuki": {},
@@ -1738,6 +1771,7 @@
     "player|Provedel Inter": {},
     "player|RB Leipzig": {},
     "player|RB Salzburg": {},
+    "player|Rabiot brushes aside Milan questions": {},
     "player|Rafael Leao": {},
     "player|Rafael Leao’s": {},
     "player|Ralf Rangnick": {},
@@ -1748,6 +1782,7 @@
     "player|Red Star": {},
     "player|Reggiani’s Italy": {},
     "player|Remarkable Lamine": {},
+    "player|River Plate": {},
     "player|Roberto Gómez": {},
     "player|Roberto Gómez insiste con Olise": {},
     "player|Rodez’s Nolan Galves": {},
@@ -1992,6 +2027,7 @@
       "zh_title": "",
       "translated_from": "William Carvalho"
     },
+    "player|Wolves’ Yerson Mosquera": {},
     "player|Women’s World Cup playoffs": {},
     "player|World Cup": {
       "description": "国际足球总会世界杯（英语：FIFA World Cup），又称世界杯足球赛，常简称世界杯（英语：World Cup），是男子国家足球队之间的国际性赛事，由世界足坛最高管理机构国际足球协会（FIFA）每4年举办1次，与奥运会交替进行。1930年为世界杯的首届赛事，而1942年、1946年则因第二次世界大战而停办。今日的世界杯为世界最具影响力的国际单项目体育赛事，自1998年法国世界杯起电视转播观众人数达到40亿人次，2022年世界杯决赛有15亿人次收看。...",
