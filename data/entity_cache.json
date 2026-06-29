@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T14:15:05Z",
+  "generated_at": "2026-06-29T04:59:43Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -665,6 +665,7 @@
     "player|Barca Legends": {},
     "player|Barney Ronay": {},
     "player|Barred WC": {},
+    "player|Barça y Ajax ya negocian": {},
     "player|Barça y Bernardo Silva": {},
     "player|Bayer Leverkusen": {},
     "player|Bayern Munich": {},
@@ -748,7 +749,15 @@
     "player|Cape Verde": {},
     "player|Cape Verde GK Vozinha": {},
     "player|Cape Verde’s Vozinha": {},
-    "player|Carlo Ancelotti": {},
+    "player|Carlo Ancelotti": {
+      "description": "卡洛·安切洛蒂（義大利語：Carlo Ancelotti，1959年6月10日—）是意大利男子足球運動員、主教练。安察洛堤是足壇史上最成功的主教練之一，他是唯一五奪欧冠、六度打入決賽的主教练。他亦是足壇史上第一位歐洲五大聯賽冠軍都拿過的主教練，現時執巴西國家足球隊。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Carlo_Ancelotti_2016_%28cropped%29.jpg/500px-Carlo_Ancelotti_2016_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%8D%A1%E6%B4%9B%C2%B7%E5%AE%89%E5%88%87%E6%B4%9B%E8%92%82",
+      "wiki_title": "卡洛·安切洛蒂",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Carlos Martínez": {},
     "player|Celta Vigo": {},
     "player|Cenk, la dura 'operación salida' del Valencia": {},
@@ -785,6 +794,7 @@
     "player|Charlie Cresswell": {},
     "player|Che Adams": {},
     "player|Chivu’s Inter": {},
+    "player|Chris Sutton": {},
     "player|Christian Eriksen": {
       "description": "基斯甸·丹纳曼·艾历臣（丹麦语：Christian Dannemann Eriksen，1992年2月14日—），丹麦男子职业足球员，司职攻击中场，现时效力德甲球会禾夫斯堡，并代表丹麦国家足球队参赛。他先前在欧登塞效力并于2008年当选丹麦年度U17天才球员。2010年3月，他代表丹麦初登场，成为2010年世界杯中最年轻的参赛球员。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/20140904_-_Christian_Eriksen_%28cropped%29.jpg/500px-20140904_-_Christian_Eriksen_%28cropped%29.jpg",
@@ -971,6 +981,7 @@
     "player|El Andorra": {},
     "player|El Aston Villa": {},
     "player|El Atlético activa el plan B": {},
+    "player|El Aynaoui": {},
     "player|El Barça": {},
     "player|El Barça espera su momento": {},
     "player|El Bayer Leverkusen": {},
@@ -1024,8 +1035,10 @@
     "player|Elye Wahi": {},
     "player|Emi Martinez": {},
     "player|Emma Hayes": {},
+    "player|En Inglaterra": {},
     "player|England’s Declan Rice": {},
     "player|England’s X-factor": {},
+    "player|Enol Rodríguez": {},
     "player|Envoy’s Proposal": {},
     "player|Enzo Bardeli": {
       "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
@@ -1611,6 +1624,7 @@
     "player|Milan forward Gimenez": {},
     "player|Milan-linked Krösche": {},
     "player|Milan’s Christian Pulisic": {},
+    "player|Milan’s Pulisic": {},
     "player|Mile Svilar": {
       "description": "Mile Svilar (Serbian Cyrillic: Миле Свилар; born 27 August 1999) is a professional footballer who plays as a goalkeeper for Serie A club Roma. Born in Belgium, he played for the Serbia national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg/500px-Web_Summit_2017_-_Press_Conferences_CG1_7321_%2838213808892%29_%28cropped%29.jpg",
@@ -1771,6 +1785,15 @@
     "player|Pierre Sage": {},
     "player|Pierre Sage’s Crystal Palace": {},
     "player|Pierre-Emerick Aubameyang": {},
+    "player|Pio Esposito": {
+      "description": "弗朗切斯科·皮奥·埃斯波西托（義大利語：Francesco Pio Esposito 義大利語發音：[franˈtʃesko ˈpiːo eˈspɔːzito]，2005年6月28日—），意大利职业足球运动员，司职前锋，现效力于意甲联赛国际米兰。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Francesco_Pio_Esposito_a_La_Spezia.jpg/500px-Francesco_Pio_Esposito_a_La_Spezia.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E7%9A%AE%E5%A5%A5%C2%B7%E5%9F%83%E6%96%AF%E6%B3%A2%E8%A5%BF%E6%89%98",
+      "wiki_title": "皮奥·埃斯波西托",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Pisa’s Akinsanmiro": {},
     "player|Play BBC Sport": {},
     "player|Portugal v DR Congo": {},
@@ -1852,6 +1875,7 @@
     "player|Sign up for the Football Daily newsletter": {},
     "player|Sign up for the Moving the Goalposts newsletter": {},
     "player|Sign up to the Sport in Focus newsletter": {},
+    "player|Small-minded SFA": {},
     "player|South Africa": {},
     "player|South Americans": {},
     "player|South Korea": {},
@@ -1873,6 +1897,7 @@
       "zh_title": "",
       "translated_from": "Steeve Kango"
     },
+    "player|Stephen Eustáquio": {},
     "player|Steve Clarke": {},
     "player|Stockport County": {},
     "player|Stung’ Spain": {},
@@ -1948,6 +1973,7 @@
     "player|Udinese’s Arthur Atta": {},
     "player|Udinese’s Nicolo Zaniolo": {},
     "player|Udinese’s Zaniolo": {},
+    "player|Unflappable Lucas Herrington": {},
     "player|Urgency, magic and Rashford": {},
     "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
