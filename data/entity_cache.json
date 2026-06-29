@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T04:59:43Z",
+  "generated_at": "2026-06-29T16:12:12Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -672,6 +672,7 @@
     "player|Bayern Munich’s Alexander Nübel": {},
     "player|Bayern Munich’s Michael Olise": {},
     "player|Belgian Vrancken": {},
+    "player|Benfica’s Antonio Silva": {},
     "player|Bernardo Silva": {
       "description": "贝纳尔多·莫塔·韦加·德卡瓦略·席尔瓦（葡萄牙语：Bernardo Mota Veiga de Carvalho e Silva，发音：[bɨɾˈnaɾðu ˈsilvɐ]；1994年8月10日—）是一名葡萄牙职业足球员。司职中场。目前效力于英超俱乐部曼城并担任队长，也代表葡萄牙国家足球队参加国际赛事。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png/500px-Bernardo_Silva_%28Isto_%C3%89_Gozar_Com_Quem_Trabalha%2C_2024%29.png",
@@ -718,6 +719,7 @@
       "translated_from": "Bradley Barcola"
     },
     "player|Brahim Diaz": {},
+    "player|Brazil v Japan": {},
     "player|Brazil-born Nunes": {},
     "player|Brest’s Daouda Guindo": {},
     "player|Bruce Arena": {},
@@ -963,9 +965,11 @@
     "player|Didier Deschamps": {},
     "player|Didier Deschamps on Michael Olise": {},
     "player|Didier Digard": {},
+    "player|Diego Simeone": {},
     "player|Dino Toppmöller": {},
     "player|Does Ousmane Dembélé": {},
     "player|Donald Trump": {},
+    "player|Done Deal": {},
     "player|Dunkerque’s Enzo Bardeli": {},
     "player|Dynamo Kyiv": {},
     "player|EURO Final": {},
@@ -1016,11 +1020,13 @@
       "translated_from": "Stephan El Shaarawy"
     },
     "player|El Tenerife": {},
+    "player|El Tokyo": {},
     "player|El Valencia": {},
     "player|El Valencia 'pelea' un asunto delicado con Sato": {},
     "player|El Valladolid": {},
     "player|El Vasco": {},
     "player|Electric Ben Gannon-Doak": {},
+    "player|Eliezer Mayenda": {},
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
       "image_url": "",
@@ -1109,6 +1115,7 @@
     "player|Fiorentina’s Dodo": {},
     "player|Florentino Pérez": {},
     "player|Florian Thauvin’s": {},
+    "player|Follow Pep and find scoring options": {},
     "player|Football Daily": {},
     "player|Football Daily | World Cup day is upon us": {},
     "player|Former Eintracht Frankfurt": {},
@@ -1129,6 +1136,7 @@
     "player|From Shamrock Rovers to defying Spain": {},
     "player|From Spain": {},
     "player|From Times Square to England squad": {},
+    "player|Gabriel Jesus": {},
     "player|García Junyent": {
       "description": "奥斯卡·加西亚·祖耶特（加泰隆尼亚语：Òscar Garcia i Junyent；1973年4月26日—）是一名前西班牙足球运动员，司职进攻中场，退役后转任教练，曾执教特拉维夫马卡比、英冠球会白礼顿和屈福特、萨尔斯堡和西甲切尔塔等俱乐部。 作为球员时，加西亚是多才多艺的进攻选择，可以担任进攻中场或影子前锋。在他14年长的职业球员生涯中主要效力母会巴塞隆拿，具有一定的影响，亦曾为另外四支国内球队上阵。加西亚在西甲的12个球季合共上阵169场及射入31球，除巴塞隆拿外，亦曾效力爱斯宾奴4个球季和阿尔巴塞特及华伦西亚各一个球季。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_Admira_Wacker_M%C3%B6dling_vs._FC_Red_Bull_Salzburg_%28Cup%29_2017-04-26_%28032%29.jpg/500px-FC_Admira_Wacker_M%C3%B6dling_vs._FC_Red_Bull_Salzburg_%28Cup%29_2017-04-26_%28032%29.jpg",
@@ -1290,6 +1298,15 @@
     "player|Jonathan David": {},
     "player|Jonathan Fischer": {},
     "player|Jonathan Liew": {},
+    "player|Jonathan Viera": {
+      "description": "莊拿芬·韋拉·拉莫斯（西班牙語：Jonathan Viera Ramos，發音：[ˈɟʝonatam ˈbjeɾa ˈramos]；1989年10月21日—），西班牙足球運動員，現效力於马来西亚超级足球联赛球會柔佛DT，司職進攻中場。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Jonathan_Viera_-_Valencia_CF_-_Espa%C3%B1ol_2012_%5E9_-_Flickr_-_V%C3%ADctor_Guti%C3%A9rrez_Navarro.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%8E%8A%E6%8B%BF%E8%8A%AC%C2%B7%E9%9F%8B%E6%8B%89",
+      "wiki_title": "莊拿芬·韋拉",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "player|Jonathan Wilson": {},
     "player|Jordan 1-3 Argentina": {},
     "player|Jordan v Algeria": {},
@@ -1333,6 +1350,7 @@
     "player|Juventus Sorloth": {},
     "player|Juventus-linked Martinez": {},
     "player|Juventus’ Andrea Cambiaso": {},
+    "player|Juventus’ Lloyd Kelly": {},
     "player|Jérémy Doku": {},
     "player|Jürgen Klopp": {},
     "player|Jürgen Klopp’s": {},
@@ -1437,6 +1455,7 @@
     "player|Lille’s Thomas Meunier": {},
     "player|Lionel Messi": {},
     "player|Lionel Messi’s": {},
+    "player|Lorient’s Arsene Kouassi": {},
     "player|Lorient’s Pablo Pagis": {},
     "player|Los Angeles": {},
     "player|Los mundos de Klopp": {},
@@ -1601,6 +1620,7 @@
     "player|Maxime Dupé": {},
     "player|Mercado de fichajes de LaLiga": {},
     "player|Messi v Ronaldo": {},
+    "player|Metz’s Sadibou Sané": {},
     "player|Mexico v South Africa": {},
     "player|Michael Olise": {
       "description": "迈克尔·阿克波维·奥利斯（ Michael Akpovie Olise ） （; o-LEE-say; Urhobo ： [à .k ”p” .vj ”.”. ”.”. ”.l” .s ”.” ）是一名法国职业足球运动员，曾在德甲拜仁慕尼黑俱乐部担任边锋或进攻中场。他出生于英格兰，为法国国家队效力。他被认为是世界上最好的边锋之一，以其创造力、运球和天赋而闻名。各种各样的产品……",
@@ -1634,6 +1654,7 @@
       "wiki_variant": "legacy-en"
     },
     "player|Mo Touré": {},
+    "player|Modric praises Inter midfielder and warns": {},
     "player|Monaco’s Caio Henrique": {},
     "player|Monaco’s Kassoum Ouattara": {},
     "player|Monaco’s Maghnes Akliouche": {},
@@ -1679,6 +1700,7 @@
       "zh_title": "",
       "translated_from": "Nico Paz"
     },
+    "player|Nico Paz after World Cup debut": {},
     "player|Nico Paz explained": {},
     "player|Nico Paz’s Como": {},
     "player|Nicolo Zaniolo": {},
@@ -1777,6 +1799,7 @@
       "translated_from": "Paul Pogba"
     },
     "player|Paulo Dybala": {},
+    "player|Pedro Rodríguez": {},
     "player|Peio Canales": {},
     "player|Pep Guardiola": {},
     "player|Philipp Lahm": {},
@@ -1823,6 +1846,16 @@
     "player|Rodez’s Nolan Galves": {},
     "player|Rodez’s Taïryk Arconte": {},
     "player|Rodez’s Wilitty Younoussa": {},
+    "player|Romain Del Castillo": {
+      "description": "罗曼·德尔卡斯蒂略（ Romain Del Castillo ， 1996年3月29日出生）是一名法国职业足球运动员，曾担任法甲俱乐部布雷斯特的进攻型中场或右翼球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Del_castillo_asse_sb_2425.png/500px-Del_castillo_asse_sb_2425.png",
+      "wiki_url": "https://en.wikipedia.org/wiki/Romain_Del_Castillo",
+      "wiki_title": "Romain Del Castillo",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Romain Del Castillo"
+    },
     "player|Roma’s Donyell Malen": {},
     "player|Roma’s Dovbyk": {},
     "player|Roma’s El Aynaoui": {},
@@ -1854,6 +1887,8 @@
     "player|Ryunosuke Sato": {},
     "player|Sabri Lamouchi": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
+    "player|Salto de Champions para Nacho Ferri": {},
+    "player|Sandro Tonali": {},
     "player|Sandro Wagner": {},
     "player|Sarah Rhind": {},
     "player|Saudi Arabia": {
@@ -2040,6 +2075,7 @@
     "player|Vlahovic’s Juventus": {},
     "player|Víctor Muñoz": {},
     "player|Wallsend Boys": {},
+    "player|Wayne Rooney": {},
     "player|West Brom": {
       "description": "西布朗足球会（英语：West Bromwich Albion Football Club，发音为/wɛst ˈbrɒmɨdʒ/），简称“西布朗”（West Brom），英格兰西米德兰兹郡西布罗米奇的足球会，于1878年创立，是足球联盟创始成员，主场为山楂球场，现时在英格兰足球冠军联赛竞逐。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/EnglandWestMidlandsCounty.png",
