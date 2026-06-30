@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T04:25:12Z",
+  "generated_at": "2026-06-30T14:43:28Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -20,6 +20,7 @@
       "wiki_variant": "original",
       "zh_title": ""
     },
+    "club|Al-Ittihad": {},
     "club|Arsenal": {
       "description": "阿森纳足球俱乐部（英語：The Arsenal Football Club），暱稱炮兵（Gunners），是一家英国英格兰的职业足球俱乐部，主场位于北伦敦霍洛韦的阿联酋航空足球场（Emirates Stadium，又被译作“酋长球场”）。阿森纳参加英格兰足球联赛的最高级别——英格兰足球超级联赛。该俱乐部共赢得14次頂級聯賽冠軍（包括一次不败夺冠）、创纪录的14次足總盃冠军、2次联赛杯冠军、17次社區盾冠军、足球联赛百年纪念奖杯、1次欧洲优胜者杯冠军和1次國際城市博覽會盃冠军。 兵工廠成立於1886年12月1日，起初的名字為戴爾廣場足球會（Dial Square...",
       "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%A3%AE%E7%BA%B3%E8%B6%B3%E7%90%83%E4%BF%B1%E4%B9%90%E9%83%A8",
@@ -634,11 +635,13 @@
     "player|Ashley Cole": {},
     "player|Aston Villa’s Emi Martinez": {},
     "player|Aston Villa’s Martinez": {},
+    "player|Así es la última oferta del Valencia a Meunier": {},
     "player|Atalanta’s Marco Palestra": {},
     "player|Atletico Madrid": {},
     "player|Atletico Madrid’s Ruggeri": {},
     "player|Atlético Madrid": {},
     "player|Atlético Madrid’s": {},
+    "player|Augsburg’s Benjamin Weber": {},
     "player|Australia v Turkey": {},
     "player|Austria v Jordan": {},
     "player|Ayase Ueda": {
@@ -1005,6 +1008,7 @@
     "player|El Getafe": {},
     "player|El Huesca": {},
     "player|El Huesca vuelve a pescar en la Cultural": {},
+    "player|El Levante": {},
     "player|El Marsella piensa en Akor": {},
     "player|El Nápoles": {},
     "player|El Oviedo": {},
@@ -1165,7 +1169,16 @@
     },
     "player|Goncalo Inacio": {},
     "player|Goncalo Ramos": {},
-    "player|Gonçalo Ramos": {},
+    "player|Gonçalo Ramos": {
+      "description": "贡萨洛·马蒂亚斯·拉莫斯（葡萄牙语：Gonçalo Matias Ramos，发音：[ɡõˈsalu ˈʁɐmuʃ]；2001年6月20日—）是一名葡萄牙足球运动员，司职前锋。他出生于葡萄牙奥良，现效力于法甲俱乐部巴黎圣日耳曼。葡萄牙国家足球队成员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Goncalo_Ramos_2020.png/500px-Goncalo_Ramos_2020.png",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E8%B4%A1%E8%90%A8%E6%B4%9B%C2%B7%E6%8B%89%E8%8E%AB%E6%96%AF",
+      "wiki_title": "贡萨洛·拉莫斯",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Gonçalo Ramos"
+    },
     "player|Graham Arnold": {},
     "player|Graham Potter": {},
     "player|Granit Xhaka": {
@@ -1212,6 +1225,7 @@
     "player|Ibrahim Mbaye": {},
     "player|Ibrahima Konaté": {},
     "player|Ibrahimovic criticism spreads to the USA": {},
+    "player|Ignoring Him": {},
     "player|Igor Protti": {},
     "player|Impressive Koné": {},
     "player|Inside Paraguay": {},
@@ -1694,6 +1708,7 @@
     "player|Newcastle United": {},
     "player|Newcastle United’s": {},
     "player|Newcastle’s Sandro Tonali": {},
+    "player|Next Gen": {},
     "player|Niclas Füllkrug": {
       "description": "尼克拉斯·菲尔克鲁格（德语：Niclas Füllkrug，1993年2月9日—）是一位德国足球运动员，现由英超球队西汉姆联外借至AC米兰，于场上司职前锋。代表德国国家足球队参加国际比赛。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/NiclasF%C3%BCllkrug_%28cropped%29.jpg/500px-NiclasF%C3%BCllkrug_%28cropped%29.jpg",
@@ -1728,6 +1743,7 @@
       "zh_title": "",
       "translated_from": "Nicolò Tresoldi"
     },
+    "player|No Allegri": {},
     "player|No wonder Steve Clarke is smiling": {},
     "player|Noni Madueke": {},
     "player|North America’s": {},
@@ -1820,6 +1836,7 @@
     "player|Philipp Lahm": {},
     "player|Philippe Montanier": {},
     "player|Philippe Senderos": {},
+    "player|Pick Mainoo": {},
     "player|Pierre Sage": {},
     "player|Pierre Sage’s Crystal Palace": {},
     "player|Pierre-Emerick Aubameyang": {},
@@ -1890,6 +1907,7 @@
       "translated_from": "Ruben Amorim"
     },
     "player|Rubén Albés": {},
+    "player|Rudi Völler": {},
     "player|Russell Martin": {
       "description": "罗素·坚尼夫·亚历山大·马田（英语：Russell Kenneth Alexander Martin，1986年1月4日—）生于布莱顿，是一名在英格兰出生的苏格兰职业足球员，司职右闸，最后效力米尔顿凯恩斯。曾执教英超球队南安普顿足球俱乐部。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Russell_Martin_2019.jpg/500px-Russell_Martin_2019.jpg",
@@ -1901,6 +1919,7 @@
       "translated_from": "Russell Martin (footballer)"
     },
     "player|Ryunosuke Sato": {},
+    "player|SK Brann": {},
     "player|Sabri Lamouchi": {},
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Salto de Champions para Nacho Ferri": {},
