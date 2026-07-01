@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T14:43:28Z",
+  "generated_at": "2026-07-01T04:54:09Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -64,7 +64,16 @@
       "source_language": "zh",
       "wiki_variant": "legacy-zh"
     },
-    "club|Benfica": {},
+    "club|Benfica": {
+      "description": "里斯本与本菲卡体育（葡萄牙语：Sport Lisboa e Benfica，简称本菲卡（港澳作宾菲加）是一家位于葡萄牙首都里斯本的以足球为主的综合体育会。于1904年2月28日成立，前身为1904年“里斯本体育”（Sport Lisboa），1908年与“本菲卡体育会”（Grupo Sport Benfica）合并并改名为“里斯本与本菲卡体育”。宾菲加亦在澳门、几内亚比绍及安哥拉等成立了分会， 单是安哥拉便有三支足球队。 本菲卡历史上曾两夺欧洲冠军杯冠军，另还有5次亚军经历。本土战绩一共 36 次葡萄牙超级联赛冠军，29 次葡萄牙杯冠军，6 次葡萄牙超级杯冠军与 7 次葡萄牙联赛杯冠军。本菲卡还有一支预备队宾菲加体育B队（S.L.Benfica B）在葡萄牙足球甲级联赛比赛。 体育会现时以足球部主要分支，其他体育部门包括篮球、滚轴冰球、室内足球、排球、手球、水球、橄榄球及田径共8个分部。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%87%8C%E6%96%AF%E6%9C%AC%E8%88%87%E6%9C%AC%E8%8F%B2%E5%8D%A1%E9%AB%94%E8%82%B2",
+      "wiki_title": "里斯本與本菲卡體育",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "S.L. Benfica"
+    },
     "club|Borussia Dortmund": {
       "description": "多特蒙德普鲁士09球类體育俱乐部註冊協會（德語：Ballspielverein Borussia 09 e. V. Dortmund，缩写为BVB）是位於德国北莱茵-威斯特法伦州鲁尔区多特蒙德的足球球會。 5/9 0:1 loser 在德甲球会中，多特蒙德曾八次取得顶级联赛冠軍，為拜仁慕尼黑之後奪冠次數最多的球隊，其中三次为德甲创立前的全德锦标赛冠军，五次为为德國足球甲級聯賽冠军，多特蒙德隊服上的兩顆星便代表了五次德甲冠軍。在德國杯的比賽中，多特蒙德也曾五次奪冠。此外多特蒙德还获得过七次德国超级杯冠军。 在歐洲賽場上，多特蒙德于1966年击败利物浦捧得歐洲优胜者杯，成为德国第一支获得欧洲冠军的球队。1997年、2013年与2024年，多特蒙德三度打入歐洲冠軍聯賽決賽，其中在1997年戰勝尤文圖斯獲得冠軍，成为德国仅有三支捧得冠军杯的足球俱乐部之一，此后在同年洲际杯足球赛的赛场上击败了巴西球会克鲁塞罗成功加冕，登顶世界足坛。...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/500px-Borussia_Dortmund_logo.svg.png",
@@ -530,6 +539,7 @@
       "translated_from": "Aaron Ramsey (English footballer)"
     },
     "player|Adiós Rashford": {},
+    "player|Adrián Fuentes": {},
     "player|Advantage Scotland": {},
     "player|Al Ajax": {},
     "player|Al Sadd": {},
@@ -738,6 +748,7 @@
       "translated_from": "Bukayo Saka"
     },
     "player|Burkina Faso": {},
+    "player|Burnley’s Maxime Estève": {},
     "player|Caio Henrique": {
       "description": "卡约·恩里克·奥利维拉·席尔瓦（葡萄牙语：Caio Henrique Oliveira Silva；1997年7月31日—），简称卡约·恩里克（葡萄牙语：Caio Henrique），是巴西男子足球运动员，场上司职左后卫与中场，目前效力于法甲球队摩纳哥。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Caio_Henrique_Oliveira_Silva_2017.jpg",
@@ -997,6 +1008,7 @@
     "player|El Betis": {},
     "player|El Birmingham": {},
     "player|El Burgos": {},
+    "player|El Castellón": {},
     "player|El Celta": {},
     "player|El Córdoba": {},
     "player|El Córdoba es el gran animador del mercado": {},
@@ -1270,6 +1282,16 @@
       "zh_title": "",
       "translated_from": "Jamal Musiala"
     },
+    "player|Javi Galán": {
+      "description": "哈维尔·加兰·希尔（西班牙语：Javier Galán Gil，1994年11月19日—），西班牙足球运动员，司职左边后卫、左边前卫、左边锋，现效力于西班牙足球甲级联赛奥沙辛拿。",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%93%88%E7%BB%B4%C2%B7%E5%8A%A0%E5%85%B0",
+      "wiki_title": "哈维·加兰",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Javi Galán"
+    },
     "player|Jean Butez": {
       "description": "让·布特斯（ Jean Butez ， 1995年6月8日－ ）是一名法国职业足球运动员，曾在科莫意甲俱乐部担任守门员。Butez在里尔开始了他的职业生涯，在俱乐部的预备队度过了五个赛季，没有出现在一线队。2017年，他租借到Mouscron ，给人留下了深刻的印象，并于次年获得了永久转会。2020年， Butez与安特卫普签约，在那里他很快成为了...",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jean_Butez_%28cropped%29.jpg/500px-Jean_Butez_%28cropped%29.jpg",
@@ -1350,6 +1372,7 @@
       "zh_title": "",
       "translated_from": "Juan Iglesias"
     },
+    "player|Juan Jesus": {},
     "player|Juanjo Nieto": {
       "description": "胡安·何塞· “胡安霍” ·涅托·扎尔佐索（ Juan José \"Juanjo\" Nieto Zarzoso ， 1994年10月3日－ ）是一名西班牙足球运动员，曾效力于斯洛文尼亚普尔瓦利加主要是右后卫，他也可以担任边锋。",
       "image_url": "",
@@ -1749,6 +1772,16 @@
     "player|North America’s": {},
     "player|Nottingham Forest": {},
     "player|Nottingham Forest’s Nicolo Savona": {},
+    "player|Noël Aséko": {
+      "description": "诺埃尔·阿塞科·恩基利（ Noël Aséko Nkili ） （ 2005年11月22日出生）是一名德国职业足球运动员，曾担任防守型中场、[[Midfielder # Wide midfielder | right midfielder]]和2名右后卫。德甲俱乐部汉诺威96。他是一名德国青年国脚。",
+      "image_url": "",
+      "wiki_url": "https://en.wikipedia.org/wiki/No%C3%ABl_As%C3%A9ko_Nkili",
+      "wiki_title": "Noël Aséko Nkili",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Noël Aséko Nkili"
+    },
     "player|Nuno Mendes": {},
     "player|OGC Nice": {},
     "player|OGC Nice’s Charles Vanhoutte": {},
@@ -1859,6 +1892,7 @@
     "player|Premier League fixtures released at 10": {},
     "player|Project Mbappe": {},
     "player|Provedel Inter": {},
+    "player|Quilindschy Hartman": {},
     "player|RB Leipzig": {},
     "player|RB Salzburg": {},
     "player|Rabiot brushes aside Milan questions": {},
@@ -2017,6 +2051,7 @@
       "zh_title": "托马斯·图赫尔",
       "translated_from": "Thomas Tuchel"
     },
+    "player|Tiago Gabriel": {},
     "player|Today’s Papers": {},
     "player|Tom Ritzy Hülsmann": {
       "description": "Tom Ritzy Hülsmann （生于2004年4月11日）是一名德国职业足球运动员，曾在奥地利德甲俱乐部TSV Hartberg担任守门员。",
@@ -2040,6 +2075,7 @@
     "player|Turkey 3-2 USA": {},
     "player|Turkey v Paraguay": {},
     "player|Two-goal Yasin Ayari": {},
+    "player|Tyrique George": {},
     "player|Téji Savanier": {},
     "player|Udinese’s Arthur Atta": {},
     "player|Udinese’s Nicolo Zaniolo": {},
@@ -2124,6 +2160,7 @@
     },
     "player|West Ham": {},
     "player|West Ham’s": {},
+    "player|West Ham’s Mateus Fernandes": {},
     "player|West Ham’s Mohamadou Kanté": {},
     "player|West Ham’s Soungoutou Magassa": {},
     "player|Wilfried Nancy": {},
@@ -2201,6 +2238,7 @@
     "player|Zlatan Ibrahimovic": {},
     "player|Zohran Mamdani": {},
     "player|‘People think I’ve vanished’": {},
-    "player|‘The night before I dreamt about my ACL’": {}
+    "player|‘The night before I dreamt about my ACL’": {},
+    "player|‘There are holes in England’": {}
   }
 }
