@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T04:54:09Z",
+  "generated_at": "2026-07-01T14:59:36Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -567,6 +567,16 @@
     "player|Aleix Febas": {},
     "player|Alejandro Grimaldo": {},
     "player|Aleksander Stankovic": {},
+    "player|Alessandro Bastoni": {
+      "description": "亚历山德罗·巴斯东尼（义大利语：Alessandro Bastoni；1999年4月13日—），意大利男子足球运动员，现效力意甲球会国际米兰，意大利国家足球队成员，司职中后卫。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sergio_Mattarella_meets_Italy_national_football_team_and_Matteo_Berrettini_%2812_July_2021%29_34_%28cropped%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E9%98%BF%E6%AD%B7%E8%BE%9B%E5%BA%A6%C2%B7%E5%B7%B4%E6%96%AF%E6%9D%B1%E5%B0%BC",
+      "wiki_title": "阿歷辛度·巴斯東尼",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Alessandro Bastoni"
+    },
     "player|Alexander Abnos": {},
     "player|Alexandre Dujeux": {},
     "player|Alexia Putellas": {
@@ -1039,12 +1049,23 @@
     },
     "player|El Tenerife": {},
     "player|El Tokyo": {},
+    "player|El Tottenham": {},
     "player|El Valencia": {},
     "player|El Valencia 'pelea' un asunto delicado con Sato": {},
     "player|El Valladolid": {},
     "player|El Vasco": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Eliezer Mayenda": {},
+    "player|Ellen White": {
+      "description": "埃伦·怀特，MBE（英语：Ellen White，1989年5月9日—），已退役的英国女子足球运动员。她曾代表英格兰参加2011年、2015年和2019年国际足联女子世界杯。她也曾参加2012年和2020年夏季奥林匹克运动会。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ellen_White_47986452323_james_boyes_%28cropped_2%29.jpg/500px-Ellen_White_47986452323_james_boyes_%28cropped_2%29.jpg",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E5%9F%83%E4%BC%A6%C2%B7%E6%80%80%E7%89%B9",
+      "wiki_title": "埃伦·怀特",
+      "source_language": "zh",
+      "wiki_variant": "zh-hans",
+      "zh_title": "",
+      "translated_from": "Ellen White (footballer)"
+    },
     "player|Elliot Anderson": {
       "description": "埃利奥特·朱尼尔·安德森（英语：Elliot Junior Anderson，2002年11月6日—），英格兰职业足球运动员，司职中场，现效力于英超球会诺丁汉森林。",
       "image_url": "",
@@ -1060,9 +1081,12 @@
     "player|Emi Martinez": {},
     "player|Emma Hayes": {},
     "player|En Inglaterra": {},
+    "player|England XI": {},
+    "player|England v DR Congo": {},
     "player|England’s Declan Rice": {},
     "player|England’s X-factor": {},
     "player|Enol Rodríguez": {},
+    "player|Enrique Cerezo insiste con Julián Alvarez": {},
     "player|Envoy’s Proposal": {},
     "player|Enzo Bardeli": {
       "description": "恩佐·巴尔德利（ Enzo Bardeli ， 2001年4月11日出生）是一名法国职业足球运动员，曾在法甲2俱乐部敦刻尔克（ Dunkerque ）担任中场球员。",
@@ -1108,6 +1132,7 @@
     "player|Exclusive | Stan Collymore": {},
     "player|FIFA World Cup 2026 and Serie A": {},
     "player|Fabio Miretti": {},
+    "player|Fabián Ruiz": {},
     "player|Facundo Medina": {
       "description": "法昆多·阿克塞尔·梅迪纳（西班牙语：Facundo Axel Medina；1999年5月28日—），是一名阿根廷的职业足球运动员，司职左后卫，现由法甲球队朗斯外借至马赛。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_21.jpg/500px-Entra%C3%AEnement_du_RC_Lens_-_15_juillet_2020_21.jpg",
@@ -1686,6 +1711,7 @@
     "player|Michaël Cuisance": {},
     "player|Michel Der Zakarian": {},
     "player|Michele Kang": {},
+    "player|Midfielder Neil": {},
     "player|Mika Mármol": {},
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
@@ -1972,6 +1998,7 @@
       "translated_from": "Saudi Pro League"
     },
     "player|Scotland’s World Cup": {},
+    "player|Scouting DR Congo": {},
     "player|Sergi Altimira’s Sporting CP": {},
     "player|Sergi Roberto": {},
     "player|Serhou Guirassy’s": {},
@@ -2080,7 +2107,9 @@
     "player|Udinese’s Arthur Atta": {},
     "player|Udinese’s Nicolo Zaniolo": {},
     "player|Udinese’s Zaniolo": {},
+    "player|Unai Gómez": {},
     "player|Unflappable Lucas Herrington": {},
+    "player|Union SG": {},
     "player|Urgency, magic and Rashford": {},
     "player|Uruguay’s Bielsa": {},
     "player|Valentín Barco": {
@@ -2197,9 +2226,11 @@
     "player|World Cup Power Rankings": {},
     "player|World Cup Q&A": {},
     "player|World Cup Rank": {},
+    "player|World Cup Round of 32": {},
     "player|World Cup VAR review": {},
     "player|World Cup live updates": {},
     "player|Wouter Vrancken": {},
+    "player|Xabi Alonso": {},
     "player|Yan Diomande": {
       "description": "扬·迪奥曼德（法語：Yan Diomande，2006年11月14日—）是一位科特迪瓦足球运动员，自2025-26赛季起效力于德甲俱乐部RB莱比锡，并代表科特迪瓦国家足球队参加国际比赛，于场上司职翼锋。",
       "image_url": "",
