@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T04:22:52Z",
+  "generated_at": "2026-07-02T14:31:36Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -170,7 +170,15 @@
       "zh_title": "",
       "translated_from": "La Liga"
     },
-    "club|Lazio": {},
+    "club|Lazio": {
+      "description": "拉齐奥体育俱乐部（義大利語：Società Sportiva Lazio S.p.A.，簡稱 S.S. Lazio），是一家位于意大利罗马职业体育俱乐部，以其足球活动而闻名。该协会成立于1900年，参加意甲联赛，其历史大部分时间都在意大利足球的顶级联赛中度过。拉齐奥曾两次获得意大利冠军（1974年，2000年），并曾七次赢得意大利杯，五次赢得意大利超级杯，并曾一次赢得欧洲优胜者杯和欧洲超级杯。 1958年，俱乐部取得了第一次重大成功，赢得了国家杯冠军。 1974年，他们赢得了第一个意甲联赛冠军。 20世纪90年代是拉齐奥历史上最成功的时期， 球队于1998年进入欧洲联盟杯决赛，1999年赢得欧洲优胜者杯和欧洲超级杯，并于2000年夺得意甲联赛冠军。 由于2002年严重的经济危机，主席塞尔吉奥·克拉尼奥蒂被迫离开俱乐部，多名明星球员被出售， 拉齐奥在联赛中的成绩下降了。 尽管资金较少，但俱乐部自那时以来已经四次赢得意大利杯冠军；...",
+      "image_url": "",
+      "wiki_url": "https://zh.wikipedia.org/wiki/%E6%8B%89%E7%B4%A0%E9%AB%94%E8%82%B2%E6%9C%83",
+      "wiki_title": "拉素體育會",
+      "source_language": "zh",
+      "wiki_variant": "original",
+      "zh_title": ""
+    },
     "club|Leipzig": {
       "description": "莱比锡草地球类运动注册协会（德语：RasenBallsport Leipzig e. V.）简称为RB莱比锡，是一家总部设于德国萨克森州莱比锡的足球俱乐部。该俱乐部是由功能饮料生产商红牛公司在2009年透过收购第五级别联赛球队马克兰施泰特而得，并制订了一个10年内升入德国足球甲级联赛的计划。其主场设于红牛竞技场。 在俱乐部成立的首个赛季中，RB莱比锡即统治了东北高级联赛南区（第五级别），并以冠军身份晋身至2010-2011赛季的北部地区联赛（第四级别）。在2012-2013赛季中，RB莱比锡以不败的战绩升入丙级联赛（第三级别）。至2013-2014赛季，他们又以亚军身份进一步晋级至乙级联赛。2014-2015赛季，球队的第一个乙组联赛赛季只拿下第五名，无缘升级，一直到2015-2016赛季的第32轮，球队在主场战胜了卡尔斯鲁厄，才成功锁定了一个升上德甲的名额。在之后的几个赛季球队越战越勇，取得德甲亚军，并打入欧冠。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Red_Bull_arena%2C_Leipzig_von_oben_Zentralstadion.jpg/500px-Red_Bull_arena%2C_Leipzig_von_oben_Zentralstadion.jpg",
@@ -541,6 +549,7 @@
     "player|Adiós Rashford": {},
     "player|Adrián Fuentes": {},
     "player|Advantage Scotland": {},
+    "player|Akor Adams": {},
     "player|Al Ajax": {},
     "player|Al Sadd": {},
     "player|Al Valencia": {},
@@ -775,6 +784,7 @@
     "player|Can Vinicius": {},
     "player|Cape Verde": {},
     "player|Cape Verde GK Vozinha": {},
+    "player|Cape Verde’s Sidny Lopes": {},
     "player|Cape Verde’s Vozinha": {},
     "player|Carlo Ancelotti": {
       "description": "卡洛·安切洛蒂（義大利語：Carlo Ancelotti，1959年6月10日—）是意大利男子足球運動員、主教练。安察洛堤是足壇史上最成功的主教練之一，他是唯一五奪欧冠、六度打入決賽的主教练。他亦是足壇史上第一位歐洲五大聯賽冠軍都拿過的主教練，現時執巴西國家足球隊。",
@@ -1055,10 +1065,12 @@
     "player|El Tenerife": {},
     "player|El Tokyo": {},
     "player|El Tottenham": {},
+    "player|El Tottenham revienta el mercado": {},
     "player|El Valencia": {},
     "player|El Valencia 'pelea' un asunto delicado con Sato": {},
     "player|El Valladolid": {},
     "player|El Vasco": {},
+    "player|El Zaragoza": {},
     "player|Electric Ben Gannon-Doak": {},
     "player|Eliezer Mayenda": {},
     "player|Ellen White": {
@@ -1234,6 +1246,7 @@
       "translated_from": "Granit Xhaka"
     },
     "player|Greece 0-1 Italy": {},
+    "player|Guido Rodríguez": {},
     "player|Génération Foot": {},
     "player|Hansi Flick": {},
     "player|Harry Kane": {
@@ -1538,6 +1551,7 @@
     "player|Lorient’s Arsene Kouassi": {},
     "player|Lorient’s Pablo Pagis": {},
     "player|Los Angeles": {},
+    "player|Los Galaxy": {},
     "player|Los mundos de Klopp": {},
     "player|Luca Koleosho": {
       "description": "卢卡·沃里克·达埃奥维耶·高尼奥素（英语：Luca Warrick Daeovie Koleosho，2004年9月15日—）是一名美国出生的职业足球运动员，司职左翼锋, 前锋，现效力于法甲球会巴黎FC (般尼外借)，曾代表美国U15、意大利U19及意大利U20。 2023年7月，高尼奥素以230万英磅加86万英磅附加条款加盟英格兰超级足球联赛球会般尼，并签约4年。 2023年3月，高尼奥素接受了意大利U19的征召，参加了训练营，为2023年U19欧洲国家杯做准备。随后，他被列入该比赛的20人大名单，3月25日，他在与斯洛文尼亚U190-0打和的友谊赛中替补出场。 2023年6月，他入选了在马耳他举行的2023年U19欧洲国家杯大名单并获得冠军。",
@@ -1607,6 +1621,7 @@
     },
     "player|Maffeo, antes de poner rumbo al Olympiacos": {},
     "player|Maghnes Akliouche": {},
+    "player|Malik Tillman’s": {},
     "player|Man Uni": {},
     "player|Man Unite": {},
     "player|Man Utd": {},
@@ -1723,6 +1738,7 @@
     "player|Mike Maignan": {},
     "player|Mike Maignan’s Milan": {},
     "player|Mike Penders": {},
+    "player|Mikel González": {},
     "player|Mikel Merino": {},
     "player|Milan Chase Tottenham Midfielder": {},
     "player|Milan forward Gimenez": {},
@@ -1843,6 +1859,7 @@
     },
     "player|One night in Miami": {},
     "player|Ongoing Juventus": {},
+    "player|Operación salida en el Cádiz": {},
     "player|Oumar Solet": {
       "description": "奥马尔·米高·苏列特·布马禾高（法语：Oumar Mickaël Solet Bomawoko；2000年2月7日—）是一名法国职业足球员，司职中坚，他现时效力意甲球会乌迪内斯。",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg/500px-FC_RB_Salzburg_gegen_WSG_Tirol_%28_mit_Meisterteller%C3%BCbergabe_22._Mai_2021%29_05.jpg",
@@ -1936,6 +1953,7 @@
     "player|Rayo Vallecano": {},
     "player|Raúl Jardiel": {},
     "player|Real Betis": {},
+    "player|Record-breaker Layla Drury": {},
     "player|Red Star": {},
     "player|Reggiani’s Italy": {},
     "player|Remarkable Lamine": {},
@@ -1991,6 +2009,7 @@
     "player|Saint-Étienne’s Lucas Stassin": {},
     "player|Salto de Champions para Nacho Ferri": {},
     "player|Sam Kerr": {},
+    "player|San Jose": {},
     "player|Sandro Tonali": {},
     "player|Sandro Wagner": {},
     "player|Sarah Rhind": {},
@@ -2150,6 +2169,7 @@
       "zh_title": ""
     },
     "player|Van Dijk": {},
+    "player|Van Gaal": {},
     "player|Van Hecke": {
       "description": "Jan Paul van Hecke (born 8 June 2000) is a Dutch professional footballer who plays as a centre-back for Premier League club Brighton & Hove Albion and the Netherlands national team.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/500px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg",
