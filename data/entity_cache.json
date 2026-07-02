@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T14:59:36Z",
+  "generated_at": "2026-07-02T04:22:52Z",
   "entities": {
     "club|Ac Milan": {
       "description": "米兰足球俱乐部（义大利语：Associazione Calcio Milan）是一家位于义大利北部伦巴第大区米兰市的足球俱乐部。为了和同在米兰的另一家足球俱乐部国际米兰区别，一般被称为AC米兰或米兰，目前于义大利足球甲级联赛比赛。 AC米兰是意大利最受欢迎的足球俱乐部之一，根据2010年德国著名体育市场调查公司Sport+Markt的调查，AC米兰的球迷人数名列欧洲第七位，达到1840万人，是欧洲最受欢迎的意大利球会。 AC米兰是全世界获得主要洲际和大洲俱乐部赛事冠军的球队之一，包括7次欧洲冠军杯冠军、5次欧洲超级杯冠军、2次欧洲优胜者杯冠军和4次洲际杯和世俱杯冠军。在意大利国内AC米兰总共获得过19次意甲联赛冠军，2次意乙联赛冠军，5次杯赛冠军和8次意大利超级杯冠军。",
@@ -710,6 +710,7 @@
     "player|Beth Mead": {},
     "player|Bielsa exits World Cup with admission": {},
     "player|Big Lalas Energy to ulcerative colitis meds": {},
+    "player|Bilial El Khannouss": {},
     "player|Billionaire West Ham": {},
     "player|Bleep tests, alcohol bans and Gazza": {},
     "player|BlueCo-owned Strasbourg": {},
@@ -986,6 +987,7 @@
       "translated_from": "Denzel Dumfries"
     },
     "player|Derek McInnes": {},
+    "player|Di Gregorio": {},
     "player|Dibu Martinez": {},
     "player|Didier Deschamps": {},
     "player|Didier Deschamps on Michael Olise": {},
@@ -1015,6 +1017,7 @@
     "player|El Barça": {},
     "player|El Barça espera su momento": {},
     "player|El Bayer Leverkusen": {},
+    "player|El Bayern ficha a Saibari hasta 2031": {},
     "player|El Betis": {},
     "player|El Birmingham": {},
     "player|El Burgos": {},
@@ -1024,6 +1027,7 @@
     "player|El Córdoba es el gran animador del mercado": {},
     "player|El Dépor": {},
     "player|El Eibar": {},
+    "player|El Eibar mira a Gran Canaria": {},
     "player|El Elche": {},
     "player|El Eldense": {},
     "player|El Espanyol": {},
@@ -1047,6 +1051,7 @@
       "zh_title": "",
       "translated_from": "Stephan El Shaarawy"
     },
+    "player|El Sporting": {},
     "player|El Tenerife": {},
     "player|El Tokyo": {},
     "player|El Tottenham": {},
@@ -1241,6 +1246,7 @@
       "zh_title": "",
       "translated_from": "Harry Kane"
     },
+    "player|Harry Kane’s": {},
     "player|Harry Kane’s American dream begins": {},
     "player|Henderson’s Euro": {},
     "player|Herbert Hainer": {},
@@ -1587,6 +1593,7 @@
       "translated_from": "Luis de la Fuente (footballer, born 1961)"
     },
     "player|Lyon’s Afonso Moreira": {},
+    "player|Maddy Cusack": {},
     "player|Maddy Cusack’s": {},
     "player|Mads Bidstrup": {
       "description": "马德斯·比德斯特鲁普（丹麦语： Mads Bidstrup ， 2001年2月25日－ ）是一名丹麦职业足球运动员，曾在奥地利萨尔茨堡德甲红牛俱乐部担任中场球员，并担任俱乐部队长。Bidstrup是哥本哈根学院的产物，于2020年在英国布伦特福德开始了他的高级职业生涯。他在Nordsjælland租借了俱乐部三年的大部分时间......",
@@ -2019,6 +2026,7 @@
     "player|St Mirren": {},
     "player|Standard Liege’s Matthieu Epolo": {},
     "player|Start Rashford": {},
+    "player|Steely USA": {},
     "player|Steeve Kango": {
       "description": "斯蒂夫·坎戈（ Steeve Kango ， 2006年12月9日－ ）是一名法国足球运动员，曾在里昂法甲俱乐部担任右后卫。",
       "image_url": "",
@@ -2094,6 +2102,7 @@
     "player|Tottenham Hotspur": {},
     "player|Tottenham’s Destiny Udogie": {},
     "player|Tottenham’s Dragusin": {},
+    "player|Tottenham’s Luka": {},
     "player|Tottenham’s Roberto De Zerbi": {},
     "player|Trevoh Chalobah": {},
     "player|Troyes’ Nicolas Lemaître": {},
@@ -2107,7 +2116,16 @@
     "player|Udinese’s Arthur Atta": {},
     "player|Udinese’s Nicolo Zaniolo": {},
     "player|Udinese’s Zaniolo": {},
-    "player|Unai Gómez": {},
+    "player|Unai Gómez": {
+      "description": "乌奈·戈麦斯·埃特克塞巴里亚（ Unai Gómez Etxebarria ， 2003年5月25日－ ）是一名西班牙职业足球运动员，曾在毕尔巴鄂西甲俱乐部担任攻击型中场球员。",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/MAIDER_GOIKOETXEA%2C_FOT%C3%93GRAFA._BILBAO_ATHLETIC_-_LOGRO%C3%91%C3%89S_%2814%29_-_Urko_G%C3%B3mez.jpg/500px-MAIDER_GOIKOETXEA%2C_FOT%C3%93GRAFA._BILBAO_ATHLETIC_-_LOGRO%C3%91%C3%89S_%2814%29_-_Urko_G%C3%B3mez.jpg",
+      "wiki_url": "https://en.wikipedia.org/wiki/Unai_G%C3%B3mez",
+      "wiki_title": "Unai Gómez",
+      "source_language": "en",
+      "wiki_variant": "translated-en",
+      "zh_title": "",
+      "translated_from": "Unai Gómez"
+    },
     "player|Unflappable Lucas Herrington": {},
     "player|Union SG": {},
     "player|Urgency, magic and Rashford": {},
